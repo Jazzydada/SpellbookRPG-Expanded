@@ -1,0 +1,84 @@
+{
+  "Flock of Familiars": {
+    "level": 2,
+    "school": "Conjuration",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "1 minute",
+    "range": "Touch",
+    "components": "V, S",
+    "dur": "Concentration, up to 1 hour",
+    "book": "Lost Laboratory of Kwalish",
+    "rulesVersion": "2014",
+    "publishedYear": 2018,
+    "source": {
+      "label": "Lost Laboratory of Kwalish (2018), p. 57",
+      "url": "https://www.dndbeyond.com/spells/92691-flock-of-familiars",
+      "name": "Flock of Familiars",
+      "page": 57
+    },
+    "reviewed": "2026-11-03",
+    "en": "Temporarily summon three spirits in animal forms of your choice. Each uses the rules and options for a familiar summoned with Find Familiar. All familiars from this casting must share one creature type: Celestial, Fey, or Fiend, chosen by you. If you already have a familiar from Find Familiar or a similar source, this spell summons one fewer familiar.\n\nWhile within 1 mile of you, these familiars can communicate telepathically with you and share their sight or hearing. When you cast a Touch-range spell, one of them can deliver it under the normal familiar rules. However, you can deliver a Touch spell through only one familiar per turn.\n\nHigher slots: Summon one additional familiar per slot level above 2.\n\nReference: Find Familiar supplies the remaining familiar rules and animal options; those rules are not repeated here.",
+    "da": "Fremkald midlertidigt tre ånder i dyreskikkelser efter dit valg. Hver bruger reglerne og valgmulighederne for en familiar fremkaldt med Find Familiar. Alle familiars fra dette kast skal have samme væsentype: Celestial, Fey eller Fiend efter dit valg. Har du allerede en familiar fra Find Familiar eller en tilsvarende kilde, fremkalder formularen én familiar færre.\n\nInden for 1 mile fra dig kan disse familiars kommunikere telepatisk med dig og dele deres syn eller hørelse. Når du kaster en formular med rækkevidden Touch, kan én af dem levere den efter de normale familiar-regler. Du kan dog kun levere en Touch-formular gennem én familiar pr. tur.\n\nHøjere slots: Fremkald én ekstra familiar pr. slotniveau over 2.\n\nHenvisning: Find Familiar indeholder de øvrige familiar-regler og dyrevalg; disse gentages ikke her.",
+    "summary": {
+      "en": "Summon several temporary familiars for scouting, shared senses, and delivery of touch spells.",
+      "da": "Fremkald flere midlertidige familiars til spejden, delte sanser og levering af berøringsformularer."
+    }
+  },
+  "Galder's Speedy Courier": {
+    "level": 4,
+    "school": "Conjuration",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "10 feet",
+    "components": "V, S, M (25 GP or mineral goods of equivalent value, consumed)",
+    "dur": "10 minutes",
+    "book": "Lost Laboratory of Kwalish",
+    "rulesVersion": "2014",
+    "publishedYear": 2018,
+    "source": {
+      "label": "Lost Laboratory of Kwalish (2018), p. 57",
+      "url": "https://www.dndbeyond.com/spells/92692-galders-speedy-courier",
+      "name": "Galder's Speedy Courier",
+      "page": 57
+    },
+    "reviewed": "2026-11-03",
+    "en": "Summon a Small air elemental at a spot within range. It is shapeless, nearly transparent, immune to all damage, and unable to interact with other creatures or objects. It carries an open, empty chest measuring 3 feet on each interior side. During the duration, you may fill it with as many items as fit.\n\nName a living creature you have previously both met and seen, or any creature whose body part, hair, nail clipping, or similar bodily sample you possess. Closing the lid makes the elemental and chest disappear and reappear beside that recipient. If the recipient is on another plane or protected against magical detection or location, the contents instead reappear on the ground at your feet.\n\nBefore deciding whether to open it, the recipient knows what is inside and how much time remains to retrieve it. Only that recipient can open the chest and take its contents. When the duration ends or the chest is emptied, both chest and elemental disappear. The elemental also disappears if the recipient orders it to return the items. Whenever it disappears, anything left in the chest reappears on the ground at your feet.\n\nHigher slots: The source specifies an 8th-level spell slot to allow delivery to a recipient on a different plane of existence.",
+    "da": "Fremkald en Small luftelementar på et sted inden for rækkevidde. Den er formløs, næsten gennemsigtig, immun mod al skade og kan ikke interagere med andre skabninger eller genstande. Den bærer en åben, tom kiste med indvendige mål på 3 ft på hver led. I varigheden kan du lægge så mange genstande i kisten, som der er plads til.\n\nNavngiv en levende skabning, som du tidligere både har mødt og set, eller en skabning, som du har en kropsdel, hårlok, negleklip eller tilsvarende kropsprøve fra. Når låget lukkes, forsvinder elementaren og kisten og dukker op ved siden af modtageren. Er modtageren på et andet eksistensplan eller beskyttet mod magisk afsløring eller lokalisering, dukker indholdet i stedet op på jorden ved dine fødder.\n\nFør modtageren vælger at åbne kisten, får den kendskab til indholdet og den resterende tid til at hente det. Kun modtageren kan åbne kisten og tage indholdet. Når varigheden udløber, eller kisten er tømt, forsvinder både kiste og elementar. Elementaren forsvinder også, hvis modtageren befaler den at returnere genstandene. Når den forsvinder, dukker alt tilbageværende indhold op på jorden ved dine fødder.\n\nHøjere slots: Kildeteksten angiver et spell slot på niveau 8 for levering til en modtager på et andet eksistensplan.",
+    "summary": {
+      "en": "Send a chest of items to a known recipient through an elemental courier.",
+      "da": "Send en kiste med genstande til en kendt modtager gennem et elementarbud."
+    }
+  },
+  "Galder's Tower": {
+    "level": 3,
+    "school": "Conjuration",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "10 minutes",
+    "range": "30 feet",
+    "components": "V, S, M (a fragment of stone, wood, or another building material)",
+    "dur": "24 hours",
+    "book": "Lost Laboratory of Kwalish",
+    "rulesVersion": "2014",
+    "publishedYear": 2018,
+    "source": {
+      "label": "Lost Laboratory of Kwalish (2018)",
+      "url": "https://www.dndbeyond.com/spells/92693-galders-tower",
+      "name": "Galder's Tower"
+    },
+    "reviewed": "2026-11-03",
+    "en": "Conjure a round or square, two-story tower of stone, wood, or a similarly sturdy material. Each story is 10 feet high with a floor area of up to 100 square feet. A simple ladder and hatch connect its stories. Choose one layout for each story when casting:\n\n• Bedroom: bed, chairs, chest, and magical fireplace.\n• Study: desks, books, bookshelves, parchment, ink, and pens.\n• Dining room: table, chairs, magical fireplace, containers, and cooking utensils.\n• Lounge: couches, armchairs, side tables, and footstools.\n• Washroom: toilets, washtubs, magical brazier, and sauna benches.\n• Observatory: telescope and maps of the night sky.\n• Empty room without furnishings.\n\nThe interior stays warm and dry whatever the weather outside. Conjured equipment or furnishings dissolve into smoke if removed. When the duration ends, creatures and objects inside that were not created by the spell appear safely on the ground outside, and the tower and everything it created disappear without a trace.\n\nCasting the spell again while the tower exists preserves it for another 24 hours. Casting it every day for one year in the same place with the same configuration creates a permanent tower.\n\nHigher slots: Add one story per slot level above 3.",
+    "da": "Fremkald et rundt eller firkantet tårn i to etager af sten, træ eller et tilsvarende solidt materiale. Hver etage er 10 ft høj og har et gulvareal på højst 100 kvadratfod. En enkel stige og lem forbinder etagerne. Vælg én indretning til hver etage, når du kaster formularen:\n\n• Soveværelse: seng, stole, kiste og magisk pejs.\n• Studereværelse: skriveborde, bøger, bogreoler, pergament, blæk og penne.\n• Spisestue: bord, stole, magisk pejs, beholdere og køkkenredskaber.\n• Opholdsstue: sofaer, lænestole, sideborde og fodskamler.\n• Baderum: toiletter, badekar, magisk fyrfad og saunabænke.\n• Observatorium: teleskop og kort over nattehimlen.\n• Tomt rum uden møbler.\n\nIndenfor er der varmt og tørt uanset forholdene udenfor. Fremkaldt udstyr og inventar opløses i røg, hvis det fjernes fra tårnet. Når varigheden udløber, dukker skabninger og genstande inde i tårnet, som formularen ikke skabte, sikkert op på jorden udenfor. Tårnet og alt dets fremkaldte inventar forsvinder sporløst.\n\nKaster du formularen igen, mens tårnet eksisterer, bevares det i yderligere 24 timer. Kaster du den hver dag i et år på samme sted og med samme indretning, bliver tårnet permanent.\n\nHøjere slots: Tilføj én etage pr. slotniveau over 3.",
+    "summary": {
+      "en": "Conjure a furnished tower for shelter, with extra stories when cast at higher levels.",
+      "da": "Fremkald et møbleret tårn som ly, med ekstra etager ved højere slotniveauer."
+    }
+  }
+}

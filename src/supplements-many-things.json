@@ -1,0 +1,96 @@
+{
+  "Antagonize": {
+    "level": 3,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "30 feet",
+    "components": "V, S, M (a playing card depicting a rogue)",
+    "dur": "Instantaneous",
+    "book": "The Book of Many Things",
+    "rulesVersion": "2014",
+    "publishedYear": 2023,
+    "source": {
+      "label": "The Book of Many Things (2023), p. 50",
+      "url": "https://www.dndbeyond.com/spells/2158656-antagonize",
+      "name": "Antagonize",
+      "page": 50
+    },
+    "reviewed": "2026-11-03",
+    "en": "Provoke one creature you choose within range with magical whispers. It makes a Wisdom saving throw. On failure, it takes 4d4 Psychic damage and must immediately spend its Reaction to make a melee attack against another creature you choose and can see. If it cannot make that attack—for example, because it has no Reaction available or no creature is within its reach—it instead has Disadvantage on its next attack roll before the start of your next turn. On a successful save, it takes half the damage and suffers no other effect.\n\n## Higher-level slots\nThe damage increases by 1d4 for each slot level above 3.",
+    "da": "Ophids en skabning, du vælger inden for rækkevidde, med magiske hvisken. Den laver en WIS-redning. Ved fejl tager den 4d4 Psychic-skade og skal straks bruge sin Reaction på et nærkampsangreb mod en anden skabning, som du vælger og kan se. Kan den ikke udføre angrebet, eksempelvis fordi dens Reaction er brugt, eller ingen skabning er inden for dens reach, får den i stedet Disadvantage på sit næste angrebsslag før starten af din næste tur. Ved en succesfuld redning tager den halvdelen af skaden uden andre følger.\n\n## Højere formularplads\nSkaden stiger med 1d4 for hvert slotniveau over 3.",
+    "summary": {
+      "en": "Deal Psychic damage and provoke a creature into attacking a target you choose.",
+      "da": "Giv Psychic-skade, og provokér en skabning til at angribe et mål, du vælger."
+    }
+  },
+  "Spray of Cards": {
+    "level": 2,
+    "school": "Conjuration",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self (15-foot cone)",
+    "components": "V, S, M (a deck of cards)",
+    "dur": "Instantaneous",
+    "book": "The Book of Many Things",
+    "rulesVersion": "2014",
+    "publishedYear": 2023,
+    "source": {
+      "label": "The Book of Many Things (2023), p. 50",
+      "url": "https://www.dndbeyond.com/spells/2158658-spray-of-cards",
+      "name": "Spray of Cards",
+      "page": 50
+    },
+    "reviewed": "2026-11-03",
+    "en": "Release spectral cards in a 15-foot Cone. Each creature in the Cone makes a Dexterity saving throw. On failure, it takes 2d10 Force damage and is Blinded until the end of its next turn. On success, it takes half the damage and is not Blinded.\n\n## Higher-level slots\nThe damage increases by 1d10 for each slot level above 2.",
+    "da": "Send spøgelsesagtige spillekort ud i en 15-ft kegle. Hver skabning i keglen laver en DEX-redning. Ved fejl tager den 2d10 Force-skade og er Blinded indtil slutningen af sin næste tur. Ved succes tager den halvdelen af skaden og bliver ikke Blinded.\n\n## Højere formularplads\nSkaden stiger med 1d10 for hvert slotniveau over 2.",
+    "summary": {
+      "en": "Spray spectral cards in a cone to deal Force damage and briefly blind creatures.",
+      "da": "Send magiske kort ud i en kegle, der giver Force-skade og kortvarigt blænder skabninger."
+    }
+  },
+  "Spirit of Death": {
+    "level": 4,
+    "school": "Necromancy",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "60 feet",
+    "components": "V, S, M (a gilded playing card worth at least 400 gp depicting an avatar of death)",
+    "dur": "Concentration, up to 1 hour",
+    "book": "The Book of Many Things",
+    "rulesVersion": "2014",
+    "publishedYear": 2023,
+    "source": {
+      "label": "The Book of Many Things (2023), p. 50",
+      "url": "https://www.dndbeyond.com/spells/2158657-spirit-of-death",
+      "name": "Spirit of Death",
+      "page": 50
+    },
+    "reviewed": "2026-11-03",
+    "en": "Summon a death spirit in an unoccupied space you can see within range. It uses the Reaper Spirit statistics below and disappears at 0 HP or when this spell ends.\n\nThe spirit is allied with you and your companions. In combat, it shares your initiative count and takes its turn immediately after yours. It follows your verbal commands, which require no action from you. Without commands, it takes the Dodge action and moves to avoid danger.\n\n## Higher-level slots\nUse the slot level wherever L appears below; L is at least 4.\n\n## Reaper Spirit — verified portion of stat block\nMedium Undead, Neutral.\n\n| Statistic | Value |\n| --- | --- |\n| AC | 11 + L (natural armor) |\n| HP | 40 + 10 for each slot level above 4 |\n| Speed | 30 ft.; Fly 30 ft. (hover) |\n| STR / DEX / CON / INT / WIS / CHA | 16 (+3) each; saving throws +3 each |\n| Initiative | +3 |\n| Damage immunities | Necrotic, Poison |\n| Condition immunities | Charmed, Exhaustion, Frightened, Paralyzed, Poisoned |\n| Senses | Darkvision 60 ft.; Passive Perception 13 |\n| Languages | Understands the languages you speak |\n| CR / XP / PB | None / 0 / your Proficiency Bonus |\n\nIncorporeal Movement: the spirit can move through creatures and objects as Difficult Terrain. If it ends its turn inside an object, it is moved to the nearest unoccupied space, taking 1d10 Force damage for every 5 feet it is moved.\n\nMultiattack (Action): make a number of Reaping Scythe attacks equal to half L, rounded down.\n\nReaping Scythe: melee weapon attack using your spell attack modifier, with Advantage; reach 5 ft.; target must be the creature haunted by Haunt Creature. A hit deals 1d8 + 3 + L Necrotic damage.\n\nHaunt Creature (Bonus Action): the spirit chooses a creature it can see within 10 feet and haunts it. While haunted, you and the spirit sense its direction and distance if it is on the same plane of existence as you. If the target starts its turn within 10 feet of the spirit, it makes a Wisdom save against your spell save DC; failure makes it Frightened until the start of its next turn. The visible source confirms that haunting ends if the target dies or the spirit disappears.\n\n## Source limitation\nThe supplied image cuts off the end of Haunt Creature. Its complete ending and any content below it have not been verified; this stat block is incomplete.",
+    "da": "Tilkald en dødsånd i et ledigt felt, du kan se inden for rækkevidde. Den bruger Reaper Spirit-statblokken nedenfor og forsvinder ved 0 HP eller når formularen slutter.\n\nÅnden er allieret med dig og dine ledsagere. I kamp deler den dit initiativtal og har sin tur umiddelbart efter din. Den følger dine mundtlige kommandoer, uden at det koster dig en handling. Uden kommandoer bruger den Dodge og bevæger sig for at undgå fare.\n\n## Højere formularplads\nBrug slotniveauet overalt, hvor L står nedenfor; L er mindst 4.\n\n## Reaper Spirit — verificeret del af statblokken\nMedium Undead, Neutral.\n\n| Egenskab | Værdi |\n| --- | --- |\n| AC | 11 + L (naturlig rustning) |\n| HP | 40 + 10 for hvert slotniveau over 4 |\n| Hastighed | 30 ft.; Fly 30 ft. (hover) |\n| STR / DEX / CON / INT / WIS / CHA | Alle 16 (+3); alle redningsslag +3 |\n| Initiativ | +3 |\n| Skadeimmunitet | Necrotic, Poison |\n| Tilstandsimmunitet | Charmed, Exhaustion, Frightened, Paralyzed, Poisoned |\n| Sanser | Darkvision 60 ft.; Passive Perception 13 |\n| Sprog | Forstår de sprog, du taler |\n| CR / XP / PB | Ingen / 0 / din Proficiency Bonus |\n\nIncorporeal Movement: ånden kan bevæge sig gennem skabninger og genstande som Difficult Terrain. Slutter den sin tur inde i en genstand, flyttes den til nærmeste ledige felt og tager 1d10 Force-skade for hver 5 ft., den flyttes.\n\nMultiattack (Action): ånden laver et antal Reaping Scythe-angreb svarende til halvdelen af L, rundet ned.\n\nReaping Scythe: nærkampsangreb med våben, din spell attack modifier og Advantage; reach 5 ft. Målet skal være den skabning, ånden hjemsøger med Haunt Creature. Et træf giver 1d8 + 3 + L Necrotic-skade.\n\nHaunt Creature (Bonus Action): ånden vælger en skabning, den kan se inden for 10 ft., og hjemsøger den. Mens målet er hjemsøgt, mærker du og ånden retning og afstand til det, hvis det befinder sig på samme eksistensplan som dig. Starter målet sin tur inden for 10 ft. af ånden, laver det en WIS-redning mod din spell save DC; ved fejl er det Frightened indtil starten af sin næste tur. Den synlige kilde bekræfter, at hjemsøgelsen slutter, hvis målet dør, eller ånden forsvinder.\n\n## Manglende kildetekst\nDet indsendte billede afskærer slutningen af Haunt Creature. Den fulde afslutning og eventuelt indhold nedenunder er ikke verificeret; statblokken er derfor ufuldstændig.",
+    "summary": {
+      "en": "Summon a reaper spirit that haunts, frightens, and attacks its chosen quarry.",
+      "da": "Tilkald en dødsånd, der hjemsøger, skræmmer og angriber sit udvalgte bytte."
+    },
+    "accessNote": {
+      "en": "Incomplete source: the final portion of the Reaper Spirit stat block is cut off in the supplied screenshot.",
+      "da": "Ufuldstændig kilde: slutningen af Reaper Spirit-statblokken er afskåret i det indsendte skærmbillede."
+    },
+    "sourceIncomplete": true
+  }
+}

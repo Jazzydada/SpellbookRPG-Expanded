@@ -1,0 +1,119 @@
+{
+  "Gate Seal": {
+    "level": 4,
+    "school": "Abjuration",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "1 minute",
+    "range": "60 feet",
+    "components": "V, S, M (a broken portal key, consumed)",
+    "dur": "24 hours",
+    "book": "Planescape: Adventures in the Multiverse",
+    "rulesVersion": "2014",
+    "publishedYear": 2023,
+    "source": {
+      "label": "Sigil and the Outlands (2023), p. 12",
+      "url": "https://www.dndbeyond.com/spells/2119578-gate-seal",
+      "name": "Gate Seal",
+      "page": 12
+    },
+    "reviewed": "2026-11-03",
+    "en": "Choose a 30-foot cube you can see within range. The cube stays in place. For the duration, portals inside it close and cannot reopen. Spells and other effects that open portals or permit planar travel, including Gate and Plane Shift, fail when used to enter or leave this area.\n\nHigher slots: With a level 6 or higher slot, the duration becomes Until Dispelled. A level 5 slot does not extend it.",
+    "da": "Vælg en 30-ft kube, du kan se inden for rækkevidde. Kuben bliver på stedet. I varigheden lukkes portaler i den og kan ikke åbnes igen. Formularer og andre effekter, der åbner portaler eller tillader rejse mellem planer, herunder Gate og Plane Shift, mislykkes, når de bruges til at komme ind i eller forlade området.\n\nHøjere slots: Med et slot på niveau 6 eller højere varer formularen, indtil den ophæves (Until Dispelled). Et slot på niveau 5 forlænger den ikke.",
+    "summary": {
+      "en": "Seal portals and prevent planar travel into or out of a fixed area.",
+      "da": "Forsegl portaler, og forhindre planrejser ind i eller ud af et fast område."
+    }
+  },
+  "Warp Sense": {
+    "level": 2,
+    "school": "Divination",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self",
+    "components": "V, S, M (a razorvine leaf)",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Planescape: Adventures in the Multiverse",
+    "rulesVersion": "2014",
+    "publishedYear": 2023,
+    "source": {
+      "label": "Sigil and the Outlands (2023), p. 12",
+      "url": "https://www.dndbeyond.com/spells/2119579-warp-sense",
+      "name": "Warp Sense",
+      "page": 12
+    },
+    "reviewed": "2026-11-03",
+    "en": "For the duration, sense portals within 30 feet of yourself, including inactive portals. When you detect one, you may use an action to study it and make a DC 15 ability check using your spellcasting ability. Success reveals its destination plane and the portal key needed to use it, then ends the spell. Failure reveals nothing; you cannot study that same portal again with this spell until you cast it again.\n\nThis detection penetrates most barriers. It is blocked by 1 foot of stone, 1 inch of ordinary metal, any thin sheet of lead, or 3 feet of wood or dirt.",
+    "da": "I varigheden sanser du portaler inden for 30 ft fra dig, også inaktive portaler. Når du opdager en, kan du bruge en handling til at undersøge den og lave et DC 15 ability check med din spellcasting ability. Ved succes lærer du, hvilket plan portalen fører til, og hvilken portalnøgle den kræver; derefter slutter formularen. Ved fejl lærer du intet og kan ikke undersøge samme portal med formularen igen, før du kaster den på ny.\n\nSansningen gennemtrænger de fleste barrierer. Den blokeres af 1 ft sten, 1 inch almindeligt metal, et tyndt lag bly eller 3 ft træ eller jord.",
+    "summary": {
+      "en": "Sense nearby portals and study their destination and required key.",
+      "da": "Sans portaler tæt på, og undersøg deres destination og nødvendige nøgle."
+    }
+  },
+  "Air Bubble": {
+    "level": 2,
+    "school": "Conjuration",
+    "classes": [
+      "Artificer",
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "60 feet",
+    "components": "S",
+    "dur": "24 hours",
+    "book": "Spelljammer: Adventures in Space",
+    "rulesVersion": "2014",
+    "publishedYear": 2022,
+    "source": {
+      "label": "Astral Adventurer's Guide (2022), p. 22",
+      "url": "https://www.dndbeyond.com/spells/1585025-air-bubble",
+      "name": "Air Bubble",
+      "page": 22
+    },
+    "reviewed": "2026-11-03",
+    "en": "Choose one willing creature you can see within range. A spectral bubble forms around its head and provides fresh air until the spell ends. If the creature has several heads, the bubble surrounds only one of them; this is enough to prevent suffocation provided all its heads share one respiratory system.\n\nHigher slots: Create two additional fresh-air bubbles for each slot level above 2.",
+    "da": "Vælg én villig skabning, du kan se inden for rækkevidde. En spektral boble dannes omkring dens hoved og giver frisk luft, indtil formularen slutter. Har skabningen flere hoveder, omgiver boblen kun ét af dem; det er tilstrækkeligt til at forhindre kvælning, hvis alle hoveder deler samme åndedrætssystem.\n\nHøjere slots: Skab to ekstra bobler med frisk luft for hvert slotniveau over 2.",
+    "summary": {
+      "en": "Supply a willing creature with a head-sized bubble of fresh air for 24 hours.",
+      "da": "Giv en villig skabning en boble med frisk luft omkring hovedet i 24 timer."
+    }
+  },
+  "Create Spelljamming Helm": {
+    "level": 5,
+    "school": "Transmutation",
+    "classes": [
+      "Artificer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Touch",
+    "components": "V, S, M (a crystal rod worth 5,000+ GP, consumed)",
+    "dur": "Instantaneous",
+    "book": "Spelljammer: Adventures in Space",
+    "rulesVersion": "2014",
+    "publishedYear": 2022,
+    "source": {
+      "label": "Astral Adventurer's Guide (2022), p. 22",
+      "url": "https://www.dndbeyond.com/spells/1585026-create-spelljamming-helm",
+      "name": "Create Spelljamming Helm",
+      "page": 22
+    },
+    "reviewed": "2026-11-03",
+    "en": "While holding the crystal rod used as the material component, touch an unoccupied chair that is Large or smaller. The rod is consumed, and the chair becomes a Spelljamming Helm.\n\nReference: The created magic item's operating rules are in the separate Spelljamming Helm item entry. Those item rules are not contained in the supplied spell description.",
+    "da": "Hold krystalstaven, der bruges som materialekomponent, og berør en ubesat stol, som er Large eller mindre. Staven forbruges, og stolen bliver til en Spelljamming Helm.\n\nHenvisning: Den skabte magiske genstands brugsregler findes i den særskilte genstandsbeskrivelse for Spelljamming Helm. Disse genstandsregler indgår ikke i den leverede formularbeskrivelse.",
+    "summary": {
+      "en": "Transform an unoccupied chair into a Spelljamming Helm.",
+      "da": "Forvandl en ubesat stol til en Spelljamming Helm."
+    }
+  }
+}

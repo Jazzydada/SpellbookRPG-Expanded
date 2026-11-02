@@ -1,6 +1,6 @@
 # Dækning af officielle formular-kilder
 
-Seneste kontrolpunkt: 3. november 2026. **Aktivt katalog: 567 formularer fra tolv bøger.** Den nye leverance med 95 formularer er beskrevet nederst. De tidligere adgangskontroller nedenfor er historik; de er ikke længere en liste over alle aktuelle mangler. Kataloget er fortsat ikke en komplet samling af alle officielle bøger.
+Seneste kontrolpunkt: 3. november 2026. **Aktivt katalog: 579 formularer fra 17 bøger.** Den nye leverance med 95 formularer er beskrevet nederst. De tidligere adgangskontroller nedenfor er historik; de er ikke længere en liste over alle aktuelle mangler. Kataloget er fortsat ikke en komplet samling af alle officielle bøger.
 
 ## Verificeret metode
 
@@ -190,3 +190,10 @@ Brugerens vedhæftede markdown-bøger og screenshots fra 00.12–00.18 er gennem
 - Summon Draconic Spirit: udeladt efter brugerens udtrykkelige valg om kun at vise Summon Dragon (2024). Den moderne formular har allerede sin komplette Draconic Spirit-statblok. Dette er en katalogbeslutning, ikke en påstand om officielt identiske formularer.
 
 De originale screenshots og bøger publiceres ikke.
+
+
+## Nye brugerbilag — 3. november 2026
+
+12 formularer tilføjet fra screenshots 00.29–00.37 og Galder’s Tower.md: Antagonize, Spirit of Death, Spray of Cards, Gate Seal, Warp Sense, Flock of Familiars, Galder’s Speedy Courier, Galder’s Tower, Air Bubble, Create Spelljamming Helm, Create Magen og Frost Fingers. Alle har korte og udførlige danske/engelske beskrivelser og 2014-markering. Ingen af navnene fandtes i det aktive katalog. Eksisterende nyere udgaver af andre formularer (bl.a. Blade of Disaster) ændres ikke eller tilføjes igen.
+
+Kildemangler er synlige i appen: Reaper Spirits beskårne Haunt Creature-afslutning; andre magen-statblokke end den komplette Demos Magen; den separate Spelljamming Helm-genstandsbeskrivelse. Der er ikke gættet på manglende tekst. Statblokke er transskriberet fra de modtagne billeder, ikke fra nyere monsterudgaver.

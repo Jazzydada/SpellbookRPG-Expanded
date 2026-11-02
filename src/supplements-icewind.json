@@ -1,0 +1,60 @@
+{
+  "Frost Fingers": {
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self (15-foot cone)",
+    "components": "V, S",
+    "dur": "Instantaneous",
+    "book": "Icewind Dale: Rime of the Frostmaiden",
+    "rulesVersion": "2014",
+    "publishedYear": 2020,
+    "source": {
+      "label": "Icewind Dale: Rime of the Frostmaiden, p. 318",
+      "url": "https://www.dndbeyond.com/sources/dnd/idrotf",
+      "name": "Frost Fingers",
+      "page": 318
+    },
+    "reviewed": "2026-11-03",
+    "en": "Each creature in a 15-foot cone from you makes a Constitution saving throw. A failed save deals 2d8 Cold damage; a successful save deals half. Nonmagical liquids in the area freeze unless worn or carried.\n\nHigher slots: Add 1d8 damage per slot level above 1.",
+    "da": "Hver skabning i en 15-ft kegle fra dig laver en CON-redning. Ved fejl tager den 2d8 Cold-skade; ved succes halvdelen. Ikke-magiske væsker i området fryser, medmindre de bæres eller er iført.\n\nHøjere slots: Skaden øges med 1d8 pr. slotniveau over 1.",
+    "summary": {
+      "en": "Blast a cone with cold and freeze unattended nonmagical liquids.",
+      "da": "Ram en kegle med kulde, og frys ikke-magiske væsker, der ikke bæres."
+    }
+  },
+  "Create Magen": {
+    "level": 7,
+    "school": "Transmutation",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "1 hour",
+    "range": "Touch",
+    "components": "V, S, M (500 GP of quicksilver and a life-sized human doll, both consumed; an intricate crystal rod worth at least 1,500 GP, not consumed)",
+    "dur": "Instantaneous",
+    "book": "Icewind Dale: Rime of the Frostmaiden",
+    "rulesVersion": "2014",
+    "publishedYear": 2020,
+    "source": {
+      "label": "Icewind Dale: Rime of the Frostmaiden, p. 318",
+      "url": "https://www.dndbeyond.com/sources/dnd/idrotf",
+      "name": "Create Magen",
+      "page": 318
+    },
+    "reviewed": "2026-11-03",
+    "en": "During the casting, put the quicksilver vial inside the chest of a life-sized human doll stuffed with ash or dust. Sew it shut, drip your blood on it, and finish by touching it with the crystal rod. The doll becomes a magen of the type you choose during casting, wearing the doll's clothing. Magen types and statistics are in the book's appendix C. The resulting magen obeys your commands without question.\n\nWhen it appears, your Hit Point maximum decreases by its Challenge Rating, with a minimum reduction of 1. Only Wish can reverse this reduction. The quicksilver and doll are consumed; the crystal rod is not.\n\n### Demos Magen (appendix C, p. 300)\nMedium Construct, Unaligned. AC 16 (chain mail). HP 51 (6d8 + 24). Speed 30 ft. Initiative +2. CR 2; XP 450; PB +2.\nSTR 14 (+2); DEX 14 (+2); CON 18 (+4); INT 10 (+0); WIS 10 (+0); CHA 7 (−2). Saving throws use these modifiers.\nDamage immunity: Poison. Condition immunities: Charmed, Exhaustion, Frightened, Paralyzed, Poisoned. Passive Perception 10. Understands its creator's languages but cannot speak. Equipment: Greatsword, Light Crossbow.\n\n• Fiery End: On death, its body disintegrates in harmless fire and smoke, leaving its worn and carried items behind.\n• Magic Resistance: Advantage on saving throws against spells and other magical effects.\n• Unusual Nature: Requires no air, food, drink, or sleep.\n• Multiattack: Makes two melee attacks.\n• Greatsword: Melee weapon attack, +4 to hit, reach 5 ft, one target. Hit: 9 (2d6 + 2) Slashing damage.\n• Light Crossbow: Ranged weapon attack, +4 to hit, range 80/320 ft, one target. Hit: 6 (1d8 + 2) Piercing damage.\n\nReference limitation: Only the supplied Demos Magen stat block is included here. Other magen types require appendix C; this does not restrict the spell's choices to Demos Magen.",
+    "da": "Under kastet lægger du hætteglasset med kviksølv i brystet på en menneskedukke i naturlig størrelse, fyldt med aske eller støv. Sy dukken sammen, dryp dit blod på den, og afslut ved at berøre den med krystalstaven. Dukken bliver til en magen af den type, du vælger under kastet, og beholder dukkens påklædning. Typerne og deres statblokke findes i bogens appendiks C. Den skabte magen adlyder dine kommandoer uden indvendinger.\n\nNår den opstår, falder dit maksimale HP med dens Challenge Rating, dog mindst 1. Kun Wish kan ophæve denne reduktion. Kviksølvet til 500 GP og dukken forbruges. Den kunstfærdige krystalstav til mindst 1.500 GP forbruges ikke.\n\n### Demos Magen (appendiks C, side 300)\nMedium Construct, Unaligned. AC 16 (chain mail). HP 51 (6d8 + 24). Speed 30 ft. Initiative +2. CR 2; XP 450; PB +2.\nSTR 14 (+2); DEX 14 (+2); CON 18 (+4); INT 10 (+0); WIS 10 (+0); CHA 7 (−2). Redninger bruger disse modifikatorer.\nSkadeimmunitet: Poison. Tilstandsimmuniteter: Charmed, Exhaustion, Frightened, Paralyzed og Poisoned. Passive Perception 10. Forstår sin skabers sprog, men kan ikke tale. Udstyr: Greatsword og Light Crossbow.\n\n• Fiery End: Ved død opløses kroppen i en ufarlig opblussen af ild og røg. Alt, den bærer eller har på, efterlades.\n• Magic Resistance: Advantage på redninger mod formularer og andre magiske effekter.\n• Unusual Nature: Behøver hverken luft, mad, drikke eller søvn.\n• Multiattack: Laver to nærkampsangreb.\n• Greatsword: Nærkampsvåbenangreb, +4 til at ramme, reach 5 ft, ét mål. Træf: 9 (2d6 + 2) Slashing-skade.\n• Light Crossbow: Afstandsvåbenangreb, +4 til at ramme, rækkevidde 80/320 ft, ét mål. Træf: 6 (1d8 + 2) Piercing-skade.\n\nManglende reference: Her er kun den modtagne Demos Magen-statblok medtaget. De øvrige magen-typer kræver bogens appendiks C; formularens valgmuligheder er ikke begrænset til Demos Magen.",
+    "summary": {
+      "en": "Create an obedient magen at a lasting cost to your maximum HP.",
+      "da": "Skab en lydig magen mod en varig reduktion af dit maksimale HP."
+    },
+    "accessNote": {
+      "en": "Includes the supplied Demos Magen stat block. Other magen stat blocks from appendix C are not yet included.",
+      "da": "Den modtagne Demos Magen-statblok er med. De øvrige magen-statblokke fra appendiks C mangler endnu."
+    }
+  }
+}
