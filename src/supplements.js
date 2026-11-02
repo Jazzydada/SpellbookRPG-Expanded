@@ -6,9 +6,12 @@ import arcana from './supplements-arcana.json' with { type: 'json' };
 import forge from './supplements-forge.json' with { type: 'json' };
 import faerun from './supplements-faerun.json' with { type: 'json' };
 
+import fizban from './supplements-fizban.json' with { type: 'json' };
+import strixhaven from './supplements-strixhaven.json' with { type: 'json' };
+
 // Explicitly resolve any future overlap instead of silently replacing a reviewed text.
 const supplements = {};
-for (const book of [tasha, elementalEvil, otherBooks, xanathar, arcana, forge, faerun]) {
+for (const book of [tasha, elementalEvil, otherBooks, xanathar, arcana, forge, faerun, fizban, strixhaven]) {
   for (const [name, spell] of Object.entries(book)) {
     if (supplements[name]) throw new Error(`Duplicate supplement spell: ${name}`);
     supplements[name] = spell;

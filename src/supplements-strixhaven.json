@@ -1,0 +1,120 @@
+{
+  "Silvery Barbs": {
+    "level": 1,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Reaction, when a creature you can see within 60 feet succeeds on an attack roll, ability check, or saving throw",
+    "range": "60 feet",
+    "components": "V",
+    "dur": "Instantaneous",
+    "book": "Strixhaven: A Curriculum of Chaos",
+    "rulesVersion": "2014",
+    "publishedYear": 2021,
+    "source": {
+      "label": "Strixhaven: A Curriculum of Chaos (2021), p. 38",
+      "url": "https://www.dndbeyond.com/spells/1239804-silvery-barbs",
+      "name": "Silvery Barbs",
+      "page": 38
+    },
+    "reviewed": "2026-11-03",
+    "en": "When the triggering creature succeeds on its attack roll, ability check, or saving throw, force it to reroll the d20 and use the lower roll.\n\nYou may then choose a different creature you can see within range, including yourself. It gains Advantage on the next attack roll, ability check, or saving throw it makes within 1 minute. A creature can hold this benefit from only one casting of Silvery Barbs at a time.",
+    "da": "Du kan kaste formularen som reaktion, når en skabning, du kan se inden for 60 ft fra dig, lykkes med et angrebskast, ability check eller redningskast. Du tvinger skabningen til at slå d20 igen og bruge det laveste kast.\n\nDerefter kan du vælge en anden skabning, du kan se inden for rækkevidde; du kan vælge dig selv. Den får Advantage på det næste angrebskast, ability check eller redningskast, den laver inden for 1 minut. En skabning kan kun have denne fordel fra ét kast af Silvery Barbs ad gangen.",
+    "summary": {
+      "en": "Force a successful roll to be rerolled, keeping the lower result, and grant another creature Advantage.",
+      "da": "Tving et vellykket kast om, behold det laveste resultat, og giv en anden skabning Advantage."
+    }
+  },
+  "Borrowed Knowledge": {
+    "level": 2,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self",
+    "components": "V, S, M (a book worth at least 25 GP)",
+    "dur": "1 hour",
+    "book": "Strixhaven: A Curriculum of Chaos",
+    "rulesVersion": "2014",
+    "publishedYear": 2021,
+    "source": {
+      "label": "Strixhaven: A Curriculum of Chaos (2021), p. 37",
+      "url": "https://www.dndbeyond.com/spells/1239802-borrowed-knowledge",
+      "name": "Borrowed Knowledge",
+      "page": 37
+    },
+    "reviewed": "2026-11-03",
+    "en": "Borrow knowledge from spirits of the past. Choose one skill in which you do not have proficiency. You gain proficiency in that skill for the duration. Casting this spell again ends the previous casting early.",
+    "da": "Lån viden fra fortidens ånder. Vælg én færdighed, som du ikke allerede har proficiency i. Du får proficiency i den valgte færdighed i formularens varighed. Kaster du formularen igen, slutter det tidligere kast straks.",
+    "summary": {
+      "en": "Gain proficiency in one skill you lack for 1 hour.",
+      "da": "Få proficiency i én færdighed, du mangler, i 1 time."
+    }
+  },
+  "Vortex Warp": {
+    "level": 2,
+    "school": "Conjuration",
+    "classes": [
+      "Artificer",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "90 feet",
+    "components": "V, S",
+    "dur": "Instantaneous",
+    "book": "Strixhaven: A Curriculum of Chaos",
+    "rulesVersion": "2014",
+    "publishedYear": 2021,
+    "source": {
+      "label": "Strixhaven: A Curriculum of Chaos (2021), p. 38",
+      "url": "https://www.dndbeyond.com/spells/1239805-vortex-warp",
+      "name": "Vortex Warp",
+      "page": 38
+    },
+    "reviewed": "2026-11-03",
+    "en": "Choose another creature you can see within range. It makes a Constitution saving throw and may choose to fail. On a failed save, teleport it to an unoccupied space you choose and can see within range. The destination must be on a surface or in a liquid capable of supporting the target, with enough room that it does not need to squeeze.\n\nHigher slots: Increase the spell's range by 30 feet for each slot level above 2.",
+    "da": "Vælg en anden skabning, du kan se inden for rækkevidde. Den laver en CON-redning og kan vælge at fejle. Ved fejl teleporteres den til et ledigt felt efter dit valg, som du også kan se inden for rækkevidde. Destinationen skal være på en overflade eller i en væske, der kan understøtte målet, og have plads nok til, at det ikke behøver at klemme sig sammen.\n\nHøjere slots: Formularens rækkevidde øges med 30 ft pr. slotniveau over 2.",
+    "summary": {
+      "en": "Teleport another creature to a visible, supported space; an unwilling target can resist with a CON save.",
+      "da": "Teleportér en anden skabning til et synligt, understøttet felt; en CON-redning kan forhindre flytningen."
+    }
+  },
+  "Kinetic Jaunt": {
+    "level": 2,
+    "school": "Transmutation",
+    "classes": [
+      "Artificer",
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Bonus Action",
+    "range": "Self",
+    "components": "S",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Strixhaven: A Curriculum of Chaos",
+    "rulesVersion": "2014",
+    "publishedYear": 2021,
+    "source": {
+      "label": "Strixhaven: A Curriculum of Chaos (2021), p. 37",
+      "url": "https://www.dndbeyond.com/spells/1239803-kinetic-jaunt",
+      "name": "Kinetic Jaunt",
+      "page": 37
+    },
+    "reviewed": "2026-11-03",
+    "en": "For the duration, your magically enhanced footwork grants all these benefits:\n\n• Your walking speed increases by 10 feet.\n• You do not provoke Opportunity Attacks.\n• You can move through another creature's space without treating that space as Difficult Terrain. If you end your turn in another creature's space, you are forced back to the last unoccupied space you occupied and take 1d8 Force damage.",
+    "da": "I varigheden giver dine magisk forbedrede trin alle følgende fordele:\n\n• Din ganghastighed øges med 10 ft.\n• Du udløser ikke Opportunity Attacks.\n• Du kan bevæge dig gennem andre skabningers felter, uden at felterne tæller som Difficult Terrain. Slutter du din tur i en anden skabnings felt, tvinges du tilbage til det seneste ledige felt, du befandt dig i, og tager 1d8 Force-skade.",
+    "summary": {
+      "en": "Move faster, avoid Opportunity Attacks, and pass through other creatures without slowing down.",
+      "da": "Bevæg dig hurtigere, undgå Opportunity Attacks, og passér gennem andre skabninger uden at blive bremset."
+    }
+  }
+}

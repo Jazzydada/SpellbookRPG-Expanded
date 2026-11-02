@@ -6,7 +6,7 @@ test('current rules win same-name and explicitly renamed replacements', () => {
   const current = { 'Shining Smite': 'new name', Sleep: '2024', 'Summon Dragon': '2024 dragon' };
   const older = { 'Branding Smite': 'old name', Sleep: '2014', 'Summon Draconic Spirit': 'old dragon', 'Holy Weapon': 'retained' };
   assert.deepEqual(mergeCatalog(current, older), {
-    'Holy Weapon': 'retained', 'Shining Smite': 'new name', Sleep: '2024', 'Summon Draconic Spirit': 'old dragon', 'Summon Dragon': '2024 dragon',
+    'Holy Weapon': 'retained', 'Shining Smite': 'new name', Sleep: '2024', 'Summon Dragon': '2024 dragon',
   });
   assert.equal(older.Sleep, '2014');
   assert.equal(mergeCatalog({}, { Sleep: '2014' }).Sleep, '2014');

@@ -1,5 +1,9 @@
 # Kontrol af mulige formular-erstatninger
 
+## Katalogbeslutning 3. november 2026
+
+Brugeren har udtrykkeligt valgt **kun Summon Dragon (2024)**. `REPLACEMENTS` skjuler derfor Summon Draconic Spirit, hvis ældre data senere importeres. Det er en brugerbestemt katalogafgrænsning, ikke dokumentation for en officiel omdøbning. Den tidligere kildeanalyse nedenfor bevares som historik. Wither and Bloom vises kun fra Arcana Unleashed (2026).
+
 Kontrolleret 2. november 2026. Afgrænsning: tre navnepar fra SOURCE_COVERAGE. Ingen kode eller eksisterende karaktervalg ændret af denne kontrol.
 
 ## Konklusion

@@ -2,6 +2,8 @@
 export const REPLACEMENTS = {
   'Branding Smite': 'Shining Smite',
   Feeblemind: 'Befuddlement',
+  // Explicit user catalogue preference (2026-11-03), not a claimed official rename.
+  'Summon Draconic Spirit': 'Summon Dragon',
 };
 
 export function mergeCatalog(primary, supplements, replacements = REPLACEMENTS) {

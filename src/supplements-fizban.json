@@ -1,0 +1,176 @@
+{
+  "Nathair's Mischief": {
+    "level": 2,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "60 feet",
+    "components": "S, M (a piece of apple-pie crust)",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Fizban's Treasury of Dragons",
+    "rulesVersion": "2014",
+    "publishedYear": 2021,
+    "source": {
+      "label": "Fizban's Treasury of Dragons (2021), p. 20",
+      "url": "https://www.dndbeyond.com/spells/1183865-nathairs-mischief",
+      "name": "Nathair's Mischief",
+      "page": 20
+    },
+    "reviewed": "2026-11-03",
+    "en": "Fill a visible 20-foot cube within range with unpredictable magic. Roll 1d4 on the table when you cast the spell and again at the start of each of your turns while it lasts. Before rolling, you may move the cube up to 10 feet.\n\n| 1d4 | Effect |\n| --- | --- |\n| 1 | A pie scent fills the cube. Each creature inside makes a Wisdom save; failure makes it Charmed by you until the start of your next turn. |\n| 2 | Flowers spray water. Each creature inside makes a Dexterity save; failure makes it Blinded until the start of your next turn. |\n| 3 | Each creature inside makes a Wisdom save; failure causes uncontrollable giggling until the start of your next turn. While giggling, it is Incapacitated and uses all its movement to move in a random direction. |\n| 4 | Floating syrup makes the cube Difficult Terrain until the start of your next turn. |",
+    "da": "Fyld en synlig 20-ft kube inden for rækkevidde med uforudsigelig magi. Slå 1d4 på tabellen ved kastet og igen ved starten af hver af dine ture, mens formularen varer. Før slaget må du flytte kuben op til 10 ft.\n\n| 1d4 | Effekt |\n| --- | --- |\n| 1 | En tærteduft fylder kuben. Hver skabning i den laver en WIS-redning; ved fejl bliver den Charmed af dig indtil starten af din næste tur. |\n| 2 | Blomster sprøjter vand. Hver skabning i kuben laver en DEX-redning; ved fejl bliver den Blinded indtil starten af din næste tur. |\n| 3 | Hver skabning i kuben laver en WIS-redning; ved fejl fniser den ukontrolleret indtil starten af din næste tur. Mens den fniser, er den Incapacitated og bruger hele sin bevægelse på at bevæge sig i en tilfældig retning. |\n| 4 | Svævende sirup gør kuben til Difficult Terrain indtil starten af din næste tur. |",
+    "summary": {
+      "en": "Create a shifting zone of unpredictable fey mischief.",
+      "da": "Skab et flytbart område med uforudsigelige fey-drillerier."
+    }
+  },
+  "Rime's Binding Ice": {
+    "level": 2,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self (30-foot cone)",
+    "components": "S, M (a vial of meltwater)",
+    "dur": "Instantaneous",
+    "book": "Fizban's Treasury of Dragons",
+    "rulesVersion": "2014",
+    "publishedYear": 2021,
+    "source": {
+      "label": "Fizban's Treasury of Dragons (2021), p. 21",
+      "url": "https://www.dndbeyond.com/spells/1183867-rimes-binding-ice",
+      "name": "Rime's Binding Ice",
+      "page": 21
+    },
+    "reviewed": "2026-11-03",
+    "en": "Release cold in a 30-foot cone from yourself. Each creature inside makes a Constitution save. Failure deals 3d8 Cold damage and encloses it in ice for 1 minute, reducing its Speed to 0. The creature itself, or another creature within reach of it, can use an action to break the ice and end this hindrance. A successful save deals half damage and causes no ice hindrance.\n\nHigher slots: Increase Cold damage by 1d8 per slot level above 2.",
+    "da": "Send kulde ud fra dig i en 30-ft kegle. Hver skabning i den laver en CON-redning. Ved fejl tager den 3d8 Cold-skade og hæmmes af is i 1 minut, så dens Speed bliver 0. Skabningen selv eller en anden skabning inden for rækkevidde af den kan bruge en handling til at bryde isen og ophæve hæmningen. Ved succes tager målet halv skade uden ishæmningen.\n\nHøjere slots: Cold-skaden øges med 1d8 pr. slotniveau over 2.",
+    "summary": {
+      "en": "Blast a cone with cold and trap failed-save targets in immobilizing ice.",
+      "da": "Ram en kegle med kulde, og lås mål med fejlet redning fast i is."
+    }
+  },
+  "Ashardalon's Stride": {
+    "level": 3,
+    "school": "Transmutation",
+    "classes": [
+      "Artificer",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Bonus Action",
+    "range": "Self",
+    "components": "V, S",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Fizban's Treasury of Dragons",
+    "rulesVersion": "2014",
+    "publishedYear": 2021,
+    "source": {
+      "label": "Fizban's Treasury of Dragons (2021), p. 19",
+      "url": "https://www.dndbeyond.com/spells/1183862-ashardalons-stride",
+      "name": "Ashardalon's Stride",
+      "page": 19
+    },
+    "reviewed": "2026-11-03",
+    "en": "For the duration, your Speed increases by 20 feet, and your movement does not provoke Opportunity Attacks. When you move within 5 feet of a creature or an object that is neither worn nor carried, it takes 1d6 Fire damage. Each creature or object takes this damage no more than once per turn; no attack roll or saving throw is required.\n\nHigher slots: For each slot level above 3, increase the Speed bonus by 5 feet and the damage by 1d6.",
+    "da": "I varigheden øges din Speed med 20 ft, og din bevægelse udløser ikke Opportunity Attacks. Når du bevæger dig inden for 5 ft fra en skabning eller en genstand, som hverken bæres eller er iført, tager den 1d6 Fire-skade. Hver skabning eller genstand kan højst tage denne skade én gang pr. tur; der kræves hverken angrebsslag eller redning.\n\nHøjere slots: For hvert slotniveau over 3 øges fartbonussen med 5 ft og skaden med 1d6.",
+    "summary": {
+      "en": "Move faster without Opportunity Attacks and burn creatures you pass.",
+      "da": "Bevæg dig hurtigere uden Opportunity Attacks, og brænd skabninger, du passerer."
+    }
+  },
+  "Raulothim's Psychic Lance": {
+    "level": 4,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "120 feet",
+    "components": "V",
+    "dur": "Instantaneous",
+    "book": "Fizban's Treasury of Dragons",
+    "rulesVersion": "2014",
+    "publishedYear": 2021,
+    "source": {
+      "label": "Fizban's Treasury of Dragons (2021), p. 21",
+      "url": "https://www.dndbeyond.com/spells/1183866-raulothims-psychic-lance",
+      "name": "Raulothim's Psychic Lance",
+      "page": 21
+    },
+    "reviewed": "2026-11-03",
+    "en": "Target one creature you can see within range. Alternatively, speak a creature's name: if that creature is within range, it becomes the target even if you cannot see it. If the named creature is outside range, the spell dissipates without effect.\n\nThe target makes an Intelligence save. Failure deals 7d6 Psychic damage and makes it Incapacitated until the start of your next turn. Success deals half damage without Incapacitated.\n\nHigher slots: Increase damage by 1d6 per slot level above 4.",
+    "da": "Vælg én skabning, du kan se inden for rækkevidde. Alternativt kan du udtale en skabnings navn: Er den inden for rækkevidde, bliver den målet, selv om du ikke kan se den. Er den navngivne skabning uden for rækkevidde, opløses formularen uden virkning.\n\nMålet laver en INT-redning. Ved fejl tager det 7d6 Psychic-skade og bliver Incapacitated indtil starten af din næste tur. Ved succes tager det halv skade uden Incapacitated.\n\nHøjere slots: Skaden øges med 1d6 pr. slotniveau over 4.",
+    "summary": {
+      "en": "Strike a seen or named creature with Psychic damage and possible Incapacitated.",
+      "da": "Ram en synlig eller navngiven skabning med Psychic-skade og mulig Incapacitated."
+    }
+  },
+  "Fizban's Platinum Shield": {
+    "level": 6,
+    "school": "Abjuration",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Bonus Action",
+    "range": "60 feet",
+    "components": "V, S, M (a platinum-plated dragon scale worth 500+ GP)",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Fizban's Treasury of Dragons",
+    "rulesVersion": "2014",
+    "publishedYear": 2021,
+    "source": {
+      "label": "Fizban's Treasury of Dragons (2021), p. 20",
+      "url": "https://www.dndbeyond.com/spells/1183864-fizbans-platinum-shield",
+      "name": "Fizban's Platinum Shield",
+      "page": 20
+    },
+    "reviewed": "2026-11-03",
+    "en": "Surround one creature within range, including yourself if you choose, with a protective field. It sheds Dim Light out to 5 feet. While surrounded, the creature gains:\n\n• Half Cover.\n• Resistance to Acid, Cold, Fire, Lightning, and Poison damage.\n• Evasion: Against an effect allowing a Dexterity save for half damage, it takes no damage on a successful save and half damage on a failed save.\n\nAs a Bonus Action on later turns, you may transfer the field to another creature within 60 feet of the field. Measure this transfer from the field, not from you.",
+    "da": "Omgiv én skabning inden for rækkevidde med et beskyttende felt; du kan vælge dig selv. Feltet udsender Dim Light ud til 5 ft. Mens skabningen er omgivet, får den:\n\n• Half Cover.\n• Resistance mod Acid-, Cold-, Fire-, Lightning- og Poison-skade.\n• Evasion: Mod en effekt, der tillader en DEX-redning for halv skade, tager den ingen skade ved succes og halv skade ved fejl.\n\nSom Bonus Action på senere ture kan du flytte feltet til en anden skabning inden for 60 ft fra feltet. Denne afstand måles fra feltet, ikke fra dig.",
+    "summary": {
+      "en": "Shield a creature with cover, five damage resistances, and Evasion.",
+      "da": "Beskyt en skabning med cover, fem skademodstande og Evasion."
+    }
+  },
+  "Draconic Transformation": {
+    "level": 7,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Bonus Action",
+    "range": "Self",
+    "components": "V, S, M (a dragon statuette worth 500+ GP)",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Fizban's Treasury of Dragons",
+    "rulesVersion": "2014",
+    "publishedYear": 2021,
+    "source": {
+      "label": "Fizban's Treasury of Dragons (2021), p. 19",
+      "url": "https://www.dndbeyond.com/spells/1183863-draconic-transformation",
+      "name": "Draconic Transformation",
+      "page": 19
+    },
+    "reviewed": "2026-11-03",
+    "en": "Gain draconic features for the duration:\n\n• Blindsight 30 feet: Within this distance you can effectively see anything not behind Total Cover, even while Blinded or in darkness. You can also see an Invisible creature unless it successfully hides from you.\n• Breath weapon: When you cast the spell, and as a Bonus Action on subsequent turns, you may exhale a 60-foot cone. Each creature inside makes a Dexterity save, taking 6d8 Force damage on failure or half on success.\n• Wings: Incorporeal wings grant Fly Speed 60 feet.",
+    "da": "Du får drageegenskaber i varigheden:\n\n• Blindsight 30 ft: Inden for denne afstand kan du reelt se alt, der ikke er bag Total Cover, selv hvis du er Blinded eller befinder dig i mørke. Du kan også se en Invisible skabning, medmindre den lykkes med at skjule sig for dig.\n• Åndevåben: Når du kaster formularen, og som Bonus Action på efterfølgende ture, kan du udånde en 60-ft kegle. Hver skabning i den laver en DEX-redning og tager 6d8 Force-skade ved fejl eller halv skade ved succes.\n• Vinger: Uhåndgribelige vinger giver Fly Speed 60 ft.",
+    "summary": {
+      "en": "Gain flight, Blindsight, and a repeatable cone of Force breath.",
+      "da": "Få flyvning, Blindsight og et gentageligt åndevåben med Force-skade."
+    }
+  }
+}

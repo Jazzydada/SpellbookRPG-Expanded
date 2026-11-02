@@ -29,10 +29,10 @@ test('Artificer unlocks half-caster spells from level 1 and retains cantrips', (
   assert.deepEqual(reconcileSelection({'Web':true,'Mending':true}, 'Artificer', 4), {Mending:true});
 });
 
-test('unverified replacement pairs are preserved rather than guessed', () => {
+test('unverified pairs remain separate except the explicit user dragon preference', () => {
   const current = {'Summon Dragon':{},'Find Steed':{},'Homunculus Servant':{}};
   const older = {'Summon Draconic Spirit':{},'Find Greater Steed':{},'Create Homunculus':{}};
-  assert.equal(Object.keys(mergeCatalog(current,older)).length,6);
+  assert.equal(Object.keys(mergeCatalog(current,older)).length,5);
 });
 
 
