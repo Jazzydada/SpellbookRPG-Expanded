@@ -34,8 +34,10 @@ export function isAvailable(name, className, level, allowDunamancy = false) {
 }
 
 export function reconcileSelection(selected, className, level, allowDunamancy = false) {
-  return Object.fromEntries(Object.entries(selected)
-    .filter(([name, checked]) => checked && isAvailable(name, className, level, allowDunamancy)));
+  return { ...Object.fromEntries(Object.entries(selected)
+    .filter(([name, checked]) => checked && isAvailable(name, className, level, allowDunamancy))),
+    ...(className === "Artificer" ? { Mending: true } : {}),
+  };
 }
 
 export function validLevelFilter(filter, className, level, allowDunamancy = false) {
@@ -46,6 +48,7 @@ export function validLevelFilter(filter, className, level, allowDunamancy = fals
 export function toggleSelection(selected, name, className, level, allowDunamancy = false) {
   const next = reconcileSelection(selected, className, level, allowDunamancy);
   if (!isAvailable(name, className, level, allowDunamancy)) return next;
+  if (className === "Artificer" && name === "Mending") return next;
   if (next[name]) { delete next[name]; return next; }
   const spellLevel = SPELLS[name].level;
   // Mystic Arcanum grants one choice of each unlocked level, not spell slots.

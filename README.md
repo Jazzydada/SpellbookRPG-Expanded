@@ -2,7 +2,7 @@
 
 Separate expanded edition of [SpellbookRPG](https://spellbook-rpg.vercel.app/), version 2.0.0.
 
-A 2024-first spellbook with 537 sourced spells, Danish and English descriptions, book filters, and clearly marked older rules. Includes 391 PHB 2024 spells, all 33 Arcana Unleashed spells (2026, using the 2024 rules), plus 11 Tasha, 40 Elemental Evil, 38 Xanathar, 15 Wildemount, 2 Ravnica and 7 Acquisitions Incorporated spells. The later Arcana versions take precedence over older versions of the same spells. This is not yet full coverage of every official book.
+A 2024-first spellbook with 557 sourced spells, Danish and English descriptions, book filters, and clearly marked older rules. Includes 391 PHB 2024 spells, all 33 Arcana Unleashed spells (2026, using the 2024 rules), plus 11 Tasha, 40 Elemental Evil, 38 Xanathar, 15 Wildemount, 2 Ravnica 7 Acquisitions Incorporated spells, 19 Heroes of Faerûn spells and Homunculus Servant from Forge of the Artificer. Artificer uses the revised Forge class list, with automatic Mending and level-based preparation guidance. The later Arcana versions take precedence over older versions of the same spells. This is not yet full coverage of every official book.
 
 ## Character spellbooks
 

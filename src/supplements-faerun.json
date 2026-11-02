@@ -1,0 +1,491 @@
+{
+  "Alustriel's Mooncloak": {
+    "level": 5,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Ranger",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self",
+    "components": "V, S, M (a moonstone worth 50+ GP)",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Forgotten Realms: Heroes of Faerûn",
+    "rulesVersion": "2024",
+    "publishedYear": 2025,
+    "source": {
+      "label": "Heroes of Faerûn (2025), PDF-udtræk s. 167",
+      "url": "https://www.dndbeyond.com/spells/3078516-alustriels-mooncloak",
+      "name": "Alustriel's Mooncloak",
+      "page": 167,
+      "pageType": "pdf-export"
+    },
+    "reviewed": "2026-11-03",
+    "en": "Moonlight creates Dim Light in a 20-foot Emanation originating from you for the duration. You and your allies inside it have Half Cover and Resistance to Cold, Lightning, and Radiant damage.\n\nWhile the spell lasts, you may use either option below; doing so ends the spell immediately:\n\n• Liberation: When you fail a saving throw to avoid or end Frightened, Grappled, or Restrained, use your Reaction to succeed instead.\n• Respite: Use a Magic action to restore 4d10 + your spellcasting ability modifier HP to yourself or one ally in the Emanation.",
+    "da": "Månelys skaber Dim Light i en 20-ft Emanation fra dig i varigheden. Du og dine allierede i området har Half Cover samt Resistance mod Cold-, Lightning- og Radiant-skade.\n\nMens formularen varer, kan du bruge én af mulighederne nedenfor. Det afslutter straks formularen:\n\n• Liberation: Når du fejler en redning for at undgå eller afslutte Frightened, Grappled eller Restrained, kan du bruge din Reaction på at lykkes i stedet.\n• Respite: Brug en Magic action på at lade dig selv eller én allieret i området genvinde 4d10 + din spellcasting ability modifier HP."
+  },
+  "Backlash": {
+    "level": 4,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Reaction, in response to taking damage",
+    "range": "60 feet",
+    "components": "V",
+    "dur": "Instantaneous",
+    "book": "Forgotten Realms: Heroes of Faerûn",
+    "rulesVersion": "2024",
+    "publishedYear": 2025,
+    "source": {
+      "label": "Heroes of Faerûn (2025), PDF-udtræk s. 167",
+      "url": "https://www.dndbeyond.com/spells/3078517-backlash",
+      "name": "Backlash",
+      "page": 167,
+      "pageType": "pdf-export"
+    },
+    "reviewed": "2026-11-03",
+    "en": "Reduce the triggering damage you take by 4d6 + your spellcasting ability modifier. If a creature within range caused that damage, you may also force it to make a Constitution saving throw. It takes 4d6 Force damage on failure or half on success.\n\nHigher slots: Both the damage reduction and the Force damage increase by 1d6 per slot level above 4.",
+    "da": "Reducér den udløsende skade, du tager, med 4d6 + din spellcasting ability modifier. Hvis skaden kom fra en skabning inden for rækkevidde, kan du desuden tvinge den til en CON-redning. Den tager 4d6 Force-skade ved fejl eller halv skade ved succes.\n\nHøjere slots: Både skadereduktionen og Force-skaden øges med 1d6 pr. slotniveau over 4."
+  },
+  "Blade of Disaster": {
+    "level": 9,
+    "school": "Conjuration",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Bonus Action",
+    "range": "60 feet",
+    "components": "V, S",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Forgotten Realms: Heroes of Faerûn",
+    "rulesVersion": "2024",
+    "publishedYear": 2025,
+    "source": {
+      "label": "Heroes of Faerûn (2025), PDF-udtræk s. 167",
+      "url": "https://www.dndbeyond.com/spells/3078515-blade-of-disaster",
+      "name": "Blade of Disaster",
+      "page": 167,
+      "pageType": "pdf-export"
+    },
+    "reviewed": "2026-11-03",
+    "en": "Create a blade-shaped planar rift, 3 feet long, in a space of your choice within range. It lasts for the duration. Immediately make up to two melee spell attacks, each against a creature or object within 5 feet of the rift. A hit deals 10d6 Force damage. These attacks score a Critical Hit on a d20 result of 18 or higher.\n\nAs a Bonus Action on later turns, move the rift up to 60 feet and repeat the two attacks against creatures or objects within 5 feet of it. The attacks may target the same target or different ones. The blade passes harmlessly through any barrier, including magical barriers such as Wall of Force.",
+    "da": "Skab en 3-ft lang, klingeformet revne mellem planer i et felt efter dit valg inden for rækkevidde. Den varer hele formularens varighed. Foretag straks op til to melee spell attacks, hvert mod en skabning eller genstand inden for 5 ft fra revnen. En træffer giver 10d6 Force-skade. Angrebene giver Critical Hit ved et d20-resultat på 18 eller højere.\n\nSom Bonus Action på senere ture kan du flytte revnen op til 60 ft og gentage de to angreb mod skabninger eller genstande inden for 5 ft fra den. Angrebene kan ramme samme mål eller forskellige mål. Klingen kan passere uskadeligt gennem enhver barriere, også magiske barrierer såsom Wall of Force."
+  },
+  "Cacophonic Shield": {
+    "level": 3,
+    "school": "Evocation",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self",
+    "components": "V, S",
+    "dur": "Concentration, up to 10 minutes",
+    "book": "Forgotten Realms: Heroes of Faerûn",
+    "rulesVersion": "2024",
+    "publishedYear": 2025,
+    "source": {
+      "label": "Heroes of Faerûn (2025), PDF-udtræk s. 167",
+      "url": "https://www.dndbeyond.com/spells/3078514-cacophonic-shield",
+      "name": "Cacophonic Shield",
+      "page": 167,
+      "pageType": "pdf-export"
+    },
+    "reviewed": "2026-11-03",
+    "en": "Thunderous sound fills a 10-foot Emanation originating from you. When it enters a creature's space, or a creature enters it or ends its turn there, that creature makes a Constitution saving throw. Failure deals 3d6 Thunder damage and gives Deafened until the start of your next turn; success deals half damage only. Each creature makes this save only once per turn. When you cast the spell, you may designate creatures to be unaffected.\n\nYou also have Resistance to Thunder damage, and ranged attack rolls against you have Disadvantage.\n\nHigher slots: Damage increases by 1d6 per slot level above 3.",
+    "da": "Tordnende lyd fylder en 10-ft Emanation fra dig. Når området bevæger sig ind i en skabnings felt, eller en skabning går ind i området eller afslutter sin tur der, laver skabningen en CON-redning. Fejl giver 3d6 Thunder-skade og Deafened indtil starten af din næste tur; succes giver kun halv skade. Hver skabning laver højst denne redning én gang pr. tur. Når du kaster formularen, kan du udpege skabninger, som ikke påvirkes.\n\nDu har desuden Resistance mod Thunder-skade, og afstandsangreb mod dig har Disadvantage.\n\nHøjere slots: Skaden øges med 1d6 pr. slotniveau over 3."
+  },
+  "Conjure Constructs": {
+    "level": 3,
+    "school": "Conjuration",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "60 feet",
+    "components": "V, S, M (a brass cog)",
+    "dur": "Concentration, up to 10 minutes",
+    "book": "Forgotten Realms: Heroes of Faerûn",
+    "rulesVersion": "2024",
+    "publishedYear": 2025,
+    "source": {
+      "label": "Heroes of Faerûn (2025), PDF-udtræk s. 168",
+      "url": "https://www.dndbeyond.com/spells/3078513-conjure-constructs",
+      "name": "Conjure Constructs",
+      "page": 168,
+      "pageType": "pdf-export"
+    },
+    "reviewed": "2026-11-03",
+    "en": "Conjure intangible spirits in an unoccupied space you can see within range. They look like a Medium-sized group of modrons or other Constructs and last for the duration.\n\nWhen you cast the spell, and as a Magic action on subsequent turns, command them to affect one creature or object you can see within 5 feet of them. Choose one effect:\n\n• Clockwork Force: The target makes a Dexterity save, taking 3d6 Force damage on failure or half on success.\n• Orderly Ward: The target gains 1d6 + your spellcasting ability modifier Temporary HP.\n\nWhen you move on your turn, you may also move the spirits up to 30 feet to an unoccupied space you can see.\n\nHigher slots: Both damage and Temporary HP increase by 1d6 per slot level above 3.",
+    "da": "Fremman uhåndgribelige ånder i et ledigt felt, du kan se inden for rækkevidde. De ligner en samlet gruppe modroner eller andre Constructs af størrelse Medium og bliver i formularens varighed.\n\nNår du kaster formularen, og som en Magic action på efterfølgende ture, kan du befale ånderne at påvirke én skabning eller genstand, som du kan se inden for 5 ft fra dem. Vælg én effekt:\n\n• Clockwork Force: Målet laver en DEX-redning og tager 3d6 Force-skade ved fejl eller halv skade ved succes.\n• Orderly Ward: Målet får 1d6 + din spellcasting ability modifier Temporary HP.\n\nNår du bevæger dig på din tur, kan du også flytte ånderne op til 30 ft til et ledigt felt, du kan se.\n\nHøjere slots: Både skaden og de Temporary HP øges med 1d6 pr. slotniveau over 3."
+  },
+  "Death Armor": {
+    "level": 2,
+    "school": "Necromancy",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Touch",
+    "components": "V, S, M (an onyx worth 50+ GP, consumed)",
+    "dur": "1 hour",
+    "book": "Forgotten Realms: Heroes of Faerûn",
+    "rulesVersion": "2024",
+    "publishedYear": 2025,
+    "source": {
+      "label": "Heroes of Faerûn (2025), PDF-udtræk s. 168",
+      "url": "https://www.dndbeyond.com/spells/3078531-death-armor",
+      "name": "Death Armor",
+      "page": 168,
+      "pageType": "pdf-export"
+    },
+    "reviewed": "2026-11-03",
+    "en": "Touch one creature and surround it with a dark aura for the duration. It has Advantage on Death Saving Throws. Once per turn, when a creature within 5 feet of it hits it with a melee attack roll, that attacker takes 2d4 Necrotic damage.",
+    "da": "Berør én skabning og omgiv den med en mørk aura i varigheden. Målet har Advantage på Death Saving Throws. Én gang pr. tur, når en skabning inden for 5 ft fra målet rammer det med et nærkampsangrebskast, tager angriberen 2d4 Necrotic-skade."
+  },
+  "Deryan's Helpful Homunculi": {
+    "level": 2,
+    "school": "Conjuration",
+    "classes": [
+      "Cleric",
+      "Wizard"
+    ],
+    "cast": "Action or Ritual",
+    "range": "Self",
+    "components": "V, S, M (powdered gemstones worth 100+ GP, consumed, and one set of Artisan's Tools with which you are proficient)",
+    "dur": "8 hours",
+    "book": "Forgotten Realms: Heroes of Faerûn",
+    "rulesVersion": "2024",
+    "publishedYear": 2025,
+    "source": {
+      "label": "Heroes of Faerûn (2025), PDF-udtræk s. 168",
+      "url": "https://www.dndbeyond.com/spells/3078530-deryans-helpful-homunculi",
+      "name": "Deryan's Helpful Homunculi",
+      "page": 168,
+      "pageType": "pdf-export"
+    },
+    "reviewed": "2026-11-03",
+    "en": "Summon helpful spirits for the duration. They resemble homunculi or another Construct of your choice but are intangible and invulnerable. They count as proficient in Arcana and in the Artisan's Tools used as the spell's material component.\n\nWhen you craft an item, the entire group counts as one crafting assistant, halving the crafting time.",
+    "da": "Fremman hjælpsomme ånder i varigheden. De ligner homunculi eller en anden Construct efter dit valg, men er uhåndgribelige og usårlige. De regnes for at have proficiency i Arcana og i det sæt Artisan's Tools, som blev brugt som materialekomponent.\n\nNår du fremstiller en genstand, fungerer hele gruppen som én håndværksassistent og halverer fremstillingstiden."
+  },
+  "Dirge": {
+    "level": 6,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Cleric"
+    ],
+    "cast": "Action",
+    "range": "Self",
+    "components": "V",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Forgotten Realms: Heroes of Faerûn",
+    "rulesVersion": "2024",
+    "publishedYear": 2025,
+    "source": {
+      "label": "Heroes of Faerûn (2025), PDF-udtræk s. 168",
+      "url": "https://www.dndbeyond.com/spells/3078529-dirge",
+      "name": "Dirge",
+      "page": 168,
+      "pageType": "pdf-export"
+    },
+    "reviewed": "2026-11-03",
+    "en": "Deathly power fills a 60-foot Emanation originating from you. At casting, you may designate creatures to be unaffected. Other creatures cannot regain HP while in the area. Whenever the Emanation enters a creature's space, or a creature enters it or ends its turn there, it makes a Constitution save. On failure it takes 3d10 Necrotic damage and has the Prone condition. On success it takes half damage and its Speed is halved. Each creature makes this save only once per turn.\n\n## Casting as a Circle Spell\nThis special option requires at least two secondary casters and changes the duration to Concentration, up to 10 minutes. A creature that fails a save against the spell also gains 1 Exhaustion level. While it has Exhaustion levels, finishing a Long Rest neither restores its lost HP nor reduces its Exhaustion level. When the spell is cast, each secondary caster must expend a level 4+ spell slot; otherwise the spell fails.\n\n## Shared Circle casting rules\nA Circle spell must be cast with a spell slot and have a casting time of an Action or at least 1 minute. Use the spell-specific Circle variant instead of another Circle casting option; only one option applies to a casting. The primary caster chooses targets and other spell choices, supplies the components and casting slot, and maintains any Concentration required by the resulting duration. Effects originate from that caster unless stated otherwise. A component required for the Circle casting is supplied once for the casting, not once per participant.\n\nThe primary caster starts with a Magic action and maintains Concentration until casting finishes. Reactions triggered by casting a spell, including Counterspell, can trigger at this initiation. At least one secondary caster is required, and each must have Spellcasting or Pact Magic; the variant can require more. After initiation, each secondary caster contributes with a Magic action while within 30 feet of the primary caster and before the start of that caster’s next turn. For an Action casting time, the spell takes effect immediately after the final secondary caster contributes; the primary caster decides who is final.\n\nFor a casting time of 1 minute or more, the primary caster and every secondary caster must use a Magic action on every one of their turns throughout casting, and each maintains Concentration. If any participant’s Concentration breaks, the spell fails. At the DM’s discretion, an NPC secondary caster can replace a required slot with a limited use of a spell of that level or higher. A failed Circle casting has no effect, expends no casting slot and consumes no materials; a new attempt must start over.",
+    "da": "Dødens kraft fylder en 60-ft Emanation fra dig. Ved kastet kan du udpege skabninger, der ikke påvirkes. Andre skabninger kan ikke genvinde HP, mens de er i området. Hver gang området bevæger sig ind i en skabnings felt, eller en skabning går ind i området eller afslutter sin tur der, laver den en CON-redning. Ved fejl tager den 3d10 Necrotic-skade og får Prone. Ved succes tager den halv skade, og dens Speed halveres. Hver skabning laver højst denne redning én gang pr. tur.\n\n## Kast som Circle Spell\nDenne særlige mulighed kræver mindst to sekundære kastere og ændrer varigheden til Concentration, op til 10 minutter. En skabning, der fejler en redning mod formularen, får desuden 1 Exhaustion-niveau. Så længe den har Exhaustion-niveauer, genopretter et afsluttet Long Rest hverken dens mistede HP eller reducerer dens Exhaustion. Når formularen kastes, skal hver sekundær kaster bruge et spell slot på niveau 4 eller højere; ellers mislykkes kastet.\n\n## Fælles regler for Circle-kast\nEn Circle-formular skal kastes med et spell slot og have kasttid Action eller mindst 1 minut. Den særlige Circle-variant bruges i stedet for en anden Circle casting option; kun én mulighed kan bruges ved samme kast. Den primære kaster vælger mål og formularens øvrige valg, leverer komponenter og det slot, formularen kastes med, og opretholder den Concentration, som den endelige varighed kræver. Effekterne udgår fra den primære kaster, medmindre andet er angivet. En komponent til Circle-kastet leveres én gang for hele kastet, ikke én gang pr. deltager.\n\nDen primære kaster starter med en Magic-handling og holder Concentration, indtil kastet er færdigt. Reactions udløst af et formularkast, herunder Counterspell, kan udløses ved denne start. Der kræves mindst én sekundær kaster, og hver skal have Spellcasting eller Pact Magic; den særlige variant kan kræve flere. Efter starten bidrager hver sekundær kaster med en Magic-handling, mens vedkommende er inden for 30 ft fra den primære kaster og før starten af den primære kasters næste tur. Er kasttiden Action, træder formularen i kraft straks efter den sidste sekundære kasters bidrag. Den primære kaster bestemmer, hvem der bidrager sidst.\n\nVed en kasttid på mindst 1 minut skal den primære og samtlige sekundære kastere bruge en Magic-handling på hver af deres ture gennem hele kasttiden, og alle skal holde Concentration. Brydes én deltagers Concentration, mislykkes kastet. DM kan tillade, at en sekundær NPC-kaster erstatter et påkrævet slot med en begrænset anvendelse af en formular på samme eller højere niveau. Et mislykket Circle-kast har ingen virkning, bruger ikke formularens slot og forbruger ingen materialer; et nyt forsøg skal begynde forfra.",
+    "circleSpell": true
+  },
+  "Doomtide": {
+    "level": 4,
+    "school": "Conjuration",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Warlock"
+    ],
+    "cast": "Action",
+    "range": "120 feet",
+    "components": "V, S, M (soot and a dried eel)",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Forgotten Realms: Heroes of Faerûn",
+    "rulesVersion": "2024",
+    "publishedYear": 2025,
+    "source": {
+      "label": "Heroes of Faerûn (2025), PDF-udtræk s. 169",
+      "url": "https://www.dndbeyond.com/spells/3078528-doomtide",
+      "name": "Doomtide",
+      "page": 169,
+      "pageType": "pdf-export"
+    },
+    "reviewed": "2026-11-03",
+    "en": "Create a 20-foot-radius Sphere of inky fog within range. It is magical Darkness and lasts for the duration or until a strong wind, such as Gust of Wind, disperses it and ends the spell.\n\nEvery creature in the Sphere when it appears makes a Wisdom save. On failure it takes 5d6 Psychic damage and subtracts 1d6 from its saving throws until the end of its next turn. Success deals half damage only. A creature also makes this save when the Sphere moves into its space, when it enters the Sphere, or when it ends its turn inside it; each creature saves only once per turn. The Sphere moves 10 feet away from you at the start of each of your turns.\n\n## Casting as a Circle Spell\nThis special option requires at least five secondary casters. Also provide a string of three black pearls from Pandemonium, which the spell consumes. Range becomes 1 mile, duration becomes until dispelled, and Concentration is no longer required. It ends early if any participant in this casting contributes to another casting of Doomtide as a Circle Spell. At casting, every secondary caster must expend a level 3+ spell slot; otherwise the spell fails.\n\n## Shared Circle casting rules\nA Circle spell must be cast with a spell slot and have a casting time of an Action or at least 1 minute. Use the spell-specific Circle variant instead of another Circle casting option; only one option applies to a casting. The primary caster chooses targets and other spell choices, supplies the components and casting slot, and maintains any Concentration required by the resulting duration. Effects originate from that caster unless stated otherwise. A component required for the Circle casting is supplied once for the casting, not once per participant.\n\nThe primary caster starts with a Magic action and maintains Concentration until casting finishes. Reactions triggered by casting a spell, including Counterspell, can trigger at this initiation. At least one secondary caster is required, and each must have Spellcasting or Pact Magic; the variant can require more. After initiation, each secondary caster contributes with a Magic action while within 30 feet of the primary caster and before the start of that caster’s next turn. For an Action casting time, the spell takes effect immediately after the final secondary caster contributes; the primary caster decides who is final.\n\nFor a casting time of 1 minute or more, the primary caster and every secondary caster must use a Magic action on every one of their turns throughout casting, and each maintains Concentration. If any participant’s Concentration breaks, the spell fails. At the DM’s discretion, an NPC secondary caster can replace a required slot with a limited use of a spell of that level or higher. A failed Circle casting has no effect, expends no casting slot and consumes no materials; a new attempt must start over.",
+    "da": "Skab en Sphere af sort tåge med 20-ft radius inden for rækkevidde. Tågen er magisk Darkness og varer hele varigheden, medmindre en stærk vind, eksempelvis Gust of Wind, spreder den og afslutter formularen.\n\nHver skabning i området, når det opstår, laver en WIS-redning. Ved fejl tager den 5d6 Psychic-skade og trækker 1d6 fra sine redningskast indtil slutningen af sin næste tur. Succes giver kun halv skade. En skabning laver også denne redning, når området bevæger sig ind i dens felt, når den går ind i området, eller når den afslutter sin tur der; hver skabning laver højst redningen én gang pr. tur. Ved starten af hver af dine ture flytter området sig 10 ft væk fra dig.\n\n## Kast som Circle Spell\nDenne særlige mulighed kræver mindst fem sekundære kastere. Ud over de normale komponenter skal du levere en snor med tre sorte perler fra Pandemonium, som formularen forbruger. Rækkevidden bliver 1 mile, varigheden bliver indtil dispelled, og Concentration er ikke længere nødvendig. Formularen slutter tidligt, hvis en deltager i dette kast medvirker i et andet kast af Doomtide som Circle Spell. Ved kastet skal hver sekundær kaster bruge et spell slot på niveau 3 eller højere; ellers mislykkes formularen.\n\n## Fælles regler for Circle-kast\nEn Circle-formular skal kastes med et spell slot og have kasttid Action eller mindst 1 minut. Den særlige Circle-variant bruges i stedet for en anden Circle casting option; kun én mulighed kan bruges ved samme kast. Den primære kaster vælger mål og formularens øvrige valg, leverer komponenter og det slot, formularen kastes med, og opretholder den Concentration, som den endelige varighed kræver. Effekterne udgår fra den primære kaster, medmindre andet er angivet. En komponent til Circle-kastet leveres én gang for hele kastet, ikke én gang pr. deltager.\n\nDen primære kaster starter med en Magic-handling og holder Concentration, indtil kastet er færdigt. Reactions udløst af et formularkast, herunder Counterspell, kan udløses ved denne start. Der kræves mindst én sekundær kaster, og hver skal have Spellcasting eller Pact Magic; den særlige variant kan kræve flere. Efter starten bidrager hver sekundær kaster med en Magic-handling, mens vedkommende er inden for 30 ft fra den primære kaster og før starten af den primære kasters næste tur. Er kasttiden Action, træder formularen i kraft straks efter den sidste sekundære kasters bidrag. Den primære kaster bestemmer, hvem der bidrager sidst.\n\nVed en kasttid på mindst 1 minut skal den primære og samtlige sekundære kastere bruge en Magic-handling på hver af deres ture gennem hele kasttiden, og alle skal holde Concentration. Brydes én deltagers Concentration, mislykkes kastet. DM kan tillade, at en sekundær NPC-kaster erstatter et påkrævet slot med en begrænset anvendelse af en formular på samme eller højere niveau. Et mislykket Circle-kast har ingen virkning, bruger ikke formularens slot og forbruger ingen materialer; et nyt forsøg skal begynde forfra.",
+    "circleSpell": true
+  },
+  "Elminster's Effulgent Spheres": {
+    "level": 6,
+    "school": "Evocation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self",
+    "components": "V, S, M (an opal worth 1,000+ GP)",
+    "dur": "1 hour",
+    "book": "Forgotten Realms: Heroes of Faerûn",
+    "rulesVersion": "2024",
+    "publishedYear": 2025,
+    "source": {
+      "label": "Heroes of Faerûn (2025), PDF-udtræk s. 169",
+      "url": "https://www.dndbeyond.com/spells/3078527-elminsters-effulgent-spheres",
+      "name": "Elminster's Effulgent Spheres",
+      "page": 169,
+      "pageType": "pdf-export"
+    },
+    "reviewed": "2026-11-03",
+    "en": "Six colored spheres orbit you for the duration. While they remain, expend them for either effect:\n\n• Absorb Energy: When you take Acid, Cold, Fire, Lightning, or Thunder damage, use a Reaction and spend one sphere to gain Resistance to that triggering damage type until the start of your next turn.\n• Energy Blast: As a Bonus Action, send one sphere at a target within 120 feet of yourself and make a ranged spell attack. A hit deals 3d6 damage of your choice of Acid, Cold, Fire, Lightning, or Thunder. The sphere is spent whether the attack hits or misses.\n\nThe spell ends early when all spheres are spent.\n\nHigher slots: Gain one additional sphere per slot level above 6.",
+    "da": "Seks farvede kugler kredser om dig i varigheden. Så længe der er kugler tilbage, kan du bruge dem på én af disse effekter:\n\n• Absorb Energy: Når du tager Acid-, Cold-, Fire-, Lightning- eller Thunder-skade, kan du bruge en Reaction og én kugle på at få Resistance mod den udløsende skadetype indtil starten af din næste tur.\n• Energy Blast: Som Bonus Action sender du én kugle mod et mål inden for 120 ft fra dig og laver et ranged spell attack. Ved træffer giver den 3d6 skade af typen Acid, Cold, Fire, Lightning eller Thunder efter dit valg. Kuglen bruges op, uanset om angrebet rammer eller misser.\n\nFormularen slutter tidligt, når alle kugler er brugt.\n\nHøjere slots: Du får én ekstra kugle pr. slotniveau over 6."
+  },
+  "Elminster's Elusion": {
+    "level": 2,
+    "school": "Abjuration",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Bonus Action",
+    "range": "Self",
+    "components": "V, S",
+    "dur": "Concentration, up to 10 minutes",
+    "book": "Forgotten Realms: Heroes of Faerûn",
+    "rulesVersion": "2024",
+    "publishedYear": 2025,
+    "source": {
+      "label": "Heroes of Faerûn (2025), PDF-udtræk s. 169",
+      "url": "https://www.dndbeyond.com/spells/3078526-elminsters-elusion",
+      "name": "Elminster's Elusion",
+      "page": 169,
+      "pageType": "pdf-export"
+    },
+    "reviewed": "2026-11-03",
+    "en": "For the duration, you have Advantage on saving throws against spells and magical effects. Whenever you succeed on a saving throw against a spell or magical effect that would normally deal half damage on a success, you instead take no damage.",
+    "da": "I varigheden har du Advantage på saving throws mod formularer og magiske effekter. Når du lykkes med en redning mod en formular eller magisk effekt, der normalt giver halv skade ved succes, tager du i stedet ingen skade."
+  },
+  "Holy Star of Mystra": {
+    "level": 8,
+    "school": "Evocation",
+    "classes": [
+      "Cleric",
+      "Wizard"
+    ],
+    "cast": "Bonus Action",
+    "range": "Self",
+    "components": "V, S",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Forgotten Realms: Heroes of Faerûn",
+    "rulesVersion": "2024",
+    "publishedYear": 2025,
+    "source": {
+      "label": "Heroes of Faerûn (2025), PDF-udtræk s. 170",
+      "url": "https://www.dndbeyond.com/spells/3078525-holy-star-of-mystra",
+      "name": "Holy Star of Mystra",
+      "page": 170,
+      "pageType": "pdf-export"
+    },
+    "reviewed": "2026-11-03",
+    "en": "A glowing mote hovers above you for the duration, shedding Bright Light in a 5-foot radius and Dim Light for another 5 feet.\n\nWhen you cast the spell, and as a Bonus Action on later turns, you may fire a bolt at one creature within 120 feet of you. Make a ranged spell attack. On a hit, deal 4d10 + your spellcasting ability modifier in Force or Radiant damage, your choice.\n\nWhile the mote exists, you have Three-Quarters Cover. If you succeed on a saving throw against a level 7 or lower spell that targeted only you and created no area of effect, you may use a Reaction to reflect that spell at its caster. That caster makes a saving throw against the reflected spell using their own spell save DC.",
+    "da": "En lysende energistjerne svæver over dig i varigheden. Den udsender Bright Light i 5 ft radius og Dim Light yderligere 5 ft.\n\nNår du kaster formularen, og som Bonus Action på senere ture, kan du affyre en stråle mod én skabning inden for 120 ft fra dig. Lav et ranged spell attack. Ved træffer giver strålen 4d10 + din spellcasting ability modifier i Force- eller Radiant-skade efter dit valg.\n\nMens stjernen findes, har du Three-Quarters Cover. Lykkes du med en redning mod en formular på niveau 7 eller lavere, der kun havde dig som mål og ikke skabte et effektområde, kan du bruge en Reaction til at sende formularen tilbage mod dens kaster. Kasteren laver en redning mod den tilbagekastede formular med sin egen spell save DC."
+  },
+  "Laeral's Silver Lance": {
+    "level": 3,
+    "school": "Evocation",
+    "classes": [
+      "Cleric",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self",
+    "components": "V, S, M (a silver pin worth 250+ GP)",
+    "dur": "Instantaneous",
+    "book": "Forgotten Realms: Heroes of Faerûn",
+    "rulesVersion": "2024",
+    "publishedYear": 2025,
+    "source": {
+      "label": "Heroes of Faerûn (2025), PDF-udtræk s. 170",
+      "url": "https://www.dndbeyond.com/spells/3078524-laerals-silver-lance",
+      "name": "Laeral's Silver Lance",
+      "page": 170,
+      "pageType": "pdf-export"
+    },
+    "reviewed": "2026-11-03",
+    "en": "Release silver energy in a Line extending from you, 120 feet long and 5 feet wide. Each creature you choose in the Line makes a Strength saving throw. Failure: 3d10 Force damage and Prone. Success: half damage without Prone.\n\nHigher slots: Increase the damage by 1d10 per slot level above 3.",
+    "da": "Send sølvfarvet energi ud fra dig i en Line, der er 120 ft lang og 5 ft bred. Hver skabning efter dit valg i linjen laver en STR-redning. Ved fejl tager den 3d10 Force-skade og bliver Prone. Ved succes tager den halv skade og bliver ikke Prone.\n\nHøjere slots: Skaden øges med 1d10 pr. slotniveau over 3."
+  },
+  "Simbul's Synostodweomer": {
+    "level": 7,
+    "school": "Transmutation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Touch",
+    "components": "V, S",
+    "dur": "1 hour",
+    "book": "Forgotten Realms: Heroes of Faerûn",
+    "rulesVersion": "2024",
+    "publishedYear": 2025,
+    "source": {
+      "label": "Heroes of Faerûn (2025), PDF-udtræk s. 171",
+      "url": "https://www.dndbeyond.com/spells/3078523-simbuls-synostodweomer",
+      "name": "Simbul's Synostodweomer",
+      "page": 171,
+      "pageType": "pdf-export"
+    },
+    "reviewed": "2026-11-03",
+    "en": "Touch one creature and imbue it with healing energy for the duration. Whenever it casts a spell using a spell slot, it may immediately roll a number of its unexpended Hit Point Dice equal to that slot’s level. It regains HP equal to the dice total plus your spellcasting ability modifier, and those Hit Point Dice are then expended. The modifier is yours, not necessarily the target’s.",
+    "da": "Berør én skabning, og fyld den med helbredende energi i varigheden. Hver gang målet kaster en formular med et spell slot, kan det straks slå et antal af sine ubrugte Hit Point Dice svarende til slotniveauet. Det gendanner HP svarende til terningernes samlede resultat plus din spellcasting ability modifier. De anvendte Hit Point Dice er derefter brugt. Det er din modifikator, ikke nødvendigvis målets, der lægges til."
+  },
+  "Songal's Elemental Suffusion": {
+    "level": 5,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self",
+    "components": "V, S, M (a pearl worth 100+ GP)",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Forgotten Realms: Heroes of Faerûn",
+    "rulesVersion": "2024",
+    "publishedYear": 2025,
+    "source": {
+      "label": "Heroes of Faerûn (2025), PDF-udtræk s. 171",
+      "url": "https://www.dndbeyond.com/spells/3078522-songals-elemental-suffusion",
+      "name": "Songal's Elemental Suffusion",
+      "page": 171,
+      "pageType": "pdf-export"
+    },
+    "reviewed": "2026-11-03",
+    "en": "You gain these benefits for the duration:\n\n• Elemental protection: On casting, choose Acid, Cold, Fire, Lightning or Thunder. You gain Resistance to that damage type.\n• Elemental pulse: When you cast the spell and at the start of each subsequent turn, release a pulse in a 15-foot Emanation from yourself. Each creature you choose in the area makes a Dexterity save. Failure: 2d6 Acid, Cold, Fire, Lightning or Thunder damage, your choice, and Prone. Success: half damage and not Prone.\n• Flight: You gain Fly Speed 30 feet and can hover.\n\n## Circle spell variant\nCasting time becomes 1 minute and duration becomes Concentration, up to 10 minutes. For each secondary caster participating, you can choose one additional creature to receive the spell’s benefits for its duration, up to nine additional creatures. When the spell is cast, each secondary caster must expend a level 2 or higher spell slot; otherwise the spell fails.\n\n## Shared Circle casting rules\nA Circle spell must be cast with a spell slot and have a casting time of an Action or at least 1 minute. Use the spell-specific Circle variant instead of another Circle casting option; only one option applies to a casting. The primary caster chooses targets and other spell choices, supplies the components and casting slot, and maintains any Concentration required by the resulting duration. Effects originate from that caster unless stated otherwise. A component required for the Circle casting is supplied once for the casting, not once per participant.\n\nThe primary caster starts with a Magic action and maintains Concentration until casting finishes. Reactions triggered by casting a spell, including Counterspell, can trigger at this initiation. At least one secondary caster is required, and each must have Spellcasting or Pact Magic; the variant can require more. After initiation, each secondary caster contributes with a Magic action while within 30 feet of the primary caster and before the start of that caster’s next turn. For an Action casting time, the spell takes effect immediately after the final secondary caster contributes; the primary caster decides who is final.\n\nFor a casting time of 1 minute or more, the primary caster and every secondary caster must use a Magic action on every one of their turns throughout casting, and each maintains Concentration. If any participant’s Concentration breaks, the spell fails. At the DM’s discretion, an NPC secondary caster can replace a required slot with a limited use of a spell of that level or higher. A failed Circle casting has no effect, expends no casting slot and consumes no materials; a new attempt must start over.",
+    "da": "Du får følgende fordele i varigheden:\n\n• Elementarbeskyttelse: Ved kastet vælger du Acid, Cold, Fire, Lightning eller Thunder. Du får Resistance mod den valgte skadetype.\n• Elementarpuls: Når du kaster formularen og ved starten af hver af dine efterfølgende ture, udsender du en puls i en 15-ft Emanation fra dig. Hver skabning efter dit valg i området laver en DEX-redning. Ved fejl tager den 2d6 Acid-, Cold-, Fire-, Lightning- eller Thunder-skade efter dit valg og bliver Prone. Ved succes tager den halv skade og bliver ikke Prone.\n• Flyvning: Du får Fly Speed 30 ft og kan svæve på stedet (hover).\n\n## Variant som Circle spell\nKasttiden bliver 1 minut, og varigheden bliver Concentration, op til 10 minutter. For hver deltagende sekundær kaster kan du vælge én ekstra skabning, der også får formularens fordele i varigheden, dog højst ni ekstra skabninger. Når formularen kastes, skal hver sekundær kaster bruge et spell slot på niveau 2 eller højere; ellers mislykkes formularen.\n\n## Fælles regler for Circle-kast\nEn Circle-formular skal kastes med et spell slot og have kasttid Action eller mindst 1 minut. Den særlige Circle-variant bruges i stedet for en anden Circle casting option; kun én mulighed kan bruges ved samme kast. Den primære kaster vælger mål og formularens øvrige valg, leverer komponenter og det slot, formularen kastes med, og opretholder den Concentration, som den endelige varighed kræver. Effekterne udgår fra den primære kaster, medmindre andet er angivet. En komponent til Circle-kastet leveres én gang for hele kastet, ikke én gang pr. deltager.\n\nDen primære kaster starter med en Magic-handling og holder Concentration, indtil kastet er færdigt. Reactions udløst af et formularkast, herunder Counterspell, kan udløses ved denne start. Der kræves mindst én sekundær kaster, og hver skal have Spellcasting eller Pact Magic; den særlige variant kan kræve flere. Efter starten bidrager hver sekundær kaster med en Magic-handling, mens vedkommende er inden for 30 ft fra den primære kaster og før starten af den primære kasters næste tur. Er kasttiden Action, træder formularen i kraft straks efter den sidste sekundære kasters bidrag. Den primære kaster bestemmer, hvem der bidrager sidst.\n\nVed en kasttid på mindst 1 minut skal den primære og samtlige sekundære kastere bruge en Magic-handling på hver af deres ture gennem hele kasttiden, og alle skal holde Concentration. Brydes én deltagers Concentration, mislykkes kastet. DM kan tillade, at en sekundær NPC-kaster erstatter et påkrævet slot med en begrænset anvendelse af en formular på samme eller højere niveau. Et mislykket Circle-kast har ingen virkning, bruger ikke formularens slot og forbruger ingen materialer; et nyt forsøg skal begynde forfra.",
+    "circleSpell": true
+  },
+  "Spellfire Flare": {
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "60 feet",
+    "components": "V, S",
+    "dur": "Instantaneous",
+    "book": "Forgotten Realms: Heroes of Faerûn",
+    "rulesVersion": "2024",
+    "publishedYear": 2025,
+    "source": {
+      "label": "Heroes of Faerûn (2025), PDF-udtræk s. 172",
+      "url": "https://www.dndbeyond.com/spells/3078521-spellfire-flare",
+      "name": "Spellfire Flare",
+      "page": 172,
+      "pageType": "pdf-export"
+    },
+    "reviewed": "2026-11-03",
+    "en": "Make a ranged spell attack against a target within range. For this attack, the target gains no benefit from Half Cover or Three-Quarters Cover. On a hit, deal 2d10 Radiant damage.\n\nHigher slots: Create one extra blast per slot level above 1. Aim the blasts at the same target or different targets, making a separate attack roll for each blast.",
+    "da": "Lav et ranged spell attack mod et mål inden for rækkevidde. Målet får ingen fordel af Half Cover eller Three-Quarters Cover mod dette angreb. Ved træffer giver det 2d10 Radiant-skade.\n\nHøjere slots: Skab én ekstra stråle pr. slotniveau over 1. Du kan rette strålerne mod samme mål eller forskellige mål. Lav et særskilt attack roll for hver stråle."
+  },
+  "Spellfire Storm": {
+    "level": 4,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "60 feet",
+    "components": "V, S",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Forgotten Realms: Heroes of Faerûn",
+    "rulesVersion": "2024",
+    "publishedYear": 2025,
+    "source": {
+      "label": "Heroes of Faerûn (2025), PDF-udtræk s. 172",
+      "url": "https://www.dndbeyond.com/spells/3078520-spellfire-storm",
+      "name": "Spellfire Storm",
+      "page": 172,
+      "pageType": "pdf-export"
+    },
+    "reviewed": "2026-11-03",
+    "en": "Create a Cylinder of spellfire centered on a point within range, with a 20-foot radius and 20-foot height. Its area is Bright Light. Each creature inside when it appears makes a Constitution saving throw, taking 4d10 Radiant damage on failure or half on success. A creature also makes this damage save when it enters the area for the first time on a turn or ends its turn there, but makes this save only once per turn.\n\nWhenever a creature in the Cylinder casts a spell, it also makes a Constitution save. On failure, that spell dissipates without effect; the Action, Bonus Action or Reaction spent casting it is wasted. If it used a spell slot, that slot is not expended.\n\nWhen you cast Spellfire Storm, you may designate creatures to be unaffected by it.\n\nHigher slots: The damage increases by 1d10 per slot level above 4.\n\n## Circle spell variant\nIn addition to the usual components, provide a blue star sapphire worth 25,000+ GP, consumed by the spell. Range becomes 1 mile and Concentration is no longer required. Each secondary caster must expend a level 3 or higher spell slot when the spell is cast, or the spell fails. The number of secondary casters determines the Cylinder’s size and duration:\n\n| Secondary casters | Cylinder radius and height | Duration |\n| --- | --- | --- |\n| 1–3 | 40-foot radius, 40-foot height | 1 hour |\n| 4–6 | 60-foot radius, 60-foot height | 8 hours |\n| 7+ | 100-foot radius, 100-foot height | 24 hours |\n\nThe Circle spell ends early if any caster who participated contributes to another casting of Spellfire Storm as a Circle spell.\n\n## Shared Circle casting rules\nA Circle spell must be cast with a spell slot and have a casting time of an Action or at least 1 minute. Use the spell-specific Circle variant instead of another Circle casting option; only one option applies to a casting. The primary caster chooses targets and other spell choices, supplies the components and casting slot, and maintains any Concentration required by the resulting duration. Effects originate from that caster unless stated otherwise. A component required for the Circle casting is supplied once for the casting, not once per participant.\n\nThe primary caster starts with a Magic action and maintains Concentration until casting finishes. Reactions triggered by casting a spell, including Counterspell, can trigger at this initiation. At least one secondary caster is required, and each must have Spellcasting or Pact Magic; the variant can require more. After initiation, each secondary caster contributes with a Magic action while within 30 feet of the primary caster and before the start of that caster’s next turn. For an Action casting time, the spell takes effect immediately after the final secondary caster contributes; the primary caster decides who is final.\n\nFor a casting time of 1 minute or more, the primary caster and every secondary caster must use a Magic action on every one of their turns throughout casting, and each maintains Concentration. If any participant’s Concentration breaks, the spell fails. At the DM’s discretion, an NPC secondary caster can replace a required slot with a limited use of a spell of that level or higher. A failed Circle casting has no effect, expends no casting slot and consumes no materials; a new attempt must start over.",
+    "da": "Skab en Cylinder af spellfire omkring et punkt inden for rækkevidde med 20 ft radius og 20 ft højde. Området er Bright Light. Hver skabning i cylinderen, når den opstår, laver en CON-redning og tager 4d10 Radiant-skade ved fejl eller halvdelen ved succes. En skabning laver også denne skaderedning, når den træder ind i området for første gang på en tur eller afslutter sin tur der, dog kun én gang pr. tur.\n\nHver gang en skabning i cylinderen kaster en formular, laver den desuden en CON-redning. Ved fejl opløses den kastede formular uden virkning, og den Action, Bonus Action eller Reaction, der blev brugt på kastet, er spildt. Blev formularen kastet med et spell slot, bruges slottet ikke.\n\nNår du kaster Spellfire Storm, kan du udpege skabninger, som ikke påvirkes af den.\n\nHøjere slots: Skaden øges med 1d10 pr. slotniveau over 4.\n\n## Variant som Circle spell\nUd over de normale komponenter kræves en blå stjernesafir til mindst 25.000 GP, som formularen forbruger. Rækkevidden bliver 1 mile, og Concentration kræves ikke længere. Hver sekundær kaster skal bruge et spell slot på niveau 3 eller højere, når formularen kastes; ellers mislykkes den. Antallet af sekundære kastere bestemmer cylinderens størrelse og varighed:\n\n| Sekundære kastere | Cylinderens radius og højde | Varighed |\n| --- | --- | --- |\n| 1–3 | 40 ft radius, 40 ft højde | 1 time |\n| 4–6 | 60 ft radius, 60 ft højde | 8 timer |\n| 7+ | 100 ft radius, 100 ft højde | 24 timer |\n\nCircle-formularen slutter tidligt, hvis nogen af de deltagende kastere bidrager til et nyt kast af Spellfire Storm som Circle spell.\n\n## Fælles regler for Circle-kast\nEn Circle-formular skal kastes med et spell slot og have kasttid Action eller mindst 1 minut. Den særlige Circle-variant bruges i stedet for en anden Circle casting option; kun én mulighed kan bruges ved samme kast. Den primære kaster vælger mål og formularens øvrige valg, leverer komponenter og det slot, formularen kastes med, og opretholder den Concentration, som den endelige varighed kræver. Effekterne udgår fra den primære kaster, medmindre andet er angivet. En komponent til Circle-kastet leveres én gang for hele kastet, ikke én gang pr. deltager.\n\nDen primære kaster starter med en Magic-handling og holder Concentration, indtil kastet er færdigt. Reactions udløst af et formularkast, herunder Counterspell, kan udløses ved denne start. Der kræves mindst én sekundær kaster, og hver skal have Spellcasting eller Pact Magic; den særlige variant kan kræve flere. Efter starten bidrager hver sekundær kaster med en Magic-handling, mens vedkommende er inden for 30 ft fra den primære kaster og før starten af den primære kasters næste tur. Er kasttiden Action, træder formularen i kraft straks efter den sidste sekundære kasters bidrag. Den primære kaster bestemmer, hvem der bidrager sidst.\n\nVed en kasttid på mindst 1 minut skal den primære og samtlige sekundære kastere bruge en Magic-handling på hver af deres ture gennem hele kasttiden, og alle skal holde Concentration. Brydes én deltagers Concentration, mislykkes kastet. DM kan tillade, at en sekundær NPC-kaster erstatter et påkrævet slot med en begrænset anvendelse af en formular på samme eller højere niveau. Et mislykket Circle-kast har ingen virkning, bruger ikke formularens slot og forbruger ingen materialer; et nyt forsøg skal begynde forfra.",
+    "circleSpell": true
+  },
+  "Syluné's Viper": {
+    "level": 3,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Wizard"
+    ],
+    "cast": "Bonus Action",
+    "range": "Self",
+    "components": "V, S, M (a snake fang)",
+    "dur": "1 hour",
+    "book": "Forgotten Realms: Heroes of Faerûn",
+    "rulesVersion": "2024",
+    "publishedYear": 2025,
+    "source": {
+      "label": "Heroes of Faerûn (2025), PDF-udtræk s. 172",
+      "url": "https://www.dndbeyond.com/spells/3078519-sylunes-viper",
+      "name": "Syluné's Viper",
+      "page": 172,
+      "pageType": "pdf-export"
+    },
+    "reviewed": "2026-11-03",
+    "en": "A spectral snake coils around your body for the duration. Gain 15 temporary HP. The spell ends early if you have no temporary HP remaining. While it lasts, you gain these benefits:\n\n• Climbing: Gain a Climb Speed equal to your Speed.\n• Venomous Bite: As a Magic action, use the snake to make a ranged spell attack against one creature within 50 feet. On a hit, deal 1d6 Force damage and make the target Poisoned until the start of your next turn. While Poisoned this way, it is also Incapacitated.\n\nHigher slots: For each slot level above 3, gain 5 additional temporary HP and increase Venomous Bite damage by 1d6.",
+    "da": "En spektral slange snor sig omkring din krop i varigheden. Du får 15 midlertidige HP. Formularen slutter tidligt, hvis du ikke har midlertidige HP tilbage. Mens den varer, får du følgende fordele:\n\n• Klatring: Du får Climb Speed svarende til din Speed.\n• Giftbid: Som Magic-handling bruger du slangen til et ranged spell attack mod én skabning inden for 50 ft. Ved træffer tager målet 1d6 Force-skade og bliver Poisoned indtil starten af din næste tur. Mens målet er Poisoned på denne måde, er det også Incapacitated.\n\nHøjere slots: For hvert slotniveau over 3 får du 5 ekstra midlertidige HP, og Giftbids skade øges med 1d6."
+  },
+  "Wardaway": {
+    "level": 1,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Paladin",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "60 feet",
+    "components": "V, S, M (a miniature clay hand)",
+    "dur": "Instantaneous",
+    "book": "Forgotten Realms: Heroes of Faerûn",
+    "rulesVersion": "2024",
+    "publishedYear": 2025,
+    "source": {
+      "label": "Heroes of Faerûn (2025), PDF-udtræk s. 173",
+      "url": "https://www.dndbeyond.com/spells/3078518-wardaway",
+      "name": "Wardaway",
+      "page": 173,
+      "pageType": "pdf-export"
+    },
+    "reviewed": "2026-11-03",
+    "en": "One creature within range makes a Constitution saving throw; Constructs and Undead succeed automatically. On failure, it takes 2d4 Force damage, its Speed is halved until the start of your next turn, and on its next turn it may take an Action or a Bonus Action, but not both. On success it takes half damage and none of the other effects.\n\nHigher slots: Damage increases by 2d4 per slot level above 1.",
+    "da": "Én skabning inden for rækkevidde laver en CON-redning; Constructs og Undead lykkes automatisk. Ved fejl tager den 2d4 Force-skade, dens Speed halveres indtil starten af din næste tur, og på dens næste tur kan den tage en Action eller en Bonus Action, men ikke begge. Ved succes tager den halv skade uden de øvrige virkninger.\n\nHøjere slots: Skaden øges med 2d4 pr. slotniveau over 1."
+  }
+}

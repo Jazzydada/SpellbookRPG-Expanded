@@ -1,20 +1,13 @@
-// Base class list: Tasha’s Cauldron of Everything (2020), p. 12.
-// Class uses the earlier rules; spell text follows the catalogue’s latest revision.
+// Forge of the Artificer (2025), printed pp. 11–12. Mending is a level-1 feature, not a selectable base cantrip.
 export const ARTIFICER_BASE_SPELLS = {
   "0": [
     "Acid Splash",
-    "Booming Blade",
-    "Create Bonfire",
     "Dancing Lights",
+    "Elementalism",
     "Fire Bolt",
-    "Frostbite",
-    "Green-Flame Blade",
     "Guidance",
     "Light",
-    "Lightning Lure",
     "Mage Hand",
-    "Magic Stone",
-    "Mending",
     "Message",
     "Poison Spray",
     "Prestidigitation",
@@ -22,14 +15,12 @@ export const ARTIFICER_BASE_SPELLS = {
     "Resistance",
     "Shocking Grasp",
     "Spare the Dying",
-    "Sword Burst",
     "Thorn Whip",
-    "Thunderclap"
+    "Thunderclap",
+    "True Strike"
   ],
   "1": [
-    "Absorb Elements",
     "Alarm",
-    "Catapult",
     "Cure Wounds",
     "Detect Magic",
     "Disguise Self",
@@ -42,53 +33,47 @@ export const ARTIFICER_BASE_SPELLS = {
     "Jump",
     "Longstrider",
     "Purify Food and Drink",
-    "Sanctuary",
-    "Snare",
-    "Tasha's Caustic Brew"
+    "Sanctuary"
   ],
   "2": [
     "Aid",
     "Alter Self",
     "Arcane Lock",
+    "Arcane Vigor",
     "Blur",
     "Continual Flame",
     "Darkvision",
+    "Dragon's Breath",
     "Enhance Ability",
     "Enlarge/Reduce",
     "Heat Metal",
+    "Homunculus Servant",
     "Invisibility",
     "Lesser Restoration",
     "Levitate",
     "Magic Mouth",
     "Magic Weapon",
     "Protection from Poison",
-    "Pyrotechnics",
     "Rope Trick",
     "See Invisibility",
-    "Skywrite",
     "Spider Climb",
     "Web"
   ],
   "3": [
     "Blink",
-    "Catnap",
     "Create Food and Water",
     "Dispel Magic",
     "Elemental Weapon",
-    "Flame Arrows",
     "Fly",
     "Glyph of Warding",
     "Haste",
-    "Intellect Fortress",
     "Protection from Energy",
     "Revivify",
-    "Tiny Servant",
     "Water Breathing",
     "Water Walk"
   ],
   "4": [
     "Arcane Eye",
-    "Elemental Bane",
     "Fabricate",
     "Freedom of Movement",
     "Leomund's Secret Chest",
@@ -102,16 +87,45 @@ export const ARTIFICER_BASE_SPELLS = {
   "5": [
     "Animate Objects",
     "Bigby's Hand",
+    "Circle of Power",
     "Creation",
     "Greater Restoration",
-    "Skill Empowerment",
-    "Transmute Rock",
     "Wall of Stone"
   ]
 };
 
-const names = new Set(Object.values(ARTIFICER_BASE_SPELLS).flat());
+// Tasha p. 12 grants these supplemental spells; retain earlier-book access and saved choices.
+export const ARTIFICER_SUPPLEMENT_SPELLS = [
+  "Booming Blade",
+  "Create Bonfire",
+  "Frostbite",
+  "Green-Flame Blade",
+  "Lightning Lure",
+  "Magic Stone",
+  "Sword Burst",
+  "Absorb Elements",
+  "Catapult",
+  "Snare",
+  "Tasha's Caustic Brew",
+  "Pyrotechnics",
+  "Skywrite",
+  "Catnap",
+  "Flame Arrows",
+  "Intellect Fortress",
+  "Tiny Servant",
+  "Elemental Bane",
+  "Skill Empowerment",
+  "Transmute Rock"
+];
+const names = new Set([...Object.values(ARTIFICER_BASE_SPELLS).flat(), ...ARTIFICER_SUPPLEMENT_SPELLS, 'Mending']);
 export function withArtificer(name, spell) {
-  return names.has(name) && !spell.classes.includes("Artificer")
-    ? { ...spell, classes: [...spell.classes, "Artificer"] } : spell;
+  return names.has(name) && !spell.classes.includes('Artificer')
+    ? { ...spell, classes: [...spell.classes, 'Artificer'] } : spell;
+}
+
+// Printed p. 8. Always-prepared subclass/feat spells are outside this base allowance.
+const preparedByLevel = [2,3,4,5,6,6,7,7,9,9,10,10,11,11,12,12,14,14,15,15];
+export function artificerPreparation(level) {
+  const n = Math.min(20, Math.max(1, Math.trunc(Number(level)) || 1));
+  return { prepared: preparedByLevel[n - 1], cantrips: n >= 14 ? 4 : n >= 10 ? 3 : 2 };
 }

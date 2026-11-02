@@ -16,7 +16,7 @@ export function createBook(name = '', className = 'Wizard', level = 5) {
     name: typeof name === 'string' ? name : '',
     className: validClass(className),
     level: validLevel(level),
-    selected: {},
+    selected: className === "Artificer" ? { Mending: true } : {},
     prepared: {},
     allowDunamancy: false,
   };

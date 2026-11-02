@@ -39,3 +39,9 @@ En vigtig navnefælde: Den officielle [Artificer-playtest fra 2024](https://medi
 ## Implementeringsgrænse
 
 Ingen af disse tre par bør tilføjes til automatiske alias-/erstatningstabeller på det foreliggende grundlag. Samme-navn-genoptryk og de allerede eksplicit dokumenterede omdøbninger følger projektets almindelige prioritering af nyere regler. En eventuel senere ændring af disse konklusioner skal have en konkret officiel kilde og beskytte gemte bog-/prepared-valg.
+
+## Opdatering 3. november 2026
+
+Homunculus Servants færdige regeltekst er nu kontrolleret mod begge lokale Forge-PDF’er, inklusive bogscannets trykte side 21. Den er en selvstændig niveau 2 Artificer-formular; Create Homunculus forbliver den særskilte niveau 6 Wizard-formular. Begge vises én gang. Den tidligere tekst-adgangsbegrænsning er løst; der er stadig ikke dokumentation for en automatisk navneerstatning mellem disse to.
+
+Heroes of Faerûns Blade of Disaster optages i 2025-udgaven med regelsæt 2024. Den ældre Tasha/Icewind Dale-udgave var ikke i det aktive katalog, så der oprettes kun én post. De øvrige eksisterende samme-navn-prioriteter bevares.

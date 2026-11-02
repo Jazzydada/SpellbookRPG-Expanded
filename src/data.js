@@ -19,7 +19,7 @@ export const ALL_SPELLS_BY_LEVEL = Object.entries(SPELLS).reduce((levels, [name,
 }, {});
 
 export const CLASS_META = {
-  Artificer: { da:"Magisk opfinder", caster:"half", spellAbility:"INT", rulesVersion:"2014", book:"Tasha’s Cauldron of Everything (2020)" },
+  Artificer: { da:"Magisk opfinder", caster:"half", spellAbility:"INT", rulesVersion:"2024", book:"Eberron: Forge of the Artificer (2025)" },
   Wizard:   { da:"Troldmand",   caster:"full",    spellAbility:"INT" },
   Sorcerer: { da:"Tryllekunstner", caster:"full",  spellAbility:"CHA" },
   Cleric:   { da:"Præst",       caster:"full",     spellAbility:"WIS" },
@@ -43,7 +43,7 @@ export const SCHOOL_COLORS = {
 
 export const T = {
   en: {
-    artificerNote: "Artificer · earlier class rules: base spell list from Tasha’s Cauldron of Everything (2020), plus included books that explicitly grant Artificer access. Spells use the catalogue’s latest available version. The revised class list from Eberron: Forge of the Artificer (2025) has not been verified. Subclass spells are not included automatically.",
+    artificerNote: "Artificer · 2024 rules, Eberron: Forge of the Artificer (2025). Older supplemental spells remain available with their book/version labels. Mending is granted by Tinker’s Magic and is included automatically. Subclass spells are not added automatically.",
     addToBook: "Write in spellbook",
     inBook: "In spellbook",
     prepareSpell: "Prepare spell",
@@ -76,7 +76,7 @@ export const T = {
     removedSelections: "Removed after level change",
     scopeNote: "The catalogue prioritises the 2024 rules and Arcana Unleashed revisions. Older spells without an available newer replacement are clearly marked. Use the Book filter to see the included sources; this is not a complete collection of every official book. Class lists assume a single-class character. Subclasses, feats and other features may grant additional choices. Preparation is managed manually. Full spell mechanics include exceptions and scaling; named monsters and general rules remain separate references.",
     arcanumNote: "Pact Magic slots stop at level 5. Mystic Arcanum unlocks at character levels 11, 13, 15 and 17: choose one spell of each unlocked level, cast once per Long Rest without a slot. Available arcanum levels",
-    rulesDate: "Rules checked 2 November 2026",
+    rulesDate: "Rules checked 3 November 2026",
     fullRules: "Full rules",
     showFullRules: "Show full rules",
     hideFullRules: "Hide full rules",
@@ -110,7 +110,7 @@ export const T = {
     lang: "DA",
   },
   da: {
-    artificerNote: "Artificer · ældre klasseregler: grundlisten er fra Tasha’s Cauldron of Everything (2020), suppleret med medtagne bøger, der udtrykkeligt giver Artificer adgang. Formularerne bruger katalogets nyeste tilgængelige version. Den reviderede klasseliste fra Eberron: Forge of the Artificer (2025) er endnu ikke kontrolleret. Underklassernes ekstra formularer tilføjes ikke automatisk.",
+    artificerNote: "Artificer · 2024-regler, Eberron: Forge of the Artificer (2025). Ældre supplementformularer bevares med bog- og versionsmærkning. Mending gives af Tinker’s Magic og er automatisk med i bogen. Underklasseformularer tilføjes ikke automatisk.",
     addToBook: "Skriv i formularbogen",
     inBook: "I formularbogen",
     prepareSpell: "Forbered formular",
@@ -143,7 +143,7 @@ export const T = {
     removedSelections: "Fjernet efter niveauskift",
     scopeNote: "Kataloget prioriterer 2024-reglerne og revisionerne i Arcana Unleashed. Ældre formularer uden en tilgængelig nyere erstatning er tydeligt markeret. Bogfilteret viser de medtagne kilder; kataloget dækker endnu ikke alle officielle bøger. Klasselisterne gælder en karakter med én klasse. Underklasser, feats og andre evner kan give ekstra valg. Forberedelse styres manuelt. Formularernes udførlige regler omfatter undtagelser og skalering; navngivne monstre og grundregler er særskilte referencer.",
     arcanumNote: "Pact Magic-slots stopper ved niveau 5. Mystic Arcanum åbner ved karakterniveau 11, 13, 15 og 17: vælg én formular pr. åbent niveau, der kan kastes én gang pr. Long Rest uden et slot. Tilgængelige arcanum-niveauer",
-    rulesDate: "Regler kontrolleret 2. november 2026",
+    rulesDate: "Regler kontrolleret 3. november 2026",
     fullRules: "Udførlige regler",
     showFullRules: "Vis udførlige regler",
     hideFullRules: "Skjul udførlige regler",

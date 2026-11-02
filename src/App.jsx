@@ -4,6 +4,7 @@ import { maxSlotLevel, arcanumLevels, availableLevels, normalizeLevel, reconcile
 
 import RuleText from './RuleText.jsx';
 import { rulePreview } from './ruleText.js';
+import { artificerPreparation } from './artificer.js';
 import { loadRulebook } from './rulebooks.js';
 import { STORAGE_KEY, createBook, emptyLibrary, decodeLibrary, retainPrepared } from './characterBooks.js';
 
@@ -76,7 +77,7 @@ function SchoolBadge({ school }) {
   );
 }
 
-function SpellCard({ name, spell, checked, onToggle, prepared, onPrepare, lang, t, ruleText, rulesError, catalogueMode }) {
+function SpellCard({ name, spell, checked, onToggle, prepared, onPrepare, lang, t, ruleText, rulesError, catalogueMode, artificer }) {
   const [hov, setHov] = useState(false);
   const selectionId = useId();
   const [expanded, setExpanded] = useState(false);
@@ -100,7 +101,7 @@ function SpellCard({ name, spell, checked, onToggle, prepared, onPrepare, lang, 
         transition: "background 0.15s, border-color 0.15s",
       }}
     >
-      <input id={selectionId} type="checkbox" checked={checked} disabled={catalogueMode} aria-label={`${t.selectSpell}: ${name}`}
+      <input id={selectionId} type="checkbox" checked={checked} disabled={catalogueMode || (artificer && name === "Mending")} aria-label={`${t.selectSpell}: ${name}`}
         onChange={onToggle} onClick={e => e.stopPropagation()}
         style={{ flexShrink: 0, width: 18, height: 18, marginTop: 2, accentColor: G.green }} />
       {/* content */}
@@ -130,7 +131,7 @@ function SpellCard({ name, spell, checked, onToggle, prepared, onPrepare, lang, 
           ))}
         </div>
         <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem", margin: "0.6rem 0", fontSize: "0.85rem" }}>
-          <label htmlFor={selectionId} style={{ cursor: "pointer", color: checked ? G.green : G.muted }}>{checked ? t.inBook : t.addToBook}</label>
+          <label htmlFor={selectionId} style={{ cursor: "pointer", color: checked ? G.green : G.muted }}>{artificer && name === "Mending" ? "Tinker’s Magic · Mending" : checked ? t.inBook : t.addToBook}</label>
           {spell.level > 0 ? <label style={{ color: prepared ? G.gold : G.muted }}>
             <input type="checkbox" checked={prepared} disabled={!checked || catalogueMode} onChange={onPrepare} aria-label={`${t.prepareSpell}: ${name}`} style={{ accentColor: G.gold, marginRight: 6 }} />
             {t.preparedSpells}
@@ -156,7 +157,7 @@ function SpellCard({ name, spell, checked, onToggle, prepared, onPrepare, lang, 
   );
 }
 
-function SpellLevelSection({ level, spells, selected, onToggle, prepared, onPrepare, lang, t, isArcanum, rulebook, rulesError, catalogueMode }) {
+function SpellLevelSection({ level, spells, selected, onToggle, prepared, onPrepare, lang, t, isArcanum, rulebook, rulesError, catalogueMode, artificer }) {
   const [collapsed, setCollapsed] = useState(false);
   if (!spells.length) return null;
   return (
@@ -193,6 +194,7 @@ function SpellLevelSection({ level, spells, selected, onToggle, prepared, onPrep
               key={name}
               name={name}
               spell={SPELLS[name]}
+              artificer={artificer}
               ruleText={rulebook?.[name]}
               rulesError={rulesError}
               catalogueMode={catalogueMode}
@@ -232,7 +234,11 @@ export default function App() {
   const [onlyPrepared, setOnlyPrepared] = useState(false);
   function updateBook(change) {
     setLibrary(current => ({ ...current, books: current.books.map(book => book.id === current.activeId
-      ? { ...book, ...(typeof change === 'function' ? change(book) : change) } : book) }));
+      ? (() => {
+        const next = { ...book, ...(typeof change === 'function' ? change(book) : change) };
+        if (next.className === 'Artificer') next.selected = { ...next.selected, Mending:true };
+        return next;
+      })() : book) }));
   }
   function setSelected(change) {
     updateBook(book => {
@@ -440,7 +446,7 @@ export default function App() {
                 </option>
               ))}
             </select>
-            {className === "Artificer" && <p style={{ fontSize:"0.75rem", color:G.muted, lineHeight:1.5 }}>{t.artificerNote}</p>}
+
           </div>
           {/* level */}
           <div>
@@ -495,6 +501,16 @@ export default function App() {
         </div>
 
         <p style={{ color: G.muted, fontSize: "0.78rem", lineHeight: 1.5 }}>{t.scopeNote}</p>
+            {className === "Artificer" && <p style={{ fontSize:"0.75rem", color:G.muted, lineHeight:1.5 }}>{t.artificerNote}</p>}
+            {className === "Artificer" && <details style={{ fontSize:"0.75rem", color:G.muted, lineHeight:1.5 }}>
+              <summary style={{ cursor:"pointer", color:G.goldL }}>{lang === 'da' ? 'Artificer: forberedelse og kast' : 'Artificer: preparation and casting'}</summary>
+              <p>{lang === 'da'
+                ? `Forberedt: ${Object.keys(prepared).length}. Grundgrænse på niveau ${charLevel}: ${artificerPreparation(charLevel).prepared} formularer, plus altid forberedte fra andre evner. Du kender ${artificerPreparation(charLevel).cantrips} valgte cantrips plus Mending. Bogen er din samling; antal lærte cantrips og undtagelser styres manuelt.`
+                : `Prepared: ${Object.keys(prepared).length}. Base allowance at level ${charLevel}: ${artificerPreparation(charLevel).prepared} spells, plus always-prepared spells from other features. You know ${artificerPreparation(charLevel).cantrips} chosen cantrips plus Mending. Your book is a collection; learned cantrip counts and exceptions are managed manually.`}</p>
+              <p>{lang === 'da'
+                ? 'Efter en Long Rest kan du ændre dine forberedte formularer, udskifte én valgt cantrip og genvinde alle spell slots. Intelligence er din kasteegenskab. Du skal holde Thieves’ Tools, Tinker’s Tools eller andre Artisan’s Tools, som du har proficiency med, som fokus ved hvert Artificer-kast; formularen har derfor også en M-komponent. Krævede kostbare eller forbrugte materialer gælder stadig.'
+                : 'After a Long Rest, you can change prepared spells, replace one chosen cantrip, and regain all spell slots. Intelligence is your spellcasting ability. Every Artificer spell requires you to hold Thieves’ Tools, Tinker’s Tools, or other Artisan’s Tools with which you have proficiency as a focus, so the spell also has an M component. Required costly or consumed materials still apply.'}</p>
+            </details>}
         {catalogueMode && <p style={{ color: G.goldL, fontSize: "0.78rem" }}>{t.catalogueNote}</p>}
         {className === "Warlock" && <p style={{ color: G.goldL, fontSize: "0.78rem" }}>
           {t.arcanumNote}{arcana.length > 0 ? ` (${arcana.join(", ")})` : ""}
@@ -512,6 +528,7 @@ export default function App() {
                 <SpellLevelSection
                   key={level}
                   level={Number(level)}
+                  artificer={className === "Artificer"}
                   isArcanum={className === "Warlock" && Number(level) >= 6}
                   rulebook={rulebook}
                   rulesError={rulesError}
@@ -559,6 +576,7 @@ export default function App() {
                   return (
                     <button type="button"
                       key={name}
+                      disabled={className === "Artificer" && name === "Mending"}
                       onClick={() => toggleSpell(name)}
                       title={sp ? (sp[lang] || sp.en) : ""}
                       style={{
@@ -573,7 +591,7 @@ export default function App() {
                         userSelect: "none",
                       }}
                     >
-                      {name} ×
+                      {name}{className === "Artificer" && name === "Mending" ? " · Tinker’s Magic" : " ×"}
                     </button>
                   );
                 })}

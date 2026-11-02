@@ -1,0 +1,25 @@
+{
+  "Homunculus Servant": {
+    "level": 2,
+    "school": "Conjuration",
+    "classes": [
+      "Artificer"
+    ],
+    "cast": "1 hour or Ritual",
+    "range": "10 feet",
+    "components": "V, S, M (a gem worth 100+ GP)",
+    "dur": "Instantaneous",
+    "book": "Eberron: Forge of the Artificer",
+    "rulesVersion": "2024",
+    "publishedYear": 2025,
+    "source": {
+      "label": "Eberron: Forge of the Artificer (2025), p. 21",
+      "url": "https://www.dndbeyond.com/spells/3107729-homunculus-servant",
+      "name": "Homunculus Servant",
+      "page": 21
+    },
+    "reviewed": "2026-11-03",
+    "en": "Summon a homunculus in an unoccupied space within range, using the stat block below. Choose its appearance; it might resemble a mechanical bird, a flying bottle, or a small animated vessel. If you already have a homunculus created by this spell, the new one replaces it.\n\nIt is allied with you and your allies. In combat it shares your Initiative count and takes its turn immediately after yours. Your commands require no action. Without commands, it takes the Dodge action and moves to avoid danger.\n\nHigher slots: In the stat block, L is the level of the spell slot used to cast this spell (normally 2).\n\nHOMUNCULUS SERVANT\nTiny Construct, Neutral\nAC 13; HP 5 + 5 × L; Hit Dice: L d4s.\nSpeed 20 ft.; Fly 30 ft.\n\n| Ability | Score | Modifier | Base save |\n| --- | --- | --- | --- |\n| STR | 4 | −3 | −3 |\n| DEX | 15 | +2 | +2 |\n| CON | 12 | +1 | +1 |\n| INT | 10 | +0 | +0 |\n| WIS | 10 | +0 | +0 |\n| CHA | 7 | −2 | −2 |\n\nDamage Immunity: Poison. Condition Immunities: Exhaustion, Poisoned.\nSenses: Darkvision 60 ft.; Passive Perception 10.\nLanguages: Telepathy 1 mile, only with you.\nCR: None; XP 0. Its Proficiency Bonus equals yours.\n\nTraits\n• Evasion: When an effect permits a Dexterity save for half damage, a successful save instead deals no damage to the homunculus, and a failed save deals half. This trait does not work while it is Incapacitated.\n• Magic Bond: Add L to every ability check and saving throw it makes. The base saves in the table do not include this bonus.\n\nAction — Force Strike: Make a melee or ranged attack using your spell attack modifier, with reach 5 ft. or range 30 ft. A hit deals 1d6 + L Force damage.\n\nReaction — Channel Magic: When you cast a spell with a range of Touch while the homunculus is within 120 ft. of you, it can use its Reaction to deliver that spell through its own touch.",
+    "da": "Fremkald en homunculus i et ledigt felt inden for rækkevidde. Den bruger statblokken nedenfor. Du bestemmer dens udseende; den kan eksempelvis ligne en mekanisk fugl, en flyvende flaske eller en lille levende beholder. Har du allerede en homunculus fra denne formular, erstatter den nye den gamle.\n\nDen er allieret med dig og dine allierede. I kamp deler den dit Initiative-tal og tager sin tur umiddelbart efter din. Dine kommandoer kræver ingen handling. Uden kommandoer tager den Dodge-handlingen og bruger sin bevægelse til at undgå fare.\n\nHøjere slots: I statblokken er L niveauet på det spell slot, du bruger til at kaste formularen (normalt 2).\n\nHOMUNCULUS SERVANT\nTiny Construct, Neutral\nAC 13; HP 5 + 5 × L; Hit Dice: L d4-terninger.\nSpeed 20 ft.; Fly 30 ft.\n\n| Egenskab | Værdi | Modifikator | Grundredning |\n| --- | --- | --- | --- |\n| STR | 4 | −3 | −3 |\n| DEX | 15 | +2 | +2 |\n| CON | 12 | +1 | +1 |\n| INT | 10 | +0 | +0 |\n| WIS | 10 | +0 | +0 |\n| CHA | 7 | −2 | −2 |\n\nSkadeimmunitet: Poison. Tilstandsimmuniteter: Exhaustion og Poisoned.\nSanser: Darkvision 60 ft.; Passive Perception 10.\nSprog: Telepathy 1 mile, kun med dig.\nCR: Ingen; XP 0. Dens Proficiency Bonus er lig med din.\n\nEgenskaber\n• Evasion: Hvis en effekt tillader en DEX-redning for halv skade, tager din homunculus i stedet ingen skade ved succes og halv skade ved fejl. Egenskaben virker ikke, mens den er Incapacitated.\n• Magic Bond: Læg L til alle dens ability checks og redningskast. Grundredningerne i tabellen er angivet uden denne bonus.\n\nHandling — Force Strike: Lav et nærkamps- eller afstandsangreb med din spell attack modifier som angrebsbonus. Reach er 5 ft., eller rækkevidden er 30 ft. Ved træf tager målet 1d6 + L Force-skade.\n\nReaction — Channel Magic: Når du kaster en formular med rækkevidden Touch, og din homunculus er inden for 120 ft. fra dig, kan den bruge sin Reaction på at levere formularen gennem sin egen berøring."
+  }
+}

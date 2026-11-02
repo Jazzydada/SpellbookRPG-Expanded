@@ -1,6 +1,6 @@
 # Dækning af officielle formular-kilder
 
-Seneste kontrolpunkt: 2. november 2026. **Aktivt katalog: 537 formularer fra otte bøger.** Den nye leverance med 95 formularer er beskrevet nederst. De tidligere adgangskontroller nedenfor er historik; de er ikke længere en liste over alle aktuelle mangler. Kataloget er fortsat ikke en komplet samling af alle officielle bøger.
+Seneste kontrolpunkt: 3. november 2026. **Aktivt katalog: 557 formularer fra ti bøger.** Den nye leverance med 95 formularer er beskrevet nederst. De tidligere adgangskontroller nedenfor er historik; de er ikke længere en liste over alle aktuelle mangler. Kataloget er fortsat ikke en komplet samling af alle officielle bøger.
 
 ## Verificeret metode
 
@@ -171,3 +171,10 @@ Rulebooks indeholder 16 PDF'er. De øvrige gennemgåede spell-afsnit giver ikke 
 Det tidligere indeks har stadig kilder, som ikke er leveret i denne mappe, herunder blandt andet Heroes of Faerûn, Fizban, Strixhaven og eventyrbøger. Der er ikke opfundet beskrivelser for utilgængelige kilder. PDF'er, fotografier og rå tekstudtræk forbliver lokale og er ikke publiceret.
 
 Validering: navne/antal pr. ny bog, metadata og kildehenvisninger, danske/engelske terningudtryk, tabelstruktur, komplethed af AU-statblokke, særadgang med niveaugrænser og lagring af eksisterende karakterbøger/forberedelse. Browserkontrol dækker danske AU-regler, legacy-noter, bogfiltre og adgangsvalgets lagring/fjernelse.
+
+
+## Leverance 3. november 2026: Faerûn og Forge
+
+19 Heroes of Faerûn-formularer og Homunculus Servant fra Forge er tilføjet fra brugerens lokale PDF’er. Samtlige har udførlige DA/EN-beskrivelser, kilde og 2024-regelmærkning. Blade of Disaster bruger den nye 2025-udgave; ingen ældre katalogpost eksisterede. Ingen navnedubletter, heller ikke efter normalisering af apostroffer, store/små bogstaver og tegnsætning. Create Homunculus forbliver særskilt.
+
+Artificer bruger nu Forge-listens 80 grundformularer, Mending som klasseevne, 20 tidligere Tasha-supplementvalg og fire ekstra Arcana-valg: 105 valgmuligheder inklusive Mending. Klassens niveauadgang, forberedelsestal og cantrip-tal er kontrolleret. Gamle gemte supplementvalg bevares. Se ARTIFICER.md, FORGE_ADDITION.md og FAERUN_ADDITION.md. Tidligere manglende-adgang-noter for disse to bøger er historiske og er nu løst.
