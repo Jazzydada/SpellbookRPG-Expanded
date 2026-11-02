@@ -1,6 +1,6 @@
 # Dækning af officielle formular-kilder
 
-Kontrolpunkt: 2. november 2026. Dette er en kildeinventering, ikke en erklæring om at alle tekster er implementeret eller kontrolleret.
+Seneste kontrolpunkt: 2. november 2026. **Aktivt katalog: 537 formularer fra otte bøger.** Den nye leverance med 95 formularer er beskrevet nederst. De tidligere adgangskontroller nedenfor er historik; de er ikke længere en liste over alle aktuelle mangler. Kataloget er fortsat ikke en komplet samling af alle officielle bøger.
 
 ## Verificeret metode
 
@@ -12,14 +12,14 @@ Indekset viser også bøger uden formularer og bøger, der kun refererer til eks
 
 | Kilde | Indeksposter | Status for fuld tekst |
 |---|---:|---|
-| [Acquisitions Incorporated](https://www.dndbeyond.com/spells?filter-source=44) | 7 | Indeks verificeret; fuld tekst/adgang skal kontrolleres særskilt |
-| [Arcana Unleashed](https://www.dndbeyond.com/spells?filter-source=301) | 33 | Indeks verificeret; fuld tekst/adgang skal kontrolleres særskilt |
+| [Acquisitions Incorporated](https://www.dndbeyond.com/spells?filter-source=44) | 7 | 7 tilføjet fra brugerens bog/fotos; se den afsluttede leverance nedenfor |
+| [Arcana Unleashed](https://www.dndbeyond.com/spells?filter-source=301) | 33 | 33 tilføjet fra brugerens bog/fotos; se den afsluttede leverance nedenfor |
 | [Eberron: Forge of the Artificer](https://www.dndbeyond.com/spells?filter-source=191) | 1 | Indeks verificeret; fuld tekst/adgang skal kontrolleres særskilt |
 | [Elemental Evil Player's Companion](https://www.dndbeyond.com/spells?filter-source=4) | 43 | Officiel gratis PDF og individuelle offentlige formularsider findes |
-| [Explorer's Guide to Wildemount](https://www.dndbeyond.com/spells?filter-source=59&filter-partnered-content=) | 16 | Indeks verificeret; fuld tekst/adgang skal kontrolleres særskilt |
+| [Explorer's Guide to Wildemount](https://www.dndbeyond.com/spells?filter-source=59&filter-partnered-content=) | 16 | 15 tilføjet fra brugerens bog/fotos; se den afsluttede leverance nedenfor |
 | [Fizban's Treasury of Dragons](https://www.dndbeyond.com/spells?filter-source=81) | 7 | Indeks verificeret; fuld tekst/adgang skal kontrolleres særskilt |
 | [Forgotten Realms: Heroes of Faerûn](https://www.dndbeyond.com/spells?filter-source=205) | 19 | Indeks verificeret; fuld tekst/adgang skal kontrolleres særskilt |
-| [Guildmasters’ Guide to Ravnica](https://www.dndbeyond.com/spells?filter-source=38) | 2 | Indeks verificeret; fuld tekst/adgang skal kontrolleres særskilt |
+| [Guildmasters’ Guide to Ravnica](https://www.dndbeyond.com/spells?filter-source=38) | 2 | 2 tilføjet fra brugerens bog/fotos; se den afsluttede leverance nedenfor |
 | [Icewind Dale: Rime of the Frostmaiden](https://www.dndbeyond.com/spells?filter-source=66) | 3 | Indeks verificeret; fuld tekst/adgang skal kontrolleres særskilt |
 | [Lost Laboratory of Kwalish](https://www.dndbeyond.com/spells?filter-source=40) | 3 | Indeks verificeret; fuld tekst/adgang skal kontrolleres særskilt |
 | [Planescape: Adventures in the Multiverse](https://www.dndbeyond.com/spells?filter-source=114) | 2 | Indeks verificeret; fuld tekst/adgang skal kontrolleres særskilt |
@@ -28,7 +28,7 @@ Indekset viser også bøger uden formularer og bøger, der kun refererer til eks
 | [Sword Coast Adventurer's Guide](https://www.dndbeyond.com/spells?filter-source=13) | 4 | Indeks verificeret; fuld tekst/adgang skal kontrolleres særskilt |
 | [Tasha’s Cauldron of Everything](https://www.dndbeyond.com/spells?filter-source=67) | 21 | Lokal bruger-PDF findes; tekstkontrol mulig |
 | [The Book of Many Things](https://www.dndbeyond.com/spells?filter-source=109) | 6 | Indeks verificeret; fuld tekst/adgang skal kontrolleres særskilt |
-| [Xanathar's Guide to Everything](https://www.dndbeyond.com/spells?filter-source=27) | 95 | Indeks verificeret; fuld tekst/adgang skal kontrolleres særskilt |
+| [Xanathar's Guide to Everything](https://www.dndbeyond.com/spells?filter-source=27) | 95 | 38 tilføjet fra brugerens bog/fotos; se den afsluttede leverance nedenfor |
 
 PHB 2024 er allerede dækket af 391 formularer i projektets oprindelige kontrolpunkt. PHB 2014 skal fortsat sammenholdes på tværs af navne, før fravær af unikke ældre formularer kan erklæres. Genoptryk er ikke selvstændige formularer.
 
@@ -144,4 +144,30 @@ De sidste fem komplekse tekster — Bones of the Earth, Control Winds, Transmute
 
 Den lokale Tasha-PDF er tilstrækkelig til de 11 bevarede ældre Tasha-formularer. Den ældre Blade of Disaster er ikke optaget, fordi en nyere version er verificeret i Heroes of Faerûn, men dens fulde tekst ikke er tilgængelig her.
 
-Det aktive katalog omfatter 442 formularer: 391 PHB + 11 Tasha + 40 EE. Dette er fortsat ikke fuld dækning af alle officielle bøger.
+Kataloget før den nye leverance omfattede 442 formularer: 391 PHB + 11 Tasha + 40 EE. Dette er fortsat ikke fuld dækning af alle officielle bøger.
+
+## Afsluttet leverance fra nye bøger og AU-fotos — 2. november 2026
+
+95 formularer tilføjet med udførlige danske og engelske mekaniske beskrivelser:
+
+| Kilde | Tilføjet | Regelsæt |
+| --- | ---: | --- |
+| Arcana Unleashed (2026) | 33 | 2024 |
+| Xanathar's Guide to Everything (2017) | 38 | 2014 |
+| Explorer's Guide to Wildemount (2020) | 15 | 2014; særlig adgang |
+| Guildmasters’ Guide to Ravnica (2018) | 2 | 2014 |
+| Acquisitions Incorporated (2019) | 7 | 2014 |
+
+Samlet: 537 = 391 PHB + 33 AU + 11 Tasha + 40 EE + 38 Xanathar + 15 Wildemount + 2 Ravnica + 7 Acquisitions. To Xanathar-formularer (Summon Greater Demon og Summon Lesser Demons) blev fundet ud over det tidligere indeks. Derfor var indeksoptællingen ikke et fuldstændigt mål for bogdækning.
+
+Se [AU-kontrol](ARCANA_ADDITION.md), [Xanathar-kontrol](XANATHAR_ADDITION.md) og [øvrige bøger](OTHER_BOOKS_ADDITION.md) for kilder, sidetal, rettelser og særlige regler. Alle 33 AU-formularer er dækket af fotos af siderne 35–45. De nyere AU-versioner af seks Xanathar-formularer samt Wither and Bloom har forrang.
+
+Bogens egne statblokke til Battle Familiar, Summon Dinosaur, Summon Plant og Tiny Servant er med. Henvisninger til navngivne Monster Manual-væsner og andre formularer forbliver særskilte referencer, angivet i beskrivelserne.
+
+Dunamancy kræver nu et separat adgangsvalg pr. karakter. Det følger Wildemounts adgang for Chronurgy/Graviturgy eller DM-tilladelse. Standardklasselister giver ikke automatisk adgang. Øvrige subclass-/baggrundsudvidelser er ikke automatiseret.
+
+Rulebooks indeholder 16 PDF'er. De øvrige gennemgåede spell-afsnit giver ikke yderligere nye formularer: SCAGs fire cantrips er allerede dækket af Tasha/PHB, Eberrons Gust og Theros' Wall of Water af EE, og starterbøgernes almindelige formularer af PHB 2024. DMG og Mordenkainen indeholder andre typer regler og monster-/item-henvisninger; disse er ikke nye formularposter. Codex Unearthed Arcana er en tredjepartssamling af testmateriale og er ikke optaget som færdige officielle regler.
+
+Det tidligere indeks har stadig kilder, som ikke er leveret i denne mappe, herunder blandt andet Heroes of Faerûn, Fizban, Strixhaven og eventyrbøger. Der er ikke opfundet beskrivelser for utilgængelige kilder. PDF'er, fotografier og rå tekstudtræk forbliver lokale og er ikke publiceret.
+
+Validering: navne/antal pr. ny bog, metadata og kildehenvisninger, danske/engelske terningudtryk, tabelstruktur, komplethed af AU-statblokke, særadgang med niveaugrænser og lagring af eksisterende karakterbøger/forberedelse. Browserkontrol dækker danske AU-regler, legacy-noter, bogfiltre og adgangsvalgets lagring/fjernelse.

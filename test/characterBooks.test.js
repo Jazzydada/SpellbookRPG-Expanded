@@ -27,7 +27,7 @@ test('missing storage creates one unnamed Wizard at level five, without sharing 
   assert.equal(a.version, 1);
   assert.equal(a.books.length, 1);
   assert.equal(a.activeId, a.books[0].id);
-  assert.deepEqual({ ...a.books[0], id: '' }, { id: '', name: '', className: 'Wizard', level: 5, selected: {}, prepared: {} });
+  assert.deepEqual({ ...a.books[0], id: '' }, { id: '', name: '', className: 'Wizard', level: 5, selected: {}, prepared: {}, allowDunamancy: false });
   assert.notEqual(a.activeId, b.activeId);
   a.books[0].selected.Fireball = true;
   assert.deepEqual(b.books[0].selected, {});

@@ -2,11 +2,13 @@
 
 Separate expanded edition of [SpellbookRPG](https://spellbook-rpg.vercel.app/), version 2.0.0.
 
-A 2024-first spellbook with 442 sourced spells, Danish and English descriptions, book filters, and clearly marked older rules. Includes 391 PHB 2024 spells, 11 additional Tasha spells, and 40 additional Elemental Evil spells. Other books are not yet fully covered.
+A 2024-first spellbook with 537 sourced spells, Danish and English descriptions, book filters, and clearly marked older rules. Includes 391 PHB 2024 spells, all 33 Arcana Unleashed spells (2026, using the 2024 rules), plus 11 Tasha, 40 Elemental Evil, 38 Xanathar, 15 Wildemount, 2 Ravnica and 7 Acquisitions Incorporated spells. The later Arcana versions take precedence over older versions of the same spells. This is not yet full coverage of every official book.
 
 ## Character spellbooks
 
 Create a separate book for each character, with its own name, class, level and selected spells. “My spellbook” shows the selected spells with full rules. Preparation is saved separately, with a dedicated Prepared view. Removing a spell from the book also removes its prepared status. Existing books retain their spells and start without prepared selections. Cantrips do not need preparation; preparation limits and always-prepared class features are managed manually. Books save automatically in this browser on this device; there is no account or cloud sync. Clearing browser data removes saved books. Deleting a book can be undone until the page is reloaded or another book is deleted.
+
+Dunamancy requires a separate access setting per character: enable it for Chronurgy/Graviturgy wizards or with DM permission. Other classes can use this permission setting while retaining their normal level limits. Removing permission removes affected book and prepared selections. Other subclass/background access is not automatically simulated.
 
 ## Development
 

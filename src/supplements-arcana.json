@@ -1,0 +1,830 @@
+{
+  "Aura of Evasion": {
+    "level": 7,
+    "school": "Abjuration",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self",
+    "components": "V, S",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 35",
+      "url": "https://www.dndbeyond.com/spells/3360219-aura-of-evasion",
+      "name": "Aura of Evasion",
+      "page": 35
+    },
+    "reviewed": "2026-11-02",
+    "en": "A 30-foot Emanation surrounds you for the duration. You and your allies inside it have Advantage on Dexterity saving throws. When an affected creature makes a Dexterity save against an effect that normally deals half damage on a success, it instead takes no damage on a success and half damage on a failure. A creature with the Incapacitated condition receives no benefit from this aura.",
+    "da": "En 30-ft Emanation udgår fra dig i varigheden. Du og dine allierede i auraen har Advantage på DEX-redninger. Hvis en påvirket skabning udsættes for en effekt, der tillader en DEX-redning for halv skade, tager den i stedet ingen skade ved succes og halv skade ved fejl. En skabning med tilstanden Incapacitated får ingen fordel af auraen."
+  },
+  "Battle Familiar": {
+    "level": 2,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "10 feet",
+    "components": "V, S, M (a diamond worth 25+ GP)",
+    "dur": "1 hour",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 35",
+      "url": "https://www.dndbeyond.com/spells/3360242-battle-familiar",
+      "name": "Battle Familiar",
+      "page": 35
+    },
+    "reviewed": "2026-11-02",
+    "en": "Conjure a magically empowered familiar in an unoccupied space within range. Choose its animal-like appearance, its creature type (Celestial, Fey, or Fiend), and its form (Brute, Flyer, or Stalker). Use the Battle Familiar statistics below; the form changes the indicated statistics. It is allied with you and your allies, rolls its own Initiative, and takes its own turn.\n\nThe familiar disappears when the spell ends, it reaches 0 HP, or you die. Items it wore or carried remain in its space. On a later casting you may summon that same familiar or a different one.\n\nYou can have only one familiar at a time. Casting this while you already have a battle familiar replaces the old one. If you already have a familiar from Find Familiar, this spell instead empowers that existing familiar. It can attack as well as take its normal actions. Replace its statistics with the Battle Familiar block, but retain its creature type, alignment, HP, Hit Point Dice, and features granted by Find Familiar. It gains Temporary HP equal to the battle familiar's HP. In this case Battle Familiar ends early when those Temporary HP are gone; any remaining Temporary HP vanish when the spell ends. The familiar then returns to its previous form.\n\n## Battle Familiar\nL is the spell slot level used (minimum 2). Medium Celestial, Fey, or Fiend (your choice), Neutral. AC 11 + L, with another +2 for Brute. HP 30 for Brute or 20 for Flyer/Stalker, plus 5 × (L − 2). Speed 40 ft; Swim 30 ft; Flyer also has Fly 30 ft (hover).\n\n| Ability | Score | Modifier | Save |\n| --- | --- | --- | --- |\n| STR | 16 | +3 | +3 |\n| DEX | 16 | +3 | +3 |\n| CON | 12 | +1 | +1 |\n| INT | 8 | −1 | −1 |\n| WIS | 13 | +1 | +1 |\n| CHA | 10 | +0 | +0 |\n\nImmunities: Charmed, Frightened. Darkvision 60 ft; Passive Perception 11. Understands your known languages. CR none; XP 0; PB equals your Proficiency Bonus.\n\n• Flyby (Flyer): Flying out of an enemy's reach does not provoke an Opportunity Attack.\n• Talented: Add half L, rounded down, to every ability check and saving throw the familiar makes.\n• Multiattack: Make half L Rend attacks, rounded down. One may be replaced with Prowl when that action is available.\n• Rend: Melee attack using your spell attack modifier, reach 5 ft. Hit: 1d8 + 3 + L Force damage.\n• Prowl (Stalker): Move up to half its Speed without provoking Opportunity Attacks, then optionally take the Hide action at the end of that movement.\n\nHigher slots: Use the actual slot level for L throughout the stat block.",
+    "da": "Fremman en magisk styrket familiar i et ledigt felt inden for rækkevidde. Vælg dens dyrelignende udseende, skabningstype (Celestial, Fey eller Fiend) og form: Brute, Flyer eller Stalker. Brug statblokken nedenfor; formen ændrer de angivne værdier. Den er allieret med dig og dine allierede, slår sin egen Initiative og handler på sin egen tur.\n\nDen forsvinder, når formularen slutter, når den når 0 HP, eller hvis du dør. Udstyr, den bar eller havde på, bliver liggende i dens felt. Ved et senere kast kan du fremmane samme familiar eller en anden.\n\nDu kan kun have én familiar ad gangen. Har du allerede en fra Battle Familiar, erstatter den nye den gamle. Har du i stedet en familiar fra Find Familiar, styrker formularen denne eksisterende familiar. Den kan nu angribe ud over sine normale handlinger. Dens statistik erstattes af statblokken nedenfor, men den beholder skabningstype, alignment, HP, Hit Point Dice og evner givet af Find Familiar. Den får Temporary HP svarende til battle familiarens HP. I dette tilfælde slutter Battle Familiar tidligt, når disse Temporary HP er brugt op; eventuelle resterende Temporary HP forsvinder, når formularen slutter. Familiaren vender derefter tilbage til sin tidligere form.\n\n## Battle Familiar\nL er det anvendte slotniveau, mindst 2. Medium Celestial, Fey eller Fiend (dit valg), Neutral. AC 11 + L, yderligere +2 for Brute. HP 30 for Brute eller 20 for Flyer/Stalker, plus 5 × (L − 2). Speed 40 ft; Swim 30 ft; Flyer har desuden Fly 30 ft (hover).\n\n| Egenskab | Værdi | Modifikator | Redning |\n| --- | --- | --- | --- |\n| STR | 16 | +3 | +3 |\n| DEX | 16 | +3 | +3 |\n| CON | 12 | +1 | +1 |\n| INT | 8 | −1 | −1 |\n| WIS | 13 | +1 | +1 |\n| CHA | 10 | +0 | +0 |\n\nImmuniteter: Charmed og Frightened. Darkvision 60 ft; Passive Perception 11. Forstår de sprog, du kender. CR ingen; XP 0; PB er din Proficiency Bonus.\n\n• Flyby (Flyer): Når den flyver ud af en fjendes rækkevidde, udløser det ikke Opportunity Attack.\n• Talented: Læg halvdelen af L, rundet ned, til alle dens ability checks og redningskast.\n• Multiattack: Foretag halvdelen af L Rend-angreb, rundet ned. Ét angreb kan erstattes af Prowl, hvis den har denne handling.\n• Rend: Nærkampsangreb med din spell attack modifier, reach 5 ft. Træffer: 1d8 + 3 + L Force-skade.\n• Prowl (Stalker): Bevæg op til halvdelen af dens Speed uden at udløse Opportunity Attacks. Ved bevægelsens afslutning kan den tage Hide-handlingen.\n\nHøjere slots: Brug det faktiske slotniveau som L i hele statblokken."
+  },
+  "Catnap": {
+    "level": 3,
+    "school": "Enchantment",
+    "classes": [
+      "Artificer",
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "30 feet",
+    "components": "S, M (a pinch of sand)",
+    "dur": "10 minutes",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 37",
+      "url": "https://www.dndbeyond.com/spells/3360220-catnap",
+      "name": "Catnap",
+      "page": 37
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose up to three willing creatures you can see within range. They have the Unconscious condition for the duration. The spell ends for a target if it takes damage or another creature uses an action to shake it awake. A target that remains Unconscious from this spell for all 10 minutes gains the benefits of finishing a Short Rest. That target cannot be affected by Catnap again until it finishes a Long Rest.\n\nHigher slots: One additional willing target per slot level above 3.",
+    "da": "Vælg op til tre villige skabninger, som du kan se inden for rækkevidde. De får tilstanden Unconscious i varigheden. Formularen slutter for et mål, hvis det tager skade, eller hvis en anden skabning bruger en handling på at ruske det vågent. Er målet Unconscious fra formularen i samtlige 10 minutter, får det fordelene ved at afslutte et Short Rest. Derefter kan dette mål ikke påvirkes af Catnap igen, før det har afsluttet et Long Rest.\n\nHøjere slots: Ét ekstra villigt mål pr. slotniveau over 3."
+  },
+  "Detonate": {
+    "level": 9,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "500 feet",
+    "components": "V, S, M (a piece of tinder)",
+    "dur": "Instantaneous",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 37",
+      "url": "https://www.dndbeyond.com/spells/3360221-detonate",
+      "name": "Detonate",
+      "page": 37
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose a creature you can see within range. It makes a Constitution save against an explosive magical seed: failure deals 10d10 Fire damage; success deals half.\n\nAn explosion then fills a 60-foot Emanation originating from that target, excluding the target itself. Each creature there makes a Dexterity save, with Disadvantage if this spell reduced the original target to 0 HP. Failure deals 10d10 Fire damage; success deals half. Nonmagical objects in the Emanation that are neither worn nor carried also take the damage, and flammable ones begin burning.",
+    "da": "Vælg en skabning, du kan se inden for rækkevidde, og skab et magisk eksplosivt frø i den. Målet laver en CON-redning: fejl giver 10d10 Fire-skade, succes giver halv skade.\n\nDerefter eksploderer energien i en 60-ft Emanation fra målet; selve målet er ikke med i denne eksplosion. Hver skabning i området laver en DEX-redning med Disadvantage, hvis formularen bragte det oprindelige mål ned på 0 HP. Fejl giver 10d10 Fire-skade; succes giver halv skade. Ikke-magiske genstande i området, som ingen bærer eller har på, tager også skaden og begynder at brænde, hvis de er brændbare."
+  },
+  "Disruptive Tune": {
+    "level": 2,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "120 feet",
+    "components": "V, S",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 38",
+      "url": "https://www.dndbeyond.com/spells/3360252-disruptive-tune",
+      "name": "Disruptive Tune",
+      "page": 38
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose a point within range. A distracting melody briefly fills a 20-foot-radius Sphere centered there. Every creature in the Sphere makes a Constitution saving throw. On a failure, it loses Concentration and has Disadvantage on Constitution saves made to maintain Concentration for this spell's duration.",
+    "da": "Vælg et punkt inden for rækkevidde. En distraherende melodi fylder kortvarigt en Sphere med 20-ft radius omkring punktet. Hver skabning i området laver en CON-redning. Ved fejl mister den sin Concentration og har i formularens varighed Disadvantage på CON-redninger for at opretholde Concentration."
+  },
+  "Distorted Distance": {
+    "level": 4,
+    "school": "Illusion",
+    "classes": [
+      "Artificer",
+      "Bard",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "120 feet",
+    "components": "V, S",
+    "dur": "Concentration, up to 10 minutes",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 38",
+      "url": "https://www.dndbeyond.com/spells/3360223-distorted-distance",
+      "name": "Distorted Distance",
+      "page": 38
+    },
+    "reviewed": "2026-11-02",
+    "en": "Create a spatial illusion in a 60-foot-radius Sphere centered on a point within range. For each creature you can see in it, you may choose one effect:\n\n• Dizzying Elongation: It makes an Intelligence save. On failure it takes 2d10 Psychic damage, and the Sphere is Difficult Terrain for it until the end of its turn.\n• Shortened Space: Its Speed increases by 20 feet until the end of its next turn.\n\nWhile the spell lasts, whenever a creature enters the Sphere or ends its turn there, you may give it one of these effects. This spell can affect a creature only once per turn.",
+    "da": "Skab en rumforvrængende illusion i en Sphere med 60-ft radius omkring et punkt inden for rækkevidde. For hver skabning, du kan se i området, kan du vælge én effekt:\n\n• Dizzying Elongation: Skabningen laver en INT-redning. Ved fejl tager den 2d10 Psychic-skade, og området er Difficult Terrain for den indtil slutningen af dens tur.\n• Shortened Space: Skabningens Speed øges med 20 ft indtil slutningen af dens næste tur.\n\nSå længe formularen varer, kan du også vælge én af effekterne til en skabning, når den går ind i området eller afslutter sin tur der. Formularen kan højst påvirke samme skabning én gang pr. tur."
+  },
+  "Dueling Ground": {
+    "level": 2,
+    "school": "Abjuration",
+    "classes": [
+      "Artificer",
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "10 minutes or Ritual",
+    "range": "Touch",
+    "components": "V, S, M (a silk flag worth 100+ GP)",
+    "dur": "1 hour",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 38",
+      "url": "https://www.dndbeyond.com/spells/3360224-dueling-ground",
+      "name": "Dueling Ground",
+      "page": 38
+    },
+    "reviewed": "2026-11-02",
+    "en": "Touch a point on the ground to create a dueling ground in a 15-foot-radius Sphere, bounded by a glowing circle of runes. Choose two willing creatures in the Sphere as targets. The spell ends early if any creature other than a target enters the Sphere.\n\nA target that drops to 0 HP inside is Stable and teleports to the nearest unoccupied space outside the dueling ground. If an effect inside would kill a target instantly without dealing damage, it instead has 0 HP, is Unconscious and Stable, and teleports to the nearest unoccupied space outside. When only one target remains in the dueling ground, a crown-like flash of matching runes appears around its head.\n\nHigher slots: One extra willing target per slot level above 2.",
+    "da": "Berør et punkt på jorden og skab en duelarena i en Sphere med 15-ft radius, afgrænset af en lysende cirkel med runer. Udpeg to villige skabninger i området som mål. Formularen slutter tidligt, hvis en anden skabning end et af målene træder ind i området.\n\nNår et mål når 0 HP inde i arenaen, er det Stable og teleporteres til det nærmeste ledige felt udenfor. Hvis målet inde i arenaen rammes af en effekt, der ville dræbe det øjeblikkeligt uden at give skade, dør det ikke: Det får i stedet 0 HP, er Unconscious og Stable og teleporteres til nærmeste ledige felt udenfor. Når kun ét mål er tilbage i arenaen, blinker matchende runer kort som en krone omkring dets hoved.\n\nHøjere slots: Ét ekstra villigt mål pr. slotniveau over 2."
+  },
+  "Enervation": {
+    "level": 5,
+    "school": "Necromancy",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "60 feet",
+    "components": "V, S",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 38",
+      "url": "https://www.dndbeyond.com/spells/3360225-enervation",
+      "name": "Enervation",
+      "page": 38
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose a creature you can see within range. It makes a Dexterity saving throw against a draining tendril. On failure it takes 6d8 Necrotic damage. On each of your later turns, you may use a Bonus Action to deal 2d8 Necrotic damage to it automatically. The spell ends if it is ever outside range or has Total Cover from you. On a successful initial save, it takes half the initial damage and the spell ends.\n\nWhenever this spell damages a target, regain HP equal to half the Necrotic damage dealt.\n\nHigher slots: The initial damage increases by 1d8 per slot level above 5; the recurring damage does not increase.",
+    "da": "Vælg en skabning, du kan se inden for rækkevidde. Den laver en DEX-redning mod en livsdrænende mørk tentakel. Ved fejl tager den 6d8 Necrotic-skade. På hver af dine efterfølgende ture kan du bruge en Bonus Action på automatisk at give den 2d8 Necrotic-skade. Formularen slutter, hvis målet på noget tidspunkt er uden for rækkevidde eller har Total Cover fra dig. Ved succes på den første redning tager målet kun halvdelen af den indledende skade, og formularen slutter.\n\nHver gang formularen giver et mål skade, genvinder du HP svarende til halvdelen af den givne Necrotic-skade.\n\nHøjere slots: Den indledende skade øges med 1d8 pr. slotniveau over 5. Den gentagne skade øges ikke."
+  },
+  "Entrancing Mirrors": {
+    "level": 8,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "90 feet",
+    "components": "V, S, M (a mirror shard)",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 39",
+      "url": "https://www.dndbeyond.com/spells/3360226-entrancing-mirrors",
+      "name": "Entrancing Mirrors",
+      "page": 39
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose up to three creatures you can see within range and surround them with illusory mirrors. Each makes an Intelligence save. Failure deals 7d6 Psychic damage and gives the Stunned condition; while Stunned this way, its Speed is halved. Success deals half damage only. At the end of each of its turns, a Stunned target repeats the Intelligence save, ending the spell on itself on success.",
+    "da": "Vælg op til tre skabninger, som du kan se inden for rækkevidde, og forvir dem med illusoriske spejle. Hvert mål laver en INT-redning. Ved fejl tager det 7d6 Psychic-skade og får tilstanden Stunned; mens det er Stunned på denne måde, er dets Speed halveret. Ved succes tager det kun halv skade. Ved slutningen af hver af sine ture gentager et Stunned mål INT-redningen og afslutter formularen på sig selv ved succes."
+  },
+  "Festering Blast": {
+    "level": 4,
+    "school": "Necromancy",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self",
+    "components": "V, S",
+    "dur": "1 minute",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 39",
+      "url": "https://www.dndbeyond.com/spells/3360227-festering-blast",
+      "name": "Festering Blast",
+      "page": 39
+    },
+    "reviewed": "2026-11-02",
+    "en": "Release miasma in a 60-foot-long, 10-foot-wide Line in a direction you choose. Each creature in it makes a Constitution save. On failure it takes 4d10 Necrotic damage and is Poisoned for the duration. A creature Poisoned by this spell takes 2d10 Poison damage at the start of each of its turns. At the end of each of its turns it repeats the save, ending the spell on itself on success. The initial successful save causes no damage or condition.\n\nHigher slots: Increase initial damage by 1d10 per slot level above 4; recurring damage is unchanged.",
+    "da": "Send en sky af miasma ud i en Line, 60 ft lang og 10 ft bred, i en retning efter dit valg. Hver skabning i linjen laver en CON-redning. Ved fejl tager den 4d10 Necrotic-skade og får Poisoned i varigheden. En skabning, der er Poisoned af formularen, tager 2d10 Poison-skade ved starten af hver af sine ture. Ved slutningen af hver af sine ture gentager den redningen og afslutter formularen på sig selv ved succes. En succesfuld første redning giver hverken skade eller tilstand.\n\nHøjere slots: Den indledende skade øges med 1d10 pr. slotniveau over 4; den gentagne skade ændres ikke."
+  },
+  "Fractured Awareness": {
+    "level": 7,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "120 feet",
+    "components": "V, S",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 40",
+      "url": "https://www.dndbeyond.com/spells/3360228-fractured-awareness",
+      "name": "Fractured Awareness",
+      "page": 40
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose a creature you can see within range and overwhelm it with conflicting possible futures. It makes an Intelligence save. On failure it takes 12d10 Psychic damage and has Disadvantage on D20 Tests for the duration. On success it takes half damage only and the spell ends. An affected target repeats the save at the end of each of its turns, ending the spell on success.",
+    "da": "Vælg en skabning, du kan se inden for rækkevidde, og overvæld den med modstridende fremtidsvisioner. Den laver en INT-redning. Ved fejl tager den 12d10 Psychic-skade og har Disadvantage på D20 Tests i varigheden. Ved succes tager den kun halv skade, og formularen slutter. Et påvirket mål gentager redningen ved slutningen af hver af sine ture og afslutter formularen ved succes."
+  },
+  "Grave Ground": {
+    "level": 5,
+    "school": "Necromancy",
+    "classes": [
+      "Cleric",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "120 feet",
+    "components": "V, S, M (a handful of grave dirt)",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 40",
+      "url": "https://www.dndbeyond.com/spells/3360229-grave-ground",
+      "name": "Grave Ground",
+      "page": 40
+    },
+    "reviewed": "2026-11-02",
+    "en": "Skeletal hands erupt from ground within range. Arrange up to four 10-foot squares as you wish; each must be contiguous with at least one other square. This ground is Difficult Terrain for your enemies.\n\nAn enemy in the area when the hands appear makes a Strength save. Failure deals 6d6 Necrotic damage, and until the end of its next turn it subtracts 1d6 from all its damage rolls. An enemy also makes this save when it enters the area or ends its turn there. A creature makes the save only once per turn. A successful save avoids both effects.\n\nHigher slots: The Necrotic damage increases by 1d6 per slot level above 5.",
+    "da": "Skelethænder bryder op fra jorden inden for rækkevidde. Arrangér op til fire felter på hver 10 × 10 ft som ønsket; hvert felt skal støde op til mindst ét andet. Området er Difficult Terrain for dine fjender.\n\nEn fjende i området, når hænderne dukker op, laver en STR-redning. Ved fejl tager den 6d6 Necrotic-skade og trækker 1d6 fra alle sine skadeskast indtil slutningen af sin næste tur. En fjende laver også denne redning, når den går ind i området eller afslutter sin tur der. En skabning laver højst redningen én gang pr. tur. Succes undgår begge virkninger.\n\nHøjere slots: Necrotic-skaden øges med 1d6 pr. slotniveau over 5."
+  },
+  "Hindsight": {
+    "level": 9,
+    "school": "Divination",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "10 minutes",
+    "range": "500 feet",
+    "components": "V, S, M (a tiny hourglass worth 500+ GP, consumed)",
+    "dur": "Concentration, up to 1 hour",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 40",
+      "url": "https://www.dndbeyond.com/spells/3360230-hindsight",
+      "name": "Hindsight",
+      "page": 40
+    },
+    "reviewed": "2026-11-02",
+    "en": "See visions of events that occurred within range during the past ten years. The visions normally pass at about one day per second. Throughout the spell, you can freely slow them down, pause, rewind, or fast-forward.",
+    "da": "Se visioner af hændelser, der er sket inden for rækkevidde i løbet af de seneste ti år. Visionerne gennemløber normalt cirka én dag pr. sekund. Under hele formularens varighed kan du frit sænke tempoet, sætte visionerne på pause, spole tilbage eller spole frem."
+  },
+  "Illusory Dragon": {
+    "level": 8,
+    "school": "Illusion",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "120 feet",
+    "components": "S",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 40",
+      "url": "https://www.dndbeyond.com/spells/3360231-illusory-dragon",
+      "name": "Illusory Dragon",
+      "page": 40
+    },
+    "reviewed": "2026-11-02",
+    "en": "Create a Huge, tangible shadow dragon in an unoccupied space you can see within range. It occupies that space as a creature would, but is an illusion with Immunity to all damage and conditions. When it appears, every enemy that can see it makes a Wisdom save. On failure, the enemy drops everything it holds and is Frightened for the duration. A creature Frightened this way repeats the save when it ends its turn without line of sight to the dragon, ending the condition on success.\n\nAs a Bonus Action, move the dragon up to 60 feet. At any point during that movement it can exhale a 60-foot Cone. Every creature in the Cone makes an Intelligence save, taking 6d6 damage on failure or half on success. Choose Acid, Cold, Fire, Lightning, Necrotic, or Poison damage when creating the dragon; that choice applies to its breath.\n\nA creature can use the Study action to examine it, making an Intelligence (Investigation) check against your spell save DC. Success reveals the illusion. A creature that discerns it can see through the image and has Advantage on saves to end the Frightened condition it caused and to resist its breath.",
+    "da": "Skab en Huge, håndgribelig skyggedrage i et ledigt felt, du kan se inden for rækkevidde. Den optager plads som en skabning, men er en illusion med Immunity mod al skade og alle tilstande. Når den dukker op, laver hver fjende, der kan se den, en WIS-redning. Ved fejl taber fjenden alt, den holder, og får Frightened i varigheden. En skabning, der er Frightened på denne måde, gentager redningen, når den afslutter sin tur uden line of sight til dragen, og afslutter tilstanden ved succes.\n\nSom Bonus Action kan du flytte dragen op til 60 ft. På et valgfrit tidspunkt under bevægelsen kan den udånde energi i en 60-ft Cone. Hver skabning i keglen laver en INT-redning og tager 6d6 skade ved fejl eller halv skade ved succes. Vælg Acid, Cold, Fire, Lightning, Necrotic eller Poison, når du skaber dragen; denne type bruges til dens ånde.\n\nEn skabning kan bruge Study-handlingen på at undersøge dragen med et INT (Investigation)-check mod din spell save DC. Succes afslører illusionen. En skabning, der gennemskuer den, kan se gennem billedet og har Advantage på redninger mod dens ånde samt redninger for at afslutte den Frightened-tilstand, den har forårsaget."
+  },
+  "Inflict Doubt": {
+    "level": 3,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "120 feet",
+    "components": "V, S",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 40",
+      "url": "https://www.dndbeyond.com/spells/3360232-inflict-doubt",
+      "name": "Inflict Doubt",
+      "page": 40
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose a creature you can see within range. It makes a Wisdom saving throw. On failure, self-doubt gives it Disadvantage on D20 Tests for the duration. At the end of each of its turns it repeats the save, ending the spell on itself on success.",
+    "da": "Vælg en skabning, du kan se inden for rækkevidde. Den laver en WIS-redning. Ved fejl giver tvivl på egne evner den Disadvantage på D20 Tests i varigheden. Ved slutningen af hver af sine ture gentager den redningen og afslutter formularen på sig selv ved succes."
+  },
+  "Invulnerability": {
+    "level": 9,
+    "school": "Abjuration",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self",
+    "components": "V, S, M (adamantine worth 500+ GP, consumed)",
+    "dur": "Concentration, up to 10 minutes",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 41",
+      "url": "https://www.dndbeyond.com/spells/3360233-invulnerability",
+      "name": "Invulnerability",
+      "page": 41
+    },
+    "reviewed": "2026-11-02",
+    "en": "Until this spell ends, you have Immunity to every type of damage.",
+    "da": "Indtil formularen slutter, har du Immunity mod al skade, uanset skadetype."
+  },
+  "Iron Body": {
+    "level": 8,
+    "school": "Transmutation",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Touch",
+    "components": "V, S, M (diamond dust worth 250+ GP, consumed)",
+    "dur": "Concentration, up to 1 hour",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 41",
+      "url": "https://www.dndbeyond.com/spells/3360234-iron-body",
+      "name": "Iron Body",
+      "page": 41
+    },
+    "reviewed": "2026-11-02",
+    "en": "Touch one willing creature to turn its body into living metal. Until the spell ends, its Exhaustion level cannot increase. It has Resistance to Bludgeoning, Fire, Piercing, and Slashing damage, and Immunity to Poison damage and the Paralyzed, Petrified, and Poisoned conditions. If it already has any of those three conditions when you cast the spell, they end immediately.",
+    "da": "Berør én villig skabning og omdan dens krop til levende metal. Indtil formularen slutter, kan dens Exhaustion-niveau ikke stige. Den har Resistance mod Bludgeoning-, Fire-, Piercing- og Slashing-skade samt Immunity mod Poison-skade og tilstandene Paralyzed, Petrified og Poisoned. Har den allerede en eller flere af disse tre tilstande, når du kaster formularen, slutter de straks."
+  },
+  "Lightning Ring": {
+    "level": 8,
+    "school": "Evocation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Bonus Action",
+    "range": "Self",
+    "components": "V, S, M (a bit of fur and a glass ring)",
+    "dur": "Concentration, up to 10 minutes",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 41",
+      "url": "https://www.dndbeyond.com/spells/3360235-lightning-ring",
+      "name": "Lightning Ring",
+      "page": 41
+    },
+    "reviewed": "2026-11-02",
+    "en": "Electricity fills a 10-foot Emanation originating from you. Whenever it enters a creature's space, or a creature enters it or ends its turn there, you may force that creature to make a Constitution save. On failure it takes 3d6 Lightning plus 3d6 Thunder damage and is Deafened for 1 minute. Success deals half damage only.\n\nWhile the spell lasts, you may use a Magic action to send a 60-foot-long, 5-foot-wide Line from yourself in a chosen direction. Every creature in the Line makes a Dexterity save, taking 6d6 Lightning damage on failure or half on success.",
+    "da": "Elektricitet fylder en 10-ft Emanation fra dig. Hver gang området bevæger sig ind i en skabnings felt, eller en skabning går ind i området eller afslutter sin tur der, kan du tvinge skabningen til en CON-redning. Ved fejl tager den 3d6 Lightning- og 3d6 Thunder-skade og får Deafened i 1 minut. Ved succes tager den kun halv skade.\n\nMens formularen varer, kan du bruge en Magic action på at sende en Line, 60 ft lang og 5 ft bred, ud fra dig i en valgt retning. Hver skabning i linjen laver en DEX-redning og tager 6d6 Lightning-skade ved fejl eller halv skade ved succes."
+  },
+  "Moment of Prescience": {
+    "level": 8,
+    "school": "Divination",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Reaction, when you fail a D20 Test or a creature hits you with an attack roll",
+    "range": "Self",
+    "components": "V, S",
+    "dur": "Instantaneous",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 42",
+      "url": "https://www.dndbeyond.com/spells/3360236-moment-of-prescience",
+      "name": "Moment of Prescience",
+      "page": 42
+    },
+    "reviewed": "2026-11-02",
+    "en": "Use your premonition to change the triggering roll. Turn the die roll of your failed D20 Test into a 20, or turn the die roll of the triggering attack against you into a 1.",
+    "da": "Brug dit forvarsel til at ændre det udløsende kast. Gør terningkastet for din fejlede D20 Test til 20, eller gør terningkastet for det udløsende angreb mod dig til 1."
+  },
+  "Mordenkainen's Lucubration": {
+    "level": 5,
+    "school": "Divination",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self",
+    "components": "V, S",
+    "dur": "Instantaneous",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 42",
+      "url": "https://www.dndbeyond.com/spells/3360237-mordenkainens-lucubration",
+      "name": "Mordenkainen's Lucubration",
+      "page": 42
+    },
+    "reviewed": "2026-11-02",
+    "en": "Recover up to two expended spell slots, each of level 2 or lower.\n\nHigher slots: With a level 6–7 slot, each recovered slot can be level 3 or lower. With a level 8+ slot, each can be level 4 or lower. You still recover at most two slots.",
+    "da": "Genvind op til to brugte spell slots, hver på niveau 2 eller lavere.\n\nHøjere slots: Kastes formularen med et slot på niveau 6–7, kan hvert genvundet slot være niveau 3 eller lavere. Med et slot på niveau 8 eller højere kan hvert være niveau 4 eller lavere. Du genvinder stadig højst to slots."
+  },
+  "Negative Energy Flood": {
+    "level": 5,
+    "school": "Necromancy",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "60 feet",
+    "components": "V, M (a broken bone and a square of black silk)",
+    "dur": "Instantaneous",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 42",
+      "url": "https://www.dndbeyond.com/spells/3360238-negative-energy-flood",
+      "name": "Negative Energy Flood",
+      "page": 42
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose one creature you can see within range. If it is not Undead, it makes a Constitution save, taking 3d10 + 25 Necrotic damage on failure or half on success. A Humanoid killed by this spell rises as a Zombie at the start of your next turn. It follows your verbal orders for 24 hours, then behaves according to its own nature. Use the Zombie creature statistics as a separate reference.\n\nIf the target is Undead, it instead gains 3d10 Temporary HP.\n\nHigher slots: Damage increases by 1d10 per slot level above 5. This increases damage, not the Temporary HP granted to an Undead target.",
+    "da": "Vælg én skabning, du kan se inden for rækkevidde. Hvis den ikke er Undead, laver den en CON-redning og tager 3d10 + 25 Necrotic-skade ved fejl eller halv skade ved succes. En Humanoid, som dræbes af formularen, rejser sig som Zombie ved starten af din næste tur. Den følger dine mundtlige ordrer i 24 timer og handler derefter efter sin egen natur. Zombie-statblokken er en særskilt skabningsreference.\n\nHvis målet er Undead, får det i stedet 3d10 Temporary HP.\n\nHøjere slots: Skaden øges med 1d10 pr. slotniveau over 5. Det øger skaden, ikke de Temporary HP, som gives til et Undead mål."
+  },
+  "Power Word Pain": {
+    "level": 7,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "60 feet",
+    "components": "V",
+    "dur": "1 minute",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 42",
+      "url": "https://www.dndbeyond.com/spells/3360239-power-word-pain",
+      "name": "Power Word Pain",
+      "page": 42
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose one creature you can see within range. If the target has 100 HP or fewer when affected, it takes 6d8 Force damage and has the Charmed condition for the duration. If it has more than 100 HP, it takes 6d8 Force damage only.\n\nWhile Charmed by this spell, its Speed cannot exceed 10 feet, and it has Disadvantage on D20 Tests except Constitution saving throws. Before casting any spell, it must first succeed on a Constitution save. Failure makes that spell dissipate without effect and wastes the action, Bonus Action, or Reaction used to cast it; if a spell slot was used, that slot is not expended.\n\nAt the end of each of its turns, the Charmed target makes a Constitution save, ending this spell on itself on success.",
+    "da": "Vælg én skabning, du kan se inden for rækkevidde. Har målet 100 HP eller færre, når det påvirkes, tager det 6d8 Force-skade og får Charmed i varigheden. Har det mere end 100 HP, tager det kun 6d8 Force-skade.\n\nMens den er Charmed af denne formular, kan dens Speed højst være 10 ft, og den har Disadvantage på D20 Tests undtagen CON-redninger. Før den kan kaste en formular, skal den først lykkes med en CON-redning. Ved fejl opløses den pågældende formular uden effekt, og den handling, Bonus Action eller Reaction, der blev brugt på kastet, er spildt. Hvis kastet brugte et spell slot, bliver dette slot dog ikke brugt op.\n\nVed slutningen af hver af sine ture laver det Charmed mål en CON-redning og afslutter denne formular på sig selv ved succes."
+  },
+  "Reweave Fate": {
+    "level": 7,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Reaction, when a creature you can see within 60 feet fails a D20 Test",
+    "range": "60 feet",
+    "components": "S",
+    "dur": "Instantaneous",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 42",
+      "url": "https://www.dndbeyond.com/spells/3360240-reweave-fate",
+      "name": "Reweave Fate",
+      "page": 42
+    },
+    "reviewed": "2026-11-02",
+    "en": "The creature whose failed D20 Test triggered this Reaction may reroll that test with Advantage and must use the new roll. If the resulting test succeeds, it gains 6d10 Temporary HP.",
+    "da": "Skabningen, hvis fejlede D20 Test udløste din Reaction, kan slå testen om med Advantage og skal bruge det nye kast. Hvis den nye test lykkes, får skabningen 6d10 Temporary HP."
+  },
+  "Spirit Lantern": {
+    "level": 5,
+    "school": "Necromancy",
+    "classes": [
+      "Artificer",
+      "Cleric",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self",
+    "components": "V, S, M (a black lantern)",
+    "dur": "10 minutes",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 43",
+      "url": "https://www.dndbeyond.com/spells/3360241-spirit-lantern",
+      "name": "Spirit Lantern",
+      "page": 43
+    },
+    "reviewed": "2026-11-02",
+    "en": "A ghostly black lantern floats above you, shedding Dim Light in a 60-foot radius. When an enemy dies in that Dim Light, a soul fragment enters the lantern. It can hold fragments equal to your spellcasting ability modifier. All fragments dissipate when the spell ends.\n\nAs a Bonus Action, spend one fragment for one effect:\n\n• Drain Life: Choose a creature you can see within 60 feet of yourself. It makes a Constitution save, taking 4d8 + your spellcasting ability modifier Necrotic damage on failure or half on success.\n• Repair Undead: Choose an Undead creature you can see within 60 feet of yourself. It regains 4d8 + your spellcasting ability modifier HP.\n• Ward Ally: Choose a creature you can see within 60 feet of yourself. Other creatures have Disadvantage on attack rolls against it until the start of your next turn.",
+    "da": "En spøgelsesagtig sort lanterne svæver over dig og udsender Dim Light i en radius på 60 ft. Når en fjende dør i dette svage lys, flyver et sjælefragment ind i lanternen. Den kan rumme et antal fragmenter svarende til din spellcasting ability modifier. Alle fragmenter opløses, når formularen slutter.\n\nSom Bonus Action kan du bruge ét fragment på én af følgende effekter:\n\n• Drain Life: Vælg en skabning, du kan se inden for 60 ft fra dig. Den laver en CON-redning og tager 4d8 + din spellcasting ability modifier Necrotic-skade ved fejl eller halv skade ved succes.\n• Repair Undead: Vælg en Undead skabning, du kan se inden for 60 ft fra dig. Den genvinder 4d8 + din spellcasting ability modifier HP.\n• Ward Ally: Vælg en skabning, du kan se inden for 60 ft fra dig. Andre skabninger har Disadvantage på angrebskast mod den indtil starten af din næste tur."
+  },
+  "Summon Dinosaur": {
+    "level": 6,
+    "school": "Conjuration",
+    "classes": [
+      "Druid"
+    ],
+    "cast": "Action",
+    "range": "90 feet",
+    "components": "V, S, M (a polished scale worth 600+ GP)",
+    "dur": "Concentration, up to 1 hour",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 43",
+      "url": "https://www.dndbeyond.com/spells/3360243-summon-dinosaur",
+      "name": "Summon Dinosaur",
+      "page": 43
+    },
+    "reviewed": "2026-11-02",
+    "en": "Summon a dinosaur spirit in an unoccupied space you can see within range. Choose Ankylosaur, Triceratops, or Tyrannosaur; its appearance and the indicated statistics depend on that choice. It disappears at 0 HP or when the spell ends.\n\nIt is allied with you and your allies. It shares your Initiative count but takes its turn immediately after yours. It obeys verbal commands without requiring your action. If you give no command, it takes Dodge and moves to avoid danger.\n\n## Dinosaur Spirit\nL is the spell slot level (minimum 6). Huge Beast (Dinosaur), Neutral. AC 11 + L, plus 2 for Ankylosaur. HP 60 + 10 × (L − 6). Speed 40 ft.\n\n| Ability | Score | Modifier | Save |\n| --- | --- | --- | --- |\n| STR | 21 | +5 | +5 |\n| DEX | 11 | +0 | +0 |\n| CON | 15 | +2 | +2 |\n| INT | 4 | −3 | −3 |\n| WIS | 12 | +1 | +1 |\n| CHA | 9 | −1 | −1 |\n\nPassive Perception 11. Understands the languages you know. CR none; XP 0; PB equals your Proficiency Bonus.\n\n• Siege Monster (Ankylosaur): Double damage to objects and structures.\n• Tough: Add half L, rounded down, to its Strength and Constitution saving throws.\n• Multiattack: Make a number of attacks equal to half L, rounded down.\n• Bite (Tyrannosaur): Melee attack using your spell attack modifier, reach 10 ft. Hit: 2d10 + 5 + L Piercing damage. A Large or smaller creature hit is Grappled (escape DC equals your spell save DC) and is Restrained until the grapple ends.\n• Gore (Triceratops): Melee attack using your spell attack modifier, reach 5 ft. Hit: 1d10 + 5 + L Piercing damage. If the target is a Huge or smaller creature and the spirit moved at least 20 feet straight toward it immediately before the hit, add 1d10 Piercing damage and give the target the Prone condition.\n• Slam: Melee attack using your spell attack modifier, reach 10 ft. Hit: 1d10 + 5 + L Bludgeoning damage.\n\nHigher slots: Use the actual slot level as L for all statistics.",
+    "da": "Fremman en dinosaurånd i et ledigt felt, du kan se inden for rækkevidde. Vælg Ankylosaur, Triceratops eller Tyrannosaur; valget bestemmer udseendet og de angivne forskelle i statblokken. Den forsvinder ved 0 HP, eller når formularen slutter.\n\nDen er allieret med dig og dine allierede. Den deler dit Initiative-tal, men tager sin tur umiddelbart efter din. Den adlyder mundtlige kommandoer, som ikke kræver en handling fra dig. Giver du ingen kommando, tager den Dodge og bevæger sig for at undgå fare.\n\n## Dinosaur Spirit\nL er det anvendte slotniveau, mindst 6. Huge Beast (Dinosaur), Neutral. AC 11 + L, yderligere +2 for Ankylosaur. HP 60 + 10 × (L − 6). Speed 40 ft.\n\n| Egenskab | Værdi | Modifikator | Redning |\n| --- | --- | --- | --- |\n| STR | 21 | +5 | +5 |\n| DEX | 11 | +0 | +0 |\n| CON | 15 | +2 | +2 |\n| INT | 4 | −3 | −3 |\n| WIS | 12 | +1 | +1 |\n| CHA | 9 | −1 | −1 |\n\nPassive Perception 11. Forstår de sprog, du kender. CR ingen; XP 0; PB er din Proficiency Bonus.\n\n• Siege Monster (Ankylosaur): Giver dobbelt skade til genstande og bygninger.\n• Tough: Læg halvdelen af L, rundet ned, til dens STR- og CON-redninger.\n• Multiattack: Foretag et antal angreb svarende til halvdelen af L, rundet ned.\n• Bite (Tyrannosaur): Nærkampsangreb med din spell attack modifier, reach 10 ft. Træffer: 2d10 + 5 + L Piercing-skade. En ramt skabning af størrelse Large eller mindre får Grappled (escape DC er din spell save DC) og er Restrained, indtil grebet slutter.\n• Gore (Triceratops): Nærkampsangreb med din spell attack modifier, reach 5 ft. Træffer: 1d10 + 5 + L Piercing-skade. Hvis målet er en skabning af størrelse Huge eller mindre, og ånden bevægede sig mindst 20 ft lige mod det umiddelbart før træfferen, tager målet yderligere 1d10 Piercing-skade og får Prone.\n• Slam: Nærkampsangreb med din spell attack modifier, reach 10 ft. Træffer: 1d10 + 5 + L Bludgeoning-skade.\n\nHøjere slots: Brug det faktiske slotniveau som L i alle værdier."
+  },
+  "Summon Plant": {
+    "level": 5,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "cast": "Action",
+    "range": "90 feet",
+    "components": "V, S, M (herbs worth 500+ GP)",
+    "dur": "Concentration, up to 1 hour",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 44",
+      "url": "https://www.dndbeyond.com/spells/3360245-summon-plant",
+      "name": "Summon Plant",
+      "page": 44
+    },
+    "reviewed": "2026-11-02",
+    "en": "Summon an animated plant spirit in an unoccupied space you can see within range. Choose Fungus, Tree, or Vine; this sets its appearance and the indicated statistics. It disappears at 0 HP or when the spell ends.\n\nIt is allied with you and your allies. It shares your Initiative count but acts immediately after your turn. It obeys verbal commands without requiring an action from you. Without commands it takes Dodge and moves to avoid danger.\n\n## Plant Spirit\nL is the spell slot level (minimum 5). Large Plant, Neutral. AC 11 + L, plus 2 for Tree. HP 50 + 10 × (L − 5). Speed 40 ft; Vine also has Climb 40 ft.\n\n| Ability | Score | Modifier | Save |\n| --- | --- | --- | --- |\n| STR | 17 | +3 | +3 |\n| DEX | 13 | +1 | +1 |\n| CON | 14 | +2 | +2 |\n| INT | 10 | +0 | +0 |\n| WIS | 13 | +1 | +1 |\n| CHA | 10 | +0 | +0 |\n\nVulnerabilities: Fire (Tree), Slashing (Fungus or Vine). Passive Perception 11. Understands the languages you know. CR none; XP 0; PB equals your Proficiency Bonus.\n\n• Siege Monster (Tree): Double damage to objects and structures.\n• Multiattack: Make half L attacks, rounded down.\n• Slam (Tree or Vine): Melee attack using your spell attack modifier, reach 5 ft. Hit: 1d10 + 3 + L Bludgeoning damage.\n• Spore Spray (Fungus): Melee or ranged attack using your spell attack modifier, reach 5 ft or range 30 ft. Hit: 1d4 + L Poison damage and the target is Poisoned until the end of its next turn. If the target is already Poisoned, it instead takes an additional 3d4 Poison damage.\n• Twist Away (Vine), Bonus Action: Take the Dash or Disengage action.\n\nHigher slots: Use the actual slot level as L for the stat block.",
+    "da": "Fremman en animeret planteånd i et ledigt felt, du kan se inden for rækkevidde. Vælg Fungus, Tree eller Vine; valget bestemmer udseendet og forskellene i statblokken. Den forsvinder ved 0 HP, eller når formularen slutter.\n\nDen er allieret med dig og dine allierede. Den deler dit Initiative-tal, men tager sin tur umiddelbart efter din. Den adlyder mundtlige kommandoer uden at kræve en handling fra dig. Uden kommando tager den Dodge og bevæger sig for at undgå fare.\n\n## Plant Spirit\nL er det anvendte slotniveau, mindst 5. Large Plant, Neutral. AC 11 + L, yderligere +2 for Tree. HP 50 + 10 × (L − 5). Speed 40 ft; Vine har også Climb 40 ft.\n\n| Egenskab | Værdi | Modifikator | Redning |\n| --- | --- | --- | --- |\n| STR | 17 | +3 | +3 |\n| DEX | 13 | +1 | +1 |\n| CON | 14 | +2 | +2 |\n| INT | 10 | +0 | +0 |\n| WIS | 13 | +1 | +1 |\n| CHA | 10 | +0 | +0 |\n\nVulnerabilities: Fire (Tree), Slashing (Fungus eller Vine). Passive Perception 11. Forstår de sprog, du kender. CR ingen; XP 0; PB er din Proficiency Bonus.\n\n• Siege Monster (Tree): Giver dobbelt skade til genstande og bygninger.\n• Multiattack: Foretag halvdelen af L angreb, rundet ned.\n• Slam (Tree eller Vine): Nærkampsangreb med din spell attack modifier, reach 5 ft. Træffer: 1d10 + 3 + L Bludgeoning-skade.\n• Spore Spray (Fungus): Nærkamps- eller afstandsangreb med din spell attack modifier, reach 5 ft eller range 30 ft. Træffer: 1d4 + L Poison-skade, og målet får Poisoned indtil slutningen af sin næste tur. Er målet allerede Poisoned, tager det i stedet yderligere 3d4 Poison-skade.\n• Twist Away (Vine), Bonus Action: Tag Dash- eller Disengage-handlingen.\n\nHøjere slots: Brug det faktiske slotniveau som L i statblokken."
+  },
+  "Transfix": {
+    "level": 7,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self",
+    "components": "V, S",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 44",
+      "url": "https://www.dndbeyond.com/spells/3360244-transfix",
+      "name": "Transfix",
+      "page": 44
+    },
+    "reviewed": "2026-11-02",
+    "en": "Your appearance becomes supernaturally alluring. Choose one creature you can see within 60 feet of yourself. It makes a Charisma save; on failure it is Charmed for the duration. While Charmed it is Incapacitated. If it is more than 5 feet from you, it moves toward you on its turn by the most direct route, trying to get within 5 feet. If it ends its turn within 5 feet of you, it takes 4d8 Psychic damage.\n\nThis movement does not avoid Opportunity Attacks. Before moving into damaging terrain such as lava or a pit, the target repeats the save, ending the spell on itself on success. While the spell lasts, on later turns you can use a Magic action to target another creature. A creature that has succeeded on a save against this casting cannot be targeted again by this casting.\n\nHigher slots: Damage increases by 1d8 per slot level above 7.",
+    "da": "Dit udseende bliver overnaturligt dragende. Vælg én skabning, du kan se inden for 60 ft fra dig. Den laver en CHA-redning; ved fejl får den Charmed i varigheden. Mens den er Charmed, er den også Incapacitated. Er den mere end 5 ft fra dig, bevæger den sig på sin tur ad den mest direkte rute mod dig og forsøger at komme inden for 5 ft. Afslutter den sin tur inden for 5 ft fra dig, tager den 4d8 Psychic-skade.\n\nBevægelsen undgår ikke Opportunity Attacks. Før målet går ind i skadevoldende terræn, såsom lava eller en grube, gentager det redningen og afslutter formularen på sig selv ved succes. Mens formularen varer, kan du på efterfølgende ture bruge en Magic action på at vælge en anden skabning som mål. En skabning, der har klaret en redning mod netop dette kast af formularen, kan ikke vælges igen af samme kast.\n\nHøjere slots: Skaden øges med 1d8 pr. slotniveau over 7."
+  },
+  "Uncertain Footing": {
+    "level": 2,
+    "school": "Illusion",
+    "classes": [
+      "Artificer",
+      "Bard",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "120 feet",
+    "components": "V, S, M (a distorted lens)",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 44",
+      "url": "https://www.dndbeyond.com/spells/3360246-uncertain-footing",
+      "name": "Uncertain Footing",
+      "page": 44
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose up to three creatures you can see within range. Illusory obstacles confuse their movement. Each makes an Intelligence save. On failure its Speed is halved and it cannot take the Dash action. An affected target repeats the save at the end of each of its turns, ending the spell on itself on success.",
+    "da": "Vælg op til tre skabninger, du kan se inden for rækkevidde. Illusoriske forhindringer forvirrer deres bevægelse. Hvert mål laver en INT-redning. Ved fejl halveres dets Speed, og det kan ikke tage Dash-handlingen. Et påvirket mål gentager redningen ved slutningen af hver af sine ture og afslutter formularen på sig selv ved succes."
+  },
+  "Vision of Elapsing Eons": {
+    "level": 9,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "120 feet",
+    "components": "V, S",
+    "dur": "1 minute",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 45",
+      "url": "https://www.dndbeyond.com/spells/3360247-vision-of-elapsing-eons",
+      "name": "Vision of Elapsing Eons",
+      "page": 45
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose a creature you can see within range. It perceives itself and its surroundings crumbling through passing eons. It makes an Intelligence save. On failure it takes 10d12 Psychic damage and is Paralyzed for the duration; an initial success avoids both effects.\n\nWhile Paralyzed by this spell, it repeats the save at the end of each of its turns. Failure gives it 1 Exhaustion level; success ends the spell. The spell also ends early if someone within 5 feet of the target uses an action to shake it free of the illusion. The spell does not say that its gained Exhaustion is removed when it ends.",
+    "da": "Vælg en skabning, du kan se inden for rækkevidde. Den oplever sig selv og sine omgivelser smuldre, som om tidsaldre passerer på få øjeblikke. Målet laver en INT-redning. Ved fejl tager det 10d12 Psychic-skade og får Paralyzed i varigheden; en succesfuld første redning undgår begge virkninger.\n\nMens målet er Paralyzed af formularen, gentager det redningen ved slutningen af hver af sine ture. Ved fejl får det 1 Exhaustion-niveau; ved succes slutter formularen. Den slutter også tidligt, hvis nogen inden for 5 ft fra målet bruger en handling på at ruske det fri af illusionen. Formularen angiver ikke, at den opnåede Exhaustion fjernes, når den slutter."
+  },
+  "Wail of the Banshee": {
+    "level": 9,
+    "school": "Necromancy",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "60 feet",
+    "components": "V",
+    "dur": "Instantaneous",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 45",
+      "url": "https://www.dndbeyond.com/spells/3360248-wail-of-the-banshee",
+      "name": "Wail of the Banshee",
+      "page": 45
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose up to ten creatures within range. A target that cannot hear you is unaffected. Each target with 50 HP or fewer dies. A target with more than 50 HP makes a Constitution save. On failure it takes 12d10 Psychic damage and is Deafened for 1 hour. On success it takes half damage only.",
+    "da": "Vælg op til ti skabninger inden for rækkevidde. Et mål, der ikke kan høre dig, påvirkes ikke. Hvert mål med 50 HP eller færre dør. Et mål med mere end 50 HP laver en CON-redning. Ved fejl tager det 12d10 Psychic-skade og får Deafened i 1 time. Ved succes tager det kun halv skade."
+  },
+  "Waves of Exhaustion": {
+    "level": 5,
+    "school": "Necromancy",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Bonus Action",
+    "range": "Self",
+    "components": "V, S, M (a piece of dried meat)",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 45",
+      "url": "https://www.dndbeyond.com/spells/3360249-waves-of-exhaustion",
+      "name": "Waves of Exhaustion",
+      "page": 45
+    },
+    "reviewed": "2026-11-02",
+    "en": "A flickering gray aura surrounds you. While the spell lasts, you may use a Magic action to emit a 60-foot Cone of gray light. Creatures in it make a Constitution save; failure gives 1 Exhaustion level. This spell cannot raise a creature's Exhaustion level above 4. All Exhaustion levels gained from this spell are removed when it ends.",
+    "da": "Et flimrende gråt skær omgiver dig. Mens formularen varer, kan du bruge en Magic action på at udsende en 60-ft Cone af gråt lys. Skabninger i keglen laver en CON-redning; ved fejl får de 1 Exhaustion-niveau. Formularen kan ikke øge en skabnings Exhaustion til mere end niveau 4. Alle Exhaustion-niveauer, der stammer fra denne formular, fjernes, når den slutter."
+  },
+  "Wither and Bloom": {
+    "level": 2,
+    "school": "Necromancy",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "60 feet",
+    "components": "V, S, M (a withered vine twisted into a loop)",
+    "dur": "Instantaneous",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 45",
+      "url": "https://www.dndbeyond.com/spells/3360250-wither-and-bloom",
+      "name": "Wither and Bloom",
+      "page": 45
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose a point within range and a 10-foot-radius Sphere centered there. Each creature of your choice in it makes a Constitution save, taking 3d6 Necrotic damage on failure or half on success. Nonmagical plants in the area that are not creatures, such as trees and shrubs, wither.\n\nAlso choose one creature in the area. It may roll one unexpended Hit Point Die and regain HP equal to the roll plus your spellcasting ability modifier, then expend that die.\n\nHigher slots: Damage increases by 1d6 per slot level above 2. The healing target may roll and expend one additional Hit Point Die per slot level above 2. Add your spellcasting ability modifier to the total healing only once, regardless of the number of dice rolled.",
+    "da": "Vælg et punkt inden for rækkevidde og en Sphere med 10-ft radius omkring det. Hver skabning efter dit valg i området laver en CON-redning og tager 3d6 Necrotic-skade ved fejl eller halv skade ved succes. Ikke-magiske planter i området, som ikke er skabninger, eksempelvis træer og buske, visner.\n\nVælg desuden én skabning i området. Den kan slå én af sine ubrugte Hit Point Dice og genvinde HP svarende til kastet plus din spellcasting ability modifier; terningen er derefter brugt.\n\nHøjere slots: Skaden øges med 1d6 pr. slotniveau over 2. Det helbredte mål kan slå og bruge én ekstra Hit Point Die pr. slotniveau over 2. Din spellcasting ability modifier lægges kun til den samlede helbredelse én gang, uanset hvor mange terninger der slås."
+  },
+  "Zone of Amicability": {
+    "level": 4,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Warlock"
+    ],
+    "cast": "Action",
+    "range": "Self",
+    "components": "V, S",
+    "dur": "10 minutes",
+    "book": "Arcana Unleashed",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "Arcana Unleashed (2026), p. 45",
+      "url": "https://www.dndbeyond.com/spells/3360251-zone-of-amicability",
+      "name": "Zone of Amicability",
+      "page": 45
+    },
+    "reviewed": "2026-11-02",
+    "en": "For the duration, a 60-foot Emanation of friendliness originates from you. When you make an ability check to influence a creature in that area, you may treat a d20 result of 9 or lower as a 10.",
+    "da": "I varigheden udgår en venlighedens aura fra dig som en 60-ft Emanation. Når du laver et ability check for at påvirke en skabning i området, kan du behandle et d20-resultat på 9 eller lavere som 10."
+  }
+}

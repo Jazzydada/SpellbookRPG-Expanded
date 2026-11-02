@@ -1,0 +1,619 @@
+{
+  "Dark Star": {
+    "level": 8,
+    "school": "Evocation",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "150 feet",
+    "components": "V, S, M (a shard of onyx and a drop of the caster’s blood, both consumed)",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Explorer's Guide to Wildemount",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Explorer's Guide to Wildemount, p. 186",
+      "url": "https://www.dndbeyond.com/spells/416800-dark-star",
+      "name": "Dark Star",
+      "page": 186
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose a point in range and create a sphere with a radius of your choice up to 40 feet. The sphere is magical darkness and difficult terrain for the duration. Darkvision cannot see through it, and nonmagical light cannot illuminate it. Sound cannot originate in or pass through the sphere. A creature or object entirely inside is immune to Thunder damage; creatures entirely inside are Deafened, and spells with verbal components cannot be cast there.\n\nA creature entering the area for the first time on a turn or starting its turn there makes a Constitution saving throw. It takes 8d10 Force damage on failure, half on success. A creature reduced to 0 HP by this damage is disintegrated: it and everything it wears or carries, except magic items, become fine gray dust.",
+    "da": "Vælg et punkt inden for rækkevidde, og skab en kugle med en radius, du vælger, på højst 40 ft. Kuglen er magisk mørke og Difficult Terrain i hele varigheden. Darkvision kan ikke se gennem mørket, og ikke-magisk lys kan ikke oplyse det. Lyd kan hverken opstå inde i kuglen eller passere gennem den. Skabninger og genstande, der er helt inde i kuglen, er immune over for Thunder-skade. Skabninger helt inde i kuglen er Deafened, og formularer med verbal komponent kan ikke kastes der.\n\nEn skabning, der går ind i området første gang på en tur eller starter sin tur der, laver en CON-redning: 8d10 Force-skade ved fejl, halvdelen ved succes. Hvis denne skade reducerer en skabning til 0 HP, opløses den og alt, den bærer eller har på, bortset fra magiske genstande, til fint gråt støv.",
+    "restricted": true,
+    "accessNote": {
+      "en": "Dunamancy: available to Chronurgy and Graviturgy wizards. Other spellcasters require the Dungeon Master’s permission; this is not a general Wizard spell-list addition.",
+      "da": "Dunamancy: tilgængelig for Wizards med Chronurgy eller Graviturgy. Andre formularbrugere kræver DM’s tilladelse; formularen er ikke automatisk del af den almindelige Wizard-liste."
+    }
+  },
+  "Fortune's Favor": {
+    "level": 2,
+    "school": "Divination",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "1 minute",
+    "range": "60 feet",
+    "components": "V, S, M (a white pearl worth at least 100 gp, consumed)",
+    "dur": "1 hour",
+    "book": "Explorer's Guide to Wildemount",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Explorer's Guide to Wildemount, p. 186",
+      "url": "https://www.dndbeyond.com/spells/176232-fortunes-favor",
+      "name": "Fortune's Favor",
+      "page": 186
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose yourself or one willing creature you can see in range. Before the duration ends, the target can end the spell on itself when making an attack roll, ability check, or saving throw: it rolls an extra d20 and chooses which d20 to use. Alternatively, when someone makes an attack roll against it, the target can end the spell, roll a d20, and choose between its roll and the attacker’s d20. If the original roll had Advantage or Disadvantage, resolve that first, then roll the extra d20.\n\nHigher slots: target one additional creature for each slot level above 2.",
+    "da": "Vælg dig selv eller én villig skabning, du kan se inden for rækkevidde. Inden varigheden slutter, kan målet afslutte formularen på sig selv, når det laver et angrebsslag, ability check eller saving throw. Målet ruller en ekstra d20 og vælger, hvilken d20 der bruges. Alternativt kan målet afslutte formularen, når nogen laver et angrebsslag mod det: målet ruller en d20 og vælger mellem sin egen d20 og angriberens. Hvis det oprindelige slag havde Advantage eller Disadvantage, afgøres dette først, før den ekstra d20 rulles.\n\nHøjere slots: Vælg ét ekstra mål pr. slotniveau over 2.",
+    "restricted": true,
+    "accessNote": {
+      "en": "Dunamancy: available to Chronurgy and Graviturgy wizards. Other spellcasters require the Dungeon Master’s permission; this is not a general Wizard spell-list addition.",
+      "da": "Dunamancy: tilgængelig for Wizards med Chronurgy eller Graviturgy. Andre formularbrugere kræver DM’s tilladelse; formularen er ikke automatisk del af den almindelige Wizard-liste."
+    }
+  },
+  "Gift of Alacrity": {
+    "level": 1,
+    "school": "Divination",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "1 minute",
+    "range": "Touch",
+    "components": "V, S",
+    "dur": "8 hours",
+    "book": "Explorer's Guide to Wildemount",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Explorer's Guide to Wildemount, p. 186",
+      "url": "https://www.dndbeyond.com/spells/176233-gift-of-alacrity",
+      "name": "Gift of Alacrity",
+      "page": 186
+    },
+    "reviewed": "2026-11-02",
+    "en": "Touch one willing creature. For the duration, it can add 1d8 to its initiative rolls.",
+    "da": "Berør én villig skabning. I formularens varighed kan målet lægge 1d8 til sine initiativslag.",
+    "restricted": true,
+    "accessNote": {
+      "en": "Dunamancy: available to Chronurgy and Graviturgy wizards. Other spellcasters require the Dungeon Master’s permission; this is not a general Wizard spell-list addition.",
+      "da": "Dunamancy: tilgængelig for Wizards med Chronurgy eller Graviturgy. Andre formularbrugere kræver DM’s tilladelse; formularen er ikke automatisk del af den almindelige Wizard-liste."
+    }
+  },
+  "Gravity Fissure": {
+    "level": 6,
+    "school": "Evocation",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self (100-foot line)",
+    "components": "V, S, M (a fistful of iron filings)",
+    "dur": "Instantaneous",
+    "book": "Explorer's Guide to Wildemount",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Explorer's Guide to Wildemount, p. 187",
+      "url": "https://www.dndbeyond.com/spells/416801-gravity-fissure",
+      "name": "Gravity Fissure",
+      "page": 187
+    },
+    "reviewed": "2026-11-02",
+    "en": "Create a line of gravitational energy originating from you, 100 feet long and 5 feet wide. Each creature in the line makes a Constitution saving throw: 8d8 Force damage on failure, half on success. Each creature outside the line but within 10 feet of it also makes a Constitution saving throw. On failure it takes 8d8 Force damage and is pulled toward the line until it is inside the area; a successful save avoids both effects for these outside creatures.\n\nHigher slots: damage increases by 1d8 per slot level above 6.",
+    "da": "Skab en linje af tyngdekraftenergi fra dig, 100 ft lang og 5 ft bred. Hver skabning i linjen laver en CON-redning: 8d8 Force-skade ved fejl, halvdelen ved succes. Hver skabning uden for linjen, men højst 10 ft fra den, laver også en CON-redning. Ved fejl tager den 8d8 Force-skade og trækkes mod linjen, indtil den er inde i området. For disse skabninger uden for linjen forhindrer en succes både skade og træk.\n\nHøjere slots: Skaden stiger med 1d8 pr. slotniveau over 6.",
+    "restricted": true,
+    "accessNote": {
+      "en": "Dunamancy: available to Chronurgy and Graviturgy wizards. Other spellcasters require the Dungeon Master’s permission; this is not a general Wizard spell-list addition.",
+      "da": "Dunamancy: tilgængelig for Wizards med Chronurgy eller Graviturgy. Andre formularbrugere kræver DM’s tilladelse; formularen er ikke automatisk del af den almindelige Wizard-liste."
+    }
+  },
+  "Gravity Sinkhole": {
+    "level": 4,
+    "school": "Evocation",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "120 feet",
+    "components": "V, S, M (a black marble)",
+    "dur": "Instantaneous",
+    "book": "Explorer's Guide to Wildemount",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Explorer's Guide to Wildemount, p. 187",
+      "url": "https://www.dndbeyond.com/spells/416802-gravity-sinkhole",
+      "name": "Gravity Sinkhole",
+      "page": 187
+    },
+    "reviewed": "2026-11-02",
+    "en": "Center a 20-foot-radius sphere on a point you can see in range. Each creature in the sphere makes a Constitution saving throw. Failure: 5d10 Force damage and a straight-line pull toward the center, ending in the nearest possible unoccupied space to the center, including in the air. Success: half damage and no pull.\n\nHigher slots: add 1d10 damage per slot level above 4.",
+    "da": "Placér en kugle med 20 ft radius omkring et punkt, du kan se inden for rækkevidde. Hver skabning i kuglen laver en CON-redning. Ved fejl tager den 5d10 Force-skade og trækkes i en lige linje mod centrum, indtil den er i en ledig position så tæt på centrum som muligt; positionen kan være oppe i luften. Ved succes tager den halv skade og trækkes ikke.\n\nHøjere slots: Tilføj 1d10 skade pr. slotniveau over 4.",
+    "restricted": true,
+    "accessNote": {
+      "en": "Dunamancy: available to Chronurgy and Graviturgy wizards. Other spellcasters require the Dungeon Master’s permission; this is not a general Wizard spell-list addition.",
+      "da": "Dunamancy: tilgængelig for Wizards med Chronurgy eller Graviturgy. Andre formularbrugere kræver DM’s tilladelse; formularen er ikke automatisk del af den almindelige Wizard-liste."
+    }
+  },
+  "Immovable Object": {
+    "level": 2,
+    "school": "Transmutation",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Touch",
+    "components": "V, S, M (gold dust worth at least 25 gp, consumed)",
+    "dur": "1 hour",
+    "book": "Explorer's Guide to Wildemount",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Explorer's Guide to Wildemount, p. 187",
+      "url": "https://www.dndbeyond.com/spells/416803-immovable-object",
+      "name": "Immovable Object",
+      "page": 187
+    },
+    "reviewed": "2026-11-02",
+    "en": "Touch an object weighing no more than 10 pounds to fix it magically in place. You and creatures designated when you cast the spell can move it normally. You can set a password: speaking it within 5 feet of the object suppresses the spell for 1 minute.\n\nAn object fixed in the air supports up to 4,000 pounds; a greater weight makes it fall. Otherwise, a creature can use an Action to make a Strength check against your spell save DC. Success allows it to move the object up to 10 feet.\n\nHigher slots: a level 4 or 5 slot raises the movement check DC by 5, the supported weight to 8,000 pounds, and the duration to 24 hours. A slot of level 6 or higher raises the DC by 10, the supported weight to 20,000 pounds, and makes the effect permanent until dispelled. A level 3 slot grants no additional benefit.",
+    "da": "Berør en genstand på højst 10 pund, og fasthold den magisk på stedet. Du og de skabninger, du udpeger ved kastet, kan bevæge genstanden normalt. Du kan fastlægge et kodeord; hvis det siges inden for 5 ft fra genstanden, undertrykkes formularen i 1 minut.\n\nEn genstand, som fastholdes i luften, kan bære op til 4.000 pund. En større belastning får den til at falde. Ellers kan en skabning bruge en Action på et STR-check mod din spell save DC. Ved succes kan den flytte genstanden op til 10 ft.\n\nHøjere slots: Et slot på niveau 4 eller 5 øger DC for at flytte genstanden med 5, bæreevnen til 8.000 pund og varigheden til 24 timer. Et slot på niveau 6 eller højere øger DC med 10, bæreevnen til 20.000 pund og gør effekten permanent, indtil den dispelles. Et slot på niveau 3 giver ingen ekstra fordel.",
+    "restricted": true,
+    "accessNote": {
+      "en": "Dunamancy: available to Chronurgy and Graviturgy wizards. Other spellcasters require the Dungeon Master’s permission; this is not a general Wizard spell-list addition.",
+      "da": "Dunamancy: tilgængelig for Wizards med Chronurgy eller Graviturgy. Andre formularbrugere kræver DM’s tilladelse; formularen er ikke automatisk del af den almindelige Wizard-liste."
+    }
+  },
+  "Magnify Gravity": {
+    "level": 1,
+    "school": "Transmutation",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "60 feet",
+    "components": "V, S",
+    "dur": "1 round",
+    "book": "Explorer's Guide to Wildemount",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Explorer's Guide to Wildemount, p. 188",
+      "url": "https://www.dndbeyond.com/spells/416804-magnify-gravity",
+      "name": "Magnify Gravity",
+      "page": 188
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose a visible point in range. Each creature in a 10-foot-radius sphere around it on the turn you cast the spell makes a Constitution saving throw. Failure: 2d8 Force damage and halved speed until the end of its next turn. Success: half damage and no speed reduction. Until the start of your next turn, picking up or moving an unworn, uncarried object in the sphere requires a successful Strength check against your spell save DC.\n\nHigher slots: add 1d8 damage per slot level above 1.",
+    "da": "Vælg et synligt punkt inden for rækkevidde. Hver skabning i en kugle med 10 ft radius omkring punktet på den tur, hvor du kaster formularen, laver en CON-redning. Ved fejl tager den 2d8 Force-skade, og dens hastighed halveres indtil slutningen af dens næste tur. Ved succes tager den halv skade uden hastighedsreduktion. Indtil starten af din næste tur kræver det et succesfuldt STR-check mod din spell save DC at løfte eller flytte en genstand i kuglen, som ingen bærer eller har på.\n\nHøjere slots: Tilføj 1d8 skade pr. slotniveau over 1.",
+    "restricted": true,
+    "accessNote": {
+      "en": "Dunamancy: available to Chronurgy and Graviturgy wizards. Other spellcasters require the Dungeon Master’s permission; this is not a general Wizard spell-list addition.",
+      "da": "Dunamancy: tilgængelig for Wizards med Chronurgy eller Graviturgy. Andre formularbrugere kræver DM’s tilladelse; formularen er ikke automatisk del af den almindelige Wizard-liste."
+    }
+  },
+  "Pulse Wave": {
+    "level": 3,
+    "school": "Evocation",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self (30-foot cone)",
+    "components": "V, S",
+    "dur": "Instantaneous",
+    "book": "Explorer's Guide to Wildemount",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Explorer's Guide to Wildemount, p. 188",
+      "url": "https://www.dndbeyond.com/spells/416805-pulse-wave",
+      "name": "Pulse Wave",
+      "page": 188
+    },
+    "reviewed": "2026-11-02",
+    "en": "Release pressure in a 30-foot cone, choosing whether it pushes or pulls. Each creature in the cone makes a Constitution saving throw: 6d6 Force damage on failure, half on success. A creature that fails is also pulled 15 feet toward you or pushed 15 feet away, according to your choice. Unsecured objects entirely inside the cone are likewise moved 15 feet in that direction.\n\nHigher slots: add 1d6 damage and 5 feet to the push/pull distance per slot level above 3.",
+    "da": "Udløs en trykbølge i en kegle på 30 ft. Vælg, om den skal trække eller skubbe. Hver skabning i keglen laver en CON-redning: 6d6 Force-skade ved fejl, halvdelen ved succes. En skabning, der fejler, trækkes desuden 15 ft mod dig eller skubbes 15 ft væk, alt efter dit valg. Løse genstande, der er helt inde i keglen, flyttes ligeledes 15 ft i den valgte retning.\n\nHøjere slots: Tilføj 1d6 skade og 5 ft til trækket eller skubbet pr. slotniveau over 3.",
+    "restricted": true,
+    "accessNote": {
+      "en": "Dunamancy: available to Chronurgy and Graviturgy wizards. Other spellcasters require the Dungeon Master’s permission; this is not a general Wizard spell-list addition.",
+      "da": "Dunamancy: tilgængelig for Wizards med Chronurgy eller Graviturgy. Andre formularbrugere kræver DM’s tilladelse; formularen er ikke automatisk del af den almindelige Wizard-liste."
+    }
+  },
+  "Ravenous Void": {
+    "level": 9,
+    "school": "Evocation",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "1,000 feet",
+    "components": "V, S, M (a small nine-pointed iron star)",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Explorer's Guide to Wildemount",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Explorer's Guide to Wildemount, p. 188",
+      "url": "https://www.dndbeyond.com/spells/416806-ravenous-void",
+      "name": "Ravenous Void",
+      "page": 188
+    },
+    "reviewed": "2026-11-02",
+    "en": "Create a 20-foot-radius sphere at a visible point in range. The sphere and all space within 100 feet of it are difficult terrain. Nonmagical objects fully inside it are destroyed unless worn or carried.\n\nWhen the sphere appears and at the start of each of your turns, unsecured objects within 100 feet of it are pulled toward its center, ending in the nearest possible unoccupied space to the center. A creature starting its turn within 100 feet of the sphere makes a Strength saving throw; on failure it is pulled straight toward the center into the nearest possible unoccupied space.\n\nA creature entering the sphere for the first time on a turn or starting its turn inside takes 5d10 Force damage and is Restrained until no longer inside. If the sphere is in the air, a Restrained creature hovers within it. A creature can use an Action to make a Strength check against your spell save DC, ending this Restrained condition on itself or another creature it can reach inside the sphere. A creature reduced to 0 HP by the spell is annihilated along with its worn and carried nonmagical items.",
+    "da": "Skab en kugle med 20 ft radius ved et synligt punkt inden for rækkevidde. Kuglen og al plads inden for 100 ft fra den er Difficult Terrain. Ikke-magiske genstande helt inde i kuglen ødelægges, medmindre nogen bærer dem eller har dem på.\n\nNår kuglen opstår og ved starten af hver af dine ture, trækkes løse genstande inden for 100 ft fra kuglen mod dens centrum og ender på en ledig position så tæt på centrum som muligt. En skabning, der starter sin tur inden for 100 ft fra kuglen, laver en STR-redning. Ved fejl trækkes den i en lige linje mod centrum til en ledig position så tæt på centrum som muligt.\n\nEn skabning, som går ind i kuglen første gang på en tur eller starter sin tur i den, tager 5d10 Force-skade og er Restrained, indtil den ikke længere er inde i kuglen. Hvis kuglen befinder sig i luften, svæver en Restrained skabning inde i den. En skabning kan bruge en Action på et STR-check mod din spell save DC for at afslutte denne Restrained-tilstand på sig selv eller på en anden skabning i kuglen, som den kan nå. Hvis formularen reducerer en skabning til 0 HP, tilintetgøres den sammen med de ikke-magiske genstande, den bærer eller har på.",
+    "restricted": true,
+    "accessNote": {
+      "en": "Dunamancy: available to Chronurgy and Graviturgy wizards. Other spellcasters require the Dungeon Master’s permission; this is not a general Wizard spell-list addition.",
+      "da": "Dunamancy: tilgængelig for Wizards med Chronurgy eller Graviturgy. Andre formularbrugere kræver DM’s tilladelse; formularen er ikke automatisk del af den almindelige Wizard-liste."
+    }
+  },
+  "Reality Break": {
+    "level": 8,
+    "school": "Conjuration",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "60 feet",
+    "components": "V, S, M (a crystal prism)",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Explorer's Guide to Wildemount",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Explorer's Guide to Wildemount, p. 189",
+      "url": "https://www.dndbeyond.com/spells/416807-reality-break",
+      "name": "Reality Break",
+      "page": 189
+    },
+    "reviewed": "2026-11-02",
+    "en": "One creature in range makes a Wisdom saving throw. On failure, it cannot take Reactions for the duration and rolls 1d10 at the start of each of its turns, applying the result below. At the end of each turn it repeats the Wisdom save, ending the spell on a success.\n\n| 1d10 | Effect |\n| --- | --- |\n| 1–2 | 6d12 Psychic damage; Stunned until the turn ends. |\n| 3–5 | Dexterity saving throw: 8d12 Force damage on failure, half on success. |\n| 6–8 | Teleport the target and everything worn or carried up to 30 feet to a visible unoccupied space you choose. It also takes 10d12 Force damage and falls Prone. |\n| 9–10 | 10d12 Cold damage; Blinded until the turn ends. |",
+    "da": "Én skabning inden for rækkevidde laver en WIS-redning. Ved fejl kan den ikke tage Reactions i varigheden og ruller 1d10 ved starten af hver af sine ture; anvend resultatet nedenfor. Ved slutningen af hver tur gentager den WIS-redningen og afslutter formularen ved succes.\n\n| 1d10 | Effekt |\n| --- | --- |\n| 1–2 | 6d12 Psychic-skade; Stunned indtil turens slutning. |\n| 3–5 | DEX-redning: 8d12 Force-skade ved fejl, halvdelen ved succes. |\n| 6–8 | Teleportér målet og alt, det bærer eller har på, op til 30 ft til en ledig position, du vælger og kan se. Målet tager også 10d12 Force-skade og falder Prone. |\n| 9–10 | 10d12 Cold-skade; Blinded indtil turens slutning. |",
+    "restricted": true,
+    "accessNote": {
+      "en": "Dunamancy: available to Chronurgy and Graviturgy wizards. Other spellcasters require the Dungeon Master’s permission; this is not a general Wizard spell-list addition.",
+      "da": "Dunamancy: tilgængelig for Wizards med Chronurgy eller Graviturgy. Andre formularbrugere kræver DM’s tilladelse; formularen er ikke automatisk del af den almindelige Wizard-liste."
+    }
+  },
+  "Sapping Sting": {
+    "level": 0,
+    "school": "Necromancy",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "30 feet",
+    "components": "V, S",
+    "dur": "Instantaneous",
+    "book": "Explorer's Guide to Wildemount",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Explorer's Guide to Wildemount, p. 189",
+      "url": "https://www.dndbeyond.com/spells/416808-sapping-sting",
+      "name": "Sapping Sting",
+      "page": 189
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose one creature you can see in range. It makes a Constitution saving throw. On failure it takes 1d4 Necrotic damage and falls Prone; success avoids both effects.\n\nCharacter-level scaling: damage becomes 2d4 at level 5, 3d4 at level 11, and 4d4 at level 17.",
+    "da": "Vælg én skabning, du kan se inden for rækkevidde. Den laver en CON-redning. Ved fejl tager den 1d4 Necrotic-skade og falder Prone; ved succes undgår den begge virkninger.\n\nSkalering med karakterniveau: Skaden bliver 2d4 på niveau 5, 3d4 på niveau 11 og 4d4 på niveau 17.",
+    "restricted": true,
+    "accessNote": {
+      "en": "Dunamancy: available to Chronurgy and Graviturgy wizards. Other spellcasters require the Dungeon Master’s permission; this is not a general Wizard spell-list addition.",
+      "da": "Dunamancy: tilgængelig for Wizards med Chronurgy eller Graviturgy. Andre formularbrugere kræver DM’s tilladelse; formularen er ikke automatisk del af den almindelige Wizard-liste."
+    }
+  },
+  "Temporal Shunt": {
+    "level": 5,
+    "school": "Transmutation",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Reaction, when a creature you can see makes an attack roll or starts casting a spell",
+    "range": "120 feet",
+    "components": "V, S",
+    "dur": "1 round",
+    "book": "Explorer's Guide to Wildemount",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Explorer's Guide to Wildemount, p. 189",
+      "url": "https://www.dndbeyond.com/spells/416809-temporal-shunt",
+      "name": "Temporal Shunt",
+      "page": 189
+    },
+    "reviewed": "2026-11-02",
+    "en": "Target the triggering creature. It makes a Wisdom saving throw; failure throws it out of the present moment, causing its triggering attack to miss or its spell to be wasted. At the start of its next turn it returns to its former space, or the closest unoccupied space. It remembers neither your casting nor being affected.\n\nHigher slots: target one additional creature per slot level above 5. All targets must be within 30 feet of each other.",
+    "da": "Vælg skabningen, der udløste din Reaction. Den laver en WIS-redning. Ved fejl forsvinder den til et andet tidspunkt, så det udløsende angreb rammer forbi, eller den udløsende formular spildes. Ved starten af dens næste tur vender den tilbage til sin tidligere position eller den nærmeste ledige position. Den husker hverken dit kast eller at være blevet påvirket.\n\nHøjere slots: Vælg ét ekstra mål pr. slotniveau over 5. Alle målene skal være inden for 30 ft fra hinanden.",
+    "restricted": true,
+    "accessNote": {
+      "en": "Dunamancy: available to Chronurgy and Graviturgy wizards. Other spellcasters require the Dungeon Master’s permission; this is not a general Wizard spell-list addition.",
+      "da": "Dunamancy: tilgængelig for Wizards med Chronurgy eller Graviturgy. Andre formularbrugere kræver DM’s tilladelse; formularen er ikke automatisk del af den almindelige Wizard-liste."
+    }
+  },
+  "Tether Essence": {
+    "level": 7,
+    "school": "Necromancy",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "60 feet",
+    "components": "V, S, M (a spool of platinum cord worth at least 250 gp, consumed)",
+    "dur": "Concentration, up to 1 hour",
+    "book": "Explorer's Guide to Wildemount",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Explorer's Guide to Wildemount, p. 189",
+      "url": "https://www.dndbeyond.com/spells/416810-tether-essence",
+      "name": "Tether Essence",
+      "page": 189
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose two creatures you can see in range. Both make Constitution saving throws, with Disadvantage if within 30 feet of one another. A creature can willingly fail. If either succeeds, the spell has no effect. If both fail, they remain linked for the duration regardless of distance. Whenever one takes damage, the other takes the same damage; whenever one regains HP, the other regains the same number. The spell ends on both if either reaches 0 HP, or if the spell ends on either creature for any other reason.",
+    "da": "Vælg to skabninger, du kan se inden for rækkevidde. Begge laver en CON-redning med Disadvantage, hvis de er inden for 30 ft fra hinanden. En skabning kan vælge at fejle. Hvis blot én lykkes, har formularen ingen effekt. Hvis begge fejler, forbindes de i varigheden uanset afstanden mellem dem. Når én tager skade, tager den anden samme skade. Når én får HP tilbage, får den anden samme antal HP tilbage. Formularen slutter på begge, hvis én reduceres til 0 HP, eller hvis formularen af en anden grund slutter på én af dem.",
+    "restricted": true,
+    "accessNote": {
+      "en": "Dunamancy: available to Chronurgy and Graviturgy wizards. Other spellcasters require the Dungeon Master’s permission; this is not a general Wizard spell-list addition.",
+      "da": "Dunamancy: tilgængelig for Wizards med Chronurgy eller Graviturgy. Andre formularbrugere kræver DM’s tilladelse; formularen er ikke automatisk del af den almindelige Wizard-liste."
+    }
+  },
+  "Time Ravage": {
+    "level": 9,
+    "school": "Necromancy",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "90 feet",
+    "components": "V, S, M (an hourglass filled with diamond dust worth at least 5,000 gp, consumed)",
+    "dur": "Instantaneous",
+    "book": "Explorer's Guide to Wildemount",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Explorer's Guide to Wildemount, p. 189",
+      "url": "https://www.dndbeyond.com/spells/416811-time-ravage",
+      "name": "Time Ravage",
+      "page": 189
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose one creature you can see in range. It makes a Constitution saving throw, taking 10d12 Necrotic damage on failure or half on success. Failure also ages it until it has only 30 days left before dying of old age. In this state it has Disadvantage on attack rolls, ability checks, and saving throws, and its walking speed is halved. Only Wish or Greater Restoration cast using a level 9 spell slot ends these effects and restores its former age.",
+    "da": "Vælg én skabning, du kan se inden for rækkevidde. Den laver en CON-redning: 10d12 Necrotic-skade ved fejl, halvdelen ved succes. Ved fejl ældes den desuden, indtil den kun har 30 dage tilbage, før den dør af alderdom. I denne tilstand har den Disadvantage på angrebsslag, ability checks og saving throws, og dens ganghastighed halveres. Kun Wish eller Greater Restoration kastet med et slot på niveau 9 kan afslutte disse virkninger og genskabe dens tidligere alder.",
+    "restricted": true,
+    "accessNote": {
+      "en": "Dunamancy: available to Chronurgy and Graviturgy wizards. Other spellcasters require the Dungeon Master’s permission; this is not a general Wizard spell-list addition.",
+      "da": "Dunamancy: tilgængelig for Wizards med Chronurgy eller Graviturgy. Andre formularbrugere kræver DM’s tilladelse; formularen er ikke automatisk del af den almindelige Wizard-liste."
+    }
+  },
+  "Wristpocket": {
+    "level": 2,
+    "school": "Conjuration",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Action (ritual)",
+    "range": "Self",
+    "components": "S",
+    "dur": "Concentration, up to 1 hour",
+    "book": "Explorer's Guide to Wildemount",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Explorer's Guide to Wildemount, p. 190",
+      "url": "https://www.dndbeyond.com/spells/416812-wristpocket",
+      "name": "Wristpocket",
+      "page": 190
+    },
+    "reviewed": "2026-11-02",
+    "en": "One object in your hand, weighing no more than 5 pounds and held by nobody but you, vanishes into an extradimensional space for the duration. You can use an Action to summon it into your free hand, and another Action to return it to the extradimensional space. If it is still in that space when the spell ends, it appears at your feet in your space.",
+    "da": "Én genstand i din hånd, som højst vejer 5 pund, og som kun du holder, forsvinder ind i et ekstradimensionelt rum i varigheden. Du kan bruge en Action på at hente den frem i din frie hånd og en Action på at sende den tilbage til rummet. Hvis genstanden stadig er i rummet, når formularen slutter, dukker den op ved dine fødder på din position.",
+    "restricted": true,
+    "accessNote": {
+      "en": "Dunamancy: available to Chronurgy and Graviturgy wizards. Other spellcasters require the Dungeon Master’s permission; this is not a general Wizard spell-list addition.",
+      "da": "Dunamancy: tilgængelig for Wizards med Chronurgy eller Graviturgy. Andre formularbrugere kræver DM’s tilladelse; formularen er ikke automatisk del af den almindelige Wizard-liste."
+    }
+  },
+  "Encode Thoughts": {
+    "level": 0,
+    "school": "Enchantment",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self",
+    "components": "S",
+    "dur": "Up to 8 hours",
+    "book": "Guildmasters’ Guide to Ravnica",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Guildmasters’ Guide to Ravnica, p. 47",
+      "url": "https://www.dndbeyond.com/spells/83532-encode-thoughts",
+      "name": "Encode Thoughts",
+      "page": 47
+    },
+    "reviewed": "2026-11-02",
+    "en": "Touch a finger to your head to turn one memory, idea, or message from your mind into a glowing thought strand. It appears in an unoccupied space within 5 feet of you as a Tiny, weightless, semisolid object that can be held and carried like a ribbon; otherwise it stays in place. It lasts for the duration or until you cast this spell again.\n\nIf you are concentrating on a spell or ability that reads or manipulates other minds, such as Detect Thoughts or Modify Memory, you can encode thoughts or memories you are reading instead of your own. Casting Encode Thoughts while holding a thought strand instantly gives you the memory, idea, or message it contains. Casting Detect Thoughts on the strand does the same.",
+    "da": "Sæt en finger mod dit hoved, og omdan et minde, en idé eller en besked fra dit sind til en lysende tanketråd. Den opstår på en ledig position inden for 5 ft fra dig som en Tiny, vægtløs, halvfast genstand. Den kan holdes og bæres som et bånd, men er ellers stationær. Den varer i op til 8 timer eller indtil du kaster formularen igen.\n\nHvis du koncentrerer dig om en formular eller evne, der læser eller manipulerer andres tanker, såsom Detect Thoughts eller Modify Memory, kan du i stedet indkode de tanker eller minder, du læser. Hvis du kaster Encode Thoughts, mens du holder en tanketråd, modtager du straks det minde, den idé eller den besked, tråden indeholder. Detect Thoughts kastet på tråden giver samme resultat.",
+    "accessNote": {
+      "en": "The Dimir Operative background can also add this cantrip to a character’s spell list, regardless of class. This app’s standard list follows the Wizard classification in D&D Beyond.",
+      "da": "Baggrunden Dimir Operative kan også føje denne cantrip til karakterens formularliste uanset klasse. Appens almindelige liste følger Wizard-klassifikationen på D&D Beyond."
+    }
+  },
+  "Chaos Bolt": {
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer"
+    ],
+    "cast": "Action",
+    "range": "120 feet",
+    "components": "V, S",
+    "dur": "Instantaneous",
+    "book": "Guildmasters’ Guide to Ravnica",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Guildmasters’ Guide to Ravnica, p. 67",
+      "url": "https://www.dndbeyond.com/spells/14761-chaos-bolt",
+      "name": "Chaos Bolt",
+      "page": 67
+    },
+    "reviewed": "2026-11-02",
+    "en": "Make a ranged spell attack against one creature in range. A hit deals 2d8 + 1d6 damage. Choose one of the rolled d8s; its result determines the damage type using the table.\n\n| d8 | Damage type |\n| --- | --- |\n| 1 | Acid |\n| 2 | Cold |\n| 3 | Fire |\n| 4 | Force |\n| 5 | Lightning |\n| 6 | Poison |\n| 7 | Psychic |\n| 8 | Thunder |\n\nIf both d8s show the same number, the energy leaps to a different creature you choose within 30 feet of the target. Make a fresh attack roll and damage roll against that creature; matching d8s can cause another leap. A creature can be targeted only once by this casting.\n\nHigher slots: each target takes an additional 1d6 damage of the rolled type per slot level above 1.",
+    "da": "Lav et formularangreb på afstand mod én skabning inden for rækkevidde. Ved træffer tager målet 2d8 + 1d6 skade. Vælg én af de to rullede d8; resultatet bestemmer skadetypen efter tabellen.\n\n| d8 | Skadetype |\n| --- | --- |\n| 1 | Acid |\n| 2 | Cold |\n| 3 | Fire |\n| 4 | Force |\n| 5 | Lightning |\n| 6 | Poison |\n| 7 | Psychic |\n| 8 | Thunder |\n\nHvis de to d8 viser samme tal, springer energien videre til en anden skabning, du vælger, inden for 30 ft fra målet. Lav et nyt angrebsslag og et nyt skadeslag mod den skabning; ens d8-resultater kan udløse endnu et spring. Hver skabning kan højst være mål én gang under dette kast.\n\nHøjere slots: Hvert mål tager yderligere 1d6 skade af den rullede type pr. slotniveau over 1."
+  },
+  "Distort Value": {
+    "level": 1,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "1 minute",
+    "range": "Touch",
+    "components": "V",
+    "dur": "8 hours",
+    "book": "Acquisitions Incorporated",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Acquisitions Incorporated, p. 75",
+      "url": "https://www.dndbeyond.com/spells/188092-distort-value",
+      "name": "Distort Value",
+      "page": 75
+    },
+    "reviewed": "2026-11-02",
+    "en": "Touch an object no more than 1 foot on a side. Give it illusory embellishment and polish to double its apparent value, or illusory scratches, dents and similar flaws to halve its apparent value. Someone examining it can determine its real value with a successful Intelligence (Investigation) check against your spell save DC.\n\nHigher slots: increase the maximum side length by 1 foot per slot level above 1.",
+    "da": "Berør en genstand, som højst er 1 ft på hver led. Illusoriske udsmykninger og polering kan fordoble dens tilsyneladende værdi; illusoriske ridser, buler og lignende fejl kan i stedet halvere den. En person, der undersøger genstanden, kan fastslå dens reelle værdi med et succesfuldt INT (Investigation)-check mod din spell save DC.\n\nHøjere slots: Den maksimale sidelængde øges med 1 ft pr. slotniveau over 1."
+  },
+  "Fast Friends": {
+    "level": 3,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "30 feet",
+    "components": "V",
+    "dur": "Concentration, up to 1 hour",
+    "book": "Acquisitions Incorporated",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Acquisitions Incorporated, p. 75",
+      "url": "https://www.dndbeyond.com/spells/188104-fast-friends",
+      "name": "Fast Friends",
+      "page": 75
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose one Humanoid in range that can see and hear you and understands you. It makes a Wisdom saving throw. On failure it is Charmed by you for the duration and performs services or activities you request in a friendly manner, to the best of its ability. You can assign a new task after one is complete or when you end the current task.\n\nA task that might harm it or conflicts with its ordinary activities and desires permits another Wisdom save to end the effect. That save has Advantage if you or your companions are fighting it. A task that would certainly kill it ends the spell. When the spell ends, it knows you charmed it.\n\nHigher slots: one additional target per slot level above 3.",
+    "da": "Vælg én Humanoid inden for rækkevidde, som kan se og høre dig og forstå dig. Den laver en WIS-redning. Ved fejl er den Charmed af dig i varigheden og udfører venligt de tjenester eller aktiviteter, du beder om, så godt den kan. Du kan give en ny opgave, når en opgave er fuldført, eller når du vælger at afslutte den aktuelle opgave.\n\nHvis en opgave kan skade målet eller strider mod dets normale aktiviteter og ønsker, får det en ny WIS-redning for at afslutte virkningen. Redningen har Advantage, hvis du eller dine ledsagere kæmper mod målet. Hvis opgaven med sikkerhed ville dræbe målet, slutter formularen. Når formularen slutter, ved målet, at du charmede det.\n\nHøjere slots: Ét ekstra mål pr. slotniveau over 3."
+  },
+  "Gift of Gab": {
+    "level": 2,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Wizard"
+    ],
+    "cast": "Reaction, when you speak to another creature",
+    "range": "Self",
+    "components": "V, S, R (2 gp)",
+    "dur": "Instantaneous",
+    "book": "Acquisitions Incorporated",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Acquisitions Incorporated, p. 76",
+      "url": "https://www.dndbeyond.com/spells/188118-gift-of-gab",
+      "name": "Gift of Gab",
+      "page": 76
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose any creatures within 5 feet of you. Each forgets everything you said during the last 6 seconds and instead remembers you saying the words used as this spell’s verbal component.\n\nRoyalty component (R): the original spell creator sets the fee, typically 1 gp per spell slot level (the amount for this spell is in Components). The caster must carry enough money, even when casting through a scroll or magic item. On casting, the payment is magically transferred to the original creator’s designated container, whether or not the caster knows about the royalty. Without sufficient funds the spell cannot be cast, but is not lost. The book describes a DC 15 Intelligence (Arcana) check while casting to take the payment instead from a random creature within 10 feet, without its knowledge.",
+    "da": "Vælg de skabninger inden for 5 ft fra dig, der skal påvirkes. Hver af dem glemmer alt, du sagde i de seneste 6 sekunder, og husker i stedet, at du sagde de ord, som du bruger som formularens verbale komponent.\n\nRoyalty-komponent (R): Formularens oprindelige skaber fastsætter prisen, typisk 1 gp pr. slotniveau (denne formulars beløb står under Komponenter). Du skal have nok penge på dig, også ved kast fra en scroll eller magisk genstand. Ved kastet overføres betalingen magisk til den oprindelige skabers udpegede beholder, uanset om du kendte til royaltyen. Uden tilstrækkelige penge kan formularen ikke kastes, men den går ikke tabt. Bogen beskriver et INT (Arcana)-check med DC 15 under kastet, som ved succes i stedet tager betalingen fra en tilfældig skabning inden for 10 ft, uden at den opdager det."
+  },
+  "Incite Greed": {
+    "level": 3,
+    "school": "Enchantment",
+    "classes": [
+      "Cleric",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "30 feet",
+    "components": "V, S, M (a gem worth at least 50 gp)",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Acquisitions Incorporated",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Acquisitions Incorporated, p. 76",
+      "url": "https://www.dndbeyond.com/spells/188121-incite-greed",
+      "name": "Incite Greed",
+      "page": 76
+    },
+    "reviewed": "2026-11-02",
+    "en": "Present the material gem and choose any number of creatures in range that can see you. Each makes a Wisdom saving throw or is Charmed by you until the spell ends or you or your companions do anything harmful to it. While Charmed in this way, a creature can do nothing except use its movement to approach you safely. Within 5 feet of you it cannot move and simply stares at the gem. At the end of each of its turns, a target repeats the Wisdom save, ending the effect on itself on a success.",
+    "da": "Vis ædelstenen, der bruges som materialekomponent, og vælg et vilkårligt antal skabninger inden for rækkevidde, som kan se dig. Hver laver en WIS-redning; ved fejl er den Charmed af dig, indtil formularen slutter, eller du eller dine ledsagere gør noget skadeligt mod den. Mens den er Charmed på denne måde, kan den kun bruge sin bevægelse til at nærme sig dig på en sikker måde. Når den er inden for 5 ft fra dig, kan den ikke bevæge sig og stirrer blot begærligt på ædelstenen. Ved slutningen af hver af sine ture gentager den WIS-redningen og afslutter virkningen på sig selv ved succes."
+  },
+  "Jim's Glowing Coin": {
+    "level": 2,
+    "school": "Enchantment",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "60 feet",
+    "components": "S, M (a coin), R (2 gp)",
+    "dur": "1 minute",
+    "book": "Acquisitions Incorporated",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Acquisitions Incorporated, p. 76",
+      "url": "https://www.dndbeyond.com/spells/188126-jims-glowing-coin",
+      "name": "Jim's Glowing Coin",
+      "page": 76
+    },
+    "reviewed": "2026-11-02",
+    "en": "Throw the material coin to any spot in range. It shines as if affected by Light. Choose creatures you can see within 30 feet of the coin. Each makes a Wisdom saving throw; failure distracts it for the duration, imposing Disadvantage on Wisdom (Perception) checks and initiative rolls.\n\nRoyalty component (R): the original spell creator sets the fee, typically 1 gp per spell slot level (the amount for this spell is in Components). The caster must carry enough money, even when casting through a scroll or magic item. On casting, the payment is magically transferred to the original creator’s designated container, whether or not the caster knows about the royalty. Without sufficient funds the spell cannot be cast, but is not lost. The book describes a DC 15 Intelligence (Arcana) check while casting to take the payment instead from a random creature within 10 feet, without its knowledge.",
+    "da": "Kast mønten, der bruges som materialekomponent, til et sted inden for rækkevidde. Den lyser, som om den var påvirket af Light. Vælg de skabninger, du kan se inden for 30 ft fra mønten. Hver laver en WIS-redning. Ved fejl distraheres den i varigheden og har Disadvantage på WIS (Perception)-checks og initiativslag.\n\nRoyalty-komponent (R): Formularens oprindelige skaber fastsætter prisen, typisk 1 gp pr. slotniveau (denne formulars beløb står under Komponenter). Du skal have nok penge på dig, også ved kast fra en scroll eller magisk genstand. Ved kastet overføres betalingen magisk til den oprindelige skabers udpegede beholder, uanset om du kendte til royaltyen. Uden tilstrækkelige penge kan formularen ikke kastes, men den går ikke tabt. Bogen beskriver et INT (Arcana)-check med DC 15 under kastet, som ved succes i stedet tager betalingen fra en tilfældig skabning inden for 10 ft, uden at den opdager det."
+  },
+  "Jim's Magic Missile": {
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "120 feet",
+    "components": "V, S, R (1 gp)",
+    "dur": "Instantaneous",
+    "book": "Acquisitions Incorporated",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Acquisitions Incorporated, p. 76",
+      "url": "https://www.dndbeyond.com/spells/188129-jims-magic-missile",
+      "name": "Jim's Magic Missile",
+      "page": 76
+    },
+    "reviewed": "2026-11-02",
+    "en": "Create three darts. For each, choose a creature you can see in range and make a ranged spell attack. A hit deals 2d4 Force damage. A critical hit deals 5d4 Force damage instead of doubling the damage dice. If any dart’s attack roll is a natural 1, all darts miss and explode on you, dealing you 1 Force damage per dart.\n\nHigher slots: create one extra dart and increase the royalty payment by 1 gp per slot level above 1.\n\nRoyalty component (R): the original spell creator sets the fee, typically 1 gp per spell slot level (the amount for this spell is in Components). The caster must carry enough money, even when casting through a scroll or magic item. On casting, the payment is magically transferred to the original creator’s designated container, whether or not the caster knows about the royalty. Without sufficient funds the spell cannot be cast, but is not lost. The book describes a DC 15 Intelligence (Arcana) check while casting to take the payment instead from a random creature within 10 feet, without its knowledge.",
+    "da": "Skab tre projektiler. For hvert vælger du en skabning, du kan se inden for rækkevidde, og laver et formularangreb på afstand. En træffer giver 2d4 Force-skade. En kritisk træffer giver 5d4 Force-skade i stedet for at fordoble skadeterningerne. Hvis et af projektilernes angrebsslag er en naturlig 1, rammer alle projektilerne forbi og eksploderer på dig; du tager 1 Force-skade pr. projektil.\n\nHøjere slots: Skab ét ekstra projektil og øg royalty-betalingen med 1 gp pr. slotniveau over 1.\n\nRoyalty-komponent (R): Formularens oprindelige skaber fastsætter prisen, typisk 1 gp pr. slotniveau (denne formulars beløb står under Komponenter). Du skal have nok penge på dig, også ved kast fra en scroll eller magisk genstand. Ved kastet overføres betalingen magisk til den oprindelige skabers udpegede beholder, uanset om du kendte til royaltyen. Uden tilstrækkelige penge kan formularen ikke kastes, men den går ikke tabt. Bogen beskriver et INT (Arcana)-check med DC 15 under kastet, som ved succes i stedet tager betalingen fra en tilfældig skabning inden for 10 ft, uden at den opdager det."
+  },
+  "Motivational Speech": {
+    "level": 3,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Cleric"
+    ],
+    "cast": "1 minute",
+    "range": "60 feet",
+    "components": "V",
+    "dur": "1 hour",
+    "book": "Acquisitions Incorporated",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Acquisitions Incorporated, p. 77",
+      "url": "https://www.dndbeyond.com/spells/188142-motivational-speech",
+      "name": "Motivational Speech",
+      "page": 77
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose up to five creatures in range that can hear you. Each gains 5 temporary HP and Advantage on Wisdom saving throws for the duration. If an affected creature is hit by an attack, it has Advantage on its next attack roll. The spell ends for a creature once it loses the temporary HP granted by this spell.\n\nHigher slots: increase the temporary HP by 5 per slot level above 3.",
+    "da": "Vælg op til fem skabninger inden for rækkevidde, som kan høre dig. Hver får 5 midlertidige HP og Advantage på WIS-redninger i varigheden. Hvis en påvirket skabning rammes af et angreb, får den Advantage på sit næste angrebsslag. Formularen slutter for en skabning, når den mister de midlertidige HP, som denne formular gav.\n\nHøjere slots: Øg de midlertidige HP med 5 pr. slotniveau over 3."
+  }
+}

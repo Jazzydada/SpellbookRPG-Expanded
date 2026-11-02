@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect, useId } from "react";
-import { SPELLS, CLASS_SPELLS, CLASS_META, SCHOOL_COLORS, T, BOOKS, ALL_SPELLS_BY_LEVEL } from "./data";
+import { SPELLS, CLASS_SPELLS, DUNAMANCY_CLASS_SPELLS, CLASS_META, SCHOOL_COLORS, T, BOOKS, ALL_SPELLS_BY_LEVEL } from "./data";
 import { maxSlotLevel, arcanumLevels, availableLevels, normalizeLevel, reconcileSelection, validLevelFilter, toggleSelection } from "./rules.js";
 
 import RuleText from './RuleText.jsx';
@@ -109,7 +109,7 @@ function SpellCard({ name, spell, checked, onToggle, prepared, onPrepare, lang, 
           <a href={spell.source.url} target="_blank" rel="noopener noreferrer"
             onClick={e => e.stopPropagation()}
             style={{ color: G.goldL, fontSize: "0.7rem" }}>
-            {spell.source.label}
+            {spell.source.label}{spell.source.page && !/\b(?:p|s)\.\s*\d/.test(spell.source.label) ? ` · ${lang === "da" ? "s." : "p."} ${spell.source.page}` : ""}
           </a>
 
         </div>
@@ -133,6 +133,7 @@ function SpellCard({ name, spell, checked, onToggle, prepared, onPrepare, lang, 
             {t.preparedSpells}
           </label> : checked && <span style={{ color: G.muted }}>{t.cantripReady}</span>}
         </div>
+        {spell.accessNote && <p role="note" style={{ color: G.goldL, fontSize: "0.78rem", lineHeight: 1.5 }}>{spell.accessNote[lang]}</p>}
         {spell.rulesVersion !== "2024" && <p role="note" style={{ color: G.goldL, fontSize: "0.78rem", lineHeight: 1.5, borderLeft: "2px solid " + G.gold, paddingLeft: "0.6rem" }}>{t.legacyRulesNote}</p>}
         <section lang={lang} aria-label={t.fullRules}>
           {ruleText ? <RuleText text={ruleText} /> : <p role="status">{rulesError ? t.sourceFallback : t.loading}</p>}
@@ -216,6 +217,7 @@ export default function App() {
   const charLevel = activeBook.level;
   const selected = activeBook.selected;
   const prepared = activeBook.prepared;
+  const allowDunamancy = activeBook.allowDunamancy;
   const [onlyPrepared, setOnlyPrepared] = useState(false);
   function updateBook(change) {
     setLibrary(current => ({ ...current, books: current.books.map(book => book.id === current.activeId
@@ -253,8 +255,8 @@ export default function App() {
   const catalogueMode = className === "all";
   const maxSL = maxSlotLevel(className, charLevel);
   const arcana = arcanumLevels(className, charLevel);
-  const availLevels = catalogueMode ? Object.keys(ALL_SPELLS_BY_LEVEL).map(Number).sort((a,b)=>a-b) : availableLevels(className, charLevel);
-  const classSpells = catalogueMode ? ALL_SPELLS_BY_LEVEL : CLASS_SPELLS[className] || {};
+  const availLevels = catalogueMode ? Object.keys(ALL_SPELLS_BY_LEVEL).map(Number).sort((a,b)=>a-b) : availableLevels(className, charLevel, allowDunamancy);
+  const classSpells = catalogueMode ? ALL_SPELLS_BY_LEVEL : (allowDunamancy ? DUNAMANCY_CLASS_SPELLS : CLASS_SPELLS)[className] || {};
 
   // Build filtered spell groups
   const spellGroups = useMemo(() => {
@@ -282,20 +284,20 @@ export default function App() {
       if (names.length) groups[level] = names;
     }
     return groups;
-  }, [className, charLevel, search, levelFilter, bookFilter, rulebook, onlySelected, selected, onlyPrepared, prepared]);
+  }, [className, charLevel, search, levelFilter, bookFilter, rulebook, onlySelected, selected, onlyPrepared, prepared, allowDunamancy]);
 
   function toggleSpell(name) {
     if (catalogueMode) return;
-    setSelected(s => toggleSelection(s, name, className, charLevel));
+    setSelected(s => toggleSelection(s, name, className, charLevel, allowDunamancy));
     setNotice("");
   }
 
   function changeLevel(value) {
     const level = normalizeLevel(value);
-    const next = reconcileSelection(selected, className, level);
+    const next = reconcileSelection(selected, className, level, allowDunamancy);
     const removed = Object.keys(selected).filter(name => !next[name]);
     updateBook({ selected: next, prepared: retainPrepared(prepared, next), level });
-    setLF(filter => validLevelFilter(filter, className, level));
+    setLF(filter => validLevelFilter(filter, className, level, allowDunamancy));
     setNotice(removed.length ? `${t.removedSelections}: ${removed.join(", ")}` : "");
   }
 
@@ -387,6 +389,17 @@ export default function App() {
             <button type="button" onClick={newBook} style={{ ...inp, width: "auto", cursor: "pointer" }}>{t.newCharacter}</button>
             <button type="button" onClick={removeBook} style={{ ...inp, width: "auto", color: G.red, cursor: "pointer" }}>{t.deleteCharacter}</button>
           </div>
+          <label style={{ display: "block", marginTop: "0.8rem", fontSize: "0.85rem" }}>
+            <input type="checkbox" checked={allowDunamancy} onChange={e => {
+              const allowed = e.target.checked;
+              updateBook(book => {
+                const next = reconcileSelection(book.selected, book.className, book.level, allowed);
+                return { allowDunamancy: allowed, selected: next, prepared: retainPrepared(book.prepared, next) };
+              });
+              setLF("all");
+            }} aria-describedby="dunamancy-help" /> {t.dunamancyAccess}
+          </label>
+          <p id="dunamancy-help" style={{ fontSize: "0.75rem", color: G.muted }}>{t.dunamancyHelp}</p>
           <p role="status" style={{ fontSize: "0.75rem", color: saveError ? G.red : G.muted }}>{saveError ? t.bookSaveError : t.bookSavedLocally}</p>
           {deletedBook && <p style={{ fontSize: "0.8rem" }}>{t.bookDeleted} <button type="button" onClick={undoRemove} style={{ ...inp, width: "auto", cursor: "pointer" }}>{t.undoDelete}</button></p>}
           <p style={{ fontSize: "0.78rem", color: G.muted }}>{t.preparationNote}</p>

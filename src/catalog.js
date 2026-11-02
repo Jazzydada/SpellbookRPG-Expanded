@@ -23,11 +23,11 @@ export function mergeCatalog(primary, supplements, replacements = REPLACEMENTS) 
   return Object.fromEntries(Object.entries(result).sort(([a], [b]) => a.localeCompare(b)));
 }
 
-export function buildClassSpells(spells, classes) {
+export function buildClassSpells(spells, classes, allowDunamancy = false) {
   return Object.fromEntries(classes.map(className => {
     const levels = {};
     for (const [name, spell] of Object.entries(spells)) {
-      if (spell.classes.includes(className)) (levels[spell.level] ??= []).push(name);
+      if (spell.restricted ? allowDunamancy : spell.classes.includes(className)) (levels[spell.level] ??= []).push(name);
     }
     return [className, levels];
   }));

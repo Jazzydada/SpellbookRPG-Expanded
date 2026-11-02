@@ -18,6 +18,7 @@ export function createBook(name = '', className = 'Wizard', level = 5) {
     level: validLevel(level),
     selected: {},
     prepared: {},
+    allowDunamancy: false,
   };
 }
 
@@ -48,9 +49,10 @@ export function decodeLibrary(raw) {
     // inherited object-property names before calling the gameplay helpers.
     const selected = Object.fromEntries(Object.entries(isRecord(entry.selected) ? entry.selected : {})
       .filter(([name, checked]) => checked === true && Object.hasOwn(SPELLS, name)));
-    const available = reconcileSelection(selected, book.className, book.level);
+    book.allowDunamancy = entry.allowDunamancy === true;
+    const available = reconcileSelection(selected, book.className, book.level, book.allowDunamancy);
     book.selected = Object.keys(available).reduce((result, name) =>
-      toggleSelection(result, name, book.className, book.level), {});
+      toggleSelection(result, name, book.className, book.level, book.allowDunamancy), {});
     book.prepared = retainPrepared(entry.prepared, book.selected);
     return book;
   });

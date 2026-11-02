@@ -1,4 +1,4 @@
-import { SPELLS, CLASS_SPELLS, CLASS_META } from './data.js';
+import { SPELLS, CLASS_SPELLS, DUNAMANCY_CLASS_SPELLS, CLASS_META } from './data.js';
 
 export function normalizeLevel(level) {
   const value = Number(level);
@@ -20,32 +20,32 @@ export function arcanumLevels(className, level) {
   return [6, 7, 8, 9].filter(spellLevel => l >= spellLevel * 2 - 1);
 }
 
-export function availableLevels(className, level) {
+export function availableLevels(className, level, allowDunamancy = false) {
   const max = maxSlotLevel(className, level);
   const arcana = arcanumLevels(className, level);
-  return Object.keys(CLASS_SPELLS[className] || {}).map(Number)
+  return Object.keys((allowDunamancy ? DUNAMANCY_CLASS_SPELLS : CLASS_SPELLS)[className] || {}).map(Number)
     .filter(l => l <= max || arcana.includes(l)).sort((a, b) => a - b);
 }
 
-export function isAvailable(name, className, level) {
+export function isAvailable(name, className, level, allowDunamancy = false) {
   const spell = SPELLS[name];
-  return !!spell && spell.classes.includes(className)
-    && availableLevels(className, level).includes(spell.level);
+  return !!spell && (spell.restricted ? allowDunamancy : spell.classes.includes(className))
+    && availableLevels(className, level, allowDunamancy).includes(spell.level);
 }
 
-export function reconcileSelection(selected, className, level) {
+export function reconcileSelection(selected, className, level, allowDunamancy = false) {
   return Object.fromEntries(Object.entries(selected)
-    .filter(([name, checked]) => checked && isAvailable(name, className, level)));
+    .filter(([name, checked]) => checked && isAvailable(name, className, level, allowDunamancy)));
 }
 
-export function validLevelFilter(filter, className, level) {
-  return filter === 'all' || availableLevels(className, level).includes(Number(filter))
+export function validLevelFilter(filter, className, level, allowDunamancy = false) {
+  return filter === 'all' || availableLevels(className, level, allowDunamancy).includes(Number(filter))
     ? filter : 'all';
 }
 
-export function toggleSelection(selected, name, className, level) {
-  const next = reconcileSelection(selected, className, level);
-  if (!isAvailable(name, className, level)) return next;
+export function toggleSelection(selected, name, className, level, allowDunamancy = false) {
+  const next = reconcileSelection(selected, className, level, allowDunamancy);
+  if (!isAvailable(name, className, level, allowDunamancy)) return next;
   if (next[name]) { delete next[name]; return next; }
   const spellLevel = SPELLS[name].level;
   // Mystic Arcanum grants one choice of each unlocked level, not spell slots.

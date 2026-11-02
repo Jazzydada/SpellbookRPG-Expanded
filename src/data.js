@@ -11,6 +11,7 @@ export const SPELLS = Object.fromEntries(Object.entries(merged).map(([name, {en,
 export const BOOKS = [...new Set(Object.values(SPELLS).map(spell => spell.book))].sort();
 export const CLASS_SPELLS = buildClassSpells(SPELLS,
   ['Wizard', 'Sorcerer', 'Cleric', 'Druid', 'Bard', 'Warlock', 'Paladin', 'Ranger']);
+export const DUNAMANCY_CLASS_SPELLS = buildClassSpells(SPELLS, Object.keys(CLASS_SPELLS), true);
 export const ALL_SPELLS_BY_LEVEL = Object.entries(SPELLS).reduce((levels, [name, spell]) => {
   (levels[spell.level] ??= []).push(name);
   return levels;
@@ -47,6 +48,8 @@ export const T = {
     cantripReady: "Cantrip · always available",
     emptyPrepared: "No prepared spells. Add spells to your book, then mark them as prepared.",
     preparationNote: "Keep spells in your book and mark your prepared spells separately. Preparation is managed manually; class limits and always-prepared features are not enforced. Cantrips do not need preparation.",
+    dunamancyAccess: "Dunamancy access (subclass or DM permission)",
+    dunamancyHelp: "Enable only for Chronurgy/Graviturgy wizards or with your DM’s permission. Turning this off removes dunamancy spells from this character’s book and prepared list.",
     characterBooks: "Character spellbooks",
     chooseCharacter: "Character",
     unnamedCharacter: "Unnamed character",
@@ -68,7 +71,7 @@ export const T = {
     components: "Components",
     chooseOne: "choose one",
     removedSelections: "Removed after level change",
-    scopeNote: "Included: Player’s Handbook (2024) and additional spells from Tasha’s Cauldron of Everything (2020) and Elemental Evil Player’s Companion (2015). Some spells from other official books are not yet included. The 2024 version takes precedence; older spells without a replacement are retained. Class lists are for a single-class character. Subclasses, feats, multiclassing and features such as Magical Secrets can add choices. Prepared-spell limits are not enforced. Full spell rules are shown below, including exceptions and scaling. Named monster stat blocks and general rules remain separate references.",
+    scopeNote: "The catalogue prioritises the 2024 rules and Arcana Unleashed revisions. Older spells without an available newer replacement are clearly marked. Use the Book filter to see the included sources; this is not a complete collection of every official book. Class lists assume a single-class character. Subclasses, feats and other features may grant additional choices. Preparation is managed manually. Full spell mechanics include exceptions and scaling; named monsters and general rules remain separate references.",
     arcanumNote: "Pact Magic slots stop at level 5. Mystic Arcanum unlocks at character levels 11, 13, 15 and 17: choose one spell of each unlocked level, cast once per Long Rest without a slot. Available arcanum levels",
     rulesDate: "Rules checked 2 November 2026",
     fullRules: "Full rules",
@@ -109,6 +112,8 @@ export const T = {
     cantripReady: "Cantrip · altid tilgængelig",
     emptyPrepared: "Ingen forberedte formularer. Tilføj formularer til bogen, og markér dem som forberedt.",
     preparationNote: "Gem formularer i bogen, og markér separat dem, du har forberedt. Forberedelse styres manuelt; klassens grænser og evner med altid forberedte formularer håndhæves ikke. Cantrips skal ikke forberedes.",
+    dunamancyAccess: "Adgang til dunamancy (underklasse eller DM-tilladelse)",
+    dunamancyHelp: "Aktivér kun for Chronurgy-/Graviturgy-wizards eller med din DMs tilladelse. Slår du adgangen fra, fjernes dunamancy-formularerne fra karakterens bog og forberedte liste.",
     characterBooks: "Karakterernes formularbøger",
     chooseCharacter: "Karakter",
     unnamedCharacter: "Unavngivet karakter",
@@ -130,7 +135,7 @@ export const T = {
     components: "Komponenter",
     chooseOne: "vælg én",
     removedSelections: "Fjernet efter niveauskift",
-    scopeNote: "Medtaget: Player’s Handbook (2024) og yderligere formularer fra Tasha’s Cauldron of Everything (2020) og Elemental Evil Player’s Companion (2015). Der mangler fortsat formularer fra andre officielle bøger. 2024-versionen har forrang; ældre formularer uden en erstatning bevares. Klasselisterne gælder en karakter med én klasse. Underklasser, feats, multiklasser og evner som Magical Secrets kan give flere valg. Antallet af forberedte formularer begrænses ikke her. Her vises formularernes udførlige regler med undtagelser og skalering. Engelske regeltermer bevares i den danske tekst. Navngivne monsterstatblokke og grundregler er særskilte referencer.",
+    scopeNote: "Kataloget prioriterer 2024-reglerne og revisionerne i Arcana Unleashed. Ældre formularer uden en tilgængelig nyere erstatning er tydeligt markeret. Bogfilteret viser de medtagne kilder; kataloget dækker endnu ikke alle officielle bøger. Klasselisterne gælder en karakter med én klasse. Underklasser, feats og andre evner kan give ekstra valg. Forberedelse styres manuelt. Formularernes udførlige regler omfatter undtagelser og skalering; navngivne monstre og grundregler er særskilte referencer.",
     arcanumNote: "Pact Magic-slots stopper ved niveau 5. Mystic Arcanum åbner ved karakterniveau 11, 13, 15 og 17: vælg én formular pr. åbent niveau, der kan kastes én gang pr. Long Rest uden et slot. Tilgængelige arcanum-niveauer",
     rulesDate: "Regler kontrolleret 2. november 2026",
     fullRules: "Udførlige regler",

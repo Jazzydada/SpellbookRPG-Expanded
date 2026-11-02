@@ -1,0 +1,924 @@
+{
+  "Cause Fear": {
+    "level": 1,
+    "school": "Necromancy",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "60 feet",
+    "components": "V",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14758-cause-fear",
+      "name": "Cause Fear",
+      "page": 151
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose one creature you can see within range. Constructs and Undead are immune. The target makes a Wisdom saving throw; on a failure, it is Frightened of you until the spell ends. At the end of each of its turns it can repeat the save, ending the effect on itself on a success.\n\nHigher slots: For each slot level above 1, target one additional creature. All targets must be within 30 feet of one another when chosen.",
+    "da": "Vælg én skabning, du kan se inden for rækkevidde. Constructs og Undead er immune. Målet laver en WIS-redning; ved fejl bliver det Frightened af dig, indtil formularen slutter. Ved slutningen af hver af sine ture kan det gentage redningen og afslutte virkningen på sig selv ved succes.\n\nHøjere slots: Vælg ét ekstra mål pr. slotniveau over 1. Alle målene skal være inden for 30 ft fra hinanden, når de vælges."
+  },
+  "Ceremony": {
+    "level": 1,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "cast": "1 hour (ritual)",
+    "range": "Touch",
+    "components": "V, S, M (25 gp of powdered silver, consumed)",
+    "dur": "Instantaneous",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14760-ceremony",
+      "name": "Ceremony",
+      "page": 151
+    },
+    "reviewed": "2026-11-02",
+    "en": "Perform one of the rites below. Each target must remain within 10 feet of you throughout the casting.\n\n• Atonement: Touch one willing creature whose alignment has changed. Make a DC 20 Wisdom (Insight) check; success restores its original alignment.\n• Bless Water: Touch a vial of water, turning it into holy water.\n• Coming of Age: Touch a young-adult Humanoid. For 24 hours it can add 1d4 to each ability check it makes. A creature can benefit from this rite only once.\n• Dedication: Touch a Humanoid that wishes to enter your god’s service. For 24 hours it can add 1d4 to each saving throw. A creature can benefit from this rite only once.\n• Funeral Rite: Touch a corpse. For 7 days it cannot become Undead except through Wish.\n• Wedding: Touch willing adult Humanoids joining in marriage. For 7 days, each has +2 AC while within 30 feet of the others. A creature can benefit again only after becoming widowed.",
+    "da": "Udfør ét af nedenstående ritualer. Hvert mål skal forblive inden for 10 ft fra dig under hele kastet.\n\n• Forsoning: Berør én villig skabning, hvis alignment har ændret sig. Lav et DC 20 WIS (Insight)-tjek. Ved succes genoprettes dens oprindelige alignment.\n• Velsign vand: Berør ét hætteglas med vand; det bliver til helligt vand.\n• Myndighedsritual: Berør en ung, voksen Humanoid. I 24 timer kan målet lægge 1d4 til hvert ability check. En skabning kan kun få denne fordel én gang.\n• Indvielse: Berør en Humanoid, der ønsker at tjene din gud. I 24 timer kan målet lægge 1d4 til hver saving throw. En skabning kan kun få denne fordel én gang.\n• Begravelsesritual: Berør ét lig. I 7 dage kan det ikke blive Undead, medmindre Wish bruges.\n• Bryllup: Berør villige voksne Humanoids, der indgår ægteskab. I 7 dage får hvert mål +2 AC, mens de er inden for 30 ft fra hinanden. Fordelen kan først opnås igen, hvis skabningen er blevet enke eller enkemand."
+  },
+  "Create Homunculus": {
+    "level": 6,
+    "school": "Transmutation",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "1 hour",
+    "range": "Touch",
+    "components": "V, S, M (clay, ash and mandrake root, consumed; a jewel-encrusted dagger worth at least 1,000 gp)",
+    "dur": "Instantaneous",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14765-create-homunculus",
+      "name": "Create Homunculus",
+      "page": 152
+    },
+    "reviewed": "2026-11-02",
+    "en": "Cut yourself with the component dagger, taking 2d4 Piercing damage that cannot be reduced. Your blood and the other consumed components become a homunculus when you touch them. Use the Homunculus statistics from the Monster Manual. It is your faithful companion and dies if you die.\n\nWhenever you finish a Long Rest, if the homunculus is on your plane, you may spend up to half your Hit Dice (round down). Roll each spent die and add your Constitution modifier to each roll. Reduce your Hit Point maximum by the total and increase both its current and maximum Hit Points by that amount. This cannot reduce your Hit Point maximum below 1. These changes end when you finish your next Long Rest. Before then, only the homunculus’s death can remove the reduction to your maximum.\n\nYou can have only one homunculus. The spell fails if you cast it while your existing homunculus lives. Its named Monster Manual stat block is a separate reference.",
+    "da": "Skær dig med komponentdolken. Du tager 2d4 Piercing-skade, som ikke kan reduceres. Dryp blodet på de øvrige komponenter, og berør dem; de forbruges og bliver til en homunculus med Homunculus-statblokken fra Monster Manual. Den er din trofaste ledsager og dør, hvis du dør.\n\nNår du afslutter en Long Rest, kan du bruge op til halvdelen af dine Hit Dice (rundet ned), hvis din homunculus er på samme eksistensplan. Slå hver brugt terning, og læg din CON-modifikator til hvert slag. Dit maksimale HP reduceres med summen; dens aktuelle og maksimale HP øges med samme beløb. Dette kan ikke reducere dit maksimale HP til under 1. Ændringerne ophører ved afslutningen af din næste Long Rest. Indtil da kan reduktionen af dit maksimale HP kun fjernes ved din homunculus’ død.\n\nDu kan kun have én homunculus. Kaster du formularen, mens den eksisterende lever, mislykkes formularen. Den navngivne statblok i Monster Manual er en separat reference."
+  },
+  "Crown of Stars": {
+    "level": 7,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self",
+    "components": "V, S",
+    "dur": "1 hour",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14827-crown-of-stars",
+      "name": "Crown of Stars",
+      "page": 152
+    },
+    "reviewed": "2026-11-02",
+    "en": "Seven luminous motes orbit your head for the duration. As a Bonus Action, expend one mote to make a ranged spell attack against one creature or object within 120 feet. On a hit, it deals 4d12 Radiant damage. The mote is spent whether the attack hits or misses; spending the last mote ends the spell.\n\nWith four or more motes, you shed Bright Light for 30 feet and Dim Light for 30 feet beyond that. With one to three motes, you shed only Dim Light for 30 feet.\n\nHigher slots: Create two extra motes per slot level above 7.",
+    "da": "Syv lysende stjerner kredser om dit hoved i varigheden. Som Bonus Action kan du bruge én stjerne til et ranged spell attack mod én skabning eller genstand inden for 120 ft. Ved træffer tager målet 4d12 Radiant-skade. Stjernen bruges, uanset om du rammer; når den sidste bruges, slutter formularen.\n\nMed mindst fire stjerner tilbage udsender du Bright Light i 30 ft radius og Dim Light yderligere 30 ft. Med én til tre tilbage udsender du kun Dim Light i 30 ft radius.\n\nHøjere slots: Skab to ekstra stjerner pr. slotniveau over 7."
+  },
+  "Danse Macabre": {
+    "level": 5,
+    "school": "Necromancy",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "60 feet",
+    "components": "V, S",
+    "dur": "Concentration, up to 1 hour",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14830-danse-macabre",
+      "name": "Danse Macabre",
+      "page": 153
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose up to five Small or Medium corpses you can see within range. Each rises as a Skeleton or Zombie, your choice for each, using the Monster Manual stat block. Each gains your spellcasting ability modifier as a bonus to its attack and damage rolls.\n\nAs a Bonus Action, mentally issue the same command to all creatures you made with this casting that are within 60 feet. Specify their next turn’s action and movement or give a general order, such as guarding a passage. They continue an order until the task is complete. Without orders they only defend themselves against hostile creatures. You control them until the spell ends, when they become inanimate again.\n\nHigher slots: Animate up to two additional corpses per slot level above 5. Skeleton and Zombie stat blocks are separate Monster Manual references.",
+    "da": "Vælg op til fem Small eller Medium lig, som du kan se inden for rækkevidde. Hvert rejser sig som en Skeleton eller Zombie efter dit valg; brug statblokken fra Monster Manual. Hver får en bonus til sine attack rolls og damage rolls svarende til din spellcasting ability modifier.\n\nSom Bonus Action kan du mentalt give samme ordre til alle skabninger fra dette kast, der er inden for 60 ft fra dig. Bestem deres handling og bevægelse på deres næste tur, eller giv en generel ordre, fx at bevogte en passage. De følger ordren, indtil opgaven er løst. Uden ordrer gør de kun det nødvendige for at forsvare sig mod fjendtlige skabninger. De er under din kontrol, indtil formularen slutter; da bliver de igen livløse.\n\nHøjere slots: Animér op til to ekstra lig pr. slotniveau over 5. Skeleton- og Zombie-statblokkene er separate referencer i Monster Manual."
+  },
+  "Dawn": {
+    "level": 5,
+    "school": "Evocation",
+    "classes": [
+      "Cleric",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "60 feet",
+    "components": "V, S, M (a sunburst pendant worth at least 100 gp)",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14831-dawn",
+      "name": "Dawn",
+      "page": 153
+    },
+    "reviewed": "2026-11-02",
+    "en": "Create a cylinder of Bright Light at a location within range: radius 30 feet, height 40 feet. This light is sunlight. When the cylinder appears, each creature in it makes a Constitution save, taking 4d10 Radiant damage on failure or half on success. A creature also makes this save whenever it ends its turn in the cylinder.\n\nOn your turn, if you are within 60 feet of the cylinder, you can move it up to 60 feet as a Bonus Action.",
+    "da": "Skab en cylinder af Bright Light på et sted inden for rækkevidde: 30 ft radius og 40 ft høj. Lyset er sollys. Når cylinderen viser sig, laver hver skabning i den en CON-redning og tager 4d10 Radiant-skade ved fejl eller halvdelen ved succes. En skabning laver også redningen, hver gang den afslutter sin tur i cylinderen.\n\nHvis du er inden for 60 ft fra cylinderen, kan du på din tur flytte den op til 60 ft som Bonus Action."
+  },
+  "Druid Grove": {
+    "level": 6,
+    "school": "Abjuration",
+    "classes": [
+      "Druid"
+    ],
+    "cast": "10 minutes",
+    "range": "Touch",
+    "components": "V, S, M (mistletoe harvested with a golden sickle under a full moon, consumed)",
+    "dur": "24 hours",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14834-druid-grove",
+      "name": "Druid Grove",
+      "page": 154
+    },
+    "reviewed": "2026-11-02",
+    "en": "Ward an outdoor or underground area from a 30-foot cube up to a 90-foot cube; buildings and other structures are excluded. Casting here daily for a year makes the ward last until dispelled. When casting, designate friendly creatures immune to the effects; you may also set a password that grants immunity when spoken aloud.\n\nThe whole ward radiates magic. A successful Dispel Magic on the area removes only one effect, chosen by that caster. The spell is dispelled only when all effects are removed.\n\n• Solid Fog: Fill any number of ground-level 5-foot squares with fog 10 feet high. It Heavily Obscures those spaces, and each foot of movement through it costs 2 extra feet. Immune creatures see harmless soft mist and are not impeded or obscured.\n• Grasping Undergrowth: Fill any number of ground-level 5-foot squares not occupied by the fog with grasping vegetation, as the Entangle spell. For immune creatures it is soft vegetation that can form temporary seats or beds.\n• Grove Guardians: Animate up to four trees within the ward. Use Awakened Tree statistics, except they cannot speak and have druidic symbols on their bark. They attack intruders not immune to this effect until those intruders are driven off or slain. While you are in the ward, they obey your spoken orders without an action. Without orders or intruders they do nothing. They cannot leave the ward. When the spell ends they cease animating and take root again where possible.\n• Additional Effect: Choose one option: constant Gust of Wind at two locations; Spike Growth at one location; or Wind Wall at two locations. For immune creatures the winds are gentle and the Spike Growth harmless.\n\nThe named spells and Awakened Tree stat block remain separate rules references.",
+    "da": "Beskyt et område udendørs eller under jorden, fra en kube på 30 ft til en kube på 90 ft. Bygninger og andre konstruktioner omfattes ikke. Kastes formularen samme sted hver dag i et år, varer beskyttelsen, indtil den ophæves. Under kastet kan du udpege venlige skabninger, som er immune over for virkningerne. Du kan også fastsætte et kodeord; den, der siger det højt, bliver immun.\n\nHele området udstråler magi. En vellykket Dispel Magic mod området fjerner kun én virkning, valgt af den, der kaster Dispel Magic. Først når alle virkninger er fjernet, er formularen ophævet.\n\n• Tæt tåge: Fyld et valgfrit antal felter på 5 × 5 ft ved jorden med 10 ft høj tåge. Felterne er Heavily Obscured, og hver fods bevægelse gennem tågen koster 2 ekstra ft. For immune skabninger er tågen let og hindrer hverken udsyn eller bevægelse.\n• Gribende underskov: Fyld et valgfrit antal felter på 5 × 5 ft ved jorden, hvor der ikke er tåge, med gribende planter som ved Entangle. For immune skabninger er planterne bløde og kan forme midlertidige sæder eller senge.\n• Lundens vogtere: Animér op til fire træer i området. Brug Awakened Tree-statistik, men træerne kan ikke tale og har druidesymboler på barken. Hvis en skabning, der ikke er immun, trænger ind, kæmper træerne, indtil den er drevet væk eller dræbt. Mens du er i området, adlyder de dine talte ordrer uden en handling fra dig. Uden ordrer eller indtrængere gør de intet. De kan ikke forlade området. Når formularen slutter, ophører animationen, og træerne slår rod igen, hvor det er muligt.\n• Ekstra virkning: Vælg én mulighed: vedvarende Gust of Wind to steder; Spike Growth ét sted; eller Wind Wall to steder. For immune skabninger er vindene milde, og Spike Growth er harmløs.\n\nDe nævnte formularer og Awakened Tree-statblokken er separate regelreferencer."
+  },
+  "Enemies Abound": {
+    "level": 3,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "120 feet",
+    "components": "V, S",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14836-enemies-abound",
+      "name": "Enemies Abound",
+      "page": 155
+    },
+    "reviewed": "2026-11-02",
+    "en": "One creature you can see within range makes an Intelligence saving throw. Immunity to Frightened makes it succeed automatically. On failure, it treats all creatures it can see as enemies for the duration. Whenever it takes damage, it can repeat the save and end the effect on a success.\n\nWhen it chooses another creature as a target, it must choose randomly among creatures it can see within the range of the attack, spell or other ability used. If an enemy provokes an Opportunity Attack from it, it must take that attack if able.",
+    "da": "Én skabning, du kan se inden for rækkevidde, laver en INT-redning. Er den immun over for Frightened, lykkes redningen automatisk. Ved fejl opfatter den alle skabninger, den kan se, som fjender i varigheden. Hver gang den tager skade, kan den gentage redningen og afslutte virkningen ved succes.\n\nNår den vælger en anden skabning som mål, skal den vælge tilfældigt blandt alle skabninger, den kan se inden for rækkevidden af det angreb, den formular eller den anden evne, den bruger. Hvis en fjende udløser et Opportunity Attack fra den, skal den udføre angrebet, hvis den kan."
+  },
+  "Far Step": {
+    "level": 5,
+    "school": "Conjuration",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Bonus Action",
+    "range": "Self",
+    "components": "V",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14870-far-step",
+      "name": "Far Step",
+      "page": 155
+    },
+    "reviewed": "2026-11-02",
+    "en": "Teleport up to 60 feet to an unoccupied space you can see. On each of your turns before the spell ends, you may use a Bonus Action to repeat this teleportation, again choosing an unoccupied space you can see within 60 feet.",
+    "da": "Teleportér op til 60 ft til et ubesat sted, du kan se. På hver af dine ture, inden formularen slutter, kan du bruge en Bonus Action til at teleportere igen på samme måde: op til 60 ft til et ubesat sted, du kan se."
+  },
+  "Find Greater Steed": {
+    "level": 4,
+    "school": "Conjuration",
+    "classes": [
+      "Paladin"
+    ],
+    "cast": "10 minutes",
+    "range": "30 feet",
+    "components": "V, S",
+    "dur": "Instantaneous",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14871-find-greater-steed",
+      "name": "Find Greater Steed",
+      "page": 156
+    },
+    "reviewed": "2026-11-02",
+    "en": "Summon a loyal spirit mount in an unoccupied space within range. Choose a griffon, pegasus, peryton, dire wolf, rhinoceros or saber-toothed tiger and use its Monster Manual statistics, but its type is Celestial, Fey or Fiend, your choice. If its Intelligence is 5 or less, it becomes 6, and it understands one language you speak, chosen by you.\n\nYou control it in combat and can communicate telepathically while within 1 mile. While riding it, any spell you cast that targets only you can also target the mount.\n\nAt 0 HP, or if you dismiss it as an Action, it temporarily disappears. Recasting summons the bonded mount again with full HP and no conditions. You may have only one mount bonded through this spell or Find Steed at a time. As an Action you can end the bond, making it disappear permanently. Whenever it disappears, carried and worn objects remain behind.\n\nThe named creature stat blocks are separate Monster Manual references. This is the older spell, not the 2024 Find Steed text.",
+    "da": "Tilkald en loyal ånd som ridedyr på et ubesat sted inden for rækkevidde. Vælg griffon, pegasus, peryton, dire wolf, rhinoceros eller saber-toothed tiger, og brug dens Monster Manual-statistik. Typen er dog Celestial, Fey eller Fiend efter dit valg. Er dens INT højst 5, bliver den 6, og den forstår ét sprog, du selv taler og vælger.\n\nDu styrer ridedyret i kamp og kan kommunikere telepatisk med det inden for 1 mile. Mens du rider på det, kan en formular, du kaster, som kun har dig selv som mål, også ramme ridedyret.\n\nVed 0 HP, eller hvis du bruger en Action på at bortvise det, forsvinder det midlertidigt. Et nyt kast tilkalder det bundne ridedyr igen med fuldt HP og uden conditions. Du kan samlet kun have ét ridedyr bundet via denne formular eller Find Steed. Som Action kan du ophæve båndet; da forsvinder det permanent. Når det forsvinder, efterlader det alle genstande, det bar eller havde på.\n\nDe navngivne statblokke er separate referencer i Monster Manual. Dette er den ældre formular, ikke teksten til Find Steed fra 2024."
+  },
+  "Guardian of Nature": {
+    "level": 4,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "cast": "Bonus Action",
+    "range": "Self",
+    "components": "V",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14872-guardian-of-nature",
+      "name": "Guardian of Nature",
+      "page": 157
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose one guardian form for the duration.\n\nPrimal Beast: Your body becomes bestial. Your walking speed increases by 10 feet; you gain Darkvision 120 feet; your Strength-based attack rolls have Advantage; and your melee weapon hits deal an extra 1d6 Force damage.\n\nGreat Tree: Your skin becomes barklike and your hair sprouts leaves. Gain 10 temporary HP, Advantage on Constitution saving throws, and Advantage on Dexterity- and Wisdom-based attack rolls. While you are on the ground, ground within 15 feet of you is Difficult Terrain for your enemies.",
+    "da": "Vælg én vogterform for varigheden.\n\nUrbeist: Kroppen får dyriske træk. Din walking speed øges med 10 ft; du får Darkvision 120 ft; dine STR-baserede attack rolls har Advantage; og træffere med dine nærkampsvåben giver yderligere 1d6 Force-skade.\n\nStort træ: Din hud bliver barkagtig, og blade spirer i håret. Du får 10 midlertidige HP, Advantage på CON-redninger og Advantage på DEX- og WIS-baserede attack rolls. Mens du står på jorden, er jorden inden for 15 ft fra dig Difficult Terrain for dine fjender."
+  },
+  "Healing Spirit": {
+    "level": 2,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "cast": "Bonus Action",
+    "range": "60 feet",
+    "components": "V, S",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14873-healing-spirit",
+      "name": "Healing Spirit",
+      "page": 157
+    },
+    "reviewed": "2026-11-02",
+    "en": "Place an intangible nature spirit in a 5-foot cube you can see within range. It looks like a translucent Beast or Fey, your choice. Whenever you or a creature you can see enters its space for the first time on a turn or starts its turn there, you may have it restore 1d6 HP to that creature, requiring no action. It cannot heal Constructs or Undead.\n\nThe spirit can heal a total number of times equal to 1 + your spellcasting ability modifier, with a minimum of two times. After its last use it disappears. On your turn, use a Bonus Action to move it up to 30 feet to a space you can see.\n\nHigher slots: Healing increases by 1d6 per slot level above 2. The healing-use limit incorporates the official 2020 errata.",
+    "da": "Placér en uhåndgribelig naturånd i en kube på 5 ft, som du kan se inden for rækkevidde. Den ligner et gennemsigtigt Beast eller Fey efter dit valg. Når du eller en skabning, du kan se, træder ind på dens plads for første gang på en tur eller starter sin tur der, kan du lade ånden gendanne 1d6 HP til skabningen uden en handling. Den kan ikke helbrede Constructs eller Undead.\n\nÅnden kan samlet helbrede et antal gange svarende til 1 + din spellcasting ability modifier, dog mindst to gange. Efter sidste helbredelse forsvinder den. På din tur kan du bruge en Bonus Action til at flytte den op til 30 ft til et sted, du kan se.\n\nHøjere slots: Helbredelsen øges med 1d6 pr. slotniveau over 2. Begrænsningen på antal helbredelser følger den officielle rettelse fra 2020.",
+    "errataUrl": "https://media.wizards.com/2020/dnd/downloads/XGtE-Errata.pdf"
+  },
+  "Holy Weapon": {
+    "level": 5,
+    "school": "Evocation",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "cast": "Bonus Action",
+    "range": "Touch",
+    "components": "V, S",
+    "dur": "Concentration, up to 1 hour",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14874-holy-weapon",
+      "name": "Holy Weapon",
+      "page": 157
+    },
+    "reviewed": "2026-11-02",
+    "en": "Touch a weapon and infuse it with holy power. It sheds Bright Light for 30 feet and Dim Light for 30 feet beyond that. Its weapon attacks deal an extra 2d8 Radiant damage on a hit. If nonmagical, it becomes a magic weapon for the duration.\n\nAs a Bonus Action on your turn, end the spell with a radiant burst from the weapon. Each creature you choose that you can see within 30 feet of the weapon makes a Constitution save. Failure: 4d8 Radiant damage and Blinded for 1 minute. Success: half damage and not Blinded. At the end of each of its turns, a Blinded creature can repeat the save, ending the blindness on a success.\n\nThe burst is measured from the weapon, per official errata.",
+    "da": "Berør et våben, og fyld det med hellig kraft. Det udsender Bright Light i 30 ft radius og Dim Light yderligere 30 ft. Angreb med våbnet giver yderligere 2d8 Radiant-skade ved træffer. Er det ikke allerede magisk, bliver det et magisk våben i varigheden.\n\nSom Bonus Action på din tur kan du afslutte formularen med et lysudbrud fra våbnet. Hver skabning efter dit valg, som du kan se inden for 30 ft fra våbnet, laver en CON-redning. Ved fejl tager den 4d8 Radiant-skade og bliver Blinded i 1 minut. Ved succes tager den halv skade og bliver ikke Blinded. Ved slutningen af hver af sine ture kan en Blinded skabning gentage redningen og afslutte blindheden ved succes.\n\nAfstanden til lysudbruddets mål måles fra våbnet, som præciseret i den officielle rettelse.",
+    "errataUrl": "https://media.wizards.com/2020/dnd/downloads/XGtE-Errata.pdf"
+  },
+  "Infernal Calling": {
+    "level": 5,
+    "school": "Conjuration",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "1 minute",
+    "range": "90 feet",
+    "components": "V, S, M (a ruby worth at least 999 gp)",
+    "dur": "Concentration, up to 1 hour",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14877-infernal-calling",
+      "name": "Infernal Calling",
+      "page": 158
+    },
+    "reviewed": "2026-11-02",
+    "en": "Summon a devil of a type you choose with CR 6 or lower, in an unoccupied space you can see within range. It disappears at 0 HP or when the spell ends, subject to the exception below. The DM supplies its statistics and controls it. It is unfriendly to you and your companions. Roll its initiative separately; it acts according to its nature, possibly attacking you or bargaining for evil acts.\n\nOn each of your turns, without an action, you may give a verbal command. If the likely outcome suits its desires it obeys. Otherwise, make a Charisma (Deception, Intimidation or Persuasion) check contested by its Wisdom (Insight). Saying its true name gives you Advantage. On your success, it follows the task and returns to report completion. On failure, it is immune to your verbal commands for the remainder of the spell, though it may still comply voluntarily.\n\nIf concentration ends before the full hour and it has become immune to your commands, it remains free to act for 3d6 minutes before disappearing.\n\nIf you possess a particular devil’s talisman, you can summon that devil with a CR up to 1 higher than the normal limit, and it obeys all commands without Charisma checks.\n\nHigher slots: Increase the CR limit by 1 per slot level above 5. Named devil stat blocks are separate references.",
+    "da": "Tilkald en devil af en type, du vælger, med CR højst 6 på et ubesat sted, du kan se inden for rækkevidde. Den forsvinder ved 0 HP eller når formularen slutter, med undtagelsen nedenfor. DM har dens statistik og styrer den. Den er uvenligt indstillet over for dig og dine ledsagere. Slå dens initiative særskilt; den handler efter sin natur og kan angribe dig eller kræve onde handlinger som betaling for hjælp.\n\nPå hver af dine ture kan du uden en handling give en talt ordre. Passer det sandsynlige resultat med dens ønsker, adlyder den. Ellers laver du et CHA (Deception, Intimidation eller Persuasion)-tjek mod dens WIS (Insight)-tjek. Siger du dens sande navn, har du Advantage. Vinder du, udfører den opgaven og vender tilbage for at melde den fuldført. Taber du, bliver den immun over for dine talte ordrer resten af formularen, men kan stadig vælge frivilligt at følge dem.\n\nHvis din koncentration ophører før den fulde time, og den er blevet immun over for dine ordrer, handler den frit i yderligere 3d6 minutter, før den forsvinder.\n\nHar du en bestemt devils talisman, kan du tilkalde netop den med CR op til 1 over den normale grænse. Den adlyder da alle ordrer uden CHA-tjek.\n\nHøjere slots: CR-grænsen øges med 1 pr. slotniveau over 5. Navngivne devil-statblokke er separate referencer."
+  },
+  "Infestation": {
+    "level": 0,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "30 feet",
+    "components": "V, S, M (a living flea)",
+    "dur": "Instantaneous",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14878-infestation",
+      "name": "Infestation",
+      "page": 158
+    },
+    "reviewed": "2026-11-02",
+    "en": "One creature you can see within range makes a Constitution save against a brief swarm of parasites. On failure it takes 1d6 Poison damage and, if able to move with a speed of at least 5 feet, moves 5 feet in a random direction. Roll 1d4: 1 north, 2 south, 3 east, 4 west. If that direction is blocked it does not move. This movement does not provoke Opportunity Attacks.\n\nCantrip scaling: Damage is 2d6 at character level 5, 3d6 at 11 and 4d6 at 17.",
+    "da": "Én skabning, du kan se inden for rækkevidde, laver en CON-redning mod en kortvarig sværm af parasitter. Ved fejl tager den 1d6 Poison-skade. Hvis den kan bevæge sig og har speed på mindst 5 ft, bevæger den sig også 5 ft i en tilfældig retning. Slå 1d4: 1 nord, 2 syd, 3 øst, 4 vest. Er retningen blokeret, bevæger den sig ikke. Bevægelsen udløser ikke Opportunity Attacks.\n\nCantrip-skalering: Skaden bliver 2d6 på karakterniveau 5, 3d6 på niveau 11 og 4d6 på niveau 17."
+  },
+  "Life Transference": {
+    "level": 3,
+    "school": "Necromancy",
+    "classes": [
+      "Cleric",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "30 feet",
+    "components": "V, S",
+    "dur": "Instantaneous",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14880-life-transference",
+      "name": "Life Transference",
+      "page": 160
+    },
+    "reviewed": "2026-11-02",
+    "en": "Take 4d8 Necrotic damage that cannot be reduced in any way. One other creature you choose and can see within range regains HP equal to twice the Necrotic damage you took.\n\nHigher slots: Increase your damage by 1d8 per slot level above 3. The irreducible damage follows official errata.",
+    "da": "Du tager 4d8 Necrotic-skade, som ikke kan reduceres på nogen måde. Én anden skabning, som du vælger og kan se inden for rækkevidde, gendanner HP svarende til det dobbelte af den Necrotic-skade, du tog.\n\nHøjere slots: Skaden på dig øges med 1d8 pr. slotniveau over 3. At skaden ikke kan reduceres, følger den officielle rettelse.",
+    "errataUrl": "https://media.wizards.com/2020/dnd/downloads/XGtE-Errata.pdf"
+  },
+  "Maddening Darkness": {
+    "level": 8,
+    "school": "Evocation",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "150 feet",
+    "components": "V, M (a drop of pitch mixed with a drop of mercury)",
+    "dur": "Concentration, up to 10 minutes",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14881-maddening-darkness",
+      "name": "Maddening Darkness",
+      "page": 160
+    },
+    "reviewed": "2026-11-02",
+    "en": "Create a sphere of magical darkness with a 60-foot radius centered on a point within range. It spreads around corners. Darkvision cannot see through it; nonmagical light and light from spells of level 8 or lower cannot illuminate it.\n\nShrieks, babbling and mad laughter are audible inside. Whenever a creature starts its turn in the sphere, it makes a Wisdom saving throw, taking 8d8 Psychic damage on failure or half on success.",
+    "da": "Skab en kugle af magisk mørke med 60 ft radius omkring et punkt inden for rækkevidde. Mørket breder sig rundt om hjørner. Darkvision kan ikke se igennem det. Ikke-magisk lys og lys fra formularer på niveau 8 eller lavere kan ikke oplyse området.\n\nSkrig, mumlen og vanvittig latter høres inde i kuglen. Hver gang en skabning starter sin tur der, laver den en WIS-redning og tager 8d8 Psychic-skade ved fejl eller halvdelen ved succes."
+  },
+  "Mass Polymorph": {
+    "level": 9,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "120 feet",
+    "components": "V, S, M (a caterpillar cocoon)",
+    "dur": "Concentration, up to 1 hour",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14882-mass-polymorph",
+      "name": "Mass Polymorph",
+      "page": 160
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose up to ten creatures you can see within range and transform each into a Beast you have seen. Unwilling targets resist with a Wisdom save; an unwilling Shapechanger automatically succeeds. Each form’s CR cannot exceed the target’s CR, or half its level (round down) if it has no CR. Forms may differ between targets.\n\nReplace each target’s game statistics, including mental scores, with the Beast’s statistics, but retain the target’s HP, alignment and personality. It gains temporary HP equal to the Beast form’s HP. These temporary HP cannot be replaced by another source. At zero temporary HP, or on death, it reverts. If the spell ends first, it loses these temporary HP and reverts.\n\nThe form limits its possible actions. It cannot speak, cast spells or perform activities requiring hands or speech. Equipment merges into the form and cannot be used, activated, wielded or otherwise provide benefits. Beast stat blocks remain separate references.",
+    "da": "Vælg op til ti skabninger, du kan se inden for rækkevidde, og forvandl hver til et Beast, du har set. Et uvilligt mål kan modstå med en WIS-redning; en uvillig Shapechanger lykkes automatisk. Hver forms CR må højst svare til målets CR, eller halvdelen af målets niveau (rundet ned), hvis det ikke har CR. Du kan vælge forskellige former til målene.\n\nErstat hvert måls spilstatistik, inklusive mentale ability scores, med dyrets statistik. Målet beholder dog sine HP, alignment og personlighed. Det får midlertidige HP svarende til den nye forms HP. Disse kan ikke erstattes af midlertidige HP fra andre kilder. Ved 0 midlertidige HP, eller hvis målet dør, vender det tilbage til sin normale form. Slutter formularen først, mister det disse midlertidige HP og vender tilbage.\n\nFormen begrænser de handlinger, målet kan udføre. Det kan ikke tale, kaste formularer eller gøre noget, der kræver hænder eller tale. Udstyr smelter sammen med formen og kan hverken bruges, aktiveres, føres eller give andre fordele. Beast-statblokke er separate referencer."
+  },
+  "Mental Prison": {
+    "level": 6,
+    "school": "Illusion",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "60 feet",
+    "components": "S",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14883-mental-prison",
+      "name": "Mental Prison",
+      "page": 161
+    },
+    "reviewed": "2026-11-02",
+    "en": "One creature you can see within range makes an Intelligence save; immunity to Charmed gives automatic success. On success it takes 5d10 Psychic damage and the spell ends. On failure it takes the same 5d10 damage and perceives an illusory enclosure surrounding its space, appearing dangerous in a way you choose.\n\nOnly the target perceives the illusion. It cannot see or hear beyond it and is Restrained for the duration. If moved outside the illusion, if it makes a melee attack through it, or if it extends any body part through it, it takes 10d10 Psychic damage and the spell ends.",
+    "da": "Én skabning, du kan se inden for rækkevidde, laver en INT-redning. Immunitet over for Charmed giver automatisk succes. Ved succes tager målet 5d10 Psychic-skade, og formularen slutter. Ved fejl tager det samme 5d10 skade og oplever en illusorisk indespærring umiddelbart omkring sin plads, som virker farlig på en måde, du vælger.\n\nKun målet oplever illusionen. Det kan hverken se eller høre noget udenfor og er Restrained i varigheden. Bliver det flyttet ud af illusionen, laver det et nærkampsangreb gennem den, eller fører det nogen del af kroppen gennem den, tager det 10d10 Psychic-skade, og formularen slutter."
+  },
+  "Mighty Fortress": {
+    "level": 8,
+    "school": "Conjuration",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "1 minute",
+    "range": "1 mile",
+    "components": "V, S, M (a diamond worth at least 500 gp, consumed)",
+    "dur": "Instantaneous",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14474-mighty-fortress",
+      "name": "Mighty Fortress",
+      "page": 161
+    },
+    "reviewed": "2026-11-02",
+    "en": "Raise a stone fortress from a 120-foot-square area of ground you can see within range, free of buildings or other structures. Creatures are lifted harmlessly as it rises.\n\nFour square corner turrets each measure 20 feet across and 30 feet tall. Connecting walls are 80 feet long and 1 foot thick, built of contiguous panels 10 feet wide and 20 feet tall. Each panel adjoins two panels, or one panel and a turret. You can put up to four stone doors in the outer wall.\n\nInside is a keep with a 50-foot-square base and three floors with 10-foot ceilings. Divide the floors into rooms at least 5 feet across; connect floors with stone stairs. Its walls are 6 inches thick; internal entrances can be stone doors or archways. Choose the furnishings and decorations. Daily food supplies suffice for a nine-course banquet for 100 people. Created furniture, food and other objects crumble to dust if removed from the fortress.\n\nOne hundred invisible servants obey creatures you designate during casting. Each works as an Unseen Servant (a separate spell reference).\n\nThe stone can be damaged. Each 10-foot-square section has AC 15 and 30 HP per inch of thickness, with immunity to Poison and Psychic damage. At 0 HP it is destroyed; the DM decides whether adjoining sections collapse.\n\nAfter 7 days, or if you cast this spell elsewhere, the fortress harmlessly crumbles into the ground, safely depositing occupants on the surface. Casting in the same spot every 7 days for a year makes it permanent.",
+    "da": "Rejs en stenfæstning fra et område på 120 × 120 ft på jorden, som du kan se inden for rækkevidde. Området må ikke indeholde bygninger eller andre konstruktioner. Skabninger løftes uskadt op, mens fæstningen rejser sig.\n\nI hvert hjørne står et firkantet tårn på 20 × 20 ft, 30 ft højt. Forbindende mure er 80 ft lange og 1 ft tykke, opbygget af sammenhængende paneler på 10 ft i bredden og 20 ft i højden. Hvert panel støder op til to paneler eller ét panel og et tårn. Du kan placere op til fire stendøre i ydermuren.\n\nIndenfor står en borg med grundplan på 50 × 50 ft og tre etager med 10 ft loftshøjde. Du kan opdele etagerne i rum med mindst 5 ft på hver led; stentrapper forbinder etagerne. Væggene er 6 inches tykke, og indre åbninger kan have stendøre eller buer. Du vælger møbler og udsmykning. Hver dag er der mad nok til en banket med ni retter for 100 personer. Skabte møbler, mad og andre genstande bliver til støv, hvis de fjernes fra fæstningen.\n\nHundrede usynlige tjenere adlyder de skabninger, du udpeger ved kastet. Hver fungerer som en Unseen Servant, der er en separat formularreference.\n\nStenen kan beskadiges. Hver sektion på 10 × 10 ft har AC 15 og 30 HP pr. inch tykkelse samt immunitet mod Poison- og Psychic-skade. Ved 0 HP ødelægges sektionen; DM afgør, om tilstødende dele styrter sammen.\n\nEfter 7 dage, eller hvis du kaster formularen et andet sted, smuldrer fæstningen uskadeligt ned i jorden og efterlader beboerne sikkert på overfladen. Kastes formularen samme sted hver 7. dag i et år, bliver fæstningen permanent."
+  },
+  "Primal Savagery": {
+    "level": 0,
+    "school": "Transmutation",
+    "classes": [
+      "Druid"
+    ],
+    "cast": "Action",
+    "range": "Self",
+    "components": "S",
+    "dur": "Instantaneous",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14558-primal-savagery",
+      "name": "Primal Savagery",
+      "page": 163
+    },
+    "reviewed": "2026-11-02",
+    "en": "Temporarily sharpen your teeth or nails with primal magic and make a melee spell attack against one creature within 5 feet. On a hit, deal 1d10 Acid damage. Your teeth or nails return to normal after the attack.\n\nCantrip scaling: Damage becomes 2d10 at character level 5, 3d10 at 11 and 4d10 at 17.",
+    "da": "Skærp kortvarigt dine tænder eller negle med urkraft, og lav et melee spell attack mod én skabning inden for 5 ft. Ved træffer giver angrebet 1d10 Acid-skade. Tænderne eller neglene bliver normale efter angrebet.\n\nCantrip-skalering: Skaden bliver 2d10 på karakterniveau 5, 3d10 på niveau 11 og 4d10 på niveau 17."
+  },
+  "Psychic Scream": {
+    "level": 9,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "90 feet",
+    "components": "S",
+    "dur": "Instantaneous",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14592-psychic-scream",
+      "name": "Psychic Scream",
+      "page": 163
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose up to ten creatures you can see within range. Creatures with Intelligence 2 or lower are unaffected. Each target makes an Intelligence saving throw. Failure: 14d6 Psychic damage and Stunned. Success: half damage and no Stunned condition. A target killed by the damage has its head explode, if it has a head.\n\nA Stunned target can repeat the Intelligence save at the end of each of its turns, ending the condition on a success.",
+    "da": "Vælg op til ti skabninger, du kan se inden for rækkevidde. Skabninger med INT 2 eller lavere påvirkes ikke. Hvert mål laver en INT-redning. Ved fejl tager det 14d6 Psychic-skade og bliver Stunned. Ved succes tager det halv skade og bliver ikke Stunned. Dræbes et mål af skaden, eksploderer dets hoved, hvis det har et.\n\nEt Stunned mål kan gentage INT-redningen ved slutningen af hver af sine ture og afslutte tilstanden ved succes."
+  },
+  "Scatter": {
+    "level": 6,
+    "school": "Conjuration",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "30 feet",
+    "components": "V",
+    "dur": "Instantaneous",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14593-scatter",
+      "name": "Scatter",
+      "page": 164
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose up to five creatures you can see within range. Each unwilling creature can resist with a successful Wisdom saving throw. Teleport each affected target to an unoccupied space you can see within 120 feet of you. Each destination must be on the ground or on a floor.",
+    "da": "Vælg op til fem skabninger, du kan se inden for rækkevidde. Hver uvillig skabning kan modstå med en vellykket WIS-redning. Teleportér hvert påvirket mål til et ubesat sted, du kan se inden for 120 ft fra dig. Hvert bestemmelsessted skal være på jorden eller på et gulv."
+  },
+  "Shadow Blade": {
+    "level": 2,
+    "school": "Illusion",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Bonus Action",
+    "range": "Self",
+    "components": "V, S",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14595-shadow-blade",
+      "name": "Shadow Blade",
+      "page": 164
+    },
+    "reviewed": "2026-11-02",
+    "en": "Form a magic sword in your hand. It is a simple melee weapon with which you are proficient, dealing 2d8 Psychic damage on a hit. It has Finesse, Light and Thrown (range 20/60 feet). Attacks with it against targets in Dim Light or Darkness have Advantage.\n\nIf dropped or thrown, it dissipates at the end of that turn. While the spell lasts, a later Bonus Action can restore it to your hand.\n\nHigher slots: Damage is 3d8 with a level 3–4 slot, 4d8 with a level 5–6 slot, or 5d8 with a level 7–9 slot.",
+    "da": "Skab et magisk sværd i din hånd. Det er et simple melee weapon, som du har proficiency med, og giver 2d8 Psychic-skade ved træffer. Det har Finesse, Light og Thrown med rækkevidde 20/60 ft. Angreb med sværdet mod mål i Dim Light eller Darkness har Advantage.\n\nTaber eller kaster du sværdet, opløses det ved slutningen af den tur. Mens formularen varer, kan du senere bruge en Bonus Action til at genskabe det i din hånd.\n\nHøjere slots: Skaden er 3d8 med et slot på niveau 3–4, 4d8 med niveau 5–6 og 5d8 med niveau 7–9."
+  },
+  "Shadow of Moil": {
+    "level": 4,
+    "school": "Necromancy",
+    "classes": [
+      "Warlock"
+    ],
+    "cast": "Action",
+    "range": "Self",
+    "components": "V, S, M (an undead eyeball encased in a gem worth at least 150 gp)",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14596-shadow-of-moil",
+      "name": "Shadow of Moil",
+      "page": 164
+    },
+    "reviewed": "2026-11-02",
+    "en": "Flamelike shadows wrap your body, making you Heavily Obscured to others for the duration. Within 10 feet of you, they turn Bright Light into Dim Light and Dim Light into Darkness.\n\nYou gain Resistance to Radiant damage. Whenever a creature within 10 feet hits you with an attack, the shadows deal 2d8 Necrotic damage to that creature.",
+    "da": "Flammelignende skygger omslutter dig og gør dig Heavily Obscured for andre i varigheden. Inden for 10 ft fra dig bliver Bright Light til Dim Light, og Dim Light bliver til Darkness.\n\nDu får Resistance mod Radiant-skade. Hver gang en skabning inden for 10 ft rammer dig med et angreb, giver skyggerne den skabning 2d8 Necrotic-skade."
+  },
+  "Sickening Radiance": {
+    "level": 4,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "120 feet",
+    "components": "V, S",
+    "dur": "Concentration, up to 10 minutes",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14597-sickening-radiance",
+      "name": "Sickening Radiance",
+      "page": 164
+    },
+    "reviewed": "2026-11-02",
+    "en": "Create a sphere of dim green light with a 30-foot radius, centered on a point within range. It spreads around corners and lasts for the duration.\n\nWhen a creature enters the area for the first time on a turn or starts its turn there, it makes a Constitution save. On failure it takes 4d10 Radiant damage, gains one level of Exhaustion, and sheds Dim Light in a 5-foot radius. This glow prevents it from benefiting from being Invisible. On a successful save it suffers none of these effects. When the spell ends, the glow and all Exhaustion levels caused by this spell disappear.",
+    "da": "Skab en kugle af svagt grønt lys med 30 ft radius omkring et punkt inden for rækkevidde. Lyset breder sig rundt om hjørner og varer hele varigheden.\n\nNår en skabning træder ind i området for første gang på en tur eller starter sin tur der, laver den en CON-redning. Ved fejl tager den 4d10 Radiant-skade, får ét niveau Exhaustion og udsender Dim Light i 5 ft radius. Gløden forhindrer den i at få fordel af at være Invisible. Ved succes rammes den ikke af disse virkninger. Når formularen slutter, forsvinder gløden og alle niveauer Exhaustion, som denne formular har givet."
+  },
+  "Skill Empowerment": {
+    "level": 5,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Touch",
+    "components": "V, S",
+    "dur": "Concentration, up to 1 hour",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14599-skill-empowerment",
+      "name": "Skill Empowerment",
+      "page": 165
+    },
+    "reviewed": "2026-11-02",
+    "en": "Touch one willing creature and choose one skill it is proficient in. For the duration, it doubles its Proficiency Bonus on ability checks using that skill.\n\nYou cannot choose a skill already benefiting from Expertise or another effect that doubles its Proficiency Bonus.",
+    "da": "Berør én villig skabning, og vælg én skill, som den har proficiency i. I varigheden fordobler den sin Proficiency Bonus på ability checks, der bruger den valgte skill.\n\nDu kan ikke vælge en skill, der allerede får fordoblet Proficiency Bonus gennem Expertise eller en anden tilsvarende effekt."
+  },
+  "Snare": {
+    "level": 1,
+    "school": "Abjuration",
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Wizard"
+    ],
+    "cast": "1 minute",
+    "range": "Touch",
+    "components": "S, M (25 feet of rope, consumed)",
+    "dur": "8 hours",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14600-snare",
+      "name": "Snare",
+      "page": 165
+    },
+    "reviewed": "2026-11-02",
+    "en": "Lay the rope in a circle with a 5-foot radius on ground or floor while casting. At completion the rope vanishes, leaving a nearly invisible magic trap. Finding it requires an Intelligence (Investigation) check against your spell save DC.\n\nA Small, Medium or Large creature moving onto the ground or floor inside the circle triggers the trap. It makes a Dexterity save. On failure it is hoisted upside down 3 feet above the surface and is Restrained until the spell ends.\n\nAt the end of each turn, the trapped creature can repeat the Dexterity save, ending the effect on itself on a success. It, or another creature that can reach it, may instead use an Action for an Intelligence (Arcana) check against your spell save DC; success ends the restraint. Once triggered, the spell ends when it no longer restrains a creature.",
+    "da": "Læg rebet i en cirkel med 5 ft radius på jorden eller gulvet under kastet. Når kastet er færdigt, forsvinder rebet og efterlader en næsten usynlig magisk fælde. Det kræver et INT (Investigation)-tjek mod din spell save DC at opdage den.\n\nEn Small, Medium eller Large skabning udløser fælden ved at bevæge sig ind på jorden eller gulvet inden for cirklen. Den laver en DEX-redning. Ved fejl hejses den op med hovedet nedad, 3 ft over underlaget, og er Restrained, indtil formularen slutter.\n\nVed slutningen af hver tur kan den fangede skabning gentage DEX-redningen og afslutte virkningen på sig selv ved succes. Den selv eller en anden skabning, der kan nå den, kan alternativt bruge en Action på et INT (Arcana)-tjek mod din spell save DC; succes ophæver fastholdelsen. Når fælden er udløst, slutter formularen, så snart ingen skabning længere er fastholdt af den."
+  },
+  "Soul Cage": {
+    "level": 6,
+    "school": "Necromancy",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Reaction, when a Humanoid you can see within 60 feet dies",
+    "range": "60 feet",
+    "components": "V, S, M (a tiny silver cage worth 100 gp)",
+    "dur": "8 hours",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14601-soul-cage",
+      "name": "Soul Cage",
+      "page": 165
+    },
+    "reviewed": "2026-11-02",
+    "en": "Capture the dying Humanoid’s soul in the component cage. The soul stays until the spell ends; destroying the cage ends the spell. While trapped, the Humanoid cannot be revived. You may exploit the soul six times in total, mixing the options below. After the sixth use it is released and the spell ends.\n\n• Steal Life: As a Bonus Action, regain 2d8 HP.\n• Query Soul: Without an action, ask one question and receive a brief telepathic answer you understand regardless of language. The soul knows only what it knew alive; it answers truthfully to the best of its ability, in at most one or two sentences that may be cryptic.\n• Borrow Experience: As a Bonus Action, gain Advantage on your next attack roll, ability check or saving throw. This benefit expires at the start of your next turn if unused.\n• Eyes of the Dead: As an Action, name a place the Humanoid saw in life. If on your current plane, an invisible sensor appears somewhere there. It lasts while you concentrate, as on a spell, up to 10 minutes. See and hear through it as if there using your senses. A creature able to see the sensor, for example with See Invisibility or Truesight, sees a translucent image of the tormented Humanoid.",
+    "da": "Fang den døende Humanoids sjæl i komponentburet. Sjælen bliver der, indtil formularen slutter; ødelægges buret, slutter formularen. Mens sjælen er fanget, kan Humanoiden ikke genoplives. Du kan udnytte sjælen i alt seks gange og frit kombinere mulighederne nedenfor. Efter sjette brug frigives den, og formularen slutter.\n\n• Stjæl liv: Brug en Bonus Action, og gendan 2d8 HP.\n• Spørg sjælen: Stil ét spørgsmål uden en handling. Du modtager et kort telepatisk svar, som du forstår uanset sprog. Sjælen ved kun det, den vidste i live, og skal svare sandt efter bedste evne. Svaret er højst én eller to sætninger og kan være kryptisk.\n• Lån erfaring: Brug en Bonus Action for at få Advantage på dit næste attack roll, ability check eller saving throw. Fordelen forsvinder ved starten af din næste tur, hvis den ikke er brugt.\n• Den dødes øjne: Brug en Action, og nævn et sted, Humanoiden så i live. Hvis stedet er på dit nuværende eksistensplan, opstår en usynlig sensor et sted der. Den varer, mens du koncentrerer dig som om en formular, i op til 10 minutter. Du ser og hører fra sensoren, som om du selv var der med dine sanser. En skabning, der kan se sensoren, fx med See Invisibility eller Truesight, ser et gennemsigtigt billede af den plagede Humanoid."
+  },
+  "Temple of the Gods": {
+    "level": 7,
+    "school": "Conjuration",
+    "classes": [
+      "Cleric"
+    ],
+    "cast": "1 hour",
+    "range": "120 feet",
+    "components": "V, S, M (a holy symbol worth at least 5 gp)",
+    "dur": "24 hours",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14606-temple-of-the-gods",
+      "name": "Temple of the Gods",
+      "page": 167
+    },
+    "reviewed": "2026-11-02",
+    "en": "Create a temple on ground you can see within range, fitting inside an unoccupied cube up to 120 feet per side. It honors the deity, pantheon or philosophy represented by the component holy symbol. Choose its appearance. It has a floor, walls, roof, one door and any number of windows. Only you and creatures designated at casting can open or close its door. Inside is an open space with an idol or altar at one end, a mild temperature and incense scent. Choose whether it is lit and whether the light is Bright or Dim.\n\nChoose one or more opposed creature types: Celestial, Elemental, Fey, Fiend or Undead. A creature of a chosen type attempting entry makes a Charisma save; failure bars it for 24 hours. Even if it enters, it subtracts 1d4 from every attack roll, ability check and saving throw it makes inside.\n\nDivination spell sensors cannot appear inside, and creatures inside cannot be targeted by Divination spells. Whenever a creature inside regains HP from a spell of level 1 or higher, it regains additional HP equal to your Wisdom modifier, minimum 1.\n\nIts opaque magical-force exterior extends into the Ethereal Plane, blocking ethereal entry. Nothing can physically pass through the exterior. Dispel Magic cannot dispel it and Antimagic Field does not affect it; Disintegrate immediately destroys it. Casting in the same spot daily for a year makes the effect permanent.",
+    "da": "Skab et tempel på jord, du kan se inden for rækkevidde, i en ubesat kube med op til 120 ft på hver led. Det er viet til den gud, det pantheon eller den filosofi, som komponentens hellige symbol repræsenterer. Du vælger udseendet. Templet har gulv, vægge, tag, én dør og et valgfrit antal vinduer. Kun du og skabninger, du udpeger ved kastet, kan åbne eller lukke døren. Indenfor er et åbent rum med et idol eller alter i den ene ende, mild temperatur og duft af røgelse. Du vælger, om der er lys, og om det er Bright Light eller Dim Light.\n\nVælg én eller flere modarbejdede skabningstyper: Celestial, Elemental, Fey, Fiend eller Undead. En skabning af en valgt type, der forsøger at komme ind, laver en CHA-redning; ved fejl kan den ikke komme ind i 24 timer. Selv hvis den kommer ind, trækker den 1d4 fra hvert attack roll, ability check og saving throw, den laver indenfor.\n\nSensorer fra Divination-formularer kan ikke opstå indenfor, og skabninger derinde kan ikke vælges som mål for Divination-formularer. Når en skabning inde i templet gendanner HP fra en formular på niveau 1 eller højere, gendanner den yderligere HP svarende til din WIS-modifikator, mindst 1.\n\nTemplets uigennemsigtige ydre af magisk kraft strækker sig ind i Ethereal Plane og blokerer æterisk indtrængen. Intet kan fysisk passere gennem det ydre. Dispel Magic kan ikke ophæve templet, og Antimagic Field påvirker det ikke. Disintegrate ødelægger det straks. Kastes formularen samme sted hver dag i et år, bliver virkningen permanent."
+  },
+  "Tenser's Transformation": {
+    "level": 6,
+    "school": "Transmutation",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self",
+    "components": "V, S, M (a few hairs from a bull)",
+    "dur": "Concentration, up to 10 minutes",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14612-tensers-transformation",
+      "name": "Tenser's Transformation",
+      "page": 168
+    },
+    "reviewed": "2026-11-02",
+    "en": "For the duration, you cannot cast spells and gain all the following benefits:\n\n• Gain 50 temporary HP; any left when the spell ends are lost.\n• Advantage on attack rolls with simple and martial weapons.\n• Each weapon attack hit deals an extra 2d12 Force damage.\n• Proficiency with all armor, shields, simple weapons and martial weapons.\n• Proficiency in Strength and Constitution saving throws.\n• When taking the Attack action on your turn, attack twice rather than once. Ignore this benefit if another feature, such as Extra Attack, already gives you extra attacks.\n\nImmediately after the spell ends, make a DC 15 Constitution save; on failure gain one level of Exhaustion.",
+    "da": "I varigheden kan du ikke kaste formularer og får alle følgende fordele:\n\n• Du får 50 midlertidige HP; eventuelle rester mistes, når formularen slutter.\n• Advantage på attack rolls med simple og martial weapons.\n• Hver træffer med et weapon attack giver yderligere 2d12 Force-skade.\n• Proficiency med alle rustninger, skjolde, simple weapons og martial weapons.\n• Proficiency i STR- og CON-redninger.\n• Når du tager Attack-handlingen på din tur, kan du angribe to gange i stedet for én. Ignorér denne fordel, hvis en anden egenskab, fx Extra Attack, allerede giver dig ekstra angreb.\n\nUmiddelbart efter formularens ophør laver du en DC 15 CON-redning. Ved fejl får du ét niveau Exhaustion."
+  },
+  "Thunder Step": {
+    "level": 3,
+    "school": "Conjuration",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "90 feet",
+    "components": "V",
+    "dur": "Instantaneous",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14613-thunder-step",
+      "name": "Thunder Step",
+      "page": 168
+    },
+    "reviewed": "2026-11-02",
+    "en": "Teleport to an unoccupied space you can see within range. Immediately on departure, each creature within 10 feet of the space you left makes a Constitution save, taking 3d10 Thunder damage on failure or half on success. The boom is audible up to 300 feet away.\n\nYou may bring objects within your carrying capacity. You may also bring one willing creature of your size or smaller, carrying no more than its own capacity. It must be within 5 feet when you cast, and there must be an unoccupied arrival space within 5 feet of your destination; otherwise it stays behind.\n\nHigher slots: Damage increases by 1d10 per slot level above 3.",
+    "da": "Teleportér til et ubesat sted, du kan se inden for rækkevidde. Straks efter din afrejse laver hver skabning inden for 10 ft fra stedet, du forlod, en CON-redning. Ved fejl tager den 3d10 Thunder-skade, ved succes halvdelen. Braget kan høres op til 300 ft væk.\n\nDu kan medbringe genstande op til din bæreevne. Du kan også tage én villig skabning med, som er på din størrelse eller mindre og højst bærer sin egen bæreevne. Den skal være inden for 5 ft fra dig ved kastet, og der skal være et ubesat ankomststed inden for 5 ft fra dit bestemmelsessted; ellers bliver den tilbage.\n\nHøjere slots: Skaden øges med 1d10 pr. slotniveau over 3."
+  },
+  "Tiny Servant": {
+    "level": 3,
+    "school": "Transmutation",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "1 minute",
+    "range": "Touch",
+    "components": "V, S",
+    "dur": "8 hours",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14614-tiny-servant",
+      "name": "Tiny Servant",
+      "page": 168
+    },
+    "reviewed": "2026-11-02",
+    "en": "Touch one Tiny nonmagical object that is not attached to another object or surface and is not carried by another creature. It grows limbs and becomes a creature under your control until the spell ends or it reaches 0 HP.\n\nAs a Bonus Action, mentally command a servant within 120 feet. If you control several with this spell, command any or all simultaneously with the same order. Decide its next turn’s action and movement, or give a simple general task such as fetching a key or standing watch. It follows the order until complete. Without an order it only defends itself against hostile creatures. At 0 HP it reverts to the original object, and excess damage carries over to that object.\n\nHigher slots: Animate two extra objects per slot level above 3.\n\n## Tiny Servant stat block\nTiny Construct, unaligned. AC 15 (natural armor); HP 10 (4d4); Speed 30 feet, Climb 30 feet.\n\n| Ability | Score | Modifier |\n| --- | --- | --- |\n| STR | 4 | −3 |\n| DEX | 16 | +3 |\n| CON | 10 | +0 |\n| INT | 2 | −4 |\n| WIS | 10 | +0 |\n| CHA | 1 | −5 |\n\nDamage immunities: Poison, Psychic. Condition immunities: Blinded, Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned. Senses: Blindsight 60 feet (blind beyond this radius), passive Perception 10. Languages: none.\n\nSlam: Melee Weapon Attack, +5 to hit, reach 5 feet, one target. Hit: 5 (1d4 + 3) Bludgeoning damage.",
+    "da": "Berør én Tiny, ikke-magisk genstand, der hverken sidder fast på en anden genstand eller overflade eller bæres af en anden skabning. Den får små arme og ben og bliver en skabning under din kontrol, indtil formularen slutter, eller den når 0 HP.\n\nSom Bonus Action kan du mentalt kommandere en tjener inden for 120 ft. Har du flere fra denne formular, kan du samtidig kommandere nogle eller alle med samme ordre. Bestem dens næste turs handling og bevægelse, eller giv en enkel generel opgave, fx at hente en nøgle eller holde vagt. Den følger ordren, indtil opgaven er løst. Uden ordrer forsvarer den sig kun mod fjendtlige skabninger. Ved 0 HP bliver den den oprindelige genstand igen, og overskydende skade overføres til genstanden.\n\nHøjere slots: Animér to ekstra genstande pr. slotniveau over 3.\n\n## Tiny Servant-statblok\nTiny Construct, unaligned. AC 15 (naturlig rustning); HP 10 (4d4); Speed 30 ft, Climb 30 ft.\n\n| Ability | Score | Modifier |\n| --- | --- | --- |\n| STR | 4 | −3 |\n| DEX | 16 | +3 |\n| CON | 10 | +0 |\n| INT | 2 | −4 |\n| WIS | 10 | +0 |\n| CHA | 1 | −5 |\n\nSkadeimmuniteter: Poison, Psychic. Immuniteter mod conditions: Blinded, Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned. Sanser: Blindsight 60 ft, blind uden for denne radius; passive Perception 10. Sprog: ingen.\n\nSlam: Melee Weapon Attack, +5 til at ramme, reach 5 ft, ét mål. Træffer: 5 (1d4 + 3) Bludgeoning-skade."
+  },
+  "Wall of Light": {
+    "level": 5,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "120 feet",
+    "components": "V, S, M (a hand mirror)",
+    "dur": "Concentration, up to 10 minutes",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14616-wall-of-light",
+      "name": "Wall of Light",
+      "page": 170
+    },
+    "reviewed": "2026-11-02",
+    "en": "Create a wall of light at a point within range, up to 60 feet long, 10 feet high and 5 feet thick. It may be horizontal, vertical or diagonal, floating or resting on a solid surface. It blocks sight but not passage by creatures or objects. It sheds Bright Light for 120 feet and Dim Light a further 120 feet.\n\nAt creation, each creature in its area makes a Constitution save. Failure: 4d8 Radiant damage and Blinded for 1 minute. Success: half damage and not Blinded. A Blinded creature can repeat the save at each turn’s end, ending blindness on success. A creature ending its turn in the wall takes 4d8 Radiant damage without a save.\n\nAs an Action, fire a beam from the wall at a creature you can see within 60 feet of the wall. Make a ranged spell attack; a hit deals 4d8 Radiant damage. Hit or miss, shorten the wall by 10 feet. At zero length the spell ends.\n\nHigher slots: All its damage increases by 1d8 per slot level above 5.",
+    "da": "Skab en lysmur ved et punkt inden for rækkevidde, op til 60 ft lang, 10 ft høj og 5 ft tyk. Den kan stå lodret, ligge vandret eller skråt og enten svæve eller hvile på en fast overflade. Den blokerer udsyn, men skabninger og genstande kan passere gennem den. Den udsender Bright Light i 120 ft og Dim Light yderligere 120 ft.\n\nNår muren opstår, laver hver skabning i området en CON-redning. Ved fejl tager den 4d8 Radiant-skade og bliver Blinded i 1 minut. Ved succes tager den halv skade og bliver ikke Blinded. En Blinded skabning kan gentage redningen ved slutningen af hver tur og afslutte blindheden ved succes. En skabning, der afslutter sin tur i muren, tager 4d8 Radiant-skade uden redning.\n\nSom Action kan du skyde en stråle fra muren mod en skabning, du kan se inden for 60 ft fra muren. Lav et ranged spell attack; ved træffer giver det 4d8 Radiant-skade. Uanset om du rammer, forkortes muren med 10 ft. Ved længde 0 slutter formularen.\n\nHøjere slots: Alle formularens skademængder øges med 1d8 pr. slotniveau over 5."
+  },
+  "Wrath of Nature": {
+    "level": 5,
+    "school": "Evocation",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "cast": "Action",
+    "range": "120 feet",
+    "components": "V, S",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14619-wrath-of-nature",
+      "name": "Wrath of Nature",
+      "page": 171
+    },
+    "reviewed": "2026-11-02",
+    "en": "Choose a point you can see within range. Animate the existing trees, rocks and vegetation in a 60-foot cube centered there for the duration, producing these effects:\n\n• Grass and undergrowth: Ground covered by these plants is Difficult Terrain for your enemies.\n• Trees: At the start of each of your turns, every enemy within 10 feet of a tree in the cube makes a Dexterity save, taking 4d6 Slashing damage on failure.\n• Roots and vines: At the end of each of your turns, choose one creature on the ground in the cube. It makes a Strength save; failure makes it Restrained until the spell ends. It can use an Action for a Strength (Athletics) check against your spell save DC, ending the effect on itself on a success.\n• Rocks: As a Bonus Action on your turn, launch a loose rock in the cube at a creature you can see in the cube. Make a ranged spell attack. On a hit, deal 3d8 nonmagical Bludgeoning damage, and the target makes a Strength save or falls Prone.",
+    "da": "Vælg et punkt, du kan se inden for rækkevidde. Animér de eksisterende træer, sten og planter i en kube på 60 ft omkring punktet i varigheden. Det giver følgende virkninger:\n\n• Græs og underskov: Jord dækket af disse planter er Difficult Terrain for dine fjender.\n• Træer: Ved starten af hver af dine ture laver hver fjende inden for 10 ft fra et træ i kuben en DEX-redning og tager 4d6 Slashing-skade ved fejl.\n• Rødder og ranker: Ved slutningen af hver af dine ture vælger du én skabning på jorden i kuben. Den laver en STR-redning; ved fejl bliver den Restrained, indtil formularen slutter. Den kan bruge en Action på et STR (Athletics)-tjek mod din spell save DC og afslutte virkningen på sig selv ved succes.\n• Sten: Som Bonus Action på din tur kan du affyre en løs sten i kuben mod en skabning, du kan se i kuben. Lav et ranged spell attack. Ved træffer tager målet 3d8 ikke-magisk Bludgeoning-skade og skal lykkes med en STR-redning for ikke at blive Prone."
+  },
+  "Zephyr Strike": {
+    "level": 1,
+    "school": "Transmutation",
+    "classes": [
+      "Ranger"
+    ],
+    "cast": "Bonus Action",
+    "range": "Self",
+    "components": "V",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14622-zephyr-strike",
+      "name": "Zephyr Strike",
+      "page": 171
+    },
+    "reviewed": "2026-11-02",
+    "en": "For the duration, your movement does not provoke Opportunity Attacks.\n\nOnce before the spell ends, give yourself Advantage on one weapon attack roll on your turn. If it hits, add 1d8 Force damage. Whether it hits or misses, your walking speed increases by 30 feet until the end of that turn. Using this attack benefit does not itself end the spell or the protection against Opportunity Attacks.",
+    "da": "I varigheden udløser din bevægelse ikke Opportunity Attacks.\n\nÉn gang, inden formularen slutter, kan du give dig selv Advantage på ét weapon attack roll på din tur. Rammer du, giver angrebet yderligere 1d8 Force-skade. Uanset om du rammer, øges din walking speed med 30 ft indtil slutningen af den tur. At bruge angrebsfordelen afslutter ikke i sig selv formularen eller beskyttelsen mod Opportunity Attacks."
+  },
+  "Summon Greater Demon": {
+    "level": 4,
+    "school": "Conjuration",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "60 feet",
+    "components": "V, S, M (a vial of blood from a Humanoid killed within the past 24 hours; consumed if used for the protective circle)",
+    "dur": "Concentration, up to 1 hour",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14603-summon-greater-demon",
+      "name": "Summon Greater Demon",
+      "page": 166
+    },
+    "reviewed": "2026-11-02",
+    "en": "Summon a demon of a type you choose with CR 5 or lower, such as a shadow demon or barlgura, in an unoccupied space you can see within range. It disappears at 0 HP or when the spell ends, subject to the lingering exception below. Roll its initiative separately.\n\nAt summoning and on each of your turns, you may verbally tell it what to do on its next turn, without spending an action. Without an order, it attacks a creature within reach that has attacked it. At the end of each demon turn, it makes a Charisma saving throw, with Disadvantage if you say its true name. Failure leaves it obedient; success ends your control for the remaining duration. An uncontrolled demon pursues and attacks the nearest non-demons to the best of its ability. If concentration ends before the full duration, an uncontrolled demon with HP remaining stays for 1d6 rounds before disappearing.\n\nDuring casting, you may use the component blood to draw a circle large enough to contain your space. While the spell lasts, the demon cannot cross or harm the circle or target anyone inside it. This use consumes the blood when the spell ends.\n\nHigher slots: Increase the CR limit by 1 per slot level above 4. The chosen demon’s stat block is a separate reference.",
+    "da": "Tilkald en demon af en type, du vælger, med CR højst 5, fx shadow demon eller barlgura, på et ubesat sted, du kan se inden for rækkevidde. Den forsvinder ved 0 HP eller når formularen slutter, med undtagelsen nedenfor. Slå dens initiative særskilt.\n\nVed tilkaldelsen og på hver af dine ture kan du uden en handling give en talt ordre om dens næste tur. Uden ordre angriber den en skabning inden for reach, som har angrebet den. Ved slutningen af hver af dens ture laver den en CHA-redning med Disadvantage, hvis du siger dens sande navn. Ved fejl adlyder den fortsat. Ved succes mister du kontrollen resten af varigheden. En ukontrolleret demon forfølger og angriber de nærmeste skabninger, der ikke er demons, efter bedste evne. Ophører koncentrationen før den fulde varighed, bliver en ukontrolleret demon med HP tilbage i 1d6 runder, før den forsvinder.\n\nSom del af kastet kan du bruge komponentblodet til at tegne en cirkel, der er stor nok til din plads. Mens formularen varer, kan demonen ikke krydse eller beskadige cirklen eller vælge nogen indenfor som mål. Bruges blodet sådan, forbruges det, når formularen slutter.\n\nHøjere slots: CR-grænsen øges med 1 pr. slotniveau over 4. Den valgte demons statblok er en separat reference."
+  },
+  "Summon Lesser Demons": {
+    "level": 3,
+    "school": "Conjuration",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "60 feet",
+    "components": "V, S, M (a vial of blood from a Humanoid killed within the past 24 hours; consumed if used for the protective circle)",
+    "dur": "Concentration, up to 1 hour",
+    "book": "Xanathar's Guide to Everything",
+    "rulesVersion": "2014",
+    "publishedYear": 2017,
+    "source": {
+      "label": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/spells/14604-summon-lesser-demons",
+      "name": "Summon Lesser Demons",
+      "page": 167
+    },
+    "reviewed": "2026-11-02",
+    "en": "Roll 1d6 to determine the demons summoned. The DM chooses their types; you choose the unoccupied spaces you can see within range where they appear.\n\n| 1d6 | Summoned creatures |\n| --- | --- |\n| 1–2 | Two demons, each CR 1 or lower |\n| 3–4 | Four demons, each CR 1/2 or lower |\n| 5–6 | Eight demons, each CR 1/4 or lower |\n\nEach disappears at 0 HP or when the spell ends. They are hostile to all creatures, including you. Roll initiative once for their group, which has its own turns. They pursue and attack the nearest non-demons to the best of their ability.\n\nDuring casting, you may use the blood to draw a circle containing your space. While the spell lasts, the demons cannot cross or harm the circle or target anyone inside it. Using the blood this way consumes it when the spell ends.\n\nHigher slots: A level 6–7 slot doubles the number summoned; a level 8–9 slot triples it. Level 4–5 slots do not increase the number. The chosen demons’ stat blocks are separate references.",
+    "da": "Slå 1d6 for at afgøre antallet og styrken af de tilkaldte demons. DM vælger deres typer; du vælger de ubesatte steder, du kan se inden for rækkevidde, hvor de viser sig.\n\n| 1d6 | Tilkaldte skabninger |\n| --- | --- |\n| 1–2 | To demons, hver med CR højst 1 |\n| 3–4 | Fire demons, hver med CR højst 1/2 |\n| 5–6 | Otte demons, hver med CR højst 1/4 |\n\nHver forsvinder ved 0 HP eller når formularen slutter. De er fjendtlige over for alle skabninger, inklusive dig. Slå ét initiative for hele gruppen, der har egne ture. De forfølger og angriber de nærmeste skabninger, der ikke er demons, efter bedste evne.\n\nSom del af kastet kan du bruge blodet til at tegne en cirkel omkring din plads. Mens formularen varer, kan de tilkaldte demons ikke krydse eller beskadige cirklen eller vælge nogen indenfor som mål. Bruges blodet sådan, forbruges det, når formularen slutter.\n\nHøjere slots: Et slot på niveau 6–7 fordobler antallet; niveau 8–9 tredobler det. Niveau 4–5 øger ikke antallet. De valgte demons’ statblokke er separate referencer."
+  }
+}
