@@ -40,6 +40,21 @@ export const SCHOOL_COLORS = {
 
 export const T = {
   en: {
+    characterBooks: "Character spellbooks",
+    chooseCharacter: "Character",
+    unnamedCharacter: "Unnamed character",
+    characterName: "Character name",
+    characterNamePlaceholder: "e.g. Elara",
+    newCharacter: "New character",
+    deleteCharacter: "Delete book",
+    bookSavedLocally: "Saved automatically in this browser on this device. No account or cloud sync.",
+    bookSaveError: "Changes cannot be saved in this browser. Existing stored data has not been overwritten. Keep this tab open.",
+    bookDeleted: "Book removed.",
+    undoDelete: "Undo deletion",
+    browseSpells: "Choose spells",
+    mySpellbook: "My spellbook",
+    emptySpellbook: "Your spellbook is empty. Open “Choose spells” and select spells for this character.",
+
     loading: "Loading…",
     sourceFallback: "The rules could not be loaded. Please open the source link above.",
     selectSpell: "Select spell",
@@ -80,6 +95,21 @@ export const T = {
     lang: "DA",
   },
   da: {
+    characterBooks: "Karakterernes formularbøger",
+    chooseCharacter: "Karakter",
+    unnamedCharacter: "Unavngivet karakter",
+    characterName: "Karakterens navn",
+    characterNamePlaceholder: "Fx Elara",
+    newCharacter: "Ny karakter",
+    deleteCharacter: "Slet bog",
+    bookSavedLocally: "Gemmes automatisk i denne browser på denne enhed. Ingen konto eller synkronisering.",
+    bookSaveError: "Ændringerne kan ikke gemmes i denne browser. Eksisterende gemte data er ikke overskrevet. Hold fanen åben.",
+    bookDeleted: "Bogen er fjernet.",
+    undoDelete: "Fortryd sletning",
+    browseSpells: "Vælg formularer",
+    mySpellbook: "Min formularbog",
+    emptySpellbook: "Din formularbog er tom. Åbn “Vælg formularer”, og vælg formularer til karakteren.",
+
     loading: "Indlæser…",
     sourceFallback: "Reglerne kunne ikke indlæses. Åbn kildehenvisningen ovenfor.",
     selectSpell: "Vælg formular",

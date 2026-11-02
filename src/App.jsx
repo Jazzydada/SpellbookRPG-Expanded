@@ -4,6 +4,7 @@ import { maxSlotLevel, arcanumLevels, availableLevels, normalizeLevel, reconcile
 
 import RuleText from './RuleText.jsx';
 import { loadRulebook } from './rulebooks.js';
+import { STORAGE_KEY, createBook, emptyLibrary, decodeLibrary } from './characterBooks.js';
 
 // ── style constants ───────────────────────────────────────────────────────────
 
@@ -192,12 +193,34 @@ function SpellLevelSection({ level, spells, selected, onToggle, lang, t, isArcan
 
 export default function App() {
   const [lang, setLang]         = useState("en");
-  const [className, setClass]   = useState("Wizard");
-  const [charLevel, setLevel]   = useState(5);
+  const [initialBooks] = useState(() => {
+    try { return { library: decodeLibrary(localStorage.getItem(STORAGE_KEY)), blocked: false }; }
+    catch { return { library: emptyLibrary(), blocked: true }; }
+  });
+  const [library, setLibrary] = useState(initialBooks.library);
+  const [saveError, setSaveError] = useState(initialBooks.blocked);
+  const [catalogueView, setCatalogueView] = useState(false);
+  const [onlySelected, setOnlySelected] = useState(false);
+  const [deletedBook, setDeletedBook] = useState(null);
+  const activeBook = library.books.find(book => book.id === library.activeId) || library.books[0];
+  const className = catalogueView ? "all" : activeBook.className;
+  const charLevel = activeBook.level;
+  const selected = activeBook.selected;
+  function updateBook(change) {
+    setLibrary(current => ({ ...current, books: current.books.map(book => book.id === current.activeId
+      ? { ...book, ...(typeof change === 'function' ? change(book) : change) } : book) }));
+  }
+  function setSelected(change) {
+    updateBook(book => ({ selected: typeof change === 'function' ? change(book.selected) : change }));
+  }
+  useEffect(() => {
+    if (initialBooks.blocked) return;
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(library)); setSaveError(false); }
+    catch { setSaveError(true); }
+  }, [library, initialBooks.blocked]);
   const [levelFilter, setLF]    = useState("all");
   const [bookFilter, setBookFilter] = useState("all");
   const [search, setSearch]     = useState("");
-  const [selected, setSelected] = useState({});
 
   const [loadedRules, setLoadedRules] = useState(null);
   const [rulesError, setRulesError] = useState(false);
@@ -232,6 +255,7 @@ export default function App() {
     for (const level of levels) {
       const names = (classSpells[level] || []).filter(name => {
         if (!SPELLS[name]) return false;
+        if (onlySelected && !selected[name]) return false;
         if (bookFilter !== "all" && SPELLS[name].book !== bookFilter) return false;
         if (!sl) return true;
         return (
@@ -243,7 +267,7 @@ export default function App() {
       if (names.length) groups[level] = names;
     }
     return groups;
-  }, [className, charLevel, search, levelFilter, bookFilter, rulebook]);
+  }, [className, charLevel, search, levelFilter, bookFilter, rulebook, onlySelected, selected]);
 
   function toggleSpell(name) {
     if (catalogueMode) return;
@@ -255,12 +279,31 @@ export default function App() {
     const level = normalizeLevel(value);
     const next = reconcileSelection(selected, className, level);
     const removed = Object.keys(selected).filter(name => !next[name]);
-    setSelected(next);
+    updateBook({ selected: next, level });
     setLF(filter => validLevelFilter(filter, className, level));
-    setLevel(level);
     setNotice(removed.length ? `${t.removedSelections}: ${removed.join(", ")}` : "");
   }
 
+  function resetFilters() { setLF("all"); setBookFilter("all"); setSearch(""); setCatalogueView(false); setNotice(""); }
+  function switchBook(id) { setLibrary(current => ({ ...current, activeId: id })); resetFilters(); }
+  function newBook() {
+    const book = createBook();
+    setLibrary(current => ({ ...current, activeId: book.id, books: [...current.books, book] }));
+    setOnlySelected(false); resetFilters();
+  }
+  function removeBook() {
+    setDeletedBook(activeBook);
+    setLibrary(current => {
+      const books = current.books.filter(book => book.id !== current.activeId);
+      if (!books.length) return emptyLibrary();
+      return { ...current, activeId: books[0].id, books };
+    });
+    resetFilters();
+  }
+  function undoRemove() {
+    setLibrary(current => ({ ...current, activeId: deletedBook.id, books: [...current.books, deletedBook] }));
+    setDeletedBook(null); resetFilters();
+  }
   const selectedNames = Object.keys(selected);
 
   return (
@@ -315,6 +358,27 @@ export default function App() {
       </div>
 
       <div style={{ maxWidth: 900, margin: "0 auto", padding: "1.5rem 1rem" }}>
+        <section aria-label={t.characterBooks} style={{ background: G.card, border: "1px solid " + G.border, borderRadius: "1rem", padding: "1rem", marginBottom: "1rem" }}>
+          <h2 style={{ margin: "0 0 0.75rem", color: G.gold, fontSize: "1rem" }}>{t.characterBooks}</h2>
+          <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap", alignItems: "end" }}>
+            <label style={{ flex: "1 1 180px" }}>{t.chooseCharacter}
+              <select id="character-book" value={activeBook.id} onChange={e => switchBook(e.target.value)} style={inp}>
+                {library.books.map((book, index) => <option key={book.id} value={book.id}>{book.name || `${t.unnamedCharacter} ${index + 1}`} · {book.className} {book.level}</option>)}
+              </select>
+            </label>
+            <label style={{ flex: "1 1 180px" }}>{t.characterName}
+              <input id="character-name" value={activeBook.name} maxLength={80} placeholder={t.characterNamePlaceholder} onChange={e => updateBook({ name: e.target.value })} style={inp} />
+            </label>
+            <button type="button" onClick={newBook} style={{ ...inp, width: "auto", cursor: "pointer" }}>{t.newCharacter}</button>
+            <button type="button" onClick={removeBook} style={{ ...inp, width: "auto", color: G.red, cursor: "pointer" }}>{t.deleteCharacter}</button>
+          </div>
+          <p role="status" style={{ fontSize: "0.75rem", color: saveError ? G.red : G.muted }}>{saveError ? t.bookSaveError : t.bookSavedLocally}</p>
+          {deletedBook && <p style={{ fontSize: "0.8rem" }}>{t.bookDeleted} <button type="button" onClick={undoRemove} style={{ ...inp, width: "auto", cursor: "pointer" }}>{t.undoDelete}</button></p>}
+          <div style={{ display: "flex", gap: "0.5rem" }}>
+            <button type="button" aria-pressed={!onlySelected} onClick={() => setOnlySelected(false)} style={{ ...inp, width: "auto", color: !onlySelected ? G.gold : G.text, cursor: "pointer" }}>{t.browseSpells}</button>
+            <button type="button" aria-pressed={onlySelected} onClick={() => { setOnlySelected(true); resetFilters(); }} style={{ ...inp, width: "auto", color: onlySelected ? G.gold : G.text, cursor: "pointer" }}>{t.mySpellbook} ({selectedNames.length})</button>
+          </div>
+        </section>
         {/* ── controls ── */}
         <div style={{
           display: "grid",
@@ -327,7 +391,7 @@ export default function App() {
             <label htmlFor="class" style={{ display:"block", fontSize:"0.7rem", color:G.dim, textTransform:"uppercase", letterSpacing:"0.1em", marginBottom:"0.3rem", fontWeight:700 }}>
               {t.selectClass}
             </label>
-            <select value={className} id="class" onChange={e => { setClass(e.target.value); setSelected({}); setLF("all"); setNotice(""); }} style={inp}>
+            <select value={className} id="class" onChange={e => { const value = e.target.value; setCatalogueView(value === "all"); if (value !== "all" && value !== activeBook.className) updateBook({ className: value, selected: {} }); setLF("all"); setNotice(""); }} style={inp}>
               <option value="all">{t.allClasses}</option>
               {Object.keys(CLASS_SPELLS).map(c => (
                 <option key={c} value={c}>
@@ -399,7 +463,7 @@ export default function App() {
           <div>
             {Object.keys(spellGroups).length === 0 ? (
               <div style={{ color: G.muted, fontStyle:"italic", textAlign:"center", padding:"2rem" }}>
-                {t.noSpells}
+                {onlySelected && !selectedNames.length ? t.emptySpellbook : t.noSpells}
               </div>
             ) : (
               Object.entries(spellGroups).map(([level, names]) => (
@@ -430,7 +494,7 @@ export default function App() {
             }}>
               <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", marginBottom:"0.75rem" }}>
                 <span style={{ fontWeight:800, fontSize:"0.85rem", color:G.gold, textTransform:"uppercase", letterSpacing:"0.08em" }}>
-                  {t.selected} ({selectedNames.length})
+                  {activeBook.name ? `${activeBook.name} · ` : ""}{t.selected} ({selectedNames.length})
                 </span>
                 <button
                   onClick={() => setSelected({})}
