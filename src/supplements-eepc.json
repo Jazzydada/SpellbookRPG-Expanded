@@ -1,0 +1,1019 @@
+{
+  "Abi-Dalzim's Horrid Wilting": {
+    "level": 8,
+    "school": "Necromancy",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "1 Action",
+    "range": "150 ft.",
+    "components": "V, S, M (a bit of sponge)",
+    "dur": "Instantaneous",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2367-abi-dalzims-horrid-wilting",
+      "name": "Abi-Dalzim's Horrid Wilting"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2367-abi-dalzims-horrid-wilting",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Vælg et punkt inden for rækkevidden. Skabninger i en 30-ft terning omkring punktet laver CON-redning: 12d8 Necrotic-skade ved fejl, halvdelen ved succes. Constructs og Undead påvirkes ikke. Plants og Water Elementals har Disadvantage på redningen.\n\nIkke-magiske planter i området, som ikke er skabninger, visner og dør straks.",
+    "en": "Choose a point in range; creatures in its 30-ft cube make CON saves: 12d8 Necrotic damage, half on success. Constructs and Undead are unaffected; Plants and Water Elementals save with Disadvantage. Nonmagical plants that are not creatures immediately wither and die.",
+    "publishedYear": 2015
+  },
+  "Absorb Elements": {
+    "level": 1,
+    "school": "Abjuration",
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard",
+      "Artificer"
+    ],
+    "cast": "Reaction (when you take Acid, Cold, Fire, Lightning, or Thunder damage)",
+    "range": "Self",
+    "components": "S",
+    "dur": "1 Round",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2368-absorb-elements",
+      "name": "Absorb Elements"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2368-absorb-elements",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Reaktion når du tager Acid-, Cold-, Fire-, Lightning- eller Thunder-skade: Du får Resistance mod den udløsende skadetype indtil starten af din næste tur, også mod den udløsende skade.\n\nFørste gang du rammer med et nærkampsangreb på din næste tur, tager målet ekstra 1d6 skade af samme type, og formularen slutter.\n\nHøjere slot: Ekstraskaden øges med 1d6 pr. slotniveau over 1.",
+    "en": "React to Acid, Cold, Fire, Lightning or Thunder damage. Gain Resistance to that type, including the triggering damage, until your next turn starts. Your first melee hit on that next turn adds 1d6 of that type and ends the spell. Higher slots add 1d6 per level above 1.",
+    "publishedYear": 2015
+  },
+  "Aganazzar's Scorcher": {
+    "level": 2,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "1 Action",
+    "range": "30 ft.",
+    "components": "V, S, M (a red dragon's scale)",
+    "dur": "Instantaneous",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2369-aganazzars-scorcher",
+      "name": "Aganazzar's Scorcher"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2369-aganazzars-scorcher",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Send en 30-ft lang, 5-ft bred ildlinje fra dig i en valgt retning. Hver skabning i linjen laver DEX-redning: 3d8 Fire-skade ved fejl, halvdelen ved succes.\n\nHøjere slot: +1d8 skade pr. slotniveau over 2.",
+    "en": "Project a fire line from yourself: 30 ft long, 5 ft wide, chosen direction. Each creature in it makes a DEX save: 3d8 Fire damage, half on success. Higher slots add 1d8 per level above 2.",
+    "publishedYear": 2015
+  },
+  "Beast Bond": {
+    "level": 1,
+    "school": "Divination",
+    "classes": [
+      "Druid",
+      "Ranger"
+    ],
+    "cast": "1 Action",
+    "range": "Touch",
+    "components": "V, S, M (a bit of fur wrapped in a cloth)",
+    "dur": "Concentration 10 Minutes",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2370-beast-bond",
+      "name": "Beast Bond"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2370-beast-bond",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Berør én Beast, som er venlig over for dig eller Charmed af dig. Formularen fejler ved INT 4 eller højere.\n\nI varigheden virker forbindelsen, mens I har fri synslinje til hinanden. Dyret forstår dine telepatiske beskeder og kan sende simple følelser og begreber tilbage. Mens forbindelsen virker, har det Advantage på angrebsrul mod skabninger inden for 5 ft af dig, som du kan se.",
+    "en": "Touch one friendly Beast or one you have Charmed; INT 4+ makes the spell fail. For the duration, mutual line of sight enables telepathy: it understands your messages and returns simple feelings/concepts. While linked, it has Advantage on attacks against creatures you can see within 5 ft of you.",
+    "publishedYear": 2015
+  },
+  "Catapult": {
+    "level": 1,
+    "school": "Transmutation",
+    "classes": [
+      "Sorcerer",
+      "Wizard",
+      "Artificer"
+    ],
+    "cast": "1 Action",
+    "range": "60 ft.",
+    "components": "S",
+    "dur": "Instantaneous",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2372-catapult",
+      "name": "Catapult"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2372-catapult",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Vælg en genstand på 1–5 lb inden for rækkevidden, som ingen bærer eller har på. Den flyver op til 90 ft i en valgt ret linje og falder derefter. En fast overflade stopper den. En skabning på banen laver DEX-redning; ved fejl rammes den, og genstanden stopper. Når genstanden rammer noget, tager både genstanden og det ramte 3d8 Bludgeoning-skade.\n\nHøjere slot: Maksimal vægt +5 lb og skade +1d8 pr. slotniveau over 1.",
+    "en": "Choose an unworn, uncarried 1–5 lb object in range. It flies up to 90 ft straight, then drops; solid surfaces stop it. A creature in its path makes a DEX save; failure means impact and stops movement. On impact, object and target each take 3d8 Bludgeoning damage. Higher slots add 5 lb maximum weight and 1d8 damage per level above 1.",
+    "publishedYear": 2015
+  },
+  "Control Flames": {
+    "level": 0,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "1 Action",
+    "range": "60 ft.",
+    "components": "S",
+    "dur": "Instantaneous",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2374-control-flames",
+      "name": "Control Flames"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2374-control-flames",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Vælg synlig, ikke-magisk ild inden for en 5-ft terning. Vælg én effekt:\n- Udvid straks ilden 5 ft i én retning, hvis der er brændsel der.\n- Sluk straks ilden i terningen.\n- Fordobl eller halvér både Bright og Dim Lights område, skift farve, eller begge dele; varer 1 time.\n- Dan simple former i flammerne, og animer dem som ønsket; varer 1 time.\n\nDu kan have højst tre ikke-øjeblikkelige effekter aktive samtidig. En Action afslutter én af dem.",
+    "en": "A visible nonmagical flame fitting a 5-ft cube receives one effect: expand 5 ft toward fuel; extinguish; double/halve bright and dim light areas and/or recolor for 1 hour; or create and animate simple shapes for 1 hour. Maximum three ongoing effects across castings. An Action dismisses one ongoing effect.",
+    "publishedYear": 2015
+  },
+  "Create Bonfire": {
+    "level": 0,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard",
+      "Artificer"
+    ],
+    "cast": "1 Action",
+    "range": "60 ft.",
+    "components": "V, S",
+    "dur": "Concentration 1 Minute",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2373-create-bonfire",
+      "name": "Create Bonfire"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2373-create-bonfire",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Skab et magisk bål i en 5-ft terning på synlig jord inden for rækkevidden. Skabninger i bålet ved kastet laver DEX-redning: 1d8 Fire-skade ved fejl. Redningen gentages, når en skabning bevæger sig ind i bålet første gang på en tur eller afslutter sin tur der.\n\nBålet antænder brændbare genstande i området, som ingen bærer eller har på.\n\nKarakterniveau 5/11/17: Skaden bliver 2d8/3d8/4d8.",
+    "en": "Create a lasting magical bonfire in a 5-ft cube on visible ground in range. Creatures there on casting, moving in for the first time on a turn, or ending their turn there make DEX saves: failure deals 1d8 Fire damage. It ignites flammable unworn, uncarried objects. Character levels 5/11/17 increase damage to 2d8/3d8/4d8.",
+    "publishedYear": 2015
+  },
+  "Earth Tremor": {
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "1 Action",
+    "range": "10 ft.",
+    "components": "V, S",
+    "dur": "Instantaneous",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2378-earth-tremor",
+      "name": "Earth Tremor"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2378-earth-tremor",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Du ryster jorden inden for rækkevidden. Alle andre skabninger i området laver DEX-redning. Fejl giver 1d6 Bludgeoning-skade og Prone; succes giver ingen skade.\n\nLøs jord eller sten i området bliver Difficult Terrain, indtil det ryddes. Hver del med 5-ft diameter kræver mindst 1 minuts rydning med hænderne.\n\nHøjere slot: +1d6 skade pr. slotniveau over 1.",
+    "en": "Shake the ground in range. Other creatures in the area make DEX saves: failure deals 1d6 Bludgeoning damage and knocks Prone. Loose earth/stone becomes Difficult Terrain until cleared; each 5-ft-diameter portion takes at least 1 minute to clear by hand. Higher slots add 1d6 per level above 1.",
+    "publishedYear": 2015
+  },
+  "Earthbind": {
+    "level": 2,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "1 Action",
+    "range": "300 ft.",
+    "components": "V",
+    "dur": "Concentration 1 Minute",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2377-earthbind",
+      "name": "Earthbind"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2377-earthbind",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Vælg én synlig skabning inden for rækkevidden. Ved fejlet STR-redning bliver dens Fly Speed, hvis den har en, 0 i varigheden. Er den i luften, daler den sikkert 60 ft pr. runde, indtil den når jorden eller formularen slutter.",
+    "en": "One visible creature in range makes a STR save. Failure sets any Fly Speed to 0 for the duration. An affected airborne creature descends safely 60 ft per round until grounded or the spell ends.",
+    "publishedYear": 2015
+  },
+  "Elemental Bane": {
+    "level": 4,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Warlock",
+      "Wizard",
+      "Artificer"
+    ],
+    "cast": "1 Action",
+    "range": "90 ft.",
+    "components": "V, S",
+    "dur": "Concentration 1 Minute",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2379-elemental-bane",
+      "name": "Elemental Bane"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2379-elemental-bane",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Vælg én synlig skabning og én skadetype: Acid, Cold, Fire, Lightning eller Thunder. Ved fejlet CON-redning mister målet Resistance mod typen i varigheden. Første gang på hver tur det tager denne type skade, tager det ekstra 2d6 af samme type.\n\nHøjere slot: Ét ekstra mål pr. slotniveau over 4. Målene skal være inden for 30 ft af hinanden ved kastet.",
+    "en": "Choose a visible creature and Acid, Cold, Fire, Lightning or Thunder. Failed CON save: it loses Resistance to that type and takes an extra 2d6 of it the first time each turn it suffers that damage. Higher slots add one target per level above 4; all targets must be within 30 ft of each other when targeted.",
+    "publishedYear": 2015
+  },
+  "Erupting Earth": {
+    "level": 3,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "1 Action",
+    "range": "120 ft.",
+    "components": "V, S, M (a piece of obsidian)",
+    "dur": "Instantaneous",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2380-erupting-earth",
+      "name": "Erupting Earth"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2380-erupting-earth",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Vælg et synligt punkt på jorden inden for rækkevidden. Skabninger i en 20-ft terning centreret dér laver DEX-redning: 3d12 Bludgeoning-skade ved fejl, halvdelen ved succes.\n\nJorden i området bliver Difficult Terrain, indtil det ryddes. Hver 5-ft kvadratisk del kræver mindst 1 minuts rydning med hænderne.\n\nHøjere slot: +1d12 skade pr. slotniveau over 3.",
+    "en": "Choose a visible ground point in range. Creatures in its centered 20-ft cube make DEX saves: 3d12 Bludgeoning damage, half on success. Ground becomes Difficult Terrain until cleared; each 5-ft-square portion takes at least 1 minute by hand. Higher slots add 1d12 per level above 3.",
+    "publishedYear": 2015
+  },
+  "Flame Arrows": {
+    "level": 3,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard",
+      "Artificer"
+    ],
+    "cast": "1 Action",
+    "range": "Touch",
+    "components": "V, S",
+    "dur": "Concentration 1 Hour",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2381-flame-arrows",
+      "name": "Flame Arrows"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2381-flame-arrows",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Berør et kogger med pile eller bolte. Afstandsangreb med våben, der bruger ammunition trukket fra koggeret, giver ekstra 1d6 Fire-skade ved træffer. Magien slutter på ammunitionen efter træffer eller forbier. Hele formularen slutter, når 12 stykker ammunition er trukket fra koggeret.\n\nHøjere slot: To ekstra stykker ammunition pr. slotniveau over 3.",
+    "en": "Touch a quiver of arrows/bolts. A ranged weapon hit with ammunition drawn from it adds 1d6 Fire damage. Hit or miss ends that ammunition’s magic. Drawing the twelfth piece ends the spell. Higher slots increase the ammunition limit by two per level above 3.",
+    "publishedYear": 2015
+  },
+  "Frostbite": {
+    "level": 0,
+    "school": "Evocation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard",
+      "Artificer"
+    ],
+    "cast": "1 Action",
+    "range": "60 ft.",
+    "components": "V, S",
+    "dur": "Instantaneous",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2382-frostbite",
+      "name": "Frostbite"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2382-frostbite",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Én synlig skabning inden for rækkevidden laver CON-redning. Ved fejl tager den 1d6 Cold-skade og har Disadvantage på sit næste våbenangrebsrul inden udgangen af sin næste tur.\n\nKarakterniveau 5/11/17: Skaden bliver 2d6/3d6/4d6.",
+    "en": "One visible creature in range makes a CON save. Failure: 1d6 Cold damage and Disadvantage on its next weapon attack before its next turn ends. Character levels 5/11/17 increase damage to 2d6/3d6/4d6.",
+    "publishedYear": 2015
+  },
+  "Gust": {
+    "level": 0,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "1 Action",
+    "range": "30 ft.",
+    "components": "V, S",
+    "dur": "Instantaneous",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2383-gust",
+      "name": "Gust"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2383-gust",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Vælg et synligt punkt inden for rækkevidden og én effekt:\n- En valgt skabning på højst Medium laver STR-redning; ved fejl skubbes den op til 5 ft væk fra dig.\n- En genstand på højst 5 lb, som ingen holder eller bærer, skubbes op til 10 ft væk fra dig uden skade.\n- Skab en harmløs sanseeffekt med luft, eksempelvis raslende blade eller flagrende tøj.",
+    "en": "At a visible point in range, choose: a selected Medium-or-smaller creature makes a STR save or is pushed up to 5 ft away from you; push an unheld, uncarried object weighing at most 5 lb up to 10 ft away without damage; or produce a harmless air-based sensory effect.",
+    "publishedYear": 2015
+  },
+  "Investiture of Flame": {
+    "level": 6,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "1 Action",
+    "range": "Self",
+    "components": "V, S",
+    "dur": "Concentration 10 Minutes",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2386-investiture-of-flame",
+      "name": "Investiture of Flame"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2386-investiture-of-flame",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "I varigheden udsender du Bright Light 30 ft og yderligere 30 ft Dim Light. Flammerne skader ikke dig.\n- Immunitet mod Fire-skade; Resistance mod Cold-skade.\n- Skabninger, der bevæger sig inden for 5 ft af dig første gang på en tur eller slutter deres tur der, tager 1d10 Fire-skade.\n- Action: Send en 15-ft lang, 5-ft bred ildlinje fra dig i valgt retning. Skabninger i linjen laver DEX-redning: 4d8 Fire-skade, halvdelen ved succes.",
+    "en": "For the duration, shed bright light 30 ft plus dim light 30 ft without harming yourself. Gain Fire immunity and Cold Resistance. Creatures moving within 5 ft for the first time on a turn or ending there take 1d10 Fire damage. Action: project a 15-by-5-ft line; creatures make DEX saves for 4d8 Fire damage, half on success.",
+    "publishedYear": 2015
+  },
+  "Investiture of Ice": {
+    "level": 6,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "1 Action",
+    "range": "Self",
+    "components": "V, S",
+    "dur": "Concentration 10 Minutes",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2387-investiture-of-ice",
+      "name": "Investiture of Ice"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2387-investiture-of-ice",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "I varigheden får du:\n- Immunitet mod Cold-skade og Resistance mod Fire-skade.\n- Ingen ekstra bevægelsespris for Difficult Terrain af is eller sne.\n- Jorden inden for 10 ft af dig er isglat Difficult Terrain for andre; området følger dig.\n- Action: Skab en 15-ft kegle fra hånden i valgt retning. Skabninger i keglen laver CON-redning: 4d6 Cold-skade ved fejl, halvdelen ved succes. Fejl halverer desuden deres Speed indtil starten af din næste tur.",
+    "en": "For the duration: Cold immunity, Fire Resistance, ignore extra movement costs from ice/snow Difficult Terrain. Ground within 10 ft moves with you and is Difficult Terrain for others. Action: project a 15-ft cone from your hand. CON save: 4d6 Cold damage, half on success; failure also halves Speed until your next turn starts.",
+    "publishedYear": 2015
+  },
+  "Investiture of Stone": {
+    "level": 6,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "1 Action",
+    "range": "Self",
+    "components": "V, S",
+    "dur": "Concentration 10 Minutes",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2388-investiture-of-stone",
+      "name": "Investiture of Stone"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2388-investiture-of-stone",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "I varigheden får du Resistance mod Bludgeoning-, Piercing- og Slashing-skade fra ikke-magiske angreb.\n\nAction: Andre skabninger på jorden inden for 15 ft af dig laver DEX-redning eller bliver Prone.\n\nIgnorer ekstra bevægelsespris for Difficult Terrain af jord eller sten. Du kan passere fast jord og sten som luft uden at destabilisere det, men må ikke afslutte bevægelsen indeni. Gør du det, udstødes du til nærmeste ledige sted; formularen slutter, og du er Stunned indtil slutningen af din næste tur.",
+    "en": "Gain Resistance to nonmagical attacks’ Bludgeoning/Piercing/Slashing damage. Action: other creatures on ground within 15 ft make DEX saves or fall Prone. Ignore earth/stone Difficult Terrain; traverse solid earth/stone like air without destabilizing it. Ending movement inside ejects you to the nearest free space, ends the spell and Stuns you until your next turn ends.",
+    "publishedYear": 2015
+  },
+  "Investiture of Wind": {
+    "level": 6,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "1 Action",
+    "range": "Self",
+    "components": "V, S",
+    "dur": "Concentration 10 Minutes",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2389-investiture-of-wind",
+      "name": "Investiture of Wind"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2389-investiture-of-wind",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "I varigheden har afstandsangreb med våben mod dig Disadvantage, og du får Fly Speed 60 ft. Er du stadig flyvende ved ophør, falder du, medmindre du kan forhindre det.\n\nAction: Skab en 15-ft terning centreret på et synligt punkt inden for 60 ft. Skabninger deri laver CON-redning: 2d10 Bludgeoning-skade ved fejl, halvdelen ved succes. Large eller mindre skabninger, der fejler, skubbes desuden op til 10 ft væk fra terningens centrum.",
+    "en": "Ranged weapon attacks against you have Disadvantage; gain Fly Speed 60 ft. You fall when the spell ends unless you can prevent it. Action: a 15-ft cube centered on a visible point within 60 ft forces CON saves: 2d10 Bludgeoning damage, half on success. Failed saves also push Large-or-smaller creatures up to 10 ft away from its center.",
+    "publishedYear": 2015
+  },
+  "Magic Stone": {
+    "level": 0,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Warlock",
+      "Artificer"
+    ],
+    "cast": "1 Bonus Action",
+    "range": "Touch",
+    "components": "V, S",
+    "dur": "1 Minute",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2391-magic-stone",
+      "name": "Magic Stone"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2391-magic-stone",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Berør 1–3 småsten. Du eller andre kan bruge dem til magiske afstandsangreb ved kast eller slynge; kast har rækkevidde 60 ft. Andre angribere bruger din spellcasting ability modifier frem for deres egen på angrebsrullet. Træffer giver 1d6 + din spellcasting ability modifier Bludgeoning-skade.\n\nTræffer eller forbier afslutter magien på stenen. Et nyt kast af formularen afslutter alle dine tidligere sten.",
+    "en": "Enchant 1–3 touched pebbles. Anyone can make ranged spell attacks with them, thrown (range 60 ft) or slung. Other attackers use your spellcasting ability modifier instead of theirs. A hit deals 1d6 + your spellcasting ability modifier Bludgeoning damage. Hit or miss ends that stone’s magic; recasting ends all previously affected stones.",
+    "publishedYear": 2015
+  },
+  "Melf's Minute Meteors": {
+    "level": 3,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "1 Action",
+    "range": "Self",
+    "components": "V, S, M (niter, sulfur, and pine tar formed into a bead)",
+    "dur": "Concentration 10 Minutes",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2393-melfs-minute-meteors",
+      "name": "Melf's Minute Meteors"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2393-melfs-minute-meteors",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Skab seks meteorer omkring dig i varigheden. Ved kastet og som Bonus Action på hver senere tur kan du forbruge én eller to mod valgte punkter inden for 120 ft af dig. Hver meteor eksploderer ved destinationen eller en fast overflade. Skabninger inden for 5 ft af eksplosionspunktet laver DEX-redning: 2d6 Fire-skade ved fejl, halvdelen ved succes.\n\nHøjere slot: To ekstra meteorer pr. slotniveau over 3.",
+    "en": "Six meteors orbit you for the duration. On casting and as a Bonus Action on subsequent turns, expend one or two toward chosen points within 120 ft. Each explodes on arrival or impact with a solid surface: creatures within 5 ft make DEX saves for 2d6 Fire damage, half on success. Higher slots add two meteors per level above 3.",
+    "publishedYear": 2015
+  },
+  "Mold Earth": {
+    "level": 0,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "1 Action",
+    "range": "30 ft.",
+    "components": "S",
+    "dur": "Instantaneous",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2394-mold-earth",
+      "name": "Mold Earth"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2394-mold-earth",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Vælg synlig jord eller sten inden for en 5-ft terning. Vælg én effekt:\n- Udgrav løs jord straks, flyt den langs jorden, og læg den op til 5 ft væk; ingen skade.\n- Skab former/farver, fx skrift eller billeder; varer 1 time.\n- Jord/sten på jorden bliver Difficult Terrain, eller eksisterende Difficult Terrain bliver normalt; varer 1 time.\n\nHøjst to ikke-øjeblikkelige effekter kan være aktive samtidig på tværs af kast. En Action afslutter én.",
+    "en": "Choose visible earth/stone fitting a 5-ft cube. Either excavate loose earth, move it along the ground and deposit it up to 5 ft away harmlessly; add shapes/colors for 1 hour; or turn ground into Difficult Terrain or existing Difficult Terrain into normal ground for 1 hour. Maximum two ongoing effects; dismiss one with an Action.",
+    "publishedYear": 2015
+  },
+  "Primordial Ward": {
+    "level": 6,
+    "school": "Abjuration",
+    "classes": [
+      "Druid"
+    ],
+    "cast": "1 Action",
+    "range": "Self",
+    "components": "V, S",
+    "dur": "Concentration 1 Minute",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2395-primordial-ward",
+      "name": "Primordial Ward"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2395-primordial-ward",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Du har Resistance mod Acid-, Cold-, Fire-, Lightning- og Thunder-skade i varigheden.\n\nNår du tager en af disse skadetyper, kan en Reaction give immunitet mod netop den type, inklusive den udløsende skade. Alle formularens Resistances ophører da. Immuniteten varer indtil slutningen af din næste tur, hvor formularen slutter.",
+    "en": "Gain Acid, Cold, Fire, Lightning and Thunder Resistance. On taking one of these types, a Reaction grants immunity to it, including the triggering damage. This ends all the spell’s Resistances. Immunity lasts until your next turn ends, when the spell also ends.",
+    "publishedYear": 2015
+  },
+  "Pyrotechnics": {
+    "level": 2,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard",
+      "Artificer"
+    ],
+    "cast": "1 Action",
+    "range": "60 ft.",
+    "components": "V, S",
+    "dur": "Instantaneous",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2396-pyrotechnics",
+      "name": "Pyrotechnics"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2396-pyrotechnics",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Vælg synlig, ikke-magisk ild i en 5-ft terning. Sluk den, og vælg:\n- Fyrværkeri: Skabninger inden for 10 ft laver CON-redning eller bliver Blinded indtil slutningen af din næste tur.\n- Røg: En 20-ft radius bliver Heavily Obscured; røgen breder sig om hjørner. Den varer 1 minut eller indtil stærk vind spreder den.",
+    "en": "Extinguish visible nonmagical fire fitting a 5-ft cube and choose: fireworks force creatures within 10 ft to make CON saves or be Blinded until your next turn ends; or smoke heavily obscures a 20-ft radius, spreads around corners and lasts 1 minute unless dispersed by strong wind.",
+    "publishedYear": 2015
+  },
+  "Shape Water": {
+    "level": 0,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "1 Action",
+    "range": "30 ft.",
+    "components": "S",
+    "dur": "Instantaneous",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2397-shape-water",
+      "name": "Shape Water"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2397-shape-water",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Vælg synligt vand i en 5-ft terning. Vælg én effekt:\n- Flyt vandet eller ændr strømningen straks op til 5 ft i en valgt retning; ingen skade.\n- Dan og animer simple former i 1 time.\n- Ændr farve eller uigennemsigtighed ensartet i hele vandmængden i 1 time.\n- Frys vandet, hvis ingen skabninger er i det; det tør op efter 1 time.\n\nHøjst to ikke-øjeblikkelige effekter kan være aktive samtidig. En Action afslutter én.",
+    "en": "Choose visible water fitting a 5-ft cube. Either move/change its flow up to 5 ft harmlessly; form and animate simple shapes for 1 hour; uniformly change color or opacity for 1 hour; or freeze it if empty of creatures, thawing after 1 hour. Maximum two ongoing effects across castings; an Action dismisses one.",
+    "publishedYear": 2015
+  },
+  "Skywrite": {
+    "level": 2,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Wizard",
+      "Artificer"
+    ],
+    "cast": "1 Action (ritual)",
+    "range": "Sight",
+    "components": "V, S",
+    "dur": "Concentration 1 Hour",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2398-skywrite",
+      "name": "Skywrite"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2398-skywrite",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Dan op til ti ord som skyer i en synlig del af himlen. Ordene bliver på stedet i varigheden og opløses ved ophør. Stærk vind kan sprede dem og afslutte formularen før tid. Kan kastes som ritual.",
+    "en": "Create up to ten cloudlike words in visible sky. They remain in position for the duration and vanish when it ends. Strong wind can disperse them and end the spell early. Ritual casting is available.",
+    "publishedYear": 2015
+  },
+  "Snilloc's Snowball Swarm": {
+    "level": 2,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "1 Action",
+    "range": "90 ft.",
+    "components": "V, S, M (a piece of ice or a small white rock chip)",
+    "dur": "Instantaneous",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2399-snillocs-snowball-swarm",
+      "name": "Snilloc's Snowball Swarm"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2399-snillocs-snowball-swarm",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Vælg et punkt inden for rækkevidden. Skabninger i en kugle med 5-ft radius omkring punktet laver DEX-redning: 3d6 Cold-skade ved fejl, halvdelen ved succes.\n\nHøjere slot: +1d6 skade pr. slotniveau over 2.",
+    "en": "Choose a point in range. Creatures in its 5-ft-radius sphere make DEX saves: 3d6 Cold damage, half on success. Higher slots add 1d6 per level above 2.",
+    "publishedYear": 2015
+  },
+  "Tidal Wave": {
+    "level": 3,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "1 Action",
+    "range": "120 ft.",
+    "components": "V, S, M (a drop of water)",
+    "dur": "Instantaneous",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2402-tidal-wave",
+      "name": "Tidal Wave"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2402-tidal-wave",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Skab en bølge i et område inden for rækkevidden, højst 30 ft langt, 10 ft bredt og 10 ft højt. Skabninger deri laver DEX-redning: 4d8 Bludgeoning-skade og Prone ved fejl; halv skade og ingen Prone ved succes.\n\nVandet breder sig derefter langs jorden i alle retninger, slukker ubeskyttede flammer i området og inden for 30 ft af det og forsvinder.",
+    "en": "Create a wave in range covering up to 30-by-10-by-10 ft. Creatures make DEX saves: 4d8 Bludgeoning damage and Prone on failure, half damage without Prone on success. Water spreads across the ground in all directions, extinguishes unprotected flames in the area and within 30 ft of it, then vanishes.",
+    "publishedYear": 2015
+  },
+  "Wall of Sand": {
+    "level": 3,
+    "school": "Evocation",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "1 Action",
+    "range": "90 ft.",
+    "components": "V, S, M (a handful of sand)",
+    "dur": "Concentration 10 Minutes",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2405-wall-of-sand",
+      "name": "Wall of Sand"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2405-wall-of-sand",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Skab en sandvæg på jorden ved et synligt punkt inden for rækkevidden: højst 30 ft lang, 10 ft høj og 10 ft tyk. Den blokerer synslinjer, men ikke bevægelse. Skabninger i væggen er Blinded, og hver ft bevægelse deri koster 3 ft. Væggen forsvinder ved formularens ophør.",
+    "en": "Create a ground-based wall at a visible point in range, up to 30 ft long, 10 ft high and 10 ft thick. It blocks sight, not movement. Creatures inside are Blinded; every foot moved costs 3 ft. The wall disappears when the spell ends.",
+    "publishedYear": 2015
+  },
+  "Wall of Water": {
+    "level": 3,
+    "school": "Evocation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "1 Action",
+    "range": "60 ft.",
+    "components": "V, S, M (a drop of water)",
+    "dur": "Concentration 10 Minutes",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2406-wall-of-water",
+      "name": "Wall of Water"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2406-wall-of-water",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "Skab en vandvæg på synlig jord: højst 30×10×1 ft eller en ring med højst 20-ft diameter, 20-ft højde og 1-ft tykkelse. Væggen er Difficult Terrain og forsvinder ved ophør.\n\nAfstandsangreb med våben ind i væggen har Disadvantage. Fire-skade halveres, hvis effekten passerer væggen til målet. Cold-skadende formularer fryser den gennemtrængte del, mindst ét 5-ft kvadrat. Hvert frossent kvadrat har AC 5 og 15 HP. Ved 0 HP ødelægges det; hullet fyldes ikke med vand.",
+    "en": "Create a visible ground-based water wall: up to 30×10×1 ft, or ring up to 20-ft diameter, 20-ft high, 1-ft thick. It is Difficult Terrain and vanishes on expiry. Ranged weapon attacks entering it have Disadvantage; Fire damage passing through is halved. Cold-damage spells freeze traversed sections, minimum 5-ft square: AC 5, HP 15 each; at 0 HP destroyed, leaving an unfilled gap.",
+    "publishedYear": 2015
+  },
+  "Warding Wind": {
+    "level": 2,
+    "school": "Evocation",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "1 Action",
+    "range": "Self",
+    "components": "V",
+    "dur": "Concentration 10 Minutes",
+    "source": {
+      "label": "Elemental Evil Player’s Companion · D&D Beyond",
+      "url": "https://www.dndbeyond.com/spells/2407-warding-wind",
+      "name": "Warding Wind"
+    },
+    "referenceUrl": "https://www.dndbeyond.com/spells/2407-warding-wind",
+    "reviewed": "2026-11-02",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "da": "En stærk vind på 20 mph omgiver dig i 10-ft radius og følger dig i varigheden.\n- Du og andre i området er Deafened.\n- Ubeskyttede flammer på højst fakkelstørrelse slukkes.\n- Damp, gas og tåge, som stærk vind kan sprede, holdes ude.\n- Området er Difficult Terrain for andre.\n- Afstandsangreb med våben, der passerer ind eller ud af vinden, har Disadvantage.",
+    "en": "A 20-mph wind fills a 10-ft radius centered on you and follows you. It Deafens creatures inside, including you; extinguishes unprotected torch-sized or smaller flames; excludes vapor/gas/fog dispersible by strong wind; is Difficult Terrain for others; and imposes Disadvantage on ranged weapon attacks passing in or out.",
+    "publishedYear": 2015
+  },
+  "Dust Devil": {
+    "level": 2,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "60 ft.",
+    "components": "V, S, M (a pinch of dust)",
+    "dur": "Concentration, up to 1 Minute",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Elemental Evil Player's Companion (2015)",
+      "url": "https://www.dndbeyond.com/spells/2376-dust-devil",
+      "name": "Dust Devil"
+    },
+    "reviewed": "2026-11-02",
+    "en": "Create a dust devil in a visible, empty 5-ft air cube within range. Creatures ending their turn within 5 ft make a STR save: failure deals 1d8 Bludgeoning and pushes 10 ft away; success halves damage without pushing.\n\nBonus Action: Move it up to 30 ft in any direction. Passing over sand, dust, loose dirt or small gravel creates a heavily obscured 10-ft-radius debris cloud around it until your next turn starts.\n\nHigher slot: +1d8 per level above 2.",
+    "da": "Skab en støvhvirvel i en synlig, ledig 5-ft luftkube inden for rækkevidden. Skabninger, der afslutter deres tur inden for 5 ft, laver STR-redning: Fejl giver 1d8 Bludgeoning-skade og skubber 10 ft væk; succes halverer skaden uden skub.\n\nBonus Action: Flyt den op til 30 ft i valgfri retning. Over sand, støv, løs jord eller smågrus dannes en Heavily Obscured sky med 10-ft radius omkring den indtil din næste turs start.\n\nHøjere slot: +1d8 pr. niveau over 2.",
+    "publishedYear": 2015
+  },
+  "Immolation": {
+    "level": 5,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "90 ft.",
+    "components": "V",
+    "dur": "Concentration, up to 1 Minute",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Elemental Evil Player's Companion (2015)",
+      "url": "https://www.dndbeyond.com/spells/2385-immolation",
+      "name": "Immolation"
+    },
+    "reviewed": "2026-11-02",
+    "en": "One visible creature within range makes a DEX save: failure deals 8d6 Fire; success halves damage. Failure also ignites it for the duration: bright light 30 ft, then dim light another 30 ft. At each turn's end it repeats the save: failure deals 4d6 Fire; success ends the spell. Nonmagical means cannot extinguish these flames. A creature killed by this spell's damage becomes ash.",
+    "da": "Én synlig skabning inden for rækkevidden laver DEX-redning: Fejl giver 8d6 Fire-skade; succes halverer skaden. Ved fejl brænder målet også i varigheden: Bright Light 30 ft, derudover Dim Light 30 ft. Ved hver af sine tures slutning gentager det redningen: Fejl giver 4d6 Fire-skade; succes afslutter formularen. Ilden kan ikke slukkes med ikke-magiske midler. Dræber formularens skade en skabning, bliver den til aske.",
+    "publishedYear": 2015
+  },
+  "Maelstrom": {
+    "level": 5,
+    "school": "Evocation",
+    "classes": [
+      "Druid"
+    ],
+    "cast": "Action",
+    "range": "120 ft.",
+    "components": "V, S, M (paper or leaf in the shape of a funnel)",
+    "dur": "Concentration, up to 1 Minute",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Elemental Evil Player's Companion (2015)",
+      "url": "https://www.dndbeyond.com/spells/2390-maelstrom",
+      "name": "Maelstrom"
+    },
+    "reviewed": "2026-11-02",
+    "en": "Center swirling water on a visible point within range, on ground or in a body of water: radius 30 ft, depth 5 ft. The area is Difficult Terrain for the duration. A creature starting its turn there makes a STR save. Failure deals 6d6 Bludgeoning damage and pulls it 10 ft toward the center; success prevents both.",
+    "da": "Centrér hvirvlende vand på et synligt punkt inden for rækkevidden, på jorden eller i en vandmasse: radius 30 ft, dybde 5 ft. Området er Difficult Terrain i hele varigheden. En skabning, der starter sin tur der, laver STR-redning. Ved fejl tager den 6d6 Bludgeoning-skade og trækkes 10 ft mod centrum; succes forhindrer begge virkninger.",
+    "publishedYear": 2015
+  },
+  "Maximilian's Earthen Grasp": {
+    "level": 2,
+    "school": "Transmutation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "30 ft.",
+    "components": "V, S, M (a miniature hand sculpted from clay)",
+    "dur": "Concentration, up to 1 Minute",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Elemental Evil Player's Companion (2015)",
+      "url": "https://www.dndbeyond.com/spells/2392-maximilians-earthen-grasp",
+      "name": "Maximilian's Earthen Grasp"
+    },
+    "reviewed": "2026-11-02",
+    "en": "Create a Medium earth hand in a visible, empty 5-ft ground square within range. It grabs one visible creature within 5 ft of it: STR save; failure deals 2d6 Bludgeoning and Restrained for the duration; success prevents both.\n\nYour Action: Crush the captive (STR save: 2d6 Bludgeoning, half on success); grab another creature; or relocate to an empty space within range. Either latter option releases any captive.\n\nA captive's action and successful STR check against your spell save DC frees it.",
+    "da": "Skab en Medium jordhånd på et synligt, ledigt 5-ft jordfelt inden for rækkevidden. Den griber én synlig skabning inden for 5 ft fra hånden: STR-redning; fejl giver 2d6 Bludgeoning-skade og Restrained i varigheden; succes forhindrer begge virkninger.\n\nDin Action: Klem fangen (STR-redning: 2d6 Bludgeoning, halvdelen ved succes); grib en anden skabning; eller flyt hånden til et ledigt sted inden for rækkevidden. Begge sidstnævnte muligheder slipper fangen.\n\nFangens handling og succesfulde STR-check mod din spell save DC befrier den.",
+    "publishedYear": 2015
+  },
+  "Storm Sphere": {
+    "level": 4,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "150 ft.",
+    "components": "V, S",
+    "dur": "Concentration, up to 1 Minute",
+    "book": "Elemental Evil Player's Companion",
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Elemental Evil Player's Companion (2015)",
+      "url": "https://www.dndbeyond.com/spells/2400-storm-sphere",
+      "name": "Storm Sphere"
+    },
+    "reviewed": "2026-11-02",
+    "en": "Create a stationary 20-ft-radius air sphere centered within range. Its area is Difficult Terrain. Creatures inside when it appears or ending turns there make STR saves: failure deals 2d6 Bludgeoning; success prevents damage.\n\nOn each of your turns, a Bonus Action launches lightning from its center at one creature within 60 ft of its center: ranged spell attack, Advantage if inside; hit deals 4d6 Lightning.\n\nWithin 30 ft of the sphere, listening WIS (Perception) checks have Disadvantage.\n\nHigher slot: Both damage amounts gain 1d6 per level above 4.",
+    "da": "Skab en stationær luftkugle med 20-ft radius, centreret inden for rækkevidden. Området er Difficult Terrain. Skabninger deri ved fremkomst eller deres turs slutning laver STR-redning: Fejl giver 2d6 Bludgeoning-skade; succes forhindrer skaden.\n\nPå hver af dine ture kan en Bonus Action sende lyn fra centrum mod én skabning inden for 60 ft fra centrum: magisk afstandsangreb, Advantage mod mål inde i kuglen; træffer giver 4d6 Lightning-skade.\n\nInden for 30 ft fra kuglen har lyttebaserede WIS (Perception)-checks Disadvantage.\n\nHøjere slot: Begge skademængder øges 1d6 pr. niveau over 4.",
+    "publishedYear": 2015
+  },
+  "Bones of the Earth": {
+    "level": 6,
+    "school": "Transmutation",
+    "classes": [
+      "Druid"
+    ],
+    "cast": "Action",
+    "range": "120 ft.",
+    "components": "V, S",
+    "dur": "Instantaneous",
+    "book": "Elemental Evil Player's Companion",
+    "publishedYear": 2015,
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Elemental Evil Player's Companion (2015)",
+      "url": "https://www.dndbeyond.com/spells/2371-bones-of-the-earth",
+      "name": "Bones of the Earth"
+    },
+    "additionalSources": [
+      "https://media.wizards.com/2016/downloads/DND/EE-Players-Companion.pdf",
+      "https://media.wizards.com/2016/downloads/DND/PotA-Errata.pdf"
+    ],
+    "reviewed": "2026-11-02",
+    "en": "Raise up to six stone pillars from visible ground within range. Each cylinder: diameter 5 ft, height up to 30 ft; ground must accommodate its diameter. Ground beneath Medium or smaller creatures is eligible. DEX save (voluntary failure allowed): failure lifts that creature.\n\nEach pillar: AC 5, HP 30. At 0 HP it becomes rubble: Difficult Terrain, radius 10 ft, until cleared. Hand-clearing each 5-ft-diameter section takes at least 1 minute.\n\nA ceiling/obstacle preventing full height crushes a creature atop it: 6d6 Bludgeoning and Restrained. Its action: STR or DEX check against your spell save DC; success frees it, requiring departure or falling.\n\nHigher slot: Two more pillars per level above 6.",
+    "da": "Rejs op til seks stensøjler fra synlig jord inden for rækkevidden. Hver er cylindrisk: diameter 5 ft, højde op til 30 ft; jorden skal rumme diameteren. Jord under Medium eller mindre skabninger kan vælges. DEX-redning (frivillig fejl tilladt): Fejl løfter skabningen.\n\nHver søjle: AC 5, HP 30. Ved 0 HP bliver den murbrokker: Difficult Terrain, radius 10 ft, indtil ryddet. Håndrydning tager mindst 1 minut pr. delområde med 5-ft diameter.\n\nEt loft/en hindring, der forhindrer fuld højde, klemmer skabningen ovenpå: 6d6 Bludgeoning-skade og Restrained. Dens handling: STR- eller DEX-check mod din spell save DC; succes befrier den, hvorefter den skal bevæge sig væk eller falde ned.\n\nHøjere slot: To ekstra søjler pr. niveau over 6.",
+    "errataUrl": "https://media.wizards.com/2016/downloads/DND/PotA-Errata.pdf"
+  },
+  "Control Winds": {
+    "level": 5,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "300 ft.",
+    "components": "V, S",
+    "dur": "Concentration, up to 1 Hour",
+    "book": "Elemental Evil Player's Companion",
+    "publishedYear": 2015,
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Elemental Evil Player's Companion (2015)",
+      "url": "https://www.dndbeyond.com/spells/2375-control-winds",
+      "name": "Control Winds"
+    },
+    "additionalSources": [
+      "https://media.wizards.com/2016/downloads/DND/EE-Players-Companion.pdf",
+      "https://media.wizards.com/2016/downloads/DND/PotA-Errata.pdf"
+    ],
+    "reviewed": "2026-11-02",
+    "en": "Control a visible 100-ft cube within range. Choose an effect lasting for the duration. On later turns your action can switch effects, pause the effect, or restart it.\n\nGusts: Choose horizontal direction and calm/moderate/strong intensity. Moderate/strong: ranged weapon attacks entering, leaving or crossing the cube have Disadvantage. Strong: movement against the wind costs 1 extra ft per ft.\n\nDowndraft: Downward wind from the cube's top. Ranged weapon attacks crossing it or targeting creatures inside have Disadvantage. Flying creatures entering it for the first time on a turn or starting their turn there make STR saves; failure knocks Prone.\n\nUpdraft: Rising wind halves damage from falls ending inside. Creatures inside can jump vertically up to 10 ft higher.",
+    "da": "Kontrollér en synlig 100-ft kube inden for rækkevidden. Vælg en virkning for varigheden. På senere ture kan din handling skifte virkning, sætte den på pause eller genstarte den.\n\nGusts: Vælg vandret retning og rolig/moderat/stærk vind. Moderat/stærk: Afstandsvåbenangreb ind i, ud af eller gennem kuben har Disadvantage. Stærk: Bevægelse mod vinden koster 1 ekstra ft pr. ft.\n\nDowndraft: Nedadgående vind fra kubens top. Afstandsvåbenangreb gennem kuben eller mod mål deri har Disadvantage. Flyvende skabninger, der kommer ind første gang på en tur eller starter deres tur deri, laver STR-redning; fejl giver Prone.\n\nUpdraft: Opadgående vind halverer skade fra fald, der slutter inde i kuben. Skabninger deri kan springe lodret op til 10 ft højere.",
+    "errataUrl": "https://media.wizards.com/2016/downloads/DND/PotA-Errata.pdf"
+  },
+  "Transmute Rock": {
+    "level": 5,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Wizard",
+      "Artificer"
+    ],
+    "cast": "Action",
+    "range": "120 ft.",
+    "components": "V, S, M (clay and water)",
+    "dur": "Until Dispelled",
+    "book": "Elemental Evil Player's Companion",
+    "publishedYear": 2015,
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Elemental Evil Player's Companion (2015)",
+      "url": "https://www.dndbeyond.com/spells/2403-transmute-rock",
+      "name": "Transmute Rock"
+    },
+    "additionalSources": [
+      "https://media.wizards.com/2016/downloads/DND/EE-Players-Companion.pdf",
+      "https://media.wizards.com/2016/downloads/DND/PotA-Errata.pdf"
+    ],
+    "reviewed": "2026-11-02",
+    "en": "Choose visible stone/mud within range, fitting a 40-ft cube. Choose:\n\nRock → mud: Nonmagical rock becomes an equal volume of flowing mud. Each foot of movement through it costs 4 ft. Grounded creatures there when cast, creatures first entering on a turn, and creatures ending turns there make STR saves. Failure: sink and become Restrained; their action frees them without a check. From ceilings, mud falls: creatures underneath make DEX saves for 4d8 Bludgeoning, half on success.\n\nMud → rock: Nonmagical mud/quicksand, at most 10 ft deep, becomes soft stone. Creatures inside make DEX saves: success safely ejects them to empty surface spaces; failure Restrains. A captive or creature within reach can use an action to break the stone: DC 20 STR check or damage. Stone: AC 15, HP 25; Poison/Psychic immunity.",
+    "da": "Vælg synlig sten/mudder inden for rækkevidden, som rummes i en 40-ft kube. Vælg:\n\nSten → mudder: Ikke-magisk sten bliver til samme rumfang flydende mudder. Hver ft bevægelse gennem det koster 4 ft. Skabninger på jorden i området ved kastet, skabninger der kommer ind første gang på en tur, og skabninger der afslutter deres tur deri, laver STR-redning. Fejl: De synker og bliver Restrained; deres handling befrier dem uden check. Fra lofter falder mudderet: Skabninger nedenunder laver DEX-redning mod 4d8 Bludgeoning-skade, halvdelen ved succes.\n\nMudder → sten: Ikke-magisk mudder/kviksand, højst 10 ft dybt, bliver blød sten. Skabninger deri laver DEX-redning: Succes flytter dem sikkert til ledige steder på overfladen; fejl giver Restrained. En fange eller skabning inden for rækkevidde af stenen kan bruge en handling på at bryde den: DC 20 STR-check eller skade. Stenen: AC 15, HP 25; immunitet mod Poison/Psychic-skade.",
+    "errataUrl": "https://media.wizards.com/2016/downloads/DND/PotA-Errata.pdf"
+  },
+  "Watery Sphere": {
+    "level": 4,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "90 ft.",
+    "components": "V, S, M (a droplet of water)",
+    "dur": "Concentration, up to 1 Minute",
+    "book": "Elemental Evil Player's Companion",
+    "publishedYear": 2015,
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Elemental Evil Player's Companion (2015)",
+      "url": "https://www.dndbeyond.com/spells/2408-watery-sphere",
+      "name": "Watery Sphere"
+    },
+    "additionalSources": [
+      "https://media.wizards.com/2016/downloads/DND/EE-Players-Companion.pdf",
+      "https://media.wizards.com/2016/downloads/DND/PotA-Errata.pdf"
+    ],
+    "reviewed": "2026-11-02",
+    "en": "Create water with radius 5 ft at a visible point within range. It may hover at most 10 ft above ground.\n\nCreatures occupying it make STR saves. Success ejects them to their chosen nearest empty space outside. Huge/larger automatically succeed; Large/smaller may willingly fail. Failure engulfs and Restrains. Captives repeat the save at the end of each of their turns, escaping on success.\n\nCapacity: Four Medium/smaller creatures or one Large. Exceeding capacity ejects a random existing captive, landing Prone within 5 ft.\n\nYour action moves it up to 30 ft straight, carrying captives. Over drops it safely descends to 10 ft above ground. Ramming creatures forces the save.\n\nWhen the spell ends it falls, extinguishing ordinary flames within 30 ft. Captives land Prone where it falls; water vanishes.",
+    "da": "Skab en vandkugle med 5-ft radius på et synligt punkt inden for rækkevidden. Den kan svæve højst 10 ft over jorden.\n\nSkabninger i kuglens område laver STR-redning. Succes skubber dem ud til det nærmeste ledige sted udenfor efter deres valg. Huge/større lykkes automatisk; Large/mindre kan frivilligt fejle. Fejl omslutter dem med vand og giver Restrained. Fanger gentager redningen ved slutningen af hver af deres ture; succes befrier dem.\n\nKapacitet: Fire Medium/mindre skabninger eller én Large. Overskrides kapaciteten, falder en tilfældig eksisterende fange ud og lander Prone inden for 5 ft.\n\nDin handling flytter kuglen op til 30 ft ligeud med fangerne. Over afgrunde sænkes den sikkert til 10 ft over jorden. Rammes skabninger under flytningen, laver de STR-redningen.\n\nVed ophør falder kuglen til jorden og slukker almindelige flammer inden for 30 ft. Fanger lander Prone, hvor den falder; vandet forsvinder.",
+    "errataUrl": "https://media.wizards.com/2016/downloads/DND/PotA-Errata.pdf"
+  },
+  "Whirlwind": {
+    "level": 7,
+    "school": "Evocation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "300 ft.",
+    "components": "V, M (a piece of straw)",
+    "dur": "Concentration, up to 1 Minute",
+    "book": "Elemental Evil Player's Companion",
+    "publishedYear": 2015,
+    "rulesVersion": "2014",
+    "source": {
+      "label": "Elemental Evil Player's Companion (2015)",
+      "url": "https://www.dndbeyond.com/spells/2409-whirlwind",
+      "name": "Whirlwind"
+    },
+    "additionalSources": [
+      "https://media.wizards.com/2016/downloads/DND/EE-Players-Companion.pdf",
+      "https://media.wizards.com/2016/downloads/DND/PotA-Errata.pdf"
+    ],
+    "reviewed": "2026-11-02",
+    "en": "Center a whirlwind on visible ground within range: cylinder, radius 10 ft, height 30 ft. Your action moves it up to 30 ft along the ground in any direction. It sucks up unsecured Medium/smaller objects that nobody wears/carries.\n\nOn first contact per turn—creature entering or whirlwind entering its space, including initial appearance—DEX save: 10d6 Bludgeoning, half on success. Large/smaller creatures failing also make STR saves; failure Restrains until the spell ends. Captives move with it; at their turn's start rise 5 ft unless already atop it. When it ends they fall unless able to remain aloft.\n\nCaptive's action: STR/DEX check against your spell save DC. Success frees and flings it 3d6 × 10 ft in a random direction.",
+    "da": "Centrér en hvirvelvind på synlig jord inden for rækkevidden: cylinder, radius 10 ft, højde 30 ft. Din handling flytter den op til 30 ft langs jorden i valgfri retning. Den opsuger løse Medium/mindre genstande, som ingen bærer eller har på.\n\nVed første kontakt pr. tur—skabningen kommer ind, eller hvirvelvinden kommer ind på dens plads, også ved fremkomst—DEX-redning: 10d6 Bludgeoning-skade, halvdelen ved succes. Large/mindre skabninger, der fejler, laver også STR-redning; fejl giver Restrained indtil ophør. Fanger følger med; ved deres turs start løftes de 5 ft, medmindre de allerede er øverst. Ved ophør falder de, medmindre de kan forblive svævende.\n\nFangens handling: STR/DEX-check mod din spell save DC. Succes befrier og slynger den 3d6 × 10 ft i tilfældig retning.",
+    "errataUrl": "https://media.wizards.com/2016/downloads/DND/PotA-Errata.pdf"
+  }
+}

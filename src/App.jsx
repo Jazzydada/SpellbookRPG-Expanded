@@ -1,38 +1,9 @@
-import React, { useState, useMemo } from "react";
-import { SPELLS, CLASS_SPELLS, CLASS_META, SCHOOL_COLORS, T } from "./data";
-import { PHB_PAGES } from "./phbPages";
+import React, { useState, useMemo, useEffect, useId } from "react";
+import { SPELLS, CLASS_SPELLS, CLASS_META, SCHOOL_COLORS, T, BOOKS, ALL_SPELLS_BY_LEVEL } from "./data";
+import { maxSlotLevel, arcanumLevels, availableLevels, normalizeLevel, reconcileSelection, validLevelFilter, toggleSelection } from "./rules.js";
 
-// ── helpers ──────────────────────────────────────────────────────────────────
-
-function maxSpellLevel(className, charLevel) {
-  const meta = CLASS_META[className];
-  if (!meta) return 0;
-  if (meta.caster === "half") {
-    if (charLevel < 2)  return 0;
-    if (charLevel < 5)  return 1;
-    if (charLevel < 9)  return 2;
-    if (charLevel < 13) return 3;
-    if (charLevel < 17) return 4;
-    return 5;
-  }
-  if (meta.caster === "warlock") {
-    if (charLevel < 3)  return 1;
-    if (charLevel < 5)  return 2;
-    if (charLevel < 7)  return 3;
-    if (charLevel < 9)  return 4;
-    return 5;
-  }
-  // full caster
-  if (charLevel < 3)  return 1;
-  if (charLevel < 5)  return 2;
-  if (charLevel < 7)  return 3;
-  if (charLevel < 9)  return 4;
-  if (charLevel < 11) return 5;
-  if (charLevel < 13) return 6;
-  if (charLevel < 15) return 7;
-  if (charLevel < 17) return 8;
-  return 9;
-}
+import RuleText from './RuleText.jsx';
+import { loadRulebook } from './rulebooks.js';
 
 // ── style constants ───────────────────────────────────────────────────────────
 
@@ -103,15 +74,12 @@ function SchoolBadge({ school }) {
   );
 }
 
-function SpellCard({ name, spell, checked, onToggle, lang, t }) {
+function SpellCard({ name, spell, checked, onToggle, lang, t, ruleText, rulesError, catalogueMode }) {
   const [hov, setHov] = useState(false);
-  const desc = spell[lang] || spell.en;
-  const phbPage = PHB_PAGES[name];
-  const pdfPage = phbPage ? Math.max(1, phbPage - 1) : null;
+  const selectionId = useId();
 
   return (
     <div
-      onClick={onToggle}
       onMouseEnter={() => setHov(true)}
       onMouseLeave={() => setHov(false)}
       style={{
@@ -124,92 +92,58 @@ function SpellCard({ name, spell, checked, onToggle, lang, t }) {
         border: `1px solid ${checked ? "rgba(74,222,128,0.35)" : G.border}`,
         borderRadius: "0.75rem",
         padding: "0.75rem 1rem",
-        cursor: "pointer",
+        cursor: "default",
         transition: "background 0.15s, border-color 0.15s",
       }}
     >
-      {/* checkbox */}
-      <div style={{
-        flexShrink: 0,
-        width: 18,
-        height: 18,
-        borderRadius: "0.3rem",
-        border: `2px solid ${checked ? G.green : G.dim}`,
-        background: checked ? G.green : "transparent",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        marginTop: 2,
-        transition: "all 0.15s",
-      }}>
-        {checked && <span style={{ color: "#0f172a", fontSize: 11, fontWeight: 900, lineHeight: 1 }}>✓</span>}
-      </div>
+      <input id={selectionId} type="checkbox" checked={checked} disabled={catalogueMode} aria-label={`${t.selectSpell}: ${name}`}
+        onChange={onToggle} onClick={e => e.stopPropagation()}
+        style={{ flexShrink: 0, width: 18, height: 18, marginTop: 2, accentColor: G.green }} />
       {/* content */}
       <div style={{ flex: 1, minWidth: 0 }}>
         <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "0.4rem", marginBottom: "0.3rem" }}>
-          <span style={{ color: G.text, fontWeight: 700, fontSize: "0.9rem" }}>{name}</span>
+          <label htmlFor={selectionId} style={{ color: G.text, fontWeight: 700, fontSize: "0.95rem", cursor: "pointer" }}>{name}</label>
           <SchoolBadge school={spell.school} />
-          {phbPage ? (
-            <a
-              href={`./phb2024.pdf#page=${pdfPage}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={(e) => e.stopPropagation()}
-              title={lang === "da"
-                ? `Åbn din lokale PHB 2024 PDF på side ${phbPage}. Læg filen som public/phb2024.pdf.`
-                : `Open your local PHB 2024 PDF on page ${phbPage}. Place it as public/phb2024.pdf.`}
-              style={{
-                color: G.goldL,
-                fontSize: "0.66rem",
-                fontWeight: 800,
-                textDecoration: "none",
-                border: "1px solid rgba(252,211,77,0.35)",
-                borderRadius: "0.35rem",
-                padding: "0.08rem 0.4rem",
-                background: "rgba(240,180,41,0.08)",
-                whiteSpace: "nowrap",
-              }}
-            >
-              {lang === "da" ? `PHB 2024 s. ${phbPage}` : `PHB 2024 p. ${phbPage}`}
-            </a>
-          ) : (
-            <span style={{
-              color: G.dim,
-              fontSize: "0.62rem",
-              fontWeight: 700,
-              border: "1px solid rgba(100,116,139,0.25)",
-              borderRadius: "0.35rem",
-              padding: "0.08rem 0.4rem",
-              whiteSpace: "nowrap",
-            }}>
-              {lang === "da" ? "Ikke i PHB 2024" : "Not in PHB 2024"}
-            </span>
-          )}
+          <span style={{ color: G.muted, fontSize: "0.7rem" }}>{spell.book} · {t.rulesVersion} {spell.rulesVersion}</span>
+          <a href={spell.source.url} target="_blank" rel="noopener noreferrer"
+            onClick={e => e.stopPropagation()}
+            style={{ color: G.goldL, fontSize: "0.7rem" }}>
+            {spell.source.label}
+          </a>
+
         </div>
         <div style={{ display: "flex", flexWrap: "wrap", gap: "0.75rem", marginBottom: "0.35rem" }}>
           {[
             [t.castTime, spell.cast],
             [t.range,    spell.range],
             [t.duration, spell.dur],
+            [t.components, spell.components],
+            [t.classes, spell.classes.join(", ")],
           ].map(([label, val]) => (
             <span key={label} style={{ fontSize: "0.7rem", color: G.muted }}>
               <span style={{ color: G.dim, marginRight: 3 }}>{label}:</span>{val}
             </span>
           ))}
         </div>
-        <p style={{ margin: 0, fontSize: "0.78rem", color: G.muted, lineHeight: 1.5 }}>{desc}</p>
+        {spell.rulesVersion !== "2024" && <p role="note" style={{ color: G.goldL, fontSize: "0.78rem", lineHeight: 1.5, borderLeft: "2px solid " + G.gold, paddingLeft: "0.6rem" }}>{t.legacyRulesNote}</p>}
+        <section lang={lang} aria-label={t.fullRules}>
+          {ruleText ? <RuleText text={ruleText} /> : <p role="status">{rulesError ? t.sourceFallback : t.loading}</p>}
+        </section>
+        {spell.errataUrl && <a href={spell.errataUrl} target="_blank" rel="noopener noreferrer"
+          onClick={e => e.stopPropagation()} style={{ fontSize: "0.7rem", color: G.goldL }}>{t.errata}</a>}
       </div>
     </div>
   );
 }
 
-function SpellLevelSection({ level, spells, selected, onToggle, lang, t }) {
+function SpellLevelSection({ level, spells, selected, onToggle, lang, t, isArcanum, rulebook, rulesError, catalogueMode }) {
   const [collapsed, setCollapsed] = useState(false);
   if (!spells.length) return null;
   return (
     <div style={{ marginBottom: "1rem" }}>
       <button
         onClick={() => setCollapsed(c => !c)}
+        aria-expanded={!collapsed}
         style={{
           background: "transparent",
           border: "none",
@@ -224,6 +158,7 @@ function SpellLevelSection({ level, spells, selected, onToggle, lang, t }) {
         }}
       >
         <LevelBadge level={level} t={t} />
+        {isArcanum && <span style={{ color: G.gold, fontSize: "0.75rem" }}>Mystic Arcanum · {t.chooseOne}</span>}
         <span style={{ color: G.dim, fontSize: "0.72rem" }}>
           {spells.length} {lang === "da" ? "trylleformler" : "spells"}
         </span>
@@ -238,6 +173,9 @@ function SpellLevelSection({ level, spells, selected, onToggle, lang, t }) {
               key={name}
               name={name}
               spell={SPELLS[name]}
+              ruleText={rulebook?.[name]}
+              rulesError={rulesError}
+              catalogueMode={catalogueMode}
               checked={!!selected[name]}
               onToggle={() => onToggle(name)}
               lang={lang}
@@ -257,55 +195,73 @@ export default function App() {
   const [className, setClass]   = useState("Wizard");
   const [charLevel, setLevel]   = useState(5);
   const [levelFilter, setLF]    = useState("all");
+  const [bookFilter, setBookFilter] = useState("all");
   const [search, setSearch]     = useState("");
   const [selected, setSelected] = useState({});
 
+  const [loadedRules, setLoadedRules] = useState(null);
+  const [rulesError, setRulesError] = useState(false);
+  const rulebook = loadedRules?.language === lang ? loadedRules.spells : null;
+  useEffect(() => {
+    let active = true;
+    setRulesError(false);
+    loadRulebook(lang).then(spells => {
+      if (active) setLoadedRules({ language: lang, spells });
+    }).catch(() => { if (active) setRulesError(true); });
+    return () => { active = false; };
+  }, [lang]);
+
   const t = T[lang];
-  const meta = CLASS_META[className] || {};
-  const maxSL = maxSpellLevel(className, charLevel);
-  const classSpells = CLASS_SPELLS[className] || {};
+  const [notice, setNotice] = useState("");
+  const catalogueMode = className === "all";
+  const maxSL = maxSlotLevel(className, charLevel);
+  const arcana = arcanumLevels(className, charLevel);
+  const availLevels = catalogueMode ? Object.keys(ALL_SPELLS_BY_LEVEL).map(Number).sort((a,b)=>a-b) : availableLevels(className, charLevel);
+  const classSpells = catalogueMode ? ALL_SPELLS_BY_LEVEL : CLASS_SPELLS[className] || {};
 
   // Build filtered spell groups
   const spellGroups = useMemo(() => {
     const groups = {};
-    const sl = search.toLowerCase();
+    const sl = search.trim().toLowerCase();
     const levels = levelFilter === "all"
-      ? Object.keys(classSpells).map(Number).filter(l => l <= maxSL)
-      : [Number(levelFilter)].filter(l => l <= maxSL);
+      ? [...availLevels]
+      : [Number(levelFilter)].filter(l => availLevels.includes(l));
 
     levels.sort((a, b) => a - b);
 
     for (const level of levels) {
       const names = (classSpells[level] || []).filter(name => {
         if (!SPELLS[name]) return false;
+        if (bookFilter !== "all" && SPELLS[name].book !== bookFilter) return false;
         if (!sl) return true;
         return (
           name.toLowerCase().includes(sl) ||
-          (SPELLS[name].en || "").toLowerCase().includes(sl) ||
-          (SPELLS[name].da || "").toLowerCase().includes(sl) ||
+          (rulebook?.[name] || "").toLowerCase().includes(sl) ||
           (SPELLS[name].school || "").toLowerCase().includes(sl)
         );
       });
       if (names.length) groups[level] = names;
     }
     return groups;
-  }, [className, charLevel, search, levelFilter, maxSL]);
+  }, [className, charLevel, search, levelFilter, bookFilter, rulebook]);
 
   function toggleSpell(name) {
-    setSelected(s => {
-      const n = { ...s };
-      n[name] ? delete n[name] : (n[name] = true);
-      return n;
-    });
+    if (catalogueMode) return;
+    setSelected(s => toggleSelection(s, name, className, charLevel));
+    setNotice("");
+  }
+
+  function changeLevel(value) {
+    const level = normalizeLevel(value);
+    const next = reconcileSelection(selected, className, level);
+    const removed = Object.keys(selected).filter(name => !next[name]);
+    setSelected(next);
+    setLF(filter => validLevelFilter(filter, className, level));
+    setLevel(level);
+    setNotice(removed.length ? `${t.removedSelections}: ${removed.join(", ")}` : "");
   }
 
   const selectedNames = Object.keys(selected);
-
-  // Available levels for filter dropdown
-  const availLevels = Object.keys(classSpells)
-    .map(Number)
-    .filter(l => l <= maxSL)
-    .sort((a, b) => a - b);
 
   return (
     <div style={{
@@ -368,10 +324,11 @@ export default function App() {
         }}>
           {/* class */}
           <div>
-            <label style={{ display:"block", fontSize:"0.7rem", color:G.dim, textTransform:"uppercase", letterSpacing:"0.1em", marginBottom:"0.3rem", fontWeight:700 }}>
+            <label htmlFor="class" style={{ display:"block", fontSize:"0.7rem", color:G.dim, textTransform:"uppercase", letterSpacing:"0.1em", marginBottom:"0.3rem", fontWeight:700 }}>
               {t.selectClass}
             </label>
-            <select value={className} onChange={e => { setClass(e.target.value); setSelected({}); setLF("all"); }} style={inp}>
+            <select value={className} id="class" onChange={e => { setClass(e.target.value); setSelected({}); setLF("all"); setNotice(""); }} style={inp}>
+              <option value="all">{t.allClasses}</option>
               {Object.keys(CLASS_SPELLS).map(c => (
                 <option key={c} value={c}>
                   {lang === "da" ? `${c} (${CLASS_META[c]?.da})` : c}
@@ -381,28 +338,28 @@ export default function App() {
           </div>
           {/* level */}
           <div>
-            <label style={{ display:"block", fontSize:"0.7rem", color:G.dim, textTransform:"uppercase", letterSpacing:"0.1em", marginBottom:"0.3rem", fontWeight:700 }}>
+            <label htmlFor="character-level" style={{ display:"block", fontSize:"0.7rem", color:G.dim, textTransform:"uppercase", letterSpacing:"0.1em", marginBottom:"0.3rem", fontWeight:700 }}>
               {t.charLevel}: <span style={{ color: G.gold }}>{charLevel}</span>
             </label>
             <input
-              type="range" min={1} max={20} value={charLevel}
-              onChange={e => setLevel(Number(e.target.value))}
+              id="character-level" disabled={catalogueMode} type="range" min={1} max={20} value={charLevel}
+              onChange={e => changeLevel(e.target.value)}
               style={{ width:"100%", accentColor: G.gold }}
             />
             <div style={{ display:"flex", justifyContent:"space-between", fontSize:"0.65rem", color:G.dim }}>
               <span>1</span>
               <span style={{ color: G.muted }}>
-                {lang === "da" ? `Maks. stavniveau: ${maxSL}` : `Max spell level: ${maxSL}`}
+                {catalogueMode ? "—" : lang === "da" ? `Maks. slotniveau: ${maxSL}` : `Max slot level: ${maxSL}`}
               </span>
               <span>20</span>
             </div>
           </div>
           {/* spell level filter */}
           <div>
-            <label style={{ display:"block", fontSize:"0.7rem", color:G.dim, textTransform:"uppercase", letterSpacing:"0.1em", marginBottom:"0.3rem", fontWeight:700 }}>
+            <label htmlFor="spell-level" style={{ display:"block", fontSize:"0.7rem", color:G.dim, textTransform:"uppercase", letterSpacing:"0.1em", marginBottom:"0.3rem", fontWeight:700 }}>
               {t.level}
             </label>
-            <select value={levelFilter} onChange={e => setLF(e.target.value)} style={inp}>
+            <select id="spell-level" value={levelFilter} onChange={e => setLF(e.target.value)} style={inp}>
               <option value="all">{t.allLevels}</option>
               {availLevels.map(l => (
                 <option key={l} value={l}>
@@ -411,19 +368,32 @@ export default function App() {
               ))}
             </select>
           </div>
+          <div>
+            <label htmlFor="book-filter" style={{ display:"block", fontSize:"0.7rem", color:G.dim, textTransform:"uppercase", letterSpacing:"0.1em", marginBottom:"0.3rem", fontWeight:700 }}>{t.book}</label>
+            <select id="book-filter" value={bookFilter} onChange={e => setBookFilter(e.target.value)} style={inp}>
+              <option value="all">{t.allBooks}</option>
+              {BOOKS.map(book => <option key={book} value={book}>{book}</option>)}
+            </select>
+          </div>
           {/* search */}
           <div>
-            <label style={{ display:"block", fontSize:"0.7rem", color:G.dim, textTransform:"uppercase", letterSpacing:"0.1em", marginBottom:"0.3rem", fontWeight:700 }}>
+            <label htmlFor="spell-search" style={{ display:"block", fontSize:"0.7rem", color:G.dim, textTransform:"uppercase", letterSpacing:"0.1em", marginBottom:"0.3rem", fontWeight:700 }}>
               {lang === "da" ? "Søg" : "Search"}
             </label>
             <input
-              type="text" value={search} placeholder={t.searchPlaceholder}
+              id="spell-search" type="text" value={search} placeholder={t.searchPlaceholder}
               onChange={e => setSearch(e.target.value)}
               style={{ ...inp }}
             />
           </div>
         </div>
 
+        <p style={{ color: G.muted, fontSize: "0.78rem", lineHeight: 1.5 }}>{t.scopeNote}</p>
+        {catalogueMode && <p style={{ color: G.goldL, fontSize: "0.78rem" }}>{t.catalogueNote}</p>}
+        {className === "Warlock" && <p style={{ color: G.goldL, fontSize: "0.78rem" }}>
+          {t.arcanumNote}{arcana.length > 0 ? ` (${arcana.join(", ")})` : ""}
+        </p>}
+        <p role="status" style={{ color: G.goldL, fontSize: "0.8rem" }}>{notice}</p>
         <div style={{ display: "grid", gridTemplateColumns: "1fr", gap: "1.5rem" }}>
           {/* ── spell list ── */}
           <div>
@@ -436,6 +406,10 @@ export default function App() {
                 <SpellLevelSection
                   key={level}
                   level={Number(level)}
+                  isArcanum={className === "Warlock" && Number(level) >= 6}
+                  rulebook={rulebook}
+                  rulesError={rulesError}
+                  catalogueMode={catalogueMode}
                   spells={names}
                   selected={selected}
                   onToggle={toggleSpell}
@@ -470,7 +444,7 @@ export default function App() {
                   const sp = SPELLS[name];
                   const color = sp ? SCHOOL_COLORS[sp.school] || G.muted : G.muted;
                   return (
-                    <span
+                    <button type="button"
                       key={name}
                       onClick={() => toggleSpell(name)}
                       title={sp ? (sp[lang] || sp.en) : ""}
@@ -487,7 +461,7 @@ export default function App() {
                       }}
                     >
                       {name} ×
-                    </span>
+                    </button>
                   );
                 })}
               </div>
@@ -505,10 +479,16 @@ export default function App() {
         color: G.dim,
         marginTop: "2rem",
       }}>
-        SpellbookRPG · PHB 2024 sidehenvisninger ·{" "}
+        SpellbookRPG Expanded · D&D 5e · {t.rulesDate} ·{" "}
         <a href="https://asaheim.dk" target="_blank" rel="noopener noreferrer" style={{ color: G.gold }}>
           asaheim.dk
         </a>
+        <p style={{ maxWidth: 900, margin: "0.75rem auto 0" }}>
+          This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”)
+          by Wizards of the Coast LLC, available at <a href="https://www.dndbeyond.com/srd" style={{ color: G.muted }}>https://www.dndbeyond.com/srd</a>.
+          The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License,
+          available at <a href="https://creativecommons.org/licenses/by/4.0/legalcode" style={{ color: G.muted }}>https://creativecommons.org/licenses/by/4.0/legalcode</a>.
+        </p>
       </div>
     </div>
   );
