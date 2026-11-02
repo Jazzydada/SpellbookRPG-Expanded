@@ -31,3 +31,13 @@ export function parseRuleText(text) {
   }
   return blocks;
 }
+
+// Preview only: keep the canonical rules untouched and available in the disclosure.
+export function rulePreview(text, limit = 280) {
+  const paragraphs = parseRuleText(text).filter(block => block.type === 'paragraph');
+  const plain = (paragraphs[0]?.text || text).replace(/\*\*/g, '').replace(/\s+/g, ' ').trim();
+  if (plain.length <= limit) return plain;
+  const prefix = plain.slice(0, limit);
+  const boundary = prefix.lastIndexOf(' ');
+  return prefix.slice(0, boundary > 0 ? boundary : limit).trimEnd() + '…';
+}

@@ -3,6 +3,7 @@ import { SPELLS, CLASS_SPELLS, DUNAMANCY_CLASS_SPELLS, CLASS_META, SCHOOL_COLORS
 import { maxSlotLevel, arcanumLevels, availableLevels, normalizeLevel, reconcileSelection, validLevelFilter, toggleSelection } from "./rules.js";
 
 import RuleText from './RuleText.jsx';
+import { rulePreview } from './ruleText.js';
 import { loadRulebook } from './rulebooks.js';
 import { STORAGE_KEY, createBook, emptyLibrary, decodeLibrary, retainPrepared } from './characterBooks.js';
 
@@ -78,6 +79,8 @@ function SchoolBadge({ school }) {
 function SpellCard({ name, spell, checked, onToggle, prepared, onPrepare, lang, t, ruleText, rulesError, catalogueMode }) {
   const [hov, setHov] = useState(false);
   const selectionId = useId();
+  const [expanded, setExpanded] = useState(false);
+  const detailsId = useId();
 
   return (
     <div
@@ -135,8 +138,16 @@ function SpellCard({ name, spell, checked, onToggle, prepared, onPrepare, lang, 
         </div>
         {spell.accessNote && <p role="note" style={{ color: G.goldL, fontSize: "0.78rem", lineHeight: 1.5 }}>{spell.accessNote[lang]}</p>}
         {spell.rulesVersion !== "2024" && <p role="note" style={{ color: G.goldL, fontSize: "0.78rem", lineHeight: 1.5, borderLeft: "2px solid " + G.gold, paddingLeft: "0.6rem" }}>{t.legacyRulesNote}</p>}
-        <section lang={lang} aria-label={t.fullRules}>
-          {ruleText ? <RuleText text={ruleText} /> : <p role="status">{rulesError ? t.sourceFallback : t.loading}</p>}
+        {!expanded && <p lang={lang} style={{ color:G.text, fontSize:"0.85rem", lineHeight:1.6, margin:"0.5rem 0" }}>
+          {ruleText ? rulePreview(ruleText) : rulesError ? t.sourceFallback : t.loading}
+        </p>}
+        <button type="button" aria-expanded={expanded} aria-controls={detailsId}
+          onClick={() => setExpanded(value => !value)}
+          style={{ background:"transparent", border:"1px solid " + G.border, borderRadius:"0.4rem", color:G.goldL, padding:"0.4rem 0.65rem", cursor:"pointer", fontSize:"0.8rem", marginBottom:"0.4rem" }}>
+          {expanded ? t.hideFullRules : t.showFullRules} {expanded ? "▴" : "▾"}
+        </button>
+        <section id={detailsId} hidden={!expanded} lang={lang} aria-label={`${t.fullRules}: ${name}`}>
+          {expanded && (ruleText ? <RuleText text={ruleText} /> : <p role="status">{rulesError ? t.sourceFallback : t.loading}</p>)}
         </section>
         {spell.errataUrl && <a href={spell.errataUrl} target="_blank" rel="noopener noreferrer"
           onClick={e => e.stopPropagation()} style={{ fontSize: "0.7rem", color: G.goldL }}>{t.errata}</a>}
