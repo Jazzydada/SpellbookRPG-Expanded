@@ -429,6 +429,7 @@ export default function App() {
                 </option>
               ))}
             </select>
+            {className === "Artificer" && <p style={{ fontSize:"0.75rem", color:G.muted, lineHeight:1.5 }}>{t.artificerNote}</p>}
           </div>
           {/* level */}
           <div>

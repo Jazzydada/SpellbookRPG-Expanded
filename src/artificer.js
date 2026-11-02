@@ -1,0 +1,117 @@
+// Base class list: Tasha’s Cauldron of Everything (2020), p. 12.
+// Class uses the earlier rules; spell text follows the catalogue’s latest revision.
+export const ARTIFICER_BASE_SPELLS = {
+  "0": [
+    "Acid Splash",
+    "Booming Blade",
+    "Create Bonfire",
+    "Dancing Lights",
+    "Fire Bolt",
+    "Frostbite",
+    "Green-Flame Blade",
+    "Guidance",
+    "Light",
+    "Lightning Lure",
+    "Mage Hand",
+    "Magic Stone",
+    "Mending",
+    "Message",
+    "Poison Spray",
+    "Prestidigitation",
+    "Ray of Frost",
+    "Resistance",
+    "Shocking Grasp",
+    "Spare the Dying",
+    "Sword Burst",
+    "Thorn Whip",
+    "Thunderclap"
+  ],
+  "1": [
+    "Absorb Elements",
+    "Alarm",
+    "Catapult",
+    "Cure Wounds",
+    "Detect Magic",
+    "Disguise Self",
+    "Expeditious Retreat",
+    "Faerie Fire",
+    "False Life",
+    "Feather Fall",
+    "Grease",
+    "Identify",
+    "Jump",
+    "Longstrider",
+    "Purify Food and Drink",
+    "Sanctuary",
+    "Snare",
+    "Tasha's Caustic Brew"
+  ],
+  "2": [
+    "Aid",
+    "Alter Self",
+    "Arcane Lock",
+    "Blur",
+    "Continual Flame",
+    "Darkvision",
+    "Enhance Ability",
+    "Enlarge/Reduce",
+    "Heat Metal",
+    "Invisibility",
+    "Lesser Restoration",
+    "Levitate",
+    "Magic Mouth",
+    "Magic Weapon",
+    "Protection from Poison",
+    "Pyrotechnics",
+    "Rope Trick",
+    "See Invisibility",
+    "Skywrite",
+    "Spider Climb",
+    "Web"
+  ],
+  "3": [
+    "Blink",
+    "Catnap",
+    "Create Food and Water",
+    "Dispel Magic",
+    "Elemental Weapon",
+    "Flame Arrows",
+    "Fly",
+    "Glyph of Warding",
+    "Haste",
+    "Intellect Fortress",
+    "Protection from Energy",
+    "Revivify",
+    "Tiny Servant",
+    "Water Breathing",
+    "Water Walk"
+  ],
+  "4": [
+    "Arcane Eye",
+    "Elemental Bane",
+    "Fabricate",
+    "Freedom of Movement",
+    "Leomund's Secret Chest",
+    "Mordenkainen's Faithful Hound",
+    "Mordenkainen's Private Sanctum",
+    "Otiluke's Resilient Sphere",
+    "Stone Shape",
+    "Stoneskin",
+    "Summon Construct"
+  ],
+  "5": [
+    "Animate Objects",
+    "Bigby's Hand",
+    "Creation",
+    "Greater Restoration",
+    "Skill Empowerment",
+    "Transmute Rock",
+    "Wall of Stone"
+  ]
+};
+
+const names = new Set(Object.values(ARTIFICER_BASE_SPELLS).flat());
+export function withArtificer(name, spell) {
+  return names.has(name) && !spell.classes.includes("Artificer")
+    ? { ...spell, classes: [...spell.classes, "Artificer"] } : spell;
+}

@@ -1,5 +1,6 @@
 import { SPELLS as PHB_SPELLS } from './spells2024.js';
 import supplements from './supplements.js';
+import { withArtificer } from './artificer.js';
 import { mergeCatalog, buildClassSpells } from './catalog.js';
 
 const phb = Object.fromEntries(Object.entries(PHB_SPELLS).map(([name, spell]) => [name, {
@@ -7,10 +8,10 @@ const phb = Object.fromEntries(Object.entries(PHB_SPELLS).map(([name, spell]) =>
 }]));
 const merged = mergeCatalog(phb, supplements);
 export const SUPPLEMENT_RULE_NAMES = Object.keys(merged).filter(name => merged[name] === supplements[name]);
-export const SPELLS = Object.fromEntries(Object.entries(merged).map(([name, {en, da, ...spell}]) => [name, spell]));
+export const SPELLS = Object.fromEntries(Object.entries(merged).map(([name, {en, da, ...spell}]) => [name, withArtificer(name, spell)]));
 export const BOOKS = [...new Set(Object.values(SPELLS).map(spell => spell.book))].sort();
 export const CLASS_SPELLS = buildClassSpells(SPELLS,
-  ['Wizard', 'Sorcerer', 'Cleric', 'Druid', 'Bard', 'Warlock', 'Paladin', 'Ranger']);
+  ['Wizard', 'Sorcerer', 'Cleric', 'Druid', 'Bard', 'Warlock', 'Paladin', 'Ranger', 'Artificer']);
 export const DUNAMANCY_CLASS_SPELLS = buildClassSpells(SPELLS, Object.keys(CLASS_SPELLS), true);
 export const ALL_SPELLS_BY_LEVEL = Object.entries(SPELLS).reduce((levels, [name, spell]) => {
   (levels[spell.level] ??= []).push(name);
@@ -18,6 +19,7 @@ export const ALL_SPELLS_BY_LEVEL = Object.entries(SPELLS).reduce((levels, [name,
 }, {});
 
 export const CLASS_META = {
+  Artificer: { da:"Magisk opfinder", caster:"half", spellAbility:"INT", rulesVersion:"2014", book:"Tasha’s Cauldron of Everything (2020)" },
   Wizard:   { da:"Troldmand",   caster:"full",    spellAbility:"INT" },
   Sorcerer: { da:"Tryllekunstner", caster:"full",  spellAbility:"CHA" },
   Cleric:   { da:"Præst",       caster:"full",     spellAbility:"WIS" },
@@ -41,6 +43,7 @@ export const SCHOOL_COLORS = {
 
 export const T = {
   en: {
+    artificerNote: "Artificer · earlier class rules: base spell list from Tasha’s Cauldron of Everything (2020), plus included books that explicitly grant Artificer access. Spells use the catalogue’s latest available version. The revised class list from Eberron: Forge of the Artificer (2025) has not been verified. Subclass spells are not included automatically.",
     addToBook: "Write in spellbook",
     inBook: "In spellbook",
     prepareSpell: "Prepare spell",
@@ -105,6 +108,7 @@ export const T = {
     lang: "DA",
   },
   da: {
+    artificerNote: "Artificer · ældre klasseregler: grundlisten er fra Tasha’s Cauldron of Everything (2020), suppleret med medtagne bøger, der udtrykkeligt giver Artificer adgang. Formularerne bruger katalogets nyeste tilgængelige version. Den reviderede klasseliste fra Eberron: Forge of the Artificer (2025) er endnu ikke kontrolleret. Underklassernes ekstra formularer tilføjes ikke automatisk.",
     addToBook: "Skriv i formularbogen",
     inBook: "I formularbogen",
     prepareSpell: "Forbered formular",
