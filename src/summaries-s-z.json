@@ -1,0 +1,610 @@
+{
+  "Sacred Flame": {
+    "en": "A radiant strike deals 1d8 damage on a failed DEX save, ignoring Half and Three-Quarters Cover.",
+    "da": "Et lysangreb giver 1d8 Radiant-skade ved fejlet DEX-redning og ignorerer Half og Three-Quarters Cover."
+  },
+  "Sanctuary": {
+    "en": "Ward a creature so attackers must pass a WIS save to target it with attacks or damaging spells.",
+    "da": "Beskyt en skabning, så angribere skal klare en WIS-redning for at ramme den med angreb eller skadende formularer."
+  },
+  "Sapping Sting": {
+    "en": "A failed CON save causes 1d4 Necrotic damage and knocks the target Prone.",
+    "da": "En fejlet CON-redning giver målet 1d4 Necrotic-skade og tilstanden Prone."
+  },
+  "Scatter": {
+    "en": "Teleport up to five creatures to visible ground or floor spaces within 120 feet of you.",
+    "da": "Teleportér op til fem skabninger til synlige, ubesatte steder på jord eller gulv inden for 120 ft fra dig."
+  },
+  "Scorching Ray": {
+    "en": "Fire three rays with separate spell attacks, each dealing 2d6 Fire damage on a hit.",
+    "da": "Affyr tre stråler med særskilte spell attacks; hver træffer giver 2d6 Fire-skade."
+  },
+  "Scrying": {
+    "en": "Magically observe a distant creature or location through an invisible sensor.",
+    "da": "Overvåg en fjern skabning eller et sted gennem en usynlig magisk sensor."
+  },
+  "Searing Smite": {
+    "en": "Add Fire damage to a hit and ignite the target for recurring damage until it saves.",
+    "da": "Føj Fire-skade til en træffer, og antænd målet med gentagen skade, indtil det klarer sin redning."
+  },
+  "See Invisibility": {
+    "en": "See Invisible creatures and objects, and look into the Ethereal Plane.",
+    "da": "Se Invisible skabninger og genstande, og kig ind i Ethereal Plane."
+  },
+  "Seeming": {
+    "en": "Give multiple creatures illusory appearances that can alter their bodies and equipment.",
+    "da": "Giv flere skabninger illusoriske udseender, der kan ændre både krop og udstyr."
+  },
+  "Sending": {
+    "en": "Send a mental message of up to 25 words over any distance and receive an immediate reply.",
+    "da": "Send en mental besked på op til 25 ord over enhver afstand, og modtag et øjeblikkeligt svar."
+  },
+  "Sequester": {
+    "en": "Hide a creature or object from sight and magical detection, suspending a creature’s animation.",
+    "da": "Skjul en skabning eller genstand for syn og magisk opdagelse, og læg en skabning i dvale."
+  },
+  "Shadow Blade": {
+    "en": "Create a psychic sword that deals 2d8 damage and attacks with Advantage in Dim Light or Darkness.",
+    "da": "Skab et sværd med 2d8 Psychic-skade og Advantage mod mål i Dim Light eller Darkness."
+  },
+  "Shadow of Moil": {
+    "en": "Shadows obscure you, resist Radiant damage and retaliate against nearby attackers.",
+    "da": "Skygger skjuler dig, giver Resistance mod Radiant-skade og skader angribere, der rammer tæt på."
+  },
+  "Shape Water": {
+    "en": "Move, shape, recolor or freeze a small volume of water without damaging force.",
+    "da": "Flyt, form, farv eller frys en lille mængde vand uden skadelig kraft."
+  },
+  "Shapechange": {
+    "en": "Assume powerful creature forms while retaining your mind and selected capabilities.",
+    "da": "Antag mægtige skabningers former, mens du bevarer dit sind og udvalgte evner."
+  },
+  "Shatter": {
+    "en": "A sonic blast deals 3d8 Thunder damage in a 10-foot-radius Sphere, with a CON save for half.",
+    "da": "Et lydbrag giver 3d8 Thunder-skade i 10 ft radius; en vellykket CON-redning halverer skaden."
+  },
+  "Shield": {
+    "en": "Gain +5 AC against the triggering attack and until your next turn, and block Magic Missile.",
+    "da": "Få +5 AC mod det udløsende angreb og indtil din næste tur, samt beskyttelse mod Magic Missile."
+  },
+  "Shield of Faith": {
+    "en": "A protective shimmer grants one creature a +2 bonus to AC for the duration.",
+    "da": "Et beskyttende lys giver én skabning +2 AC i varigheden."
+  },
+  "Shillelagh": {
+    "en": "Empower a Club or Quarterstaff to use your spellcasting ability and an improved damage die.",
+    "da": "Forstærk en Club eller Quarterstaff med din spellcasting ability og en forbedret skadeterning."
+  },
+  "Shining Smite": {
+    "en": "Add Radiant damage to a hit and reveal the target, granting Advantage on attacks against it.",
+    "da": "Føj Radiant-skade til en træffer, og afslør målet, så angreb mod det får Advantage."
+  },
+  "Shocking Grasp": {
+    "en": "A melee spell hit deals 1d8 Lightning damage and prevents the target’s Opportunity Attacks.",
+    "da": "En melee spell-træffer giver 1d8 Lightning-skade og hindrer målets Opportunity Attacks."
+  },
+  "Sickening Radiance": {
+    "en": "Green light deals Radiant damage, causes Exhaustion and exposes creatures that fail CON saves.",
+    "da": "Grønt lys giver Radiant-skade, Exhaustion og afslører skabninger, der fejler CON-redninger."
+  },
+  "Silence": {
+    "en": "Create a silent sphere that blocks sound, Thunder damage and spells with Verbal components.",
+    "da": "Skab en lydløs kugle, der blokerer lyd, Thunder-skade og formularer med verbale komponenter."
+  },
+  "Silent Image": {
+    "en": "Create and move a purely visual illusion no larger than a 15-foot Cube.",
+    "da": "Skab og flyt en rent visuel illusion, der højst fylder en kube på 15 ft."
+  },
+  "Simbul's Synostodweomer": {
+    "en": "Let a creature spend Hit Point Dice to heal whenever it casts a spell using a spell slot.",
+    "da": "Lad en skabning bruge Hit Point Dice til helbredelse, når den kaster en formular med et spell slot."
+  },
+  "Simulacrum": {
+    "en": "Create an obedient Construct duplicate of a Beast or Humanoid, with reduced HP and special limits.",
+    "da": "Skab en lydig Construct-kopi af et Beast eller en Humanoid med reduceret HP og særlige begrænsninger."
+  },
+  "Skill Empowerment": {
+    "en": "Double a willing creature’s Proficiency Bonus for one proficient skill that lacks Expertise.",
+    "da": "Fordobl en villig skabnings Proficiency Bonus i én skill, som den kan og ikke allerede har Expertise i."
+  },
+  "Skywrite": {
+    "en": "Write up to ten cloudlike words in the sky for distant viewers to read.",
+    "da": "Skriv op til ti skylignende ord på himlen, så de kan læses på afstand."
+  },
+  "Sleep": {
+    "en": "Failed WIS saves first Incapacitate chosen creatures, then render them Unconscious.",
+    "da": "Fejlede WIS-redninger gør først udvalgte skabninger Incapacitated og derefter Unconscious."
+  },
+  "Sleet Storm": {
+    "en": "Sleet obscures an area and makes creatures slip Prone and lose Concentration on failed DEX saves.",
+    "da": "Slud skjuler et område og gør mål Prone og bryder Concentration ved fejlede DEX-redninger."
+  },
+  "Slow": {
+    "en": "Hinder up to six creatures, reducing speed, defenses and the actions they can take.",
+    "da": "Hæm op til seks skabninger med lavere hastighed, svækket forsvar og færre handlemuligheder."
+  },
+  "Snare": {
+    "en": "Turn rope into a nearly invisible trap that hoists a creature and leaves it Restrained.",
+    "da": "Gør reb til en næsten usynlig fælde, der hejser en skabning op og gør den Restrained."
+  },
+  "Snilloc's Snowball Swarm": {
+    "en": "A small snowball burst deals 3d6 Cold damage, halved on a successful DEX save.",
+    "da": "En lille byge af snebolde giver 3d6 Cold-skade, halveret ved en vellykket DEX-redning."
+  },
+  "Songal's Elemental Suffusion": {
+    "en": "Gain elemental Resistance, hovering flight and pulses that damage and knock enemies Prone.",
+    "da": "Få elementær Resistance, svævende flyvning og pulser, der skader fjender og kan gøre dem Prone."
+  },
+  "Sorcerous Burst": {
+    "en": "A spell attack deals 1d8 damage of a chosen type, with extra dice when you roll an 8.",
+    "da": "Et spell attack giver 1d8 skade af en valgt type, med mulighed for ekstra terninger ved slag på 8."
+  },
+  "Soul Cage": {
+    "en": "Trap a dying Humanoid’s soul and spend its power on healing, answers, insight or distant senses.",
+    "da": "Fang en døende Humanoids sjæl, og brug dens kraft til helbredelse, svar, erfaring eller fjernsyn."
+  },
+  "Spare the Dying": {
+    "en": "Stabilize a living creature at 0 HP without restoring its Hit Points.",
+    "da": "Stabilisér en levende skabning med 0 HP uden at gendanne dens Hit Points."
+  },
+  "Speak with Animals": {
+    "en": "Understand and speak with Beasts to ask questions and influence them.",
+    "da": "Forstå og tal med Beasts for at stille spørgsmål og påvirke dem."
+  },
+  "Speak with Dead": {
+    "en": "Ask a suitable corpse up to five questions about what it knew in life.",
+    "da": "Stil et egnet lig op til fem spørgsmål om det, det vidste i live."
+  },
+  "Speak with Plants": {
+    "en": "Speak with plants, request simple tasks and alter plant-based Difficult Terrain.",
+    "da": "Tal med planter, bed dem udføre enkle opgaver, og ændr plantebaseret Difficult Terrain."
+  },
+  "Spellfire Flare": {
+    "en": "A spellfire attack deals 2d10 Radiant damage and ignores Half and Three-Quarters Cover.",
+    "da": "Et spellfire-angreb giver 2d10 Radiant-skade og ignorerer Half og Three-Quarters Cover."
+  },
+  "Spellfire Storm": {
+    "en": "A radiant pillar repeatedly damages creatures and can disrupt spells cast inside it.",
+    "da": "En lysende søjle giver gentagen Radiant-skade og kan afbryde formularer, der kastes inde i den."
+  },
+  "Spider Climb": {
+    "en": "Let a willing creature climb walls and ceilings with its hands free.",
+    "da": "Lad en villig skabning klatre på vægge og lofter med hænderne fri."
+  },
+  "Spike Growth": {
+    "en": "Camouflaged thorns create Difficult Terrain and deal 2d4 damage per 5 feet traveled through them.",
+    "da": "Skjulte torne skaber Difficult Terrain og giver 2d4 skade pr. 5 ft, man bevæger sig gennem dem."
+  },
+  "Spirit Guardians": {
+    "en": "Protective spirits surround you, slowing foes and dealing Radiant or Necrotic damage.",
+    "da": "Beskyttende ånder omgiver dig, sænker fjenders hastighed og giver Radiant- eller Necrotic-skade."
+  },
+  "Spirit Lantern": {
+    "en": "Collect fragments from enemies dying near a ghostly lantern and spend them for magical effects.",
+    "da": "Saml fragmenter fra fjender, der dør nær en spøgelseslygte, og brug dem til magiske virkninger."
+  },
+  "Spirit Shroud": {
+    "en": "Add damage to attacks against nearby creatures, hinder their healing and slow nearby foes.",
+    "da": "Føj skade til angreb mod nære skabninger, hæm deres helbredelse, og sænk nære fjenders hastighed."
+  },
+  "Spiritual Weapon": {
+    "en": "Create a floating weapon that attacks for 1d8 Force damage plus your spellcasting modifier.",
+    "da": "Skab et svævende våben, der angriber for 1d8 Force-skade plus din spellcasting-modifikator."
+  },
+  "Staggering Smite": {
+    "en": "Add 4d6 Psychic damage to a hit and Stun the target if it fails a WIS save.",
+    "da": "Føj 4d6 Psychic-skade til en træffer, og gør målet Stunned ved en fejlet WIS-redning."
+  },
+  "Starry Wisp": {
+    "en": "A light mote deals Radiant damage and briefly reveals a target, denying benefits from Invisible.",
+    "da": "En lysgnist giver Radiant-skade og afslører kortvarigt målet, så det ikke får fordel af Invisible."
+  },
+  "Steel Wind Strike": {
+    "en": "Strike up to five creatures for 6d10 Force damage each, then teleport beside one of them.",
+    "da": "Angrib op til fem skabninger for 6d10 Force-skade hver, og teleportér derefter hen til én af dem."
+  },
+  "Stinking Cloud": {
+    "en": "A nauseating cloud obscures vision and can prevent creatures from taking actions or Bonus Actions.",
+    "da": "En kvalmende sky skjuler udsyn og kan hindre skabninger i at tage Actions eller Bonus Actions."
+  },
+  "Stone Shape": {
+    "en": "Reshape a small stone object or section of stone into a useful simple form.",
+    "da": "Omform en mindre stengenstand eller et stykke sten til en nyttig, enkel form."
+  },
+  "Stoneskin": {
+    "en": "Give a willing creature Resistance to Bludgeoning, Piercing and Slashing damage.",
+    "da": "Giv en villig skabning Resistance mod Bludgeoning-, Piercing- og Slashing-skade."
+  },
+  "Storm of Vengeance": {
+    "en": "Unleash a vast storm with escalating thunder, acid, lightning, hail and freezing rain.",
+    "da": "Slip en enorm storm løs med tiltagende torden, syre, lyn, hagl og iskold regn."
+  },
+  "Storm Sphere": {
+    "en": "Create turbulent Difficult Terrain and launch lightning attacks from the storm’s center.",
+    "da": "Skab stormfyldt Difficult Terrain, og affyr lynangreb fra stormens centrum."
+  },
+  "Suggestion": {
+    "en": "Influence a creature to follow an achievable suggestion that would not obviously cause harm.",
+    "da": "Påvirk en skabning til at følge et gennemførligt forslag, der ikke åbenlyst vil skade den eller dens allierede."
+  },
+  "Summon Aberration": {
+    "en": "Summon an allied aberrant spirit as a Beholderkin, Mind Flayer or Slaad.",
+    "da": "Tilkald en allieret aberrant ånd som Beholderkin, Mind Flayer eller Slaad."
+  },
+  "Summon Beast": {
+    "en": "Summon an allied animal spirit adapted to air, land or water.",
+    "da": "Tilkald en allieret dyreånd tilpasset luft, land eller vand."
+  },
+  "Summon Celestial": {
+    "en": "Summon an allied Celestial spirit as an Avenger or Defender.",
+    "da": "Tilkald en allieret Celestial-ånd som Avenger eller Defender."
+  },
+  "Summon Construct": {
+    "en": "Summon an allied Construct spirit made of clay, metal or stone.",
+    "da": "Tilkald en allieret Construct-ånd af ler, metal eller sten."
+  },
+  "Summon Dinosaur": {
+    "en": "Summon an allied Ankylosaur, Triceratops or Tyrannosaur spirit.",
+    "da": "Tilkald en allieret dinosaurånd som Ankylosaur, Triceratops eller Tyrannosaur."
+  },
+  "Summon Dragon": {
+    "en": "Summon an allied Dragon spirit that follows your commands in battle.",
+    "da": "Tilkald en allieret Dragon-ånd, der følger dine ordrer i kamp."
+  },
+  "Summon Elemental": {
+    "en": "Summon an allied Elemental spirit of air, earth, fire or water.",
+    "da": "Tilkald en allieret Elemental-ånd af luft, jord, ild eller vand."
+  },
+  "Summon Fey": {
+    "en": "Summon an allied Fey spirit with a Fuming, Mirthful or Tricksy mood.",
+    "da": "Tilkald en allieret Fey-ånd med humøret Fuming, Mirthful eller Tricksy."
+  },
+  "Summon Fiend": {
+    "en": "Summon an allied fiendish spirit as a Demon, Devil or Yugoloth.",
+    "da": "Tilkald en allieret fiendish ånd som Demon, Devil eller Yugoloth."
+  },
+  "Summon Greater Demon": {
+    "en": "Summon a powerful demon that follows your orders until it breaks free of your control.",
+    "da": "Tilkald en mægtig demon, der følger dine ordrer, indtil den bryder fri af din kontrol."
+  },
+  "Summon Lesser Demons": {
+    "en": "Summon a random number of hostile demons that attack nearby non-demons.",
+    "da": "Tilkald et tilfældigt antal fjendtlige demons, der angriber nærliggende skabninger, som ikke er demons."
+  },
+  "Summon Plant": {
+    "en": "Summon an allied plant spirit in the form of Fungus, Tree or Vine.",
+    "da": "Tilkald en allieret planteånd i form af Fungus, Tree eller Vine."
+  },
+  "Summon Shadowspawn": {
+    "en": "Summon an allied Shadow Spirit shaped by Fury, Despair or Fear.",
+    "da": "Tilkald en allieret Shadow Spirit præget af Fury, Despair eller Fear."
+  },
+  "Summon Undead": {
+    "en": "Summon an allied Undead spirit in Ghostly, Putrid or Skeletal form.",
+    "da": "Tilkald en allieret Undead-ånd i formen Ghostly, Putrid eller Skeletal."
+  },
+  "Sunbeam": {
+    "en": "Project repeatable lines of sunlight that deal 6d8 Radiant damage and can Blind targets.",
+    "da": "Udsend gentagne linjer af sollys, der giver 6d8 Radiant-skade og kan gøre mål Blinded."
+  },
+  "Sunburst": {
+    "en": "A huge burst of sunlight deals 12d6 Radiant damage, can Blind creatures and dispels magical Darkness.",
+    "da": "Et enormt sollysudbrud giver 12d6 Radiant-skade, kan gøre skabninger Blinded og ophæver magisk Darkness."
+  },
+  "Swift Quiver": {
+    "en": "Make two extra Arrow or Bolt attacks on casting and with later Bonus Actions.",
+    "da": "Lav to ekstra angreb med Arrows eller Bolts ved kastet og med senere Bonus Actions."
+  },
+  "Sword Burst": {
+    "en": "Spectral blades deal 1d6 Force damage to nearby creatures that fail DEX saves.",
+    "da": "Spektrale klinger giver 1d6 Force-skade til nære skabninger, der fejler DEX-redninger."
+  },
+  "Syluné's Viper": {
+    "en": "Gain temporary HP, climbing and a spectral snake attack that can Poison and Incapacitate a target.",
+    "da": "Få midlertidige HP, klatring og et spektralt slangeangreb, der kan gøre målet Poisoned og Incapacitated."
+  },
+  "Symbol": {
+    "en": "Place a hidden magical glyph that unleashes a chosen harmful effect when triggered.",
+    "da": "Placér et skjult magisk symbol, som udløser en valgt skadelig virkning, når det aktiveres."
+  },
+  "Synaptic Static": {
+    "en": "A psychic blast deals 8d6 damage and can hinder attacks, ability checks and Concentration saves.",
+    "da": "Et psykisk udbrud giver 8d6 skade og kan hæmme angreb, ability checks og Concentration-redninger."
+  },
+  "Tasha's Bubbling Cauldron": {
+    "en": "Conjure a cauldron that produces a limited supply of a chosen Common or Uncommon potion.",
+    "da": "Skab en kedel, der fremstiller et begrænset antal af en valgt Common eller Uncommon potion."
+  },
+  "Tasha's Caustic Brew": {
+    "en": "Coat creatures in a line with acid that deals recurring damage until removed.",
+    "da": "Dæk skabninger i en linje med syre, der giver gentagen skade, indtil den fjernes."
+  },
+  "Tasha's Hideous Laughter": {
+    "en": "A failed WIS save makes a creature Prone and Incapacitated with uncontrollable laughter.",
+    "da": "En fejlet WIS-redning gør en skabning Prone og Incapacitated under ukontrollabel latter."
+  },
+  "Tasha's Mind Whip": {
+    "en": "Deal Psychic damage and restrict a target’s reactions and choices on its next turn.",
+    "da": "Giv Psychic-skade, og begræns målets reaktioner og handlemuligheder på dets næste tur."
+  },
+  "Tasha's Otherworldly Guise": {
+    "en": "Gain planar immunities, flight, improved defenses and stronger weapon combat.",
+    "da": "Få planære immuniteter, flyvning, bedre forsvar og styrkede evner i våbenkamp."
+  },
+  "Telekinesis": {
+    "en": "Move creatures or objects by thought and manipulate objects at a distance.",
+    "da": "Flyt skabninger eller genstande med tankens kraft, og håndtér genstande på afstand."
+  },
+  "Telepathy": {
+    "en": "Share thoughts and sensory messages with a willing creature anywhere on the same plane.",
+    "da": "Del tanker og sanseindtryk med en villig skabning hvor som helst på samme eksistensplan."
+  },
+  "Teleport": {
+    "en": "Instantly transport a group or object to a known location, with accuracy based on familiarity.",
+    "da": "Flyt straks en gruppe eller genstand til et kendt sted; præcisionen afhænger af dit kendskab til stedet."
+  },
+  "Teleportation Circle": {
+    "en": "Open a brief portal to a permanent teleportation circle whose sigil sequence you know.",
+    "da": "Åbn en kortvarig portal til en permanent teleportationscirkel, hvis symbolsekvens du kender."
+  },
+  "Temple of the Gods": {
+    "en": "Create a protected temple that hinders chosen creature types and strengthens magical healing.",
+    "da": "Skab et beskyttet tempel, som hæmmer valgte skabningstyper og styrker magisk helbredelse."
+  },
+  "Temporal Shunt": {
+    "en": "Briefly remove a creature from time to interrupt its attack or spell on a failed WIS save.",
+    "da": "Fjern kortvarigt en skabning fra tiden, så dens angreb eller formular afbrydes ved en fejlet WIS-redning."
+  },
+  "Tenser's Floating Disk": {
+    "en": "Create a floating platform that carries up to 500 pounds and follows you.",
+    "da": "Skab en svævende platform, der kan bære op til 500 pounds og følger dig."
+  },
+  "Tenser's Transformation": {
+    "en": "Become a formidable weapon combatant with temporary HP, but lose spellcasting for the duration.",
+    "da": "Bliv en stærk våbenkæmper med midlertidige HP, men mist evnen til at kaste formularer i varigheden."
+  },
+  "Tether Essence": {
+    "en": "Link two creatures so damage and healing received by one also affect the other.",
+    "da": "Forbind to skabninger, så skade og helbredelse mod den ene også rammer den anden."
+  },
+  "Thaumaturgy": {
+    "en": "Create minor supernatural wonders, from a booming voice to trembling ground and altered flames.",
+    "da": "Skab små overnaturlige undere, fra rungende stemme til skælvende jord og ændrede flammer."
+  },
+  "Thorn Whip": {
+    "en": "A thorny spell attack deals Piercing damage and can pull a Large or smaller creature closer.",
+    "da": "Et tornet spell attack giver Piercing-skade og kan trække en Large eller mindre skabning nærmere."
+  },
+  "Thunder Step": {
+    "en": "Teleport with an optional companion, leaving a damaging thunder blast behind.",
+    "da": "Teleportér med en valgfri ledsager, og efterlad et skadende tordenbrag."
+  },
+  "Thunderclap": {
+    "en": "A nearby thunder burst deals 1d6 Thunder damage to creatures that fail CON saves.",
+    "da": "Et nært tordenbrag giver 1d6 Thunder-skade til skabninger, der fejler CON-redninger."
+  },
+  "Thunderous Smite": {
+    "en": "Add Thunder damage to a hit and potentially push a creature away and knock it Prone.",
+    "da": "Føj Thunder-skade til en træffer, og skub eventuelt skabningen væk og gør den Prone."
+  },
+  "Thunderwave": {
+    "en": "A thunderous cube deals 2d8 Thunder damage and can push creatures and loose objects away.",
+    "da": "En tordenkube giver 2d8 Thunder-skade og kan skubbe skabninger og løse genstande væk."
+  },
+  "Tidal Wave": {
+    "en": "A crashing wave deals Bludgeoning damage, knocks creatures Prone and extinguishes flames.",
+    "da": "En brusende bølge giver Bludgeoning-skade, gør skabninger Prone og slukker flammer."
+  },
+  "Time Ravage": {
+    "en": "Deal severe Necrotic damage and potentially age a target until it has only 30 days left to live.",
+    "da": "Giv voldsom Necrotic-skade, og æld eventuelt målet, så det kun har 30 dage tilbage at leve i."
+  },
+  "Time Stop": {
+    "en": "Take 1d4 + 1 consecutive turns while time stands still for everyone else, subject to strict limits.",
+    "da": "Tag 1d4 + 1 ture i træk, mens tiden står stille for andre, med stramme begrænsninger."
+  },
+  "Tiny Servant": {
+    "en": "Animate a Tiny object into an obedient servant that follows simple commands.",
+    "da": "Animér en Tiny genstand til en lydig tjener, der følger enkle ordrer."
+  },
+  "Toll the Dead": {
+    "en": "A failed WIS save deals 1d8 Necrotic damage, or 1d12 if the target is missing any HP.",
+    "da": "En fejlet WIS-redning giver 1d8 Necrotic-skade, eller 1d12 hvis målet mangler HP."
+  },
+  "Tongues": {
+    "en": "Let a creature understand and communicate across spoken and signed languages.",
+    "da": "Lad en skabning forstå og kommunikere på tværs af talte sprog og tegnsprog."
+  },
+  "Transfix": {
+    "en": "Charm and Incapacitate a creature, drawing it toward you and harming it when it stays close.",
+    "da": "Gør en skabning Charmed og Incapacitated, lok den nærmere, og skad den, når den bliver tæt på."
+  },
+  "Transmute Rock": {
+    "en": "Turn rock into trapping mud or mud into solid rock, potentially restraining creatures.",
+    "da": "Forvandl sten til fangende mudder eller mudder til fast sten, og fasthold eventuelt skabninger."
+  },
+  "Transport via Plants": {
+    "en": "Create a passage between two large plants on the same plane, regardless of distance.",
+    "da": "Skab en passage mellem to store planter på samme eksistensplan, uanset afstanden."
+  },
+  "Tree Stride": {
+    "en": "Travel between living trees of the same kind within 500 feet of one another.",
+    "da": "Rejs mellem levende træer af samme slags inden for 500 ft fra hinanden."
+  },
+  "True Polymorph": {
+    "en": "Transform a creature or object into another form, potentially lasting until dispelled.",
+    "da": "Forvandl en skabning eller genstand til en anden form, som kan vare, indtil magien ophæves."
+  },
+  "True Resurrection": {
+    "en": "Restore a creature dead up to 200 years to full life, even recreating its body if needed.",
+    "da": "Genopliv en skabning, der har været død op til 200 år, og genskab om nødvendigt dens krop."
+  },
+  "True Seeing": {
+    "en": "Grant a willing creature Truesight with a range of 120 feet.",
+    "da": "Giv en villig skabning Truesight med en rækkevidde på 120 ft."
+  },
+  "True Strike": {
+    "en": "Make a weapon attack using your spellcasting ability, with Radiant damage as an option.",
+    "da": "Lav et våbenangreb med din spellcasting ability og mulighed for Radiant-skade."
+  },
+  "Tsunami": {
+    "en": "Create an immense moving wall of water that damages and sweeps away creatures.",
+    "da": "Skab en enorm vandmur, som bevæger sig fremad, skader skabninger og river dem med."
+  },
+  "Uncertain Footing": {
+    "en": "Illusory obstacles halve up to three creatures’ Speed and prevent Dash on failed INT saves.",
+    "da": "Illusoriske hindringer halverer op til tre skabningers Speed og hindrer Dash ved fejlede INT-redninger."
+  },
+  "Unseen Servant": {
+    "en": "Create an invisible, mindless servant to perform simple chores and handle objects.",
+    "da": "Skab en usynlig, tankeløs tjener til enkle praktiske opgaver og håndtering af genstande."
+  },
+  "Vampiric Touch": {
+    "en": "A repeatable melee spell attack deals Necrotic damage and heals you for half the damage dealt.",
+    "da": "Et gentageligt melee spell attack giver Necrotic-skade og helbreder dig for halvdelen af skaden."
+  },
+  "Vicious Mockery": {
+    "en": "Magical insults deal Psychic damage and hinder the target’s next attack on a failed WIS save.",
+    "da": "Magiske fornærmelser giver Psychic-skade og hæmmer målets næste angreb ved en fejlet WIS-redning."
+  },
+  "Vision of Elapsing Eons": {
+    "en": "A vision of passing ages deals Psychic damage, Paralyzes a target and can build Exhaustion.",
+    "da": "Et syn af passerende tidsaldre giver Psychic-skade, gør målet Paralyzed og kan opbygge Exhaustion."
+  },
+  "Vitriolic Sphere": {
+    "en": "An acid explosion deals immediate and delayed Acid damage, with a DEX save reducing its effects.",
+    "da": "En syreeksplosion giver øjeblikkelig og forsinket Acid-skade; en DEX-redning mindsker virkningen."
+  },
+  "Wail of the Banshee": {
+    "en": "A lethal wail kills weak targets and damages stronger ones, but cannot affect creatures that cannot hear.",
+    "da": "Et dødeligt skrig dræber svage mål og skader stærkere, men påvirker ikke skabninger, der ikke kan høre."
+  },
+  "Wall of Fire": {
+    "en": "Raise an opaque fire wall that damages creatures on creation and near its chosen hot side.",
+    "da": "Rejs en uigennemsigtig ildmur, som skader skabninger ved skabelsen og nær dens valgte varme side."
+  },
+  "Wall of Force": {
+    "en": "Create an invisible force barrier that blocks physical passage and resists damage.",
+    "da": "Skab en usynlig kraftbarriere, der blokerer fysisk passage og modstår skade."
+  },
+  "Wall of Ice": {
+    "en": "Form a damaging ice barrier whose broken sections leave hazardous freezing air.",
+    "da": "Skab en skadende isbarriere, hvis ødelagte sektioner efterlader farlig, isnende luft."
+  },
+  "Wall of Light": {
+    "en": "A radiant wall blocks sight, damages and Blinds creatures, and can fire shortening beams.",
+    "da": "En lysmur blokerer udsyn, skader og gør skabninger Blinded samt affyrer stråler, der forkorter muren."
+  },
+  "Wall of Sand": {
+    "en": "A thick sand wall blocks sight, Blinds creatures inside and greatly slows movement.",
+    "da": "En tyk sandmur blokerer udsyn, gør skabninger indenfor Blinded og sinker bevægelse kraftigt."
+  },
+  "Wall of Stone": {
+    "en": "Raise a shaped stone wall that can become permanent if you maintain Concentration long enough.",
+    "da": "Rejs en formet stenmur, der kan blive permanent, hvis du holder Concentration længe nok."
+  },
+  "Wall of Thorns": {
+    "en": "Create a dense thorn barrier that blocks sight, slows passage and deals severe damage.",
+    "da": "Skab en tæt tornebarriere, der blokerer udsyn, sinker passage og giver voldsom skade."
+  },
+  "Wall of Water": {
+    "en": "A water barrier hinders ranged weapons and weakens Fire damage passing through it.",
+    "da": "En vandbarriere hæmmer afstandsvåben og svækker Fire-skade, der passerer gennem den."
+  },
+  "Wardaway": {
+    "en": "Deal Force damage and potentially halve a creature’s Speed and restrict its next turn’s actions.",
+    "da": "Giv Force-skade, og halver eventuelt målets Speed og begræns dets handlinger på næste tur."
+  },
+  "Warding Bond": {
+    "en": "Protect an ally with better defenses and Resistance, while sharing the damage it takes.",
+    "da": "Beskyt en allieret med bedre forsvar og Resistance, mens du deler den skade, målet tager."
+  },
+  "Warding Wind": {
+    "en": "Surround yourself with strong wind that slows others, hinders ranged attacks and Deafens creatures.",
+    "da": "Omgiv dig med stærk vind, der sinker andre, hæmmer afstandsangreb og gør skabninger Deafened."
+  },
+  "Water Breathing": {
+    "en": "Allow up to ten willing creatures to breathe underwater while retaining normal breathing.",
+    "da": "Lad op til ti villige skabninger trække vejret under vand uden at miste deres normale vejrtrækning."
+  },
+  "Water Walk": {
+    "en": "Let up to ten willing creatures move across liquid surfaces as if they were solid ground.",
+    "da": "Lad op til ti villige skabninger bevæge sig over væskeoverflader, som var de fast grund."
+  },
+  "Watery Sphere": {
+    "en": "Move a floating water sphere that engulfs and Restrains creatures that fail STR saves.",
+    "da": "Flyt en svævende vandkugle, der opsluger og gør skabninger Restrained ved fejlede STR-redninger."
+  },
+  "Waves of Exhaustion": {
+    "en": "Project repeatable cones that add temporary Exhaustion, up to a maximum level of four.",
+    "da": "Udsend gentagne kegler, der giver midlertidig Exhaustion, dog højst op til niveau fire."
+  },
+  "Web": {
+    "en": "Fill an area with sticky, flammable webs that hinder movement and can Restrain creatures.",
+    "da": "Fyld et område med klæbrigt, brændbart spind, der hæmmer bevægelse og kan gøre skabninger Restrained."
+  },
+  "Weird": {
+    "en": "Terrifying illusions deal Psychic damage and can Frighten many creatures with continuing harm.",
+    "da": "Skræmmende illusioner giver Psychic-skade og kan gøre mange skabninger Frightened med fortsat skade."
+  },
+  "Whirlwind": {
+    "en": "A moving whirlwind damages creatures and can trap and lift them into the air.",
+    "da": "En bevægelig hvirvelvind skader skabninger og kan fange og løfte dem op i luften."
+  },
+  "Wind Walk": {
+    "en": "Turn a group into fast-flying cloud forms suited to travel rather than combat.",
+    "da": "Forvandl en gruppe til hurtigtflyvende skyformer, der er velegnede til rejse frem for kamp."
+  },
+  "Wind Wall": {
+    "en": "A strong wind barrier deals 4d8 Bludgeoning damage on creation and obstructs airborne threats.",
+    "da": "En stærk vindmur giver 4d8 Bludgeoning-skade ved skabelsen og blokerer luftbårne trusler."
+  },
+  "Wish": {
+    "en": "Duplicate a spell of level 8 or lower, or attempt more ambitious reality-changing effects.",
+    "da": "Kopiér en formular på niveau 8 eller lavere, eller forsøg mere vidtgående ændringer af virkeligheden."
+  },
+  "Witch Bolt": {
+    "en": "An initial lightning attack deals 2d12 damage, followed by repeatable automatic Bonus Action damage.",
+    "da": "Et indledende lynangreb giver 2d12 skade, efterfulgt af gentagelig automatisk skade med Bonus Actions."
+  },
+  "Wither and Bloom": {
+    "en": "Deal Necrotic damage in an area and let one creature spend Hit Point Dice to heal.",
+    "da": "Giv Necrotic-skade i et område, og lad én skabning bruge Hit Point Dice til helbredelse."
+  },
+  "Word of Radiance": {
+    "en": "Chosen nearby creatures take 1d6 Radiant damage if they fail CON saves.",
+    "da": "Udvalgte skabninger tæt på tager 1d6 Radiant-skade, hvis de fejler CON-redninger."
+  },
+  "Word of Recall": {
+    "en": "Teleport yourself and up to five willing companions to your prepared sanctuary.",
+    "da": "Teleportér dig selv og op til fem villige ledsagere til dit forberedte tilflugtssted."
+  },
+  "Wrath of Nature": {
+    "en": "Animate local plants, trees and rocks to hinder, restrain and attack your enemies.",
+    "da": "Animér områdets planter, træer og sten for at hæmme, fastholde og angribe dine fjender."
+  },
+  "Wrathful Smite": {
+    "en": "Add Necrotic damage to a hit and Frighten the target if it fails a WIS save.",
+    "da": "Føj Necrotic-skade til en træffer, og gør målet Frightened ved en fejlet WIS-redning."
+  },
+  "Wristpocket": {
+    "en": "Hide a small held object in extradimensional space and retrieve it with an Action.",
+    "da": "Gem en lille genstand, du holder, i et ekstradimensionelt rum, og hent den frem med en Action."
+  },
+  "Yolande's Regal Presence": {
+    "en": "A majestic aura deals Psychic damage and can knock nearby creatures Prone and push them away.",
+    "da": "En majestætisk aura giver Psychic-skade og kan gøre nære skabninger Prone og skubbe dem væk."
+  },
+  "Zephyr Strike": {
+    "en": "Move without provoking Opportunity Attacks and empower one weapon attack with speed and Force damage.",
+    "da": "Bevæg dig uden Opportunity Attacks, og styrk ét våbenangreb med hastighed og Force-skade."
+  },
+  "Zone of Amicability": {
+    "en": "Treat low d20 rolls as 10 on ability checks to influence creatures within your friendly aura.",
+    "da": "Behandl lave d20-slag som 10 på ability checks for at påvirke skabninger i din venlige aura."
+  },
+  "Zone of Truth": {
+    "en": "Create a zone where creatures that fail CHA saves cannot knowingly speak lies.",
+    "da": "Skab en zone, hvor skabninger, der fejler CHA-redninger, ikke bevidst kan tale usandt."
+  }
+}

@@ -1,0 +1,670 @@
+{
+  "Hail of Thorns": {
+    "en": "A ranged hit erupts in piercing thorns around the target.",
+    "da": "Et afstandstræf udløser stikkende torne omkring målet."
+  },
+  "Hallow": {
+    "en": "Consecrate an area with wards against chosen creatures and an additional magical effect.",
+    "da": "Indvi et område med værn mod udvalgte væsner og en ekstra magisk effekt."
+  },
+  "Hallucinatory Terrain": {
+    "en": "Disguise natural terrain with an illusion of another landscape.",
+    "da": "Skjul naturligt terræn bag en illusion af et andet landskab."
+  },
+  "Harm": {
+    "en": "Deal necrotic damage and potentially reduce a creature's maximum HP.",
+    "da": "Giv nekrotisk skade, og sænk eventuelt en skabnings maksimale HP."
+  },
+  "Haste": {
+    "en": "Grant greater speed, defense, and an extra limited action, followed by brief lethargy.",
+    "da": "Giv højere fart, bedre forsvar og en ekstra begrænset handling, efterfulgt af kortvarig sløvhed."
+  },
+  "Heal": {
+    "en": "Restore 70 HP and end the Blinded, Deafened, and Poisoned conditions.",
+    "da": "Gendan 70 HP, og fjern tilstandene Blinded, Deafened og Poisoned."
+  },
+  "Healing Spirit": {
+    "en": "Summon a healing spirit with a limited number of healing uses.",
+    "da": "Fremkald en helbredende ånd med et begrænset antal helbredelser."
+  },
+  "Healing Word": {
+    "en": "Restore a creature's HP with a healing word from a distance.",
+    "da": "Gendan en skabnings HP på afstand med et helbredende ord."
+  },
+  "Heat Metal": {
+    "en": "Heat a metal object to burn its bearer and hinder attacks and ability checks.",
+    "da": "Ophed en metalgenstand, så den brænder bæreren og hæmmer angreb og ability checks."
+  },
+  "Hellish Rebuke": {
+    "en": "React to damage with a burst of fire against your attacker.",
+    "da": "Svar på skade med en flammende gengældelse mod angriberen."
+  },
+  "Heroes' Feast": {
+    "en": "Create a feast that grants lasting protection, extra maximum HP, and Wisdom save Advantage.",
+    "da": "Skab et festmåltid med varig beskyttelse, ekstra maksimale HP og Advantage på WIS-redninger."
+  },
+  "Heroism": {
+    "en": "Protect a willing creature from fear and grant recurring temporary HP.",
+    "da": "Beskyt en villig skabning mod frygt, og giv løbende midlertidige HP."
+  },
+  "Hex": {
+    "en": "Curse a target for extra necrotic damage on hits and hinder its chosen ability checks.",
+    "da": "Forband et mål for ekstra nekrotisk skade ved træf og hæmmede checks med en valgt egenskab."
+  },
+  "Hindsight": {
+    "en": "Observe up to ten years of past events at a location and control the vision's playback.",
+    "da": "Se op til ti års tidligere begivenheder på et sted, og styr visionens afspilning."
+  },
+  "Hold Monster": {
+    "en": "Attempt to paralyze a creature, allowing repeated saves to escape.",
+    "da": "Forsøg at lamme en skabning, som får gentagne redninger for at slippe fri."
+  },
+  "Hold Person": {
+    "en": "Attempt to paralyze a Humanoid, allowing repeated saves to escape.",
+    "da": "Forsøg at lamme en Humanoid, som får gentagne redninger for at slippe fri."
+  },
+  "Holy Aura": {
+    "en": "Shield nearby allies with powerful defenses and potentially blind attackers.",
+    "da": "Beskyt nærliggende allierede med stærke værn, og blind eventuelt angribere."
+  },
+  "Holy Star of Mystra": {
+    "en": "Gain protective cover, fire magical bolts, and reflect qualifying spells with a Reaction.",
+    "da": "Få beskyttende dækning, affyr magiske stråler, og tilbagekast visse formularer med en Reaction."
+  },
+  "Holy Weapon": {
+    "en": "Empower a weapon with radiant damage and light, then optionally release a blinding burst.",
+    "da": "Giv et våben strålende skade og lys, og udløs eventuelt et blindende udbrud."
+  },
+  "Homunculus Servant": {
+    "en": "Create a customizable construct companion that attacks and delivers touch spells.",
+    "da": "Skab en formbar konstruktledsager, der angriber og leverer berøringsformularer."
+  },
+  "Hunger of Hadar": {
+    "en": "Create a dark, hostile void that damages creatures with cold and acid.",
+    "da": "Skab et mørkt, fjendtligt tomrum, der skader skabninger med kulde og syre."
+  },
+  "Hunter's Mark": {
+    "en": "Mark prey to deal extra force damage on weapon hits and track it more easily.",
+    "da": "Mærk et bytte for ekstra Force-skade ved våbentræf og lettere sporing."
+  },
+  "Hypnotic Pattern": {
+    "en": "Use a dazzling pattern to charm and incapacitate creatures that fail their saves.",
+    "da": "Brug et blændende mønster til at charmere og sætte skabninger ud af spil ved fejlet redning."
+  },
+  "Ice Knife": {
+    "en": "Hurl an icy blade that strikes a target and explodes in a burst of cold.",
+    "da": "Kast en iskniv, som rammer et mål og eksploderer i kulde."
+  },
+  "Ice Storm": {
+    "en": "Pelt an area with damaging hail and briefly make the ground difficult terrain.",
+    "da": "Ram et område med skadevoldende hagl, og gør kortvarigt jorden til Difficult Terrain."
+  },
+  "Identify": {
+    "en": "Learn an object's magical properties or discover which spells affect a creature.",
+    "da": "Afdæk en genstands magiske egenskaber eller formularerne på en skabning."
+  },
+  "Illusory Dragon": {
+    "en": "Create a terrifying shadow dragon that moves and exhales damaging energy.",
+    "da": "Skab en frygtindgydende skyggedrage, der bevæger sig og udånder skadevoldende energi."
+  },
+  "Illusory Script": {
+    "en": "Write a secret message disguised by magical script.",
+    "da": "Skriv en hemmelig besked skjult bag magisk skrift."
+  },
+  "Immolation": {
+    "en": "Set a creature ablaze with lingering flames that can reduce it to ash.",
+    "da": "Sæt en skabning i vedvarende flammer, som kan reducere den til aske."
+  },
+  "Immovable Object": {
+    "en": "Fix an object in place while allowing chosen creatures to move it normally.",
+    "da": "Fastlås en genstand, mens udvalgte skabninger stadig kan flytte den normalt."
+  },
+  "Imprisonment": {
+    "en": "Bind a creature in a lasting magical prison with a specified release condition.",
+    "da": "Bind en skabning i et varigt magisk fængsel med en bestemt frigivelsesbetingelse."
+  },
+  "Incendiary Cloud": {
+    "en": "Create a drifting cloud of fire and smoke that burns creatures in its path.",
+    "da": "Skab en drivende sky af ild og røg, som brænder skabninger på sin vej."
+  },
+  "Incite Greed": {
+    "en": "Charm nearby creatures into approaching the gem you display.",
+    "da": "Charmér nærliggende skabninger, så de nærmer sig ædelstenen, du viser frem."
+  },
+  "Infernal Calling": {
+    "en": "Summon a devil and attempt to secure its service through commands or bargaining.",
+    "da": "Fremkald en djævel, og forsøg at sikre dens tjeneste gennem befalinger eller forhandling."
+  },
+  "Infestation": {
+    "en": "Infest a creature with biting pests, dealing poison damage and forcing random movement.",
+    "da": "Angrib med bidende skadedyr, som giver giftskade og tvinger målet til tilfældig bevægelse."
+  },
+  "Inflict Doubt": {
+    "en": "Cause self-doubt that imposes Disadvantage on a creature's D20 Tests.",
+    "da": "Skab selvtvivl, der giver en skabning Disadvantage på D20 Tests."
+  },
+  "Inflict Wounds": {
+    "en": "Inflict necrotic damage through touch, with a Constitution save for half.",
+    "da": "Giv nekrotisk skade ved berøring; en CON-redning halverer skaden."
+  },
+  "Insect Plague": {
+    "en": "Fill an area with biting insects that obscure sight, hinder movement, and cause damage.",
+    "da": "Fyld et område med bidende insekter, der slører synet, hæmmer bevægelse og giver skade."
+  },
+  "Intellect Fortress": {
+    "en": "Grant psychic resistance and Advantage on Intelligence, Wisdom, and Charisma saves.",
+    "da": "Giv modstand mod Psychic-skade og Advantage på INT-, WIS- og CHA-redninger."
+  },
+  "Investiture of Flame": {
+    "en": "Wreathe yourself in protective fire and unleash lines of flame.",
+    "da": "Omhyl dig med beskyttende ild, og udløs linjer af flammer."
+  },
+  "Investiture of Ice": {
+    "en": "Surround yourself with protective cold and unleash freezing cones.",
+    "da": "Omgiv dig med beskyttende kulde, og udløs frysende kegler."
+  },
+  "Investiture of Stone": {
+    "en": "Gain stone-like resilience, move through earth, and shake nearby creatures off their feet.",
+    "da": "Få stenens robusthed, bevæg dig gennem jord, og ryst nærliggende skabninger omkuld."
+  },
+  "Investiture of Wind": {
+    "en": "Fly within swirling winds that hinder ranged attacks and blast creatures away.",
+    "da": "Flyv omgivet af hvirvelvinde, der hæmmer afstandsangreb og blæser skabninger væk."
+  },
+  "Invisibility": {
+    "en": "Make a touched creature invisible until it attacks, deals damage, or casts a spell.",
+    "da": "Gør en berørt skabning usynlig, indtil den angriber, giver skade eller kaster en formular."
+  },
+  "Invulnerability": {
+    "en": "Become immune to all damage while maintaining Concentration.",
+    "da": "Bliv immun mod al skade, så længe du opretholder Concentration."
+  },
+  "Iron Body": {
+    "en": "Turn a willing creature into living metal with damage resistance and condition immunities.",
+    "da": "Forvandl en villig skabning til levende metal med skademodstand og tilstandsimmuniteter."
+  },
+  "Jallarzi's Storm of Radiance": {
+    "en": "Create a radiant storm that blinds, deafens, damages, and disrupts spellcasting.",
+    "da": "Skab en strålende storm, der blinder, overdøver, skader og forstyrrer formularer."
+  },
+  "Jim's Glowing Coin": {
+    "en": "Distract creatures with a magically captivating coin.",
+    "da": "Distrahér skabninger med en magisk fascinerende mønt."
+  },
+  "Jim's Magic Missile": {
+    "en": "Fire unpredictable magical darts with exceptional critical hits and dangerous misses.",
+    "da": "Affyr uforudsigelige magiske pile med særlige kritiske træf og farlige fejlskud."
+  },
+  "Jump": {
+    "en": "Let a willing creature leap up to 30 feet once per turn by spending 10 feet of movement.",
+    "da": "Lad en villig skabning springe op til 30 ft én gang pr. tur for 10 ft bevægelse."
+  },
+  "Knock": {
+    "en": "Open a locked, stuck, or barred object with a loud magical knock.",
+    "da": "Åbn en låst, fastklemt eller barrikaderet genstand med et højlydt magisk bank."
+  },
+  "Laeral's Silver Lance": {
+    "en": "Release a long line of force that damages chosen creatures and can knock them Prone.",
+    "da": "Udløs en lang linje af Force, der skader udvalgte skabninger og kan vælte dem omkuld."
+  },
+  "Legend Lore": {
+    "en": "Reveal significant lore about a person, place, or object of legendary importance.",
+    "da": "Afdæk væsentlig viden om en person, et sted eller en genstand af legendarisk betydning."
+  },
+  "Leomund's Secret Chest": {
+    "en": "Hide a valuable chest and its contents on the Ethereal Plane for later retrieval.",
+    "da": "Skjul en værdifuld kiste og dens indhold på Ethereal Plane, og hent den senere tilbage."
+  },
+  "Leomund's Tiny Hut": {
+    "en": "Create a protective, comfortable dome that shelters you and your companions.",
+    "da": "Skab en beskyttende, behagelig kuppel, der giver dig og dine ledsagere ly."
+  },
+  "Lesser Restoration": {
+    "en": "End one condition: Blinded, Deafened, Paralyzed, or Poisoned.",
+    "da": "Fjern én tilstand: Blinded, Deafened, Paralyzed eller Poisoned."
+  },
+  "Levitate": {
+    "en": "Raise a creature or object vertically and keep it suspended in the air.",
+    "da": "Løft en skabning eller genstand lodret, og hold den svævende i luften."
+  },
+  "Life Transference": {
+    "en": "Sacrifice your own HP to heal another creature for twice the damage you take.",
+    "da": "Ofr dine egne HP for at helbrede en anden skabning for det dobbelte af skaden, du tager."
+  },
+  "Light": {
+    "en": "Make an object shine with bright and dim light.",
+    "da": "Få en genstand til at udsende stærkt og svagt lys."
+  },
+  "Lightning Arrow": {
+    "en": "Turn a ranged weapon attack into lightning that also strikes creatures near the target.",
+    "da": "Forvandl et afstandsvåbenangreb til lyn, der også rammer skabninger nær målet."
+  },
+  "Lightning Bolt": {
+    "en": "Send a destructive line of lightning through creatures in its path.",
+    "da": "Send en ødelæggende linje af lyn gennem skabninger på dens vej."
+  },
+  "Lightning Lure": {
+    "en": "Pull a creature toward you and shock it if it ends close enough.",
+    "da": "Træk en skabning mod dig, og giv elektrisk skade, hvis den ender tæt nok på."
+  },
+  "Lightning Ring": {
+    "en": "Surround yourself with damaging electricity and project lines of lightning.",
+    "da": "Omgiv dig med skadevoldende elektricitet, og udsend linjer af lyn."
+  },
+  "Locate Animals or Plants": {
+    "en": "Sense the direction and distance to the nearest specified animal or plant.",
+    "da": "Fornem retning og afstand til det nærmeste dyr eller den nærmeste plante af en bestemt slags."
+  },
+  "Locate Creature": {
+    "en": "Sense the direction to a specified creature or kind of creature nearby.",
+    "da": "Fornem retningen til en bestemt skabning eller slags skabning i nærheden."
+  },
+  "Locate Object": {
+    "en": "Sense the direction to a particular object or the nearest object of a chosen kind.",
+    "da": "Fornem retningen til en bestemt genstand eller den nærmeste genstand af en valgt slags."
+  },
+  "Longstrider": {
+    "en": "Increase a touched creature's Speed by 10 feet for 1 hour.",
+    "da": "Øg en berørt skabnings Speed med 10 ft i 1 time."
+  },
+  "Maddening Darkness": {
+    "en": "Fill an area with magical darkness and mind-rending psychic damage.",
+    "da": "Fyld et område med magisk mørke og sindsødelæggende Psychic-skade."
+  },
+  "Maelstrom": {
+    "en": "Create a swirling pool that drags creatures inward and batters them.",
+    "da": "Skab en hvirvlende vandmasse, som trækker skabninger indad og skader dem."
+  },
+  "Mage Armor": {
+    "en": "Protect an unarmored creature with magical armor based on its Dexterity.",
+    "da": "Beskyt en skabning uden rustning med magisk panser baseret på dens Dexterity."
+  },
+  "Mage Hand": {
+    "en": "Create a spectral hand to manipulate light objects at a distance.",
+    "da": "Skab en spektral hånd, der håndterer lette genstande på afstand."
+  },
+  "Magic Circle": {
+    "en": "Ward an area against selected supernatural creature types or trap them inside.",
+    "da": "Beskyt et område mod valgte overnaturlige væsentyper, eller fang dem indenfor."
+  },
+  "Magic Jar": {
+    "en": "Store your soul in a vessel and attempt to possess a Humanoid's body.",
+    "da": "Gem din sjæl i en beholder, og forsøg at besætte en Humanoids krop."
+  },
+  "Magic Missile": {
+    "en": "Strike chosen creatures with magical darts that deal force damage without an attack roll.",
+    "da": "Ram udvalgte skabninger med magiske pile, der giver Force-skade uden angrebskast."
+  },
+  "Magic Mouth": {
+    "en": "Enchant an object to speak a recorded message when a chosen trigger occurs.",
+    "da": "Fortryl en genstand til at sige en indtalt besked, når en valgt betingelse indtræffer."
+  },
+  "Magic Stone": {
+    "en": "Enchant pebbles so they can be thrown or slung as magical attacks.",
+    "da": "Fortryl småsten, så de kan kastes eller affyres med slynge som magiske angreb."
+  },
+  "Magic Weapon": {
+    "en": "Give a nonmagical weapon a bonus to attack and damage rolls.",
+    "da": "Giv et ikke-magisk våben en bonus på angrebs- og skadeskast."
+  },
+  "Magnify Gravity": {
+    "en": "Intensify gravity to damage creatures, slow them, and make objects harder to move.",
+    "da": "Forstærk tyngdekraften for at skade og sløve skabninger og gøre genstande sværere at flytte."
+  },
+  "Major Image": {
+    "en": "Create a convincing illusion with sight, sound, smell, and temperature.",
+    "da": "Skab en overbevisende illusion med syn, lyd, lugt og temperatur."
+  },
+  "Mass Cure Wounds": {
+    "en": "Restore HP to up to six creatures clustered around a chosen point.",
+    "da": "Gendan HP til op til seks skabninger omkring et valgt punkt."
+  },
+  "Mass Heal": {
+    "en": "Distribute 700 HP of healing among visible creatures and remove several conditions.",
+    "da": "Fordel 700 HP helbredelse mellem synlige skabninger, og fjern flere tilstande."
+  },
+  "Mass Healing Word": {
+    "en": "Heal up to six visible creatures with a Bonus Action.",
+    "da": "Helbred op til seks synlige skabninger med en Bonus Action."
+  },
+  "Mass Polymorph": {
+    "en": "Transform up to ten creatures into Beasts with temporary HP.",
+    "da": "Forvandl op til ti skabninger til Beasts med midlertidige HP."
+  },
+  "Mass Suggestion": {
+    "en": "Suggest a course of activity to up to twelve creatures that can understand you.",
+    "da": "Foreslå en handlemåde til op til tolv skabninger, der kan forstå dig."
+  },
+  "Maximilian's Earthen Grasp": {
+    "en": "Raise a hand of earth that restrains and crushes a creature.",
+    "da": "Fremkald en hånd af jord, der fastholder og knuser en skabning."
+  },
+  "Maze": {
+    "en": "Banish a creature into an extradimensional labyrinth until it escapes or the spell ends.",
+    "da": "Forvis en skabning til en ekstradimensional labyrint, indtil den flygter eller formularen slutter."
+  },
+  "Meld into Stone": {
+    "en": "Step into stone and remain concealed within it.",
+    "da": "Træd ind i sten, og forbliv skjult inde i den."
+  },
+  "Melf's Acid Arrow": {
+    "en": "Fire an acid arrow that damages its target now and again after a successful hit.",
+    "da": "Affyr en syrepil, der skader målet straks og igen senere ved et vellykket træf."
+  },
+  "Melf's Minute Meteors": {
+    "en": "Create small meteors you can launch in explosive bursts over several turns.",
+    "da": "Skab små meteorer, som du kan affyre i eksplosive udbrud over flere ture."
+  },
+  "Mending": {
+    "en": "Repair a small break or tear in an object.",
+    "da": "Reparér et lille brud eller en flænge i en genstand."
+  },
+  "Mental Prison": {
+    "en": "Trap a creature's mind in a painful illusion that punishes attempts to leave or reach through.",
+    "da": "Fang en skabnings sind i en smertefuld illusion, der straffer forsøg på at passere dens grænse."
+  },
+  "Message": {
+    "en": "Whisper a message to a distant creature and receive its whispered reply.",
+    "da": "Hvisk en besked til en fjern skabning, og modtag dens hviskende svar."
+  },
+  "Meteor Swarm": {
+    "en": "Devastate four areas with immense explosions of fire and bludgeoning force.",
+    "da": "Ødelæg fire områder med voldsomme eksplosioner af ild og knusende kraft."
+  },
+  "Mighty Fortress": {
+    "en": "Conjure a furnished stone fortress with food and unseen servants.",
+    "da": "Fremkald en møbleret stenfæstning med mad og usynlige tjenere."
+  },
+  "Mind Blank": {
+    "en": "Shield a creature from psychic damage, mental intrusion, and divination.",
+    "da": "Beskyt en skabning mod Psychic-skade, mentale indgreb og spådomsmagi."
+  },
+  "Mind Sliver": {
+    "en": "Deal psychic damage and subtract 1d4 from the target's next save before your next turn ends.",
+    "da": "Giv Psychic-skade og −1d4 på målets næste redning inden slutningen af din næste tur."
+  },
+  "Mind Spike": {
+    "en": "Damage a creature's mind and track its location while you maintain Concentration.",
+    "da": "Skad en skabnings sind, og spor dens position, mens du opretholder Concentration."
+  },
+  "Minor Illusion": {
+    "en": "Create a brief illusory sound or image of an object.",
+    "da": "Skab kortvarigt en illusorisk lyd eller et billede af en genstand."
+  },
+  "Mirage Arcane": {
+    "en": "Transform the appearance and feel of a vast landscape with a tangible illusion.",
+    "da": "Forandr et stort landskabs udseende og følelse med en håndgribelig illusion."
+  },
+  "Mirror Image": {
+    "en": "Create three illusory duplicates that can divert attacks away from you.",
+    "da": "Skab tre illusoriske dobbeltgængere, der kan aflede angreb fra dig."
+  },
+  "Mislead": {
+    "en": "Become invisible while controlling an illusory double of yourself.",
+    "da": "Bliv usynlig, mens du styrer en illusorisk dobbeltgænger af dig selv."
+  },
+  "Misty Step": {
+    "en": "Teleport up to 30 feet to an unoccupied space you can see.",
+    "da": "Teleportér op til 30 ft til et ledigt felt, du kan se."
+  },
+  "Modify Memory": {
+    "en": "Reshape a creature's memory of a brief event.",
+    "da": "Omskriv en skabnings erindring om en kort begivenhed."
+  },
+  "Mold Earth": {
+    "en": "Excavate loose earth or alter the appearance and footing of earth or stone.",
+    "da": "Grav løs jord op, eller ændr jordens eller stenens udseende og fremkommelighed."
+  },
+  "Moment of Prescience": {
+    "en": "Turn your failed D20 Test into a roll of 20 or an attack that hits you into a roll of 1.",
+    "da": "Gør dit fejlede D20 Test til et kast på 20 eller et angreb, der rammer dig, til et kast på 1."
+  },
+  "Moonbeam": {
+    "en": "Create a movable beam of moonlight that burns creatures with radiant damage.",
+    "da": "Skab en flytbar stråle af månelys, der brænder skabninger med Radiant-skade."
+  },
+  "Mordenkainen's Faithful Hound": {
+    "en": "Summon an invisible watchdog that warns of intruders and attacks nearby enemies.",
+    "da": "Fremkald en usynlig vagthund, der advarer om ubudne gæster og angriber fjender tæt på."
+  },
+  "Mordenkainen's Lucubration": {
+    "en": "Recover up to two expended low-level spell slots, with higher limits when upcast.",
+    "da": "Genvind op til to brugte spell slots på lave niveauer; højere kast øger niveaugrænsen."
+  },
+  "Mordenkainen's Magnificent Mansion": {
+    "en": "Open a portal to a luxurious extradimensional dwelling with food and servants.",
+    "da": "Åbn en portal til en luksuriøs ekstradimensional bolig med mad og tjenere."
+  },
+  "Mordenkainen's Private Sanctum": {
+    "en": "Secure an area against chosen forms of observation, intrusion, and planar travel.",
+    "da": "Sikr et område mod valgte former for observation, indtrængen og rejser mellem planer."
+  },
+  "Mordenkainen's Sword": {
+    "en": "Create a floating sword of force that strikes your enemies.",
+    "da": "Skab et svævende sværd af Force, der angriber dine fjender."
+  },
+  "Motivational Speech": {
+    "en": "Inspire allies with temporary HP and combat benefits that last while those HP remain.",
+    "da": "Inspirér allierede med midlertidige HP og kampfordele, der varer, mens disse HP er tilbage."
+  },
+  "Move Earth": {
+    "en": "Reshape large areas of earth, sand, or clay over time.",
+    "da": "Omform store områder af jord, sand eller ler over tid."
+  },
+  "Negative Energy Flood": {
+    "en": "Blast a living target with necrotic energy or grant temporary HP to an Undead.",
+    "da": "Ram et levende mål med nekrotisk energi, eller giv midlertidige HP til en Undead."
+  },
+  "Nondetection": {
+    "en": "Hide a creature, object, or place from divination magic.",
+    "da": "Skjul en skabning, genstand eller et sted for spådomsmagi."
+  },
+  "Nystul's Magic Aura": {
+    "en": "Disguise a creature's type or an object's magical aura from certain detection effects.",
+    "da": "Skjul en skabnings type eller en genstands magiske aura for bestemte afsløringseffekter."
+  },
+  "Otiluke's Freezing Sphere": {
+    "en": "Hurl an explosive sphere of cold or delay its detonation for later use.",
+    "da": "Kast en eksplosiv kuldekugle, eller udsæt dens detonation til senere brug."
+  },
+  "Otiluke's Resilient Sphere": {
+    "en": "Enclose a creature in a protective sphere of force that blocks attacks and effects.",
+    "da": "Indeslut en skabning i en beskyttende Force-kugle, der blokerer angreb og effekter."
+  },
+  "Otto's Irresistible Dance": {
+    "en": "Compel a creature to dance, hindering movement, attacks, and Dexterity saves.",
+    "da": "Tving en skabning til at danse, så bevægelse, angreb og DEX-redninger hæmmes."
+  },
+  "Pass without Trace": {
+    "en": "Grant nearby allies a large Stealth bonus and conceal their tracks.",
+    "da": "Giv nærliggende allierede en stor Stealth-bonus, og skjul deres spor."
+  },
+  "Passwall": {
+    "en": "Open a temporary passage through wood, stone, or plaster.",
+    "da": "Åbn en midlertidig passage gennem træ, sten eller puds."
+  },
+  "Phantasmal Force": {
+    "en": "Make one creature perceive a convincing illusion that can inflict psychic damage.",
+    "da": "Lad én skabning opleve en overbevisende illusion, der kan give Psychic-skade."
+  },
+  "Phantasmal Killer": {
+    "en": "Confront a creature with its worst fear, causing recurring psychic damage.",
+    "da": "Konfrontér en skabning med dens værste frygt, og giv tilbagevendende Psychic-skade."
+  },
+  "Phantom Steed": {
+    "en": "Conjure a fast, temporary mount for you or another rider.",
+    "da": "Fremkald et hurtigt, midlertidigt ridedyr til dig eller en anden rytter."
+  },
+  "Planar Ally": {
+    "en": "Request aid from an otherworldly being, negotiating its service.",
+    "da": "Bed et overnaturligt væsen om hjælp, og forhandl om dets tjeneste."
+  },
+  "Planar Binding": {
+    "en": "Bind a qualifying extraplanar creature to serve you for an extended duration.",
+    "da": "Bind et egnet ekstraplanart væsen til at tjene dig i længere tid."
+  },
+  "Plane Shift": {
+    "en": "Transport your group to another plane of existence or attempt to banish an enemy there.",
+    "da": "Flyt din gruppe til et andet eksistensplan, eller forsøg at forvise en fjende dertil."
+  },
+  "Plant Growth": {
+    "en": "Thicken vegetation to hinder movement or enrich land for a better harvest.",
+    "da": "Fortæt plantevækst for at hæmme bevægelse, eller berig jorden for en bedre høst."
+  },
+  "Poison Spray": {
+    "en": "Attack a creature with a burst of poisonous mist.",
+    "da": "Angrib en skabning med et udbrud af giftig tåge."
+  },
+  "Polymorph": {
+    "en": "Transform a creature into a Beast with temporary HP and the Beast's statistics.",
+    "da": "Forvandl en skabning til et Beast med midlertidige HP og dyrets egenskaber."
+  },
+  "Power Word Fortify": {
+    "en": "Distribute 120 temporary HP among up to six visible creatures.",
+    "da": "Fordel 120 midlertidige HP mellem op til seks synlige skabninger."
+  },
+  "Power Word Heal": {
+    "en": "Fully restore a creature's HP and end several debilitating conditions.",
+    "da": "Gendan alle en skabnings HP, og fjern flere invaliderende tilstande."
+  },
+  "Power Word Kill": {
+    "en": "Kill a creature with 100 HP or fewer, or deal heavy psychic damage if it has more.",
+    "da": "Dræb en skabning med højst 100 HP, eller giv kraftig Psychic-skade, hvis den har flere."
+  },
+  "Power Word Pain": {
+    "en": "Deal force damage and debilitate a target with 100 HP or fewer through a painful charm.",
+    "da": "Giv Force-skade, og svæk et mål med højst 100 HP gennem en smertefuld charme."
+  },
+  "Power Word Stun": {
+    "en": "Stun a creature with 150 HP or fewer, or briefly reduce its Speed to 0.",
+    "da": "Bedøv en skabning med højst 150 HP, eller sænk kortvarigt dens Speed til 0."
+  },
+  "Prayer of Healing": {
+    "en": "Give up to five creatures healing and the benefits of a Short Rest.",
+    "da": "Giv op til fem skabninger helbredelse og fordelene ved en Short Rest."
+  },
+  "Prestidigitation": {
+    "en": "Perform minor magical tricks, cleaning, sensory effects, and temporary creations.",
+    "da": "Udfør små magiske tricks, rengøring, sanseeffekter og midlertidige frembringelser."
+  },
+  "Primal Savagery": {
+    "en": "Make a melee spell attack with magically sharpened teeth or claws that deal acid damage.",
+    "da": "Lav et nærkampsformularangreb med magisk skærpede tænder eller kløer, der giver syreskade."
+  },
+  "Primordial Ward": {
+    "en": "Resist multiple elemental damage types and briefly gain immunity to one.",
+    "da": "Modstå flere elementære skadetyper, og opnå kortvarigt immunitet mod én af dem."
+  },
+  "Prismatic Spray": {
+    "en": "Unleash multicolored rays with unpredictable damage and debilitating effects.",
+    "da": "Udløs flerfarvede stråler med uforudsigelig skade og svækkende effekter."
+  },
+  "Prismatic Wall": {
+    "en": "Create seven protective layers of color with dangerous effects and distinct weaknesses.",
+    "da": "Skab syv beskyttende farvelag med farlige effekter og hver sin svaghed."
+  },
+  "Produce Flame": {
+    "en": "Create a harmless light in your hand that you can hurl as a fiery attack.",
+    "da": "Skab et harmløst lys i hånden, som du kan kaste som et ildangreb."
+  },
+  "Programmed Illusion": {
+    "en": "Create an audiovisual illusion that activates when specified conditions occur.",
+    "da": "Skab en illusion med billede og lyd, der aktiveres under bestemte betingelser."
+  },
+  "Project Image": {
+    "en": "Project a distant illusory copy through which you can see, hear, and communicate.",
+    "da": "Projicér en fjern illusorisk kopi, som du kan se, høre og kommunikere gennem."
+  },
+  "Protection from Energy": {
+    "en": "Grant a willing creature resistance to one chosen elemental damage type.",
+    "da": "Giv en villig skabning modstand mod én valgt elementær skadetype."
+  },
+  "Protection from Evil and Good": {
+    "en": "Protect a creature against attacks and influence from certain supernatural beings.",
+    "da": "Beskyt en skabning mod angreb og påvirkning fra bestemte overnaturlige væsner."
+  },
+  "Protection from Poison": {
+    "en": "Neutralize poison and grant poison resistance and Advantage against becoming Poisoned.",
+    "da": "Neutralisér gift, og giv giftmodstand samt Advantage mod at blive Poisoned."
+  },
+  "Psychic Scream": {
+    "en": "Assault up to ten creatures with psychic damage and a potentially lasting stun.",
+    "da": "Angrib op til ti skabninger med Psychic-skade og en muligvis vedvarende bedøvelse."
+  },
+  "Pulse Wave": {
+    "en": "Release a cone of force that damages creatures and pushes or pulls them.",
+    "da": "Udløs en kegle af Force, der skader skabninger og skubber eller trækker dem."
+  },
+  "Purify Food and Drink": {
+    "en": "Remove poison and rot from nonmagical food and drink.",
+    "da": "Fjern gift og råd fra ikke-magisk mad og drikke."
+  },
+  "Pyrotechnics": {
+    "en": "Transform a small nonmagical fire into blinding fireworks or obscuring smoke.",
+    "da": "Forvandl en lille ikke-magisk ild til blindende fyrværkeri eller slørende røg."
+  },
+  "Raise Dead": {
+    "en": "Restore life to a creature dead for no more than ten days, with recovery penalties.",
+    "da": "Genopliv en skabning, der har været død i højst ti dage, med midlertidige svækkelser."
+  },
+  "Rary's Telepathic Bond": {
+    "en": "Link up to eight willing creatures for silent communication across any distance on one plane.",
+    "da": "Forbind op til otte villige skabninger til lydløs kommunikation over afstand på samme plan."
+  },
+  "Ravenous Void": {
+    "en": "Create a crushing gravitational sphere that pulls in creatures and can annihilate them.",
+    "da": "Skab en knusende tyngdekugle, der trækker skabninger ind og kan udslette dem."
+  },
+  "Ray of Enfeeblement": {
+    "en": "Weaken a creature's attacks and physical efforts with a debilitating ray.",
+    "da": "Svækk en skabnings angreb og fysiske udfoldelser med en kraftdrænende stråle."
+  },
+  "Ray of Frost": {
+    "en": "Strike with cold damage and reduce the target's Speed by 10 feet.",
+    "da": "Ram med kuldeskade, og sænk målets Speed med 10 ft."
+  },
+  "Ray of Sickness": {
+    "en": "Strike with poison damage and leave the target briefly Poisoned.",
+    "da": "Ram med giftskade, og gør kortvarigt målet Poisoned."
+  },
+  "Reality Break": {
+    "en": "Distort a creature's reality with recurring, unpredictable harmful effects.",
+    "da": "Forvræng en skabnings virkelighed med tilbagevendende, uforudsigelige skadelige effekter."
+  },
+  "Regenerate": {
+    "en": "Restore HP over time and regrow lost body parts.",
+    "da": "Gendan HP over tid, og lad mistede kropsdele vokse ud igen."
+  },
+  "Reincarnate": {
+    "en": "Return a recently dead Humanoid to life in a newly formed body.",
+    "da": "Giv en nyligt afdød Humanoid livet tilbage i en nyskabt krop."
+  },
+  "Remove Curse": {
+    "en": "End curses on a creature or object, or break Attunement to a cursed magic item.",
+    "da": "Fjern forbandelser fra en skabning eller genstand, eller bryd Attunement til en forbandet magisk genstand."
+  },
+  "Resistance": {
+    "en": "Reduce damage of one chosen type by 1d4, at most once per turn.",
+    "da": "Reducér skade af én valgt type med 1d4, højst én gang pr. tur."
+  },
+  "Resurrection": {
+    "en": "Restore a long-dead creature to life and repair missing body parts.",
+    "da": "Giv en længe afdød skabning livet tilbage, og gendan mistede kropsdele."
+  },
+  "Reverse Gravity": {
+    "en": "Reverse gravity in a large cylinder, causing unsecured creatures and objects to fall upward.",
+    "da": "Vend tyngdekraften i en stor cylinder, så ikke-fastgjorte skabninger og genstande falder opad."
+  },
+  "Revivify": {
+    "en": "Revive a creature that died within the last minute with 1 HP.",
+    "da": "Genopliv en skabning, der døde inden for det seneste minut, med 1 HP."
+  },
+  "Reweave Fate": {
+    "en": "Reroll a failed D20 Test with Advantage and gain temporary HP if it succeeds.",
+    "da": "Slå et fejlet D20 Test om med Advantage, og få midlertidige HP ved succes."
+  },
+  "Rope Trick": {
+    "en": "Open a hidden extradimensional refuge at the top of a rope for up to eight creatures.",
+    "da": "Åbn et skjult ekstradimensionalt tilflugtssted ved toppen af et reb til op til otte skabninger."
+  }
+}

@@ -3,7 +3,7 @@ import { SPELLS, CLASS_SPELLS, DUNAMANCY_CLASS_SPELLS, CLASS_META, SCHOOL_COLORS
 import { maxSlotLevel, arcanumLevels, availableLevels, normalizeLevel, reconcileSelection, validLevelFilter, toggleSelection } from "./rules.js";
 
 import RuleText from './RuleText.jsx';
-import { rulePreview } from './ruleText.js';
+import { SPELL_SUMMARIES } from './summaries.js';
 import { artificerPreparation } from './artificer.js';
 import { loadRulebook } from './rulebooks.js';
 import { STORAGE_KEY, createBook, emptyLibrary, decodeLibrary, retainPrepared } from './characterBooks.js';
@@ -117,6 +117,9 @@ function SpellCard({ name, spell, checked, onToggle, prepared, onPrepare, lang, 
           </a>
 
         </div>
+        <p lang={lang} aria-label={t.shortDescription} style={{ color:G.text, fontSize:"0.85rem", lineHeight:1.6, margin:"0.5rem 0" }}>
+          {SPELL_SUMMARIES[name]?.[lang] || t.loading}
+        </p>
         <div style={{ display: "flex", flexWrap: "wrap", gap: "0.75rem", marginBottom: "0.35rem" }}>
           {[
             [t.castTime, spell.cast],
@@ -139,9 +142,7 @@ function SpellCard({ name, spell, checked, onToggle, prepared, onPrepare, lang, 
         </div>
         {spell.accessNote && <p role="note" style={{ color: G.goldL, fontSize: "0.78rem", lineHeight: 1.5 }}>{spell.accessNote[lang]}</p>}
         {spell.rulesVersion !== "2024" && <p role="note" style={{ color: G.goldL, fontSize: "0.78rem", lineHeight: 1.5, borderLeft: "2px solid " + G.gold, paddingLeft: "0.6rem" }}>{t.legacyRulesNote}</p>}
-        {!expanded && <p lang={lang} style={{ color:G.text, fontSize:"0.85rem", lineHeight:1.6, margin:"0.5rem 0" }}>
-          {ruleText ? rulePreview(ruleText) : rulesError ? t.sourceFallback : t.loading}
-        </p>}
+
         <button type="button" aria-expanded={expanded} aria-controls={detailsId}
           onClick={() => setExpanded(value => !value)}
           style={{ background:"transparent", border:"1px solid " + G.border, borderRadius:"0.4rem", color:G.goldL, padding:"0.4rem 0.65rem", cursor:"pointer", fontSize:"0.8rem", marginBottom:"0.4rem" }}>
