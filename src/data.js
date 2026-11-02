@@ -40,6 +40,13 @@ export const SCHOOL_COLORS = {
 
 export const T = {
   en: {
+    addToBook: "Write in spellbook",
+    inBook: "In spellbook",
+    prepareSpell: "Prepare spell",
+    preparedSpells: "Prepared",
+    cantripReady: "Cantrip · always available",
+    emptyPrepared: "No prepared spells. Add spells to your book, then mark them as prepared.",
+    preparationNote: "Keep spells in your book and mark your prepared spells separately. Preparation is managed manually; class limits and always-prepared features are not enforced. Cantrips do not need preparation.",
     characterBooks: "Character spellbooks",
     chooseCharacter: "Character",
     unnamedCharacter: "Unnamed character",
@@ -95,6 +102,13 @@ export const T = {
     lang: "DA",
   },
   da: {
+    addToBook: "Skriv i formularbogen",
+    inBook: "I formularbogen",
+    prepareSpell: "Forbered formular",
+    preparedSpells: "Forberedt",
+    cantripReady: "Cantrip · altid tilgængelig",
+    emptyPrepared: "Ingen forberedte formularer. Tilføj formularer til bogen, og markér dem som forberedt.",
+    preparationNote: "Gem formularer i bogen, og markér separat dem, du har forberedt. Forberedelse styres manuelt; klassens grænser og evner med altid forberedte formularer håndhæves ikke. Cantrips skal ikke forberedes.",
     characterBooks: "Karakterernes formularbøger",
     chooseCharacter: "Karakter",
     unnamedCharacter: "Unavngivet karakter",

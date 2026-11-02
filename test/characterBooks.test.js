@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { STORAGE_KEY, createBook, emptyLibrary, decodeLibrary } from '../src/characterBooks.js';
+import { STORAGE_KEY, createBook, emptyLibrary, decodeLibrary, retainPrepared } from '../src/characterBooks.js';
 
 function stored(books, activeId = books[0]?.id) {
   return JSON.stringify({ version: 1, activeId, books });
@@ -27,7 +27,7 @@ test('missing storage creates one unnamed Wizard at level five, without sharing 
   assert.equal(a.version, 1);
   assert.equal(a.books.length, 1);
   assert.equal(a.activeId, a.books[0].id);
-  assert.deepEqual({ ...a.books[0], id: '' }, { id: '', name: '', className: 'Wizard', level: 5, selected: {} });
+  assert.deepEqual({ ...a.books[0], id: '' }, { id: '', name: '', className: 'Wizard', level: 5, selected: {}, prepared: {} });
   assert.notEqual(a.activeId, b.activeId);
   a.books[0].selected.Fireball = true;
   assert.deepEqual(b.books[0].selected, {});
@@ -73,4 +73,17 @@ test('loading enforces class, level and one Mystic Arcanum per unlocked level', 
   const lower = decodeLibrary(stored([{ ...book, level: 10 }])).books[0];
   assert.deepEqual(lower.selected, { Hex: true });
   assert.equal(book.selected['Circle of Death'], true);
+});
+
+test('old books migrate without preparing spells and preparation remains a saved subset', () => {
+  const book = createBook('Mira');
+  book.selected = { Fireball: true, 'Mage Hand': true };
+  delete book.prepared;
+  assert.deepEqual(decodeLibrary(stored([book])).books[0].prepared, {});
+  book.prepared = { Fireball: true, 'Mage Hand': true, Shield: true, unknown: true };
+  const loaded = decodeLibrary(stored([book])).books[0];
+  assert.deepEqual(loaded.prepared, { Fireball: true });
+  assert.deepEqual(retainPrepared(loaded.prepared, {}), {});
+  loaded.level = 1;
+  assert.deepEqual(decodeLibrary(stored([loaded])).books[0].prepared, {});
 });

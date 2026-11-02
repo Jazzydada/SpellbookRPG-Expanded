@@ -6,7 +6,7 @@ A 2024-first spellbook with 442 sourced spells, Danish and English descriptions,
 
 ## Character spellbooks
 
-Create a separate book for each character, with its own name, class, level and selected spells. “My spellbook” shows the selected spells with full rules. Books save automatically in this browser on this device; there is no account or cloud sync. Clearing browser data removes saved books. Deleting a book can be undone until the page is reloaded or another book is deleted.
+Create a separate book for each character, with its own name, class, level and selected spells. “My spellbook” shows the selected spells with full rules. Preparation is saved separately, with a dedicated Prepared view. Removing a spell from the book also removes its prepared status. Existing books retain their spells and start without prepared selections. Cantrips do not need preparation; preparation limits and always-prepared class features are managed manually. Books save automatically in this browser on this device; there is no account or cloud sync. Clearing browser data removes saved books. Deleting a book can be undone until the page is reloaded or another book is deleted.
 
 ## Development
 

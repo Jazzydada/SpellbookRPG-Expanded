@@ -4,7 +4,7 @@ import { maxSlotLevel, arcanumLevels, availableLevels, normalizeLevel, reconcile
 
 import RuleText from './RuleText.jsx';
 import { loadRulebook } from './rulebooks.js';
-import { STORAGE_KEY, createBook, emptyLibrary, decodeLibrary } from './characterBooks.js';
+import { STORAGE_KEY, createBook, emptyLibrary, decodeLibrary, retainPrepared } from './characterBooks.js';
 
 // ── style constants ───────────────────────────────────────────────────────────
 
@@ -75,7 +75,7 @@ function SchoolBadge({ school }) {
   );
 }
 
-function SpellCard({ name, spell, checked, onToggle, lang, t, ruleText, rulesError, catalogueMode }) {
+function SpellCard({ name, spell, checked, onToggle, prepared, onPrepare, lang, t, ruleText, rulesError, catalogueMode }) {
   const [hov, setHov] = useState(false);
   const selectionId = useId();
 
@@ -126,6 +126,13 @@ function SpellCard({ name, spell, checked, onToggle, lang, t, ruleText, rulesErr
             </span>
           ))}
         </div>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem", margin: "0.6rem 0", fontSize: "0.85rem" }}>
+          <label htmlFor={selectionId} style={{ cursor: "pointer", color: checked ? G.green : G.muted }}>{checked ? t.inBook : t.addToBook}</label>
+          {spell.level > 0 ? <label style={{ color: prepared ? G.gold : G.muted }}>
+            <input type="checkbox" checked={prepared} disabled={!checked || catalogueMode} onChange={onPrepare} aria-label={`${t.prepareSpell}: ${name}`} style={{ accentColor: G.gold, marginRight: 6 }} />
+            {t.preparedSpells}
+          </label> : checked && <span style={{ color: G.muted }}>{t.cantripReady}</span>}
+        </div>
         {spell.rulesVersion !== "2024" && <p role="note" style={{ color: G.goldL, fontSize: "0.78rem", lineHeight: 1.5, borderLeft: "2px solid " + G.gold, paddingLeft: "0.6rem" }}>{t.legacyRulesNote}</p>}
         <section lang={lang} aria-label={t.fullRules}>
           {ruleText ? <RuleText text={ruleText} /> : <p role="status">{rulesError ? t.sourceFallback : t.loading}</p>}
@@ -137,7 +144,7 @@ function SpellCard({ name, spell, checked, onToggle, lang, t, ruleText, rulesErr
   );
 }
 
-function SpellLevelSection({ level, spells, selected, onToggle, lang, t, isArcanum, rulebook, rulesError, catalogueMode }) {
+function SpellLevelSection({ level, spells, selected, onToggle, prepared, onPrepare, lang, t, isArcanum, rulebook, rulesError, catalogueMode }) {
   const [collapsed, setCollapsed] = useState(false);
   if (!spells.length) return null;
   return (
@@ -177,6 +184,8 @@ function SpellLevelSection({ level, spells, selected, onToggle, lang, t, isArcan
               ruleText={rulebook?.[name]}
               rulesError={rulesError}
               catalogueMode={catalogueMode}
+              prepared={!!prepared[name]}
+              onPrepare={() => onPrepare(name)}
               checked={!!selected[name]}
               onToggle={() => onToggle(name)}
               lang={lang}
@@ -206,12 +215,17 @@ export default function App() {
   const className = catalogueView ? "all" : activeBook.className;
   const charLevel = activeBook.level;
   const selected = activeBook.selected;
+  const prepared = activeBook.prepared;
+  const [onlyPrepared, setOnlyPrepared] = useState(false);
   function updateBook(change) {
     setLibrary(current => ({ ...current, books: current.books.map(book => book.id === current.activeId
       ? { ...book, ...(typeof change === 'function' ? change(book) : change) } : book) }));
   }
   function setSelected(change) {
-    updateBook(book => ({ selected: typeof change === 'function' ? change(book.selected) : change }));
+    updateBook(book => {
+      const next = typeof change === 'function' ? change(book.selected) : change;
+      return { selected: next, prepared: retainPrepared(book.prepared, next) };
+    });
   }
   useEffect(() => {
     if (initialBooks.blocked) return;
@@ -256,6 +270,7 @@ export default function App() {
       const names = (classSpells[level] || []).filter(name => {
         if (!SPELLS[name]) return false;
         if (onlySelected && !selected[name]) return false;
+        if (onlyPrepared && !prepared[name]) return false;
         if (bookFilter !== "all" && SPELLS[name].book !== bookFilter) return false;
         if (!sl) return true;
         return (
@@ -267,7 +282,7 @@ export default function App() {
       if (names.length) groups[level] = names;
     }
     return groups;
-  }, [className, charLevel, search, levelFilter, bookFilter, rulebook, onlySelected, selected]);
+  }, [className, charLevel, search, levelFilter, bookFilter, rulebook, onlySelected, selected, onlyPrepared, prepared]);
 
   function toggleSpell(name) {
     if (catalogueMode) return;
@@ -279,7 +294,7 @@ export default function App() {
     const level = normalizeLevel(value);
     const next = reconcileSelection(selected, className, level);
     const removed = Object.keys(selected).filter(name => !next[name]);
-    updateBook({ selected: next, level });
+    updateBook({ selected: next, prepared: retainPrepared(prepared, next), level });
     setLF(filter => validLevelFilter(filter, className, level));
     setNotice(removed.length ? `${t.removedSelections}: ${removed.join(", ")}` : "");
   }
@@ -289,7 +304,7 @@ export default function App() {
   function newBook() {
     const book = createBook();
     setLibrary(current => ({ ...current, activeId: book.id, books: [...current.books, book] }));
-    setOnlySelected(false); resetFilters();
+    setOnlySelected(false); setOnlyPrepared(false); resetFilters();
   }
   function removeBook() {
     setDeletedBook(activeBook);
@@ -374,9 +389,11 @@ export default function App() {
           </div>
           <p role="status" style={{ fontSize: "0.75rem", color: saveError ? G.red : G.muted }}>{saveError ? t.bookSaveError : t.bookSavedLocally}</p>
           {deletedBook && <p style={{ fontSize: "0.8rem" }}>{t.bookDeleted} <button type="button" onClick={undoRemove} style={{ ...inp, width: "auto", cursor: "pointer" }}>{t.undoDelete}</button></p>}
-          <div style={{ display: "flex", gap: "0.5rem" }}>
-            <button type="button" aria-pressed={!onlySelected} onClick={() => setOnlySelected(false)} style={{ ...inp, width: "auto", color: !onlySelected ? G.gold : G.text, cursor: "pointer" }}>{t.browseSpells}</button>
-            <button type="button" aria-pressed={onlySelected} onClick={() => { setOnlySelected(true); resetFilters(); }} style={{ ...inp, width: "auto", color: onlySelected ? G.gold : G.text, cursor: "pointer" }}>{t.mySpellbook} ({selectedNames.length})</button>
+          <p style={{ fontSize: "0.78rem", color: G.muted }}>{t.preparationNote}</p>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
+            <button type="button" aria-pressed={!onlySelected && !onlyPrepared} onClick={() => { setOnlySelected(false); setOnlyPrepared(false); }} style={{ ...inp, width: "auto", color: !onlySelected ? G.gold : G.text, cursor: "pointer" }}>{t.browseSpells}</button>
+            <button type="button" aria-pressed={onlySelected} onClick={() => { setOnlySelected(true); setOnlyPrepared(false); resetFilters(); }} style={{ ...inp, width: "auto", color: onlySelected ? G.gold : G.text, cursor: "pointer" }}>{t.mySpellbook} ({selectedNames.length})</button>
+            <button type="button" aria-pressed={onlyPrepared} onClick={() => { setOnlyPrepared(true); setOnlySelected(false); resetFilters(); }} style={{ ...inp, width: "auto", color: onlyPrepared ? G.gold : G.text, cursor: "pointer" }}>{t.preparedSpells} ({Object.keys(prepared).length})</button>
           </div>
         </section>
         {/* ── controls ── */}
@@ -391,7 +408,7 @@ export default function App() {
             <label htmlFor="class" style={{ display:"block", fontSize:"0.7rem", color:G.dim, textTransform:"uppercase", letterSpacing:"0.1em", marginBottom:"0.3rem", fontWeight:700 }}>
               {t.selectClass}
             </label>
-            <select value={className} id="class" onChange={e => { const value = e.target.value; setCatalogueView(value === "all"); if (value !== "all" && value !== activeBook.className) updateBook({ className: value, selected: {} }); setLF("all"); setNotice(""); }} style={inp}>
+            <select value={className} id="class" onChange={e => { const value = e.target.value; setCatalogueView(value === "all"); if (value !== "all" && value !== activeBook.className) updateBook({ className: value, selected: {}, prepared: {} }); setLF("all"); setNotice(""); }} style={inp}>
               <option value="all">{t.allClasses}</option>
               {Object.keys(CLASS_SPELLS).map(c => (
                 <option key={c} value={c}>
@@ -463,7 +480,7 @@ export default function App() {
           <div>
             {Object.keys(spellGroups).length === 0 ? (
               <div style={{ color: G.muted, fontStyle:"italic", textAlign:"center", padding:"2rem" }}>
-                {onlySelected && !selectedNames.length ? t.emptySpellbook : t.noSpells}
+                {onlyPrepared && !Object.keys(prepared).length ? t.emptyPrepared : onlySelected && !selectedNames.length ? t.emptySpellbook : t.noSpells}
               </div>
             ) : (
               Object.entries(spellGroups).map(([level, names]) => (
@@ -475,6 +492,13 @@ export default function App() {
                   rulesError={rulesError}
                   catalogueMode={catalogueMode}
                   spells={names}
+                  prepared={prepared}
+                  onPrepare={name => updateBook(book => {
+                    if (!book.selected[name] || SPELLS[name].level === 0) return {};
+                    const next = { ...book.prepared };
+                    if (next[name]) delete next[name]; else next[name] = true;
+                    return { prepared: next };
+                  })}
                   selected={selected}
                   onToggle={toggleSpell}
                   lang={lang}

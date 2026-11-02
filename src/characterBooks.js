@@ -17,6 +17,7 @@ export function createBook(name = '', className = 'Wizard', level = 5) {
     className: validClass(className),
     level: validLevel(level),
     selected: {},
+    prepared: {},
   };
 }
 
@@ -50,9 +51,17 @@ export function decodeLibrary(raw) {
     const available = reconcileSelection(selected, book.className, book.level);
     book.selected = Object.keys(available).reduce((result, name) =>
       toggleSelection(result, name, book.className, book.level), {});
+    book.prepared = retainPrepared(entry.prepared, book.selected);
     return book;
   });
   if (books.length === 0) throw new Error('Spellbook library contains no readable character entries.');
   const activeId = books.some(book => book.id === saved.activeId) ? saved.activeId : books[0].id;
   return { version: 1, activeId, books };
+}
+
+// Preparation is a separate subset of the book; cantrips are always available.
+export function retainPrepared(prepared, selected) {
+  return Object.fromEntries(Object.entries(isRecord(prepared) ? prepared : {})
+    .filter(([name, value]) => value === true && selected[name] === true
+      && Object.hasOwn(SPELLS, name) && SPELLS[name].level > 0));
 }
