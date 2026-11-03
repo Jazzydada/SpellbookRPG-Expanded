@@ -109,6 +109,7 @@ function SpellCard({ name, spell, checked, onToggle, prepared, onPrepare, lang, 
         <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "0.4rem", marginBottom: "0.3rem" }}>
           <label htmlFor={selectionId} style={{ color: G.text, fontWeight: 700, fontSize: "0.95rem", cursor: "pointer" }}>{name}</label>
           <SchoolBadge school={spell.school} />
+          {spell.partnerContent && <span style={{ color: G.goldL, fontSize: "0.75rem", fontWeight: 700 }}>{lang === "da" ? "Partnerindhold · Critical Role" : "Partner content · Critical Role"}</span>}
           <span style={{ color: G.muted, fontSize: "0.7rem" }}>{spell.book} · {t.rulesVersion} {spell.rulesVersion}</span>
           <a href={spell.source.url} target="_blank" rel="noopener noreferrer"
             onClick={e => e.stopPropagation()}

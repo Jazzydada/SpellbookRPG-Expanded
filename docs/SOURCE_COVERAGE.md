@@ -1,6 +1,6 @@
 # Dækning af officielle formular-kilder
 
-Seneste kontrolpunkt: 3. november 2026. **Aktivt katalog: 591 formularer fra 17 bøger og D&D Beyond Drops.** Den nye leverance med 95 formularer er beskrevet nederst. De tidligere adgangskontroller nedenfor er historik; de er ikke længere en liste over alle aktuelle mangler. Kataloget er fortsat ikke en komplet samling af alle officielle bøger.
+Seneste kontrolpunkt: 3. november 2026. **Aktivt katalog: 593 formularer, inklusive to Tal’Dorei-partnerformularer.** Den nye leverance med 95 formularer er beskrevet nederst. De tidligere adgangskontroller nedenfor er historik; de er ikke længere en liste over alle aktuelle mangler. Ny fuld indekskontrol: ingen uforklarede navnemangler i de gennemgåede officielle kilder. Se [katalogkontrollen](CATALOG_AUDIT_2026-11-03.md) for afgrænsning og revisionsspor.
 
 ## Verificeret metode
 
@@ -217,3 +217,8 @@ De fire ventende Drops-filer blev vedhæftet igen og læst 3. november 2026. Ins
 ### Venomous Snake — suppleret 2026-11-03
 
 Den brugerleverede `Venomous Snake.md` er indarbejdet som fuld dansk og engelsk statblok under Sticks to Snakes. Den tidligere note om manglende statistik er fjernet. Statblokken har AC 12, HP 5 og Bite +4 med 1d4 + 2 Piercing samt 1d6 Poison uden redningskast. Antallet af formularer er fortsat 591.
+
+
+## Tal’Dorei — tilføjet efter katalogkontrollen
+
+Freedom of the Waves og Freedom of the Winds er nu med efter brugerens udtrykkelige udvidelse af scope. Begge bruger Tal’Dorei Campaign Setting Reborn, side 176, og er markeret som partnerindhold og ældre 2014-regler. D&D Beyonds offentlige formularsider er kilder. Katalogkontrollens 591-tal er et historisk snapshot før denne tilføjelse; aktuelt antal er 593.

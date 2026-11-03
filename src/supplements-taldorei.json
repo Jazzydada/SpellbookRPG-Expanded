@@ -1,0 +1,70 @@
+{
+  "Freedom of the Waves": {
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Sorcerer"
+    ],
+    "cast": "Action",
+    "book": "Tal’Dorei Campaign Setting Reborn",
+    "rulesVersion": "2014",
+    "publishedYear": 2022,
+    "partnerContent": true,
+    "reviewed": "2026-11-03",
+    "accessNote": {
+      "da": "Partnerindhold fra Critical Role, ikke udgivet af Wizards of the Coast. Kræver DM-tilladelse. Oath of the Open Sea giver også Paladin-adgang; dette er ikke en generel Paladin-formular.",
+      "en": "Critical Role partner content, not published by Wizards of the Coast. Requires DM permission. Also available through Oath of the Open Sea, not the general Paladin list."
+    },
+    "level": 3,
+    "school": "Conjuration",
+    "range": "120 feet",
+    "components": "V, S, M (a strand of wet hair)",
+    "dur": "Instantaneous",
+    "source": {
+      "label": "Tal’Dorei Campaign Setting Reborn, p. 176",
+      "page": 176,
+      "name": "Freedom of the Waves",
+      "url": "https://www.dndbeyond.com/spells/1343136-freedom-of-the-waves"
+    },
+    "en": "Choose a point within range: seawater fills a cylinder of radius 15 ft. and height 10 ft., in a shape you choose. Creatures inside make STR saves: failure deals 2d8 Bludgeoning and knocks them Prone; success avoids both. You may grant automatic success to up to your spellcasting modifier creatures (minimum 1).\n\nIf inside, you may teleport to a visible, empty space within that area as part of casting.",
+    "da": "Vælg et punkt inden for rækkevidde. Havvand fylder en cylinder med 15 ft. radius og 10 ft. højde; du vælger vandets form, fx bølge eller hvirvel.\n\nAlle skabninger i området laver en STR-redning mod din spell save DC. Fejl: 2d8 Bludgeoning-skade og Prone. Succes: ingen skade eller Prone. Du kan lade op til din spellcasting modifier skabninger (mindst 1) lykkes automatisk.\n\nEr du selv i området, kan du som del af kastets Action teleportere til et synligt, ledigt sted i samme område.",
+    "summary": {
+      "en": "Seawater damages and topples creatures; teleport within its area.",
+      "da": "Havvand skader og vælter skabninger; teleportér inden for området."
+    }
+  },
+  "Freedom of the Winds": {
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Sorcerer"
+    ],
+    "cast": "Action",
+    "book": "Tal’Dorei Campaign Setting Reborn",
+    "rulesVersion": "2014",
+    "publishedYear": 2022,
+    "partnerContent": true,
+    "reviewed": "2026-11-03",
+    "accessNote": {
+      "da": "Partnerindhold fra Critical Role, ikke udgivet af Wizards of the Coast. Kræver DM-tilladelse. Oath of the Open Sea giver også Paladin-adgang; dette er ikke en generel Paladin-formular.",
+      "en": "Critical Role partner content, not published by Wizards of the Coast. Requires DM permission. Also available through Oath of the Open Sea, not the general Paladin list."
+    },
+    "level": 5,
+    "school": "Abjuration",
+    "range": "Self",
+    "components": "V, S, M (a scrap of sailcloth)",
+    "dur": "Concentration, up to 10 minutes",
+    "source": {
+      "label": "Tal’Dorei Campaign Setting Reborn, p. 176",
+      "page": 176,
+      "name": "Freedom of the Winds",
+      "url": "https://www.dndbeyond.com/spells/1343171-freedom-of-the-winds"
+    },
+    "en": "Gain flight speed 60 ft., Advantage on checks to avoid Grappled, and Advantage on saves against Restrained or Paralyzed.\n\nWhen a spell or attack targets you, you may spend your Reaction to teleport up to 60 ft. to a visible, empty space. Escaping its range prevents that spell or attack from affecting you. This spell ends upon arrival, whether or not you escaped its range.",
+    "da": "Du får flyvehastighed 60 ft. og Advantage på ability checks for at undgå Grappled samt redningskast mod Restrained eller Paralyzed.\n\nNår en formular eller et angreb vælger dig som mål, kan du bruge din Reaction på at teleportere højst 60 ft. til et synligt, ledigt sted. Bringes du uden for den udløsende formulars eller angrebets rækkevidde, påvirker det dig ikke.\n\nFreedom of the Winds slutter, når du dukker op igen — også hvis teleportationen ikke bragte dig uden for rækkevidde. Flyvehastigheden og de øvrige fordele ophører dermed.",
+    "summary": {
+      "en": "Fly with defensive advantages; a reaction teleport ends the spell.",
+      "da": "Flyv med defensive fordele; en teleportation som reaktion afslutter formularen."
+    }
+  }
+}
