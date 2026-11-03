@@ -233,6 +233,7 @@ export default function App() {
   const selected = activeBook.selected;
   const prepared = activeBook.prepared;
   const allowDunamancy = activeBook.allowDunamancy;
+  const allowPartnerContent = activeBook.allowPartnerContent;
   const [onlyPrepared, setOnlyPrepared] = useState(false);
   function updateBook(change) {
     setLibrary(current => ({ ...current, books: current.books.map(book => book.id === current.activeId
@@ -290,6 +291,7 @@ export default function App() {
     for (const level of levels) {
       const names = (classSpells[level] || []).filter(name => {
         if (!SPELLS[name]) return false;
+        if (!catalogueMode && SPELLS[name].partnerContent && !allowPartnerContent) return false;
         if (onlySelected && !selected[name]) return false;
         if (onlyPrepared && !prepared[name]) return false;
         if (bookFilter !== "all" && SPELLS[name].book !== bookFilter) return false;
@@ -303,17 +305,17 @@ export default function App() {
       if (names.length) groups[level] = names;
     }
     return groups;
-  }, [className, charLevel, search, levelFilter, bookFilter, rulebook, onlySelected, selected, onlyPrepared, prepared, allowDunamancy]);
+  }, [className, charLevel, search, levelFilter, bookFilter, rulebook, onlySelected, selected, onlyPrepared, prepared, allowDunamancy, allowPartnerContent, catalogueMode]);
 
   function toggleSpell(name) {
     if (catalogueMode) return;
-    setSelected(s => toggleSelection(s, name, className, charLevel, allowDunamancy));
+    setSelected(s => toggleSelection(s, name, className, charLevel, allowDunamancy, allowPartnerContent));
     setNotice("");
   }
 
   function changeLevel(value) {
     const level = normalizeLevel(value);
-    const next = reconcileSelection(selected, className, level, allowDunamancy);
+    const next = reconcileSelection(selected, className, level, allowDunamancy, allowPartnerContent);
     const removed = Object.keys(selected).filter(name => !next[name]);
     updateBook({ selected: next, prepared: retainPrepared(prepared, next), level });
     setLF(filter => validLevelFilter(filter, className, level, allowDunamancy));
@@ -412,12 +414,23 @@ export default function App() {
             <input type="checkbox" checked={allowDunamancy} onChange={e => {
               const allowed = e.target.checked;
               updateBook(book => {
-                const next = reconcileSelection(book.selected, book.className, book.level, allowed);
+                const next = reconcileSelection(book.selected, book.className, book.level, allowed, book.allowPartnerContent);
                 return { allowDunamancy: allowed, selected: next, prepared: retainPrepared(book.prepared, next) };
               });
               setLF("all");
             }} aria-describedby="dunamancy-help" /> {t.dunamancyAccess}
           </label>
+          <label style={{ display: "block", marginTop: "0.8rem", fontSize: "0.85rem" }}>
+            <input type="checkbox" checked={allowPartnerContent} onChange={e => {
+              const allowed = e.target.checked;
+              updateBook(book => {
+                const next = reconcileSelection(book.selected, book.className, book.level, book.allowDunamancy, allowed);
+                return { allowPartnerContent: allowed, selected: next, prepared: retainPrepared(book.prepared, next) };
+              });
+              setLF("all");
+            }} aria-describedby="partner-help" /> {lang === "da" ? "Tillad partnerindhold for denne karakter" : "Allow partner content for this character"}
+          </label>
+          <p id="partner-help" style={{ fontSize: "0.75rem", color: G.muted }}>{lang === "da" ? "Kræver DM-tilladelse. Slår du tilvalget fra, fjernes partnerformularer fra karakterens bog og forberedte liste. De kan stadig ses i hele kataloget." : "Requires DM permission. Turning this off removes partner spells from this character’s book and prepared list. They remain visible in the full catalogue."}</p>
           <p id="dunamancy-help" style={{ fontSize: "0.75rem", color: G.muted }}>{t.dunamancyHelp}</p>
           <p role="status" style={{ fontSize: "0.75rem", color: saveError ? G.red : G.muted }}>{saveError ? t.bookSaveError : t.bookSavedLocally}</p>
           {deletedBook && <p style={{ fontSize: "0.8rem" }}>{t.bookDeleted} <button type="button" onClick={undoRemove} style={{ ...inp, width: "auto", cursor: "pointer" }}>{t.undoDelete}</button></p>}

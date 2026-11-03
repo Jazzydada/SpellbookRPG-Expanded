@@ -27,7 +27,7 @@ test('missing storage creates one unnamed Wizard at level five, without sharing 
   assert.equal(a.version, 1);
   assert.equal(a.books.length, 1);
   assert.equal(a.activeId, a.books[0].id);
-  assert.deepEqual({ ...a.books[0], id: '' }, { id: '', name: '', className: 'Wizard', level: 5, selected: {}, prepared: {}, allowDunamancy: false });
+  assert.deepEqual({ ...a.books[0], id: '' }, { id: '', name: '', className: 'Wizard', level: 5, selected: {}, prepared: {}, allowDunamancy: false, allowPartnerContent: false });
   assert.notEqual(a.activeId, b.activeId);
   a.books[0].selected.Fireball = true;
   assert.deepEqual(b.books[0].selected, {});
@@ -86,4 +86,20 @@ test('old books migrate without preparing spells and preparation remains a saved
   assert.deepEqual(retainPrepared(loaded.prepared, {}), {});
   loaded.level = 1;
   assert.deepEqual(decodeLibrary(stored([loaded])).books[0].prepared, {});
+});
+
+
+test('partner opt-in persists per character and preserves pre-option selections', () => {
+  const name = 'Freedom of the Waves';
+  const old = { ...createBook('Old', 'Druid', 5), selected: { [name]: true }, prepared: { [name]: true } };
+  delete old.allowPartnerContent;
+  const other = createBook('New', 'Druid', 5);
+  const loaded = decodeLibrary(stored([old, other]));
+  assert.equal(loaded.books[0].allowPartnerContent, true);
+  assert.equal(loaded.books[0].prepared[name], true);
+  assert.equal(loaded.books[1].allowPartnerContent, false);
+  loaded.books[0].allowPartnerContent = false;
+  const disabled = decodeLibrary(JSON.stringify(loaded)).books[0];
+  assert.deepEqual(disabled.selected, {});
+  assert.deepEqual(disabled.prepared, {});
 });

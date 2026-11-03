@@ -222,3 +222,10 @@ Den brugerleverede `Venomous Snake.md` er indarbejdet som fuld dansk og engelsk 
 ## Tal’Dorei — tilføjet efter katalogkontrollen
 
 Freedom of the Waves og Freedom of the Winds er nu med efter brugerens udtrykkelige udvidelse af scope. Begge bruger Tal’Dorei Campaign Setting Reborn, side 176, og er markeret som partnerindhold og ældre 2014-regler. D&D Beyonds offentlige formularsider er kilder. Katalogkontrollens 591-tal er et historisk snapshot før denne tilføjelse; aktuelt antal er 593.
+
+
+## Exploring Eberron og partneradgang — 3. november 2026
+
+Kilde 225 returnerer fire navne: Aundair’s Silent Sanctum, Concussive Burst, Force Blast, Magecraft. Ingen navneoverlap med kataloget. Alle fire offentlige tekstlinks viderestiller til købssiden; ingen Exploring Eberron-PDF fundet i brugerens bogmappe. Formularerne er ikke tilføjet uden verificerbar tekst.
+
+Partnerindhold er nu et separat tilvalg pr. karakter, slået fra for nye karakterer. Eksisterende gemte partnerformularer aktiverer tilvalget ved migrering, så data bevares. Fravalg fjerner partnerformularer fra bog og forberedelse; hele kataloget viser dem fortsat. Klasse- og niveaukrav gælder stadig.

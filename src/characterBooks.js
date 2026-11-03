@@ -19,6 +19,7 @@ export function createBook(name = '', className = 'Wizard', level = 5) {
     selected: className === "Artificer" ? { Mending: true } : {},
     prepared: {},
     allowDunamancy: false,
+    allowPartnerContent: false,
   };
 }
 
@@ -50,9 +51,12 @@ export function decodeLibrary(raw) {
     const selected = Object.fromEntries(Object.entries(isRecord(entry.selected) ? entry.selected : {})
       .filter(([name, checked]) => checked === true && Object.hasOwn(SPELLS, name)));
     book.allowDunamancy = entry.allowDunamancy === true;
-    const available = reconcileSelection(selected, book.className, book.level, book.allowDunamancy);
+    // Preserve partner selections saved before this preference existed.
+    book.allowPartnerContent = entry.allowPartnerContent === true ||
+      (entry.allowPartnerContent === undefined && Object.keys(selected).some(name => SPELLS[name].partnerContent));
+    const available = reconcileSelection(selected, book.className, book.level, book.allowDunamancy, book.allowPartnerContent);
     book.selected = Object.keys(available).reduce((result, name) =>
-      toggleSelection(result, name, book.className, book.level, book.allowDunamancy), {});
+      toggleSelection(result, name, book.className, book.level, book.allowDunamancy, book.allowPartnerContent), {});
     book.prepared = retainPrepared(entry.prepared, book.selected);
     return book;
   });

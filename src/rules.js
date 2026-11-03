@@ -27,15 +27,15 @@ export function availableLevels(className, level, allowDunamancy = false) {
     .filter(l => l <= max || arcana.includes(l)).sort((a, b) => a - b);
 }
 
-export function isAvailable(name, className, level, allowDunamancy = false) {
+export function isAvailable(name, className, level, allowDunamancy = false, allowPartnerContent = false) {
   const spell = SPELLS[name];
-  return !!spell && (spell.restricted ? allowDunamancy : spell.classes.includes(className))
+  return !!spell && (!spell.partnerContent || allowPartnerContent) && (spell.restricted ? allowDunamancy : spell.classes.includes(className))
     && availableLevels(className, level, allowDunamancy).includes(spell.level);
 }
 
-export function reconcileSelection(selected, className, level, allowDunamancy = false) {
+export function reconcileSelection(selected, className, level, allowDunamancy = false, allowPartnerContent = false) {
   return { ...Object.fromEntries(Object.entries(selected)
-    .filter(([name, checked]) => checked && isAvailable(name, className, level, allowDunamancy))),
+    .filter(([name, checked]) => checked && isAvailable(name, className, level, allowDunamancy, allowPartnerContent))),
     ...(className === "Artificer" ? { Mending: true } : {}),
   };
 }
@@ -45,9 +45,9 @@ export function validLevelFilter(filter, className, level, allowDunamancy = fals
     ? filter : 'all';
 }
 
-export function toggleSelection(selected, name, className, level, allowDunamancy = false) {
-  const next = reconcileSelection(selected, className, level, allowDunamancy);
-  if (!isAvailable(name, className, level, allowDunamancy)) return next;
+export function toggleSelection(selected, name, className, level, allowDunamancy = false, allowPartnerContent = false) {
+  const next = reconcileSelection(selected, className, level, allowDunamancy, allowPartnerContent);
+  if (!isAvailable(name, className, level, allowDunamancy, allowPartnerContent)) return next;
   if (className === "Artificer" && name === "Mending") return next;
   if (next[name]) { delete next[name]; return next; }
   const spellLevel = SPELLS[name].level;
