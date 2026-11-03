@@ -1,0 +1,114 @@
+{
+  "Searing Orb": {
+    "level": 2,
+    "school": "Evocation",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "cast": "Action",
+    "range": "60 feet",
+    "components": "S, M (metallic flakes and a pinch of phosphorus)",
+    "dur": "Instantaneous",
+    "book": "D&D Beyond Drops",
+    "rulesVersion": "2024",
+    "source": {
+      "label": "D&D Beyond Drops (June 2026)",
+      "url": "https://www.dndbeyond.com/spells/3294072-searing-orb",
+      "name": "Searing Orb",
+      "metadataUrl": "https://www.dndbeyond.com/posts/2188-d-d-beyonds-june-drop-new-monsters-spells-magic"
+    },
+    "reviewed": "2026-11-03",
+    "en": "Hurl a pulsing orb at one creature within range, making a ranged spell attack. On a hit, it deals 3d4 Radiant damage. Whether the attack hits or misses, the orb bursts into light: the target and every creature within 10 feet of it make a Constitution saving throw. A creature that fails is Blinded until the end of its next turn.\n\nHigher slots: the damage increases by 1d4 per slot level above 2.",
+    "da": "Kast en pulserende energikugle mod en skabning inden for rækkevidde med et afstandsformularangreb. Et træf giver 3d4 Radiant-skade. Uanset om angrebet rammer, eksploderer kuglen i lys: målet og alle skabninger inden for 10 ft. af det laver en CON-redning. Ved fejl er skabningen Blinded indtil slutningen af sin næste tur.\n\nHøjere slots: skaden stiger med 1d4 for hvert slotniveau over 2.",
+    "summary": {
+      "en": "Hurl a Radiant orb that can blind the target and nearby creatures, even on a miss.",
+      "da": "Kast en lyskugle, der kan blænde målet og nærliggende skabninger, også hvis angrebet misser."
+    },
+    "publishedYear": 2026
+  },
+  "Sticks to Snakes": {
+    "level": 4,
+    "school": "Transmutation",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Ranger"
+    ],
+    "cast": "Action",
+    "range": "90 feet",
+    "components": "V, S, M (a small piece of bark and several snake scales)",
+    "dur": "Concentration, up to 1 minute",
+    "book": "D&D Beyond Drops",
+    "rulesVersion": "2024",
+    "source": {
+      "label": "D&D Beyond Drops — supplied Markdown",
+      "url": "https://www.dndbeyond.com/spells/3269390-sticks-to-snakes",
+      "name": "Sticks to Snakes"
+    },
+    "reviewed": "2026-11-03",
+    "en": "Choose up to four visible, nonmagical sticks within range, each no longer than a Quarterstaff, or similar nonmagical wooden objects such as Torches or Spears. They transform into snakes, each using the Venomous Snake stat block. A creature holding a selected object can make a Charisma saving throw; on success, that object does not transform.\n\nThe snakes are Friendly to you and your allies. Each shares your Initiative count and acts immediately after your turn. Until the spell ends, you can use a Bonus Action to mentally command any snakes you created with this casting that are within 500 feet of you. You can command several at once, giving them all the same command. Without a command, a snake takes Dodge and moves only to avoid harm.\n\nA snake reduced to 0 Hit Points returns to its original object form; any remaining damage carries over to that object.\n\nHigher slots: target two more objects per slot level above 4.\n\nStat block reference: use Venomous Snake. Its statistics were not included in the supplied Markdown and are not reproduced here.",
+    "da": "Vælg op til fire synlige, ikke-magiske pinde inden for rækkevidde, hver højst så lang som en Quarterstaff, eller tilsvarende ikke-magiske trægenstande som Torches eller Spears. De forvandles til slanger, der hver bruger Venomous Snake-statblokken. Holder en skabning en valgt genstand, kan den lave en CHA-redning; ved succes forvandles genstanden ikke.\n\nSlangerne er Friendly over for dig og dine allierede. Hver deler dit initiativtal og har tur umiddelbart efter din. Indtil formularen slutter, kan du bruge en Bonus Action på at give mentale kommandoer til slanger fra dette kast, som er inden for 500 ft. af dig. Du kan kommandere flere samtidig, men giver da alle den samme kommando. Uden kommando bruger en slange Dodge og bevæger sig kun for at undgå skade.\n\nReduceret til 0 HP vender slangen tilbage til sin oprindelige genstandsform; overskydende skade overføres til genstanden.\n\nHøjere slots: vælg yderligere to genstande for hvert slotniveau over 4.\n\nStatblokreference: brug Venomous Snake. Dens statistik fulgte ikke med den indsendte Markdown-fil og er ikke gengivet her.",
+    "summary": {
+      "en": "Turn wooden objects into friendly venomous snakes that obey your mental commands.",
+      "da": "Forvandl trægenstande til venligtsindede giftslanger, som følger dine mentale kommandoer."
+    }
+  },
+  "Tortoise Shell": {
+    "level": 2,
+    "school": "Abjuration",
+    "classes": [
+      "Artificer",
+      "Druid",
+      "Ranger"
+    ],
+    "cast": "Action",
+    "range": "Touch",
+    "components": "V, S",
+    "dur": "Concentration, up to 1 minute",
+    "book": "D&D Beyond Drops",
+    "rulesVersion": "2024",
+    "source": {
+      "label": "D&D Beyond Drops (June 2026)",
+      "url": "https://www.dndbeyond.com/spells/3294076-tortoise-shell",
+      "name": "Tortoise Shell",
+      "metadataUrl": "https://www.dndbeyond.com/posts/2188-d-d-beyonds-june-drop-new-monsters-spells-magic"
+    },
+    "reviewed": "2026-11-03",
+    "en": "Touch a willing creature. Its skin becomes a tortoise-like shell while it stays in place, granting +3 AC for the duration. If the target moves using its action, Bonus Action, Reaction, or movement, the bonus becomes +1 until the start of its next turn.",
+    "da": "Berør en villig skabning. Dens hud bliver til et skildpaddeskjold, mens den bliver på stedet, og giver +3 AC i varigheden. Hvis målet bevæger sig med sin Action, Bonus Action, Reaction eller bevægelse, bliver bonussen i stedet +1 indtil starten af dets næste tur.",
+    "summary": {
+      "en": "Give a willing creature +3 AC, reduced to +1 after it moves until its next turn.",
+      "da": "Giv en villig skabning +3 AC; efter bevægelse falder bonussen til +1 indtil dens næste tur."
+    },
+    "publishedYear": 2026
+  },
+  "Void Star": {
+    "level": 7,
+    "school": "Necromancy",
+    "classes": [
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "120 feet",
+    "components": "V, S, M (a fragment from a meteor)",
+    "dur": "Instantaneous",
+    "book": "D&D Beyond Drops",
+    "rulesVersion": "2024",
+    "source": {
+      "label": "D&D Beyond Drops (June 2026)",
+      "url": "https://www.dndbeyond.com/spells/3294078-void-star",
+      "name": "Void Star",
+      "metadataUrl": "https://www.dndbeyond.com/posts/2188-d-d-beyonds-june-drop-new-monsters-spells-magic"
+    },
+    "reviewed": "2026-11-03",
+    "en": "Launch a fragment of a dark star at one creature you can see within range. Make a ranged spell attack; a hit deals 6d12 Necrotic damage. Whether the attack hits or misses, the target takes 3d12 Necrotic damage at the end of its next turn, and you regain Hit Points equal to that later damage.\n\nHigher slots: both the initial damage and the later damage increase by 1d12 per slot level above 7.",
+    "da": "Send et fragment af en mørk stjerne mod en skabning, du kan se inden for rækkevidde. Lav et afstandsformularangreb; et træf giver 6d12 Necrotic-skade. Uanset om angrebet rammer, tager målet 3d12 Necrotic-skade ved slutningen af sin næste tur, og du genvinder HP svarende til denne senere skade.\n\nHøjere slots: både den første og den senere skade stiger med 1d12 for hvert slotniveau over 7.",
+    "summary": {
+      "en": "Launch a dark star, then drain the target with delayed Necrotic damage that heals you.",
+      "da": "Send en mørk stjerne mod et mål, og helbred dig selv med den efterfølgende Necrotic-skade."
+    },
+    "publishedYear": 2026
+  }
+}

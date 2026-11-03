@@ -39,6 +39,6 @@ test('both languages load the new source text and homunculus statblock', async (
 test('both requested books are complete without duplicating older identities', () => {
   assert.equal(Object.values(SPELLS).filter(s => s.book === 'Forgotten Realms: Heroes of Faerûn').length,19);
   assert.equal(Object.values(SPELLS).filter(s => s.book === 'Eberron: Forge of the Artificer').length,1);
-  assert.equal(Object.keys(SPELLS).length,579);
+  assert.equal(Object.keys(SPELLS).length,587);
   assert.equal(SPELLS['Blade of Disaster'].publishedYear,2025);
 });

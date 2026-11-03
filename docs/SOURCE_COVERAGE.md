@@ -1,6 +1,6 @@
 # Dækning af officielle formular-kilder
 
-Seneste kontrolpunkt: 3. november 2026. **Aktivt katalog: 579 formularer fra 17 bøger.** Den nye leverance med 95 formularer er beskrevet nederst. De tidligere adgangskontroller nedenfor er historik; de er ikke længere en liste over alle aktuelle mangler. Kataloget er fortsat ikke en komplet samling af alle officielle bøger.
+Seneste kontrolpunkt: 3. november 2026. **Aktivt katalog: 587 formularer fra 17 bøger og D&D Beyond Drops.** Den nye leverance med 95 formularer er beskrevet nederst. De tidligere adgangskontroller nedenfor er historik; de er ikke længere en liste over alle aktuelle mangler. Kataloget er fortsat ikke en komplet samling af alle officielle bøger.
 
 ## Verificeret metode
 
@@ -202,3 +202,10 @@ Kildemangler er synlige i appen: Reaper Spirits beskårne Haunt Creature-afslutn
 ## Referenceafslutning — 3. november 2026
 
 Reaper Spirit.md bekræfter sidste Haunt Creature-ophør: når ånden bruger handlingen igen. Den ufuldstændige markering er fjernet. Brugerens to Helm-billeder dækker alle genstandsregler og prisvejledning på AAG side 23. Brugerens Icewind Dale OCR-PDF side 300–301 dækker Demos, Galvan og Hypnos Magen. Alle disse kildemangler er nu løst i både dansk og engelsk tekst. Antallet er fortsat 579 formularer; der tilføjes referencer, ikke nye formularer.
+
+
+## D&D Beyond Drops — 3. november 2026
+
+Tilføjet fra brugerens MD-filer: Astral Flood, Buzzing Bee, Conjure Tools, Feign Interest, Searing Orb, Sticks to Snakes, Tortoise Shell og Void Star. Komplette EN/DA-formulartekster og korte beskrivelser; 2024-regelfamilie. Officielle juni-, august- og septemberartikler verificerer udgivelse/rettelser og manglende klasselister. Venomous Snake er en separat statblokreference.
+
+Fire filer blev flyttet og derefter utilgængelige, før de kunne læses: Insidious Rhythm, Leomund’s Lamentable Belaborment, Pinky Swear, Quick Clothier. De er ikke tilføjet. Kræver ny vedhæftning.

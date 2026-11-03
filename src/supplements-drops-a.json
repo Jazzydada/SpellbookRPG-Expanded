@@ -1,0 +1,116 @@
+{
+  "Astral Flood": {
+    "level": 3,
+    "school": "Evocation",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self",
+    "components": "V, S, M (water mixed with powdered silver)",
+    "dur": "Instantaneous",
+    "book": "D&D Beyond Drops",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "D&D Beyond Drops (2026), user-provided spell text",
+      "url": "https://www.dndbeyond.com/spells/3269402-astral-flood",
+      "name": "Astral Flood"
+    },
+    "reviewed": "2026-11-03",
+    "en": "Release astral energy in a 30-foot Cone from yourself. Choose Cold or Radiant damage when casting. Each creature in the Cone makes a Dexterity save, taking 4d10 of that damage type on failure or half on success. A failed save also causes the corresponding effect:\n\n• Cold: Disadvantage on the next D20 Test the target makes before the end of your next turn.\n• Radiant: The target is Blinded until the end of your next turn.\n\nHigher slots: Damage increases by 1d10 per slot level above 3.",
+    "da": "Send astral energi ud fra dig i en 30-ft kegle. Vælg Cold- eller Radiant-skade ved kastet. Hver skabning i keglen laver en DEX-redning og tager 4d10 af den valgte skadetype ved fejl eller halv skade ved succes. En fejlet redning giver desuden den tilhørende effekt:\n\n• Cold: Målet har Disadvantage på sin næste D20 Test inden slutningen af din næste tur.\n• Radiant: Målet er Blinded indtil slutningen af din næste tur.\n\nHøjere slots: Skaden øges med 1d10 pr. slotniveau over 3.",
+    "summary": {
+      "en": "Unleash a Cold or Radiant cone that also hinders or blinds failed-save targets.",
+      "da": "Udløs en Cold- eller Radiant-kegle, som også hæmmer eller blænder ved fejlet redning."
+    }
+  },
+  "Buzzing Bee": {
+    "level": 1,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "120 feet",
+    "components": "V, S, M (a dab of honey)",
+    "dur": "Concentration, up to 1 minute",
+    "book": "D&D Beyond Drops",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "D&D Beyond Drops (2026), user-provided spell text",
+      "url": "https://www.dndbeyond.com/spells/3269308-buzzing-bee",
+      "name": "Buzzing Bee"
+    },
+    "reviewed": "2026-11-03",
+    "en": "Choose a creature you can see within range. A noisy spectral bee follows it, imposing Disadvantage on its Wisdom (Perception) checks, Dexterity (Stealth) checks, and Constitution saves made to maintain Concentration. The target also cannot benefit from the Invisible condition. No initial attack roll or saving throw is required.\n\nThe bee moves with the target, staying within 3 feet of it while the target is within 120 feet of you. It disappears when the spell ends or the target moves out of range.",
+    "da": "Vælg en skabning, du kan se inden for rækkevidde. En støjende spektral bi følger den og giver Disadvantage på dens WIS (Perception)-checks, DEX (Stealth)-checks og CON-redninger for at opretholde Concentration. Målet kan desuden ikke nyde godt af Invisible-tilstanden. Der kræves ikke noget indledende angrebsslag eller nogen redning.\n\nBien bevæger sig med målet og holder sig inden for 3 ft fra det, så længe målet er inden for 120 ft fra dig. Den forsvinder, når formularen slutter, eller målet bevæger sig uden for rækkevidde.",
+    "summary": {
+      "en": "Distract a creature, weakening stealth, perception, and Concentration while negating invisibility.",
+      "da": "Distraher et mål, svæk snigen, perception og Concentration, og ophæv fordelen ved usynlighed."
+    }
+  },
+  "Conjure Tools": {
+    "level": 2,
+    "school": "Conjuration",
+    "classes": [
+      "Artificer",
+      "Bard",
+      "Ranger",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "30 feet",
+    "components": "V, S",
+    "dur": "8 hours",
+    "book": "D&D Beyond Drops",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "D&D Beyond Drops (2026), user-provided spell text",
+      "url": "https://www.dndbeyond.com/spells/3368625-conjure-tools",
+      "name": "Conjure Tools"
+    },
+    "reviewed": "2026-11-03",
+    "en": "Create one set of Artisan's Tools of your choice. You are proficient with this set. The tools vanish when the duration expires, but items you have created or transformed with them remain. The spell ends early if you cast it again or if the tools are more than 10 feet from you.\n\nHigher slot: When cast with a level 3 slot, you count as two characters when determining the time needed to craft nonmagical items using these tools. The supplied rule specifies level 3 and provides no additional scaling for higher slots.",
+    "da": "Skab ét sæt Artisan's Tools efter dit valg. Du har proficiency med dette sæt. Værktøjet forsvinder, når varigheden udløber, men genstande, du har fremstillet eller omdannet med det, bliver tilbage. Formularen slutter tidligt, hvis du kaster den igen, eller hvis værktøjet er mere end 10 ft fra dig.\n\nHøjere slot: Kastes formularen med et slot på niveau 3, tæller du som to personer, når fremstillingstiden for ikke-magiske genstande med dette værktøj beregnes. Den leverede regel angiver niveau 3 og beskriver ingen yderligere skalering for højere slots.",
+    "summary": {
+      "en": "Conjure artisan tools you are proficient with, with faster crafting at a level 3 slot.",
+      "da": "Fremman håndværktøj, du har proficiency med, med hurtigere fremstilling ved et niveau 3-slot."
+    }
+  },
+  "Feign Interest": {
+    "level": 1,
+    "school": "Illusion",
+    "classes": [
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self",
+    "components": "V",
+    "dur": "1 hour",
+    "book": "D&D Beyond Drops",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "D&D Beyond Drops (2026), user-provided spell text",
+      "url": "https://www.dndbeyond.com/spells/3368626-feign-interest",
+      "name": "Feign Interest"
+    },
+    "reviewed": "2026-11-03",
+    "en": "For the duration, an illusion makes you appear completely attentive and focused. Your actual mind can wander, think about something else, or even nap without spoiling that appearance.\n\nA creature can use the Search action to assess your attention, making a Wisdom (Insight) check against your spell save DC. Success reveals that your interest is feigned; a creature that recognizes the illusion sees your actual demeanor.",
+    "da": "I varigheden får en illusion dig til at se fuldt koncentreret og opmærksom ud. I virkeligheden kan tankerne vandre, du kan tænke på noget andet, eller du kan endda tage en lur uden at ødelægge dette indtryk.\n\nEn skabning kan bruge Search-handlingen til at vurdere din opmærksomhed og lave et WIS (Insight)-check mod din spell save DC. Ved succes opdager den, at interessen er påtaget; en skabning, som gennemskuer illusionen, ser din virkelige fremtræden.",
+    "summary": {
+      "en": "Appear fully attentive while your mind wanders or you nap.",
+      "da": "Se fuldt opmærksom ud, mens tankerne vandrer, eller du tager en lur."
+    }
+  }
+}
