@@ -197,3 +197,8 @@ De originale screenshots og bøger publiceres ikke.
 12 formularer tilføjet fra screenshots 00.29–00.37 og Galder’s Tower.md: Antagonize, Spirit of Death, Spray of Cards, Gate Seal, Warp Sense, Flock of Familiars, Galder’s Speedy Courier, Galder’s Tower, Air Bubble, Create Spelljamming Helm, Create Magen og Frost Fingers. Alle har korte og udførlige danske/engelske beskrivelser og 2014-markering. Ingen af navnene fandtes i det aktive katalog. Eksisterende nyere udgaver af andre formularer (bl.a. Blade of Disaster) ændres ikke eller tilføjes igen.
 
 Kildemangler er synlige i appen: Reaper Spirits beskårne Haunt Creature-afslutning; andre magen-statblokke end den komplette Demos Magen; den separate Spelljamming Helm-genstandsbeskrivelse. Der er ikke gættet på manglende tekst. Statblokke er transskriberet fra de modtagne billeder, ikke fra nyere monsterudgaver.
+
+
+## Referenceafslutning — 3. november 2026
+
+Reaper Spirit.md bekræfter sidste Haunt Creature-ophør: når ånden bruger handlingen igen. Den ufuldstændige markering er fjernet. Brugerens to Helm-billeder dækker alle genstandsregler og prisvejledning på AAG side 23. Brugerens Icewind Dale OCR-PDF side 300–301 dækker Demos, Galvan og Hypnos Magen. Alle disse kildemangler er nu løst i både dansk og engelsk tekst. Antallet er fortsat 579 formularer; der tilføjes referencer, ikke nye formularer.

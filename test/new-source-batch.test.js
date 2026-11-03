@@ -25,8 +25,12 @@ test('critical edge cases and explicitly incomplete sources remain visible',asyn
  assert.match(da['Create Magen'],/Wish/);
  assert.match(da['Create Magen'],/6d8 \+ 24/);
  assert.match(da['Frost Fingers'],/2d8/);
- assert.equal(SPELLS['Spirit of Death'].sourceIncomplete,true);
- for(const lang of ['en','da']) assert.ok(SPELLS['Spirit of Death'].accessNote[lang]);
+ assert.equal(SPELLS['Spirit of Death'].sourceIncomplete,undefined);
+ assert.match(da['Spirit of Death'],/bruger Haunt Creature igen/);
+ assert.match(da['Create Magen'],/Galvan Magen/);
+ assert.match(da['Create Magen'],/Hypnos Magen/);
+ assert.match(da['Create Spelljamming Helm'],/100 millioner/);
+ assert.equal(SPELLS['Spirit of Death'].accessNote,undefined);
  assert.equal(SPELLS['Summon Draconic Spirit'],undefined);
  assert.equal(SPELLS['Wither and Bloom'].book,'Arcana Unleashed');
 });
