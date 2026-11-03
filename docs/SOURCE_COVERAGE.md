@@ -212,3 +212,8 @@ Fire filer blev flyttet og derefter utilgængelige, før de kunne læses: Insidi
 
 
 De fire ventende Drops-filer blev vedhæftet igen og læst 3. november 2026. Insidious Rhythm, Leomund’s Lamentable Belaborment, Pinky Swear og Quick Clothier er nu med på dansk og engelsk. Alle 12 navne på Drops-mangellisten er dermed medtaget; dette er ikke en garanti for fuldstændig dækning af alle officielle udgivelser.
+
+
+### Venomous Snake — suppleret 2026-11-03
+
+Den brugerleverede `Venomous Snake.md` er indarbejdet som fuld dansk og engelsk statblok under Sticks to Snakes. Den tidligere note om manglende statistik er fjernet. Statblokken har AC 12, HP 5 og Bite +4 med 1d4 + 2 Piercing samt 1d6 Poison uden redningskast. Antallet af formularer er fortsat 591.
