@@ -17,9 +17,11 @@ import icewind from './supplements-icewind.json' with { type: 'json' };
 import dropsA from './supplements-drops-a.json' with { type: 'json' };
 import dropsC from './supplements-drops-c.json' with { type: 'json' };
 
+import dropsB from './supplements-drops-b.json' with { type: 'json' };
+
 // Explicitly resolve any future overlap instead of silently replacing a reviewed text.
 const supplements = {};
-for (const book of [tasha, elementalEvil, otherBooks, xanathar, arcana, forge, faerun, fizban, strixhaven, planar, kwalish, manyThings, icewind, dropsA, dropsC]) {
+for (const book of [tasha, elementalEvil, otherBooks, xanathar, arcana, forge, faerun, fizban, strixhaven, planar, kwalish, manyThings, icewind, dropsA, dropsB, dropsC]) {
   for (const [name, spell] of Object.entries(book)) {
     if (supplements[name]) throw new Error(`Duplicate supplement spell: ${name}`);
     supplements[name] = spell;

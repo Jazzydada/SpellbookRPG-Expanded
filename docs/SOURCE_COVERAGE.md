@@ -1,6 +1,6 @@
 # Dækning af officielle formular-kilder
 
-Seneste kontrolpunkt: 3. november 2026. **Aktivt katalog: 587 formularer fra 17 bøger og D&D Beyond Drops.** Den nye leverance med 95 formularer er beskrevet nederst. De tidligere adgangskontroller nedenfor er historik; de er ikke længere en liste over alle aktuelle mangler. Kataloget er fortsat ikke en komplet samling af alle officielle bøger.
+Seneste kontrolpunkt: 3. november 2026. **Aktivt katalog: 591 formularer fra 17 bøger og D&D Beyond Drops.** Den nye leverance med 95 formularer er beskrevet nederst. De tidligere adgangskontroller nedenfor er historik; de er ikke længere en liste over alle aktuelle mangler. Kataloget er fortsat ikke en komplet samling af alle officielle bøger.
 
 ## Verificeret metode
 
@@ -209,3 +209,6 @@ Reaper Spirit.md bekræfter sidste Haunt Creature-ophør: når ånden bruger han
 Tilføjet fra brugerens MD-filer: Astral Flood, Buzzing Bee, Conjure Tools, Feign Interest, Searing Orb, Sticks to Snakes, Tortoise Shell og Void Star. Komplette EN/DA-formulartekster og korte beskrivelser; 2024-regelfamilie. Officielle juni-, august- og septemberartikler verificerer udgivelse/rettelser og manglende klasselister. Venomous Snake er en separat statblokreference.
 
 Fire filer blev flyttet og derefter utilgængelige, før de kunne læses: Insidious Rhythm, Leomund’s Lamentable Belaborment, Pinky Swear, Quick Clothier. De er ikke tilføjet. Kræver ny vedhæftning.
+
+
+De fire ventende Drops-filer blev vedhæftet igen og læst 3. november 2026. Insidious Rhythm, Leomund’s Lamentable Belaborment, Pinky Swear og Quick Clothier er nu med på dansk og engelsk. Alle 12 navne på Drops-mangellisten er dermed medtaget; dette er ikke en garanti for fuldstændig dækning af alle officielle udgivelser.

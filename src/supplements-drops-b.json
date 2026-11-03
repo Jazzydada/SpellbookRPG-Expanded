@@ -1,0 +1,112 @@
+{
+  "Quick Clothier": {
+    "level": 1,
+    "school": "Transmutation",
+    "classes": [
+      "Artificer",
+      "Bard",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Touch",
+    "components": "V, S, M (a set of clothing)",
+    "dur": "24 hours",
+    "book": "D&D Beyond Drops",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "D&D Beyond Drops · user-provided spell text",
+      "url": "https://www.dndbeyond.com/spells?filter-source=272",
+      "name": "Quick Clothier"
+    },
+    "reviewed": "2026-11-03",
+    "en": "You alter the appearance of a set of nonmagical clothing that isn't being worn by someone else. You determine the color, styling, decoration, and form the clothing takes, though you can't generate clothes worth more than 15 GP. For example, you could transform a tattered *Robe* into *Fine Clothes*, or vice versa. At the end of the spell's duration, the altered clothing returns to its original form.",
+    "da": "Ændr udseendet på ét sæt ikke-magisk tøj, som ikke bæres af en anden. Du vælger farve, snit, udsmykning og form, men kan ikke skabe tøj til en værdi over 15 GP. Du kan for eksempel ændre en laset Robe til Fine Clothes eller omvendt. Ved varighedens udløb vender tøjet tilbage til sin oprindelige form.",
+    "summary": {
+      "en": "Change the appearance of nonmagical clothing for 24 hours.",
+      "da": "Ændr ikke-magisk tøjs udseende i 24 timer."
+    }
+  },
+  "Pinky Swear": {
+    "level": 2,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Paladin",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Touch",
+    "components": "V, S",
+    "dur": "24 hours",
+    "book": "D&D Beyond Drops",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "D&D Beyond Drops · user-provided spell text",
+      "url": "https://www.dndbeyond.com/spells?filter-source=272",
+      "name": "Pinky Swear"
+    },
+    "reviewed": "2026-11-03",
+    "en": "You touch a creature and speak a promise of no more than 25 words that you vow to keep.\n\nFor the duration of the spell, if you knowingly break the promise, the target immediately knows of your breach if it is within 1 mile, and you start burning, taking 1 Fire damage at the start of each of your turns instead of the normal burning damage.",
+    "da": "Berør en skabning, og udtal et løfte på højst 25 ord, som du sværger at holde.\n\nBryder du bevidst løftet i formularens varighed, ved målet straks, at du har brudt det, hvis det er inden for 1 mile. Du begynder samtidig at brænde og tager 1 Fire-skade ved starten af hver af dine ture i stedet for den normale skade ved at brænde.",
+    "summary": {
+      "en": "Bind your promise with magic that reveals a breach and sets you burning.",
+      "da": "Bind dit løfte med magi, der afslører løftebrud og sætter ild til dig."
+    }
+  },
+  "Leomund's Lamentable Belaborment": {
+    "level": 6,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "30 feet",
+    "components": "V",
+    "dur": "1 minute",
+    "book": "D&D Beyond Drops",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "D&D Beyond Drops · user-provided spell text",
+      "url": "https://www.dndbeyond.com/spells?filter-source=272",
+      "name": "Leomund's Lamentable Belaborment"
+    },
+    "reviewed": "2026-11-03",
+    "en": "You proclaim an insightful or inflammatory statement, such as a claim about the politics of a nearby town. Each creature in a 10-foot-radius Sphere centered on a point you choose within range must succeed on an Intelligence saving throw or have the Charmed condition until the spell ends. Any creature that doesn't share a language with you or that has an Intelligence score lower than 3 automatically succeeds on the saving throw.\n\nWhile Charmed, a target must spend its turn discussing or arguing for or against your statement. For the duration, the target has a Speed of 0 and has the Blinded and Deafened conditions with respect to everyone except you and other targets affected by this spell.\n\nAt the end of each of its turns, the target repeats the save, ending the spell on itself on a success.",
+    "da": "Fremsæt en indsigtsfuld eller provokerende påstand, for eksempel om politikken i en nærliggende by. Hver skabning i en kugle med 10-ft radius omkring et punkt, du vælger inden for rækkevidde, laver en INT-redning. Ved fejl er den Charmed, indtil formularen slutter. Skabninger, der ikke deler et sprog med dig, eller hvis INT-score er under 3, lykkes automatisk.\n\nMens et mål er Charmed, skal det bruge sin tur på at diskutere eller argumentere for eller imod din påstand. Dets Speed er 0, og det er Blinded og Deafened i forhold til alle undtagen dig og de øvrige mål, som formularen påvirker.\n\nVed slutningen af hver af sine ture gentager målet redningen. Succes afslutter formularen for dette mål.",
+    "summary": {
+      "en": "Compel creatures to debate your statement, ignoring everyone outside the discussion.",
+      "da": "Tving skabninger til at diskutere din påstand og ignorere alle uden for diskussionen."
+    }
+  },
+  "Insidious Rhythm": {
+    "level": 1,
+    "school": "Enchantment",
+    "classes": [
+      "Bard"
+    ],
+    "cast": "Action",
+    "range": "120 feet",
+    "components": "V, S",
+    "dur": "Concentration, up to 1 minute",
+    "book": "D&D Beyond Drops",
+    "rulesVersion": "2024",
+    "publishedYear": 2026,
+    "source": {
+      "label": "D&D Beyond Drops · user-provided spell text",
+      "url": "https://www.dndbeyond.com/spells?filter-source=272",
+      "name": "Insidious Rhythm"
+    },
+    "reviewed": "2026-11-03",
+    "en": "One creature of your choice that you can see within range hears a haunting yet catchy tune that continuously repeats in its mind. The target must succeed on a Wisdom saving throw, or it has Disadvantage on Intelligence checks and on Constitution saving throws made to maintain Concentration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.\n***Using a Higher-Level Spell Slot.*** You can target one additional creature for each spell slot level above 1.",
+    "da": "Vælg én skabning, du kan se inden for rækkevidde. Den hører en hjemsøgende, fængende melodi, som gentager sig i dens sind. Målet laver en WIS-redning. Ved fejl har det Disadvantage på INT-checks og CON-redninger for at opretholde Concentration. Ved slutningen af hver af sine ture gentager det redningen; succes afslutter formularen for målet.\n\nHøjere slots: Vælg ét ekstra mål pr. slotniveau over 1.",
+    "summary": {
+      "en": "Distract a creature with a tune that hinders intellect and Concentration.",
+      "da": "Distraher en skabning med en melodi, der hæmmer INT-checks og Concentration."
+    }
+  }
+}
