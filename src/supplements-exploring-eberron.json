@@ -1,0 +1,134 @@
+{
+  "Magecraft": {
+    "level": 0,
+    "school": "Divination",
+    "classes": [
+      "Artificer",
+      "Bard",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self",
+    "components": "V, S, M (a set of Artisan’s Tools or a Herbalism Kit)",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Exploring Eberron (2024)",
+    "rulesVersion": "2024",
+    "partnerContent": true,
+    "partnerLabel": "Exploring Eberron",
+    "source": {
+      "label": "Exploring Eberron — updated edition",
+      "url": "https://www.dndbeyond.com/spells/3170520-magecraft",
+      "name": "Magecraft"
+    },
+    "reviewed": "2026-11-03",
+    "en": "You channel your arcane talent through a set of tools. Choose an *Artisan Tool* or *Herbalism Kit*. Until the spell ends, you add 1d6 to ability checks you make when you take the Utilize action with the chosen tool.",
+    "da": "Vælg ét sæt Artisan’s Tools eller et Herbalism Kit. Indtil formularen slutter, lægger du 1d6 til de ability checks, du laver, når du bruger handlingen Utilize med det valgte værktøj.\n\nFordelen gælder hver sådan prøve i varigheden, ikke kun den første. Den gælder ikke automatisk andre prøver med værktøjet eller andre handlinger end Utilize. Formularen kræver koncentration og varer højst 1 minut.",
+    "summary": {
+      "en": "Add 1d6 to checks made using Utilize with your chosen tools.",
+      "da": "Læg 1d6 til prøver med det valgte værktøj, når du bruger Utilize."
+    },
+    "accessNote": {
+      "en": "Partner content, not a Wizards of the Coast publication. Requires DM permission. Uses the updated 2024 rules.",
+      "da": "Partnerindhold, ikke en Wizards of the Coast-udgivelse. Kræver DM-tilladelse. Følger den opdaterede udgave med 2024-regler."
+    }
+  },
+  "Force Blast": {
+    "level": 0,
+    "school": "Evocation",
+    "classes": [
+      "Artificer",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "180 feet",
+    "components": "V, S",
+    "dur": "Instantaneous",
+    "book": "Exploring Eberron (2024)",
+    "rulesVersion": "2024",
+    "partnerContent": true,
+    "partnerLabel": "Exploring Eberron",
+    "source": {
+      "label": "Exploring Eberron — updated edition",
+      "url": "https://www.dndbeyond.com/spells/3170519-force-blast",
+      "name": "Force Blast"
+    },
+    "reviewed": "2026-11-03",
+    "en": "You unleash a bolt of mystical power at a creature or an object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 Force damage.\n***Cantrip Upgrade.*** This damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).",
+    "da": "Vælg en skabning eller en genstand inden for 180 ft., og lav et ranged spell attack mod målet. Ved træffer tager målet 1d8 Force-skade.\n\nCantrip-opgradering: Skaden stiger med dit karakterniveau: 2d8 ved niveau 5, 3d8 ved niveau 11 og 4d8 ved niveau 17. Det er stadig ét angreb mod ét mål.",
+    "summary": {
+      "en": "Ranged spell attack deals Force damage to a creature or object up to 180 feet away.",
+      "da": "Ram en skabning eller genstand op til 180 ft. væk med Force-skade."
+    },
+    "accessNote": {
+      "en": "Partner content, not a Wizards of the Coast publication. Requires DM permission. Uses the updated 2024 rules.",
+      "da": "Partnerindhold, ikke en Wizards of the Coast-udgivelse. Kræver DM-tilladelse. Følger den opdaterede udgave med 2024-regler."
+    }
+  },
+  "Concussive Burst": {
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "60 feet",
+    "components": "V, S",
+    "dur": "1 round",
+    "book": "Exploring Eberron (2024)",
+    "rulesVersion": "2024",
+    "partnerContent": true,
+    "partnerLabel": "Exploring Eberron",
+    "source": {
+      "label": "Exploring Eberron — updated edition",
+      "url": "https://www.dndbeyond.com/spells/3170518-concussive-burst",
+      "name": "Concussive Burst"
+    },
+    "reviewed": "2026-11-03",
+    "en": "A pulse of energy ripples through the air at a point you choose within range, dealing minor damage over a wide area. Each creature within a 20-foot-radius Sphere centered on that point makes a Constitution saving throw, taking 2d4 Force damage on a failed save and has the Deafened condition until the end of your next turn. On a successful save, a creature takes half as much damage only.\n***Using a Higher-Level Spell Slot.*** The damage increases by 2d4 for each spell slot level above 1.",
+    "da": "Vælg et punkt inden for 60 ft. En energipuls rammer en kugle med 20 ft. radius omkring punktet. Hver skabning i området laver en CON-redning mod din spell save DC.\n\nVed fejl tager skabningen 2d4 Force-skade og får tilstanden Deafened indtil slutningen af din næste tur. Ved succes tager den kun halv skade og bliver ikke Deafened.\n\nHøjere slots: Skaden øges med 2d4 for hvert slotniveau over 1. Områdets størrelse og varigheden af Deafened ændres ikke.",
+    "summary": {
+      "en": "An energy sphere deals Force damage and deafens creatures that fail a CON save.",
+      "da": "En energikugle giver Force-skade og gør mål Deafened ved fejlet CON-redning."
+    },
+    "accessNote": {
+      "en": "Partner content, not a Wizards of the Coast publication. Requires DM permission. Uses the updated 2024 rules.",
+      "da": "Partnerindhold, ikke en Wizards of the Coast-udgivelse. Kræver DM-tilladelse. Følger den opdaterede udgave med 2024-regler."
+    }
+  },
+  "Aundair's Silent Sanctum": {
+    "level": 0,
+    "school": "Illusion",
+    "classes": [
+      "Artificer",
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "cast": "Action",
+    "range": "Self",
+    "components": "S",
+    "dur": "Concentration, up to 1 minute",
+    "book": "Exploring Eberron (2024)",
+    "rulesVersion": "2024",
+    "partnerContent": true,
+    "partnerLabel": "Exploring Eberron",
+    "source": {
+      "label": "Exploring Eberron — updated edition",
+      "url": "https://www.dndbeyond.com/spells/3170517-aundairs-silent-sanctum",
+      "name": "Aundair's Silent Sanctum"
+    },
+    "reviewed": "2026-11-03",
+    "en": "You surround yourself with an invisible bubble of energy in a 5-foot Emanation. The sphere muffles sound in both directions. Creatures outside of the Emanation have Disadvantage on Wisdom (Perception) checks made to hear any sounds from within the Emanation, and creatures inside the Emanation have Disadvantage on Wisdom (Perception) checks made to hear sounds outside of the Emanation.\n\nIn addition, creatures have Advantage on saving throws against effects that require them to hear a sound from the other side of the Emanation, such as the *Command* spell.",
+    "da": "Du omgiver dig med en usynlig energiboble som en Emanation på 5 ft. Den dæmper lyd i begge retninger.\n\nSkabninger udenfor har Disadvantage på WIS (Perception)-prøver for at høre lyde indefra. Skabninger indenfor har tilsvarende Disadvantage på WIS (Perception)-prøver for at høre lyde udefra.\n\nDesuden har skabninger Advantage på redningskast mod effekter, som kræver, at de hører en lyd fra den anden side af områdets grænse, fx Command.\n\nLyden dæmpes; området er ikke fuldstændig tavst. Formularen giver ikke automatisk immunitet mod lydbaserede effekter. Den kræver koncentration og varer højst 1 minut.",
+    "summary": {
+      "en": "Muffle sound across a 5-foot Emanation and gain protection against sound-dependent effects across it.",
+      "da": "Dæmp lyd over en 5 ft. Emanations grænse og få fordel på redninger mod lydeffekter derfra."
+    },
+    "accessNote": {
+      "en": "Partner content, not a Wizards of the Coast publication. Requires DM permission. Uses the updated 2024 rules.",
+      "da": "Partnerindhold, ikke en Wizards of the Coast-udgivelse. Kræver DM-tilladelse. Følger den opdaterede udgave med 2024-regler."
+    }
+  }
+}

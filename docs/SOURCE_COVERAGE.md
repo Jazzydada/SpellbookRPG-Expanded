@@ -1,6 +1,6 @@
 # Dækning af officielle formular-kilder
 
-Seneste kontrolpunkt: 3. november 2026. **Aktivt katalog: 593 formularer, inklusive to Tal’Dorei-partnerformularer.** Den nye leverance med 95 formularer er beskrevet nederst. De tidligere adgangskontroller nedenfor er historik; de er ikke længere en liste over alle aktuelle mangler. Ny fuld indekskontrol: ingen uforklarede navnemangler i de gennemgåede officielle kilder. Se [katalogkontrollen](CATALOG_AUDIT_2026-11-03.md) for afgrænsning og revisionsspor.
+Seneste kontrolpunkt: 3. november 2026. **Aktivt katalog: 597 formularer, inklusive seks partnerformularer.** Den nye leverance med 95 formularer er beskrevet nederst. De tidligere adgangskontroller nedenfor er historik; de er ikke længere en liste over alle aktuelle mangler. Ny fuld indekskontrol: ingen uforklarede navnemangler i de gennemgåede officielle kilder. Se [katalogkontrollen](CATALOG_AUDIT_2026-11-03.md) for afgrænsning og revisionsspor.
 
 ## Verificeret metode
 
@@ -229,3 +229,8 @@ Freedom of the Waves og Freedom of the Winds er nu med efter brugerens udtrykkel
 Kilde 225 returnerer fire navne: Aundair’s Silent Sanctum, Concussive Burst, Force Blast, Magecraft. Ingen navneoverlap med kataloget. Alle fire offentlige tekstlinks viderestiller til købssiden; ingen Exploring Eberron-PDF fundet i brugerens bogmappe. Formularerne er ikke tilføjet uden verificerbar tekst.
 
 Partnerindhold er nu et separat tilvalg pr. karakter, slået fra for nye karakterer. Eksisterende gemte partnerformularer aktiverer tilvalget ved migrering, så data bevares. Fravalg fjerner partnerformularer fra bog og forberedelse; hele kataloget viser dem fortsat. Klasse- og niveaukrav gælder stadig.
+
+
+## Exploring Eberron — afsluttet 3. november 2026
+
+De fire manglende tekster blev leveret som Markdown og er nu med i dansk og engelsk udgave. Kildeadgangsmanglen ovenfor er løst. Nyeste indekserede 2024-udgave, partner-markering, korte beskrivelser og karakterens partner-tilvalg anvendes. Ingen navneoverlap. Force Blast skalerer med karakterniveau; Concussive Burst med slotniveau. Magecraft kræver Utilize, og Aundair’s Silent Sanctum dæmper lyd i begge retninger uden at skabe Silence. Sidetal er ikke oplyst i bilagene og er ikke gættet.

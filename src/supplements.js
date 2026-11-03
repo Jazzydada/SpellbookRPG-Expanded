@@ -1,3 +1,4 @@
+import exploringEberron from './supplements-exploring-eberron.json' with { type: 'json' };
 import taldorei from './supplements-taldorei.json' with { type: 'json' };
 import tasha from './supplements-tasha.json' with { type: 'json' };
 import elementalEvil from './supplements-eepc.json' with { type: 'json' };
@@ -22,7 +23,7 @@ import dropsB from './supplements-drops-b.json' with { type: 'json' };
 
 // Explicitly resolve any future overlap instead of silently replacing a reviewed text.
 const supplements = {};
-for (const book of [tasha, elementalEvil, otherBooks, xanathar, arcana, forge, faerun, fizban, strixhaven, planar, kwalish, manyThings, icewind, dropsA, dropsB, dropsC, taldorei]) {
+for (const book of [tasha, elementalEvil, otherBooks, xanathar, arcana, forge, faerun, fizban, strixhaven, planar, kwalish, manyThings, icewind, dropsA, dropsB, dropsC, taldorei, exploringEberron]) {
   for (const [name, spell] of Object.entries(book)) {
     if (supplements[name]) throw new Error(`Duplicate supplement spell: ${name}`);
     supplements[name] = spell;
